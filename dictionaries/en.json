@@ -16,6 +16,7 @@
     "treatments": "Treatments",
     "doctors": "Our Specialists",
     "gallery": "Results",
+    "reviews": "Reviews",
     "contact": "Contact",
     "book": "Book a Consultation"
   },
@@ -72,6 +73,26 @@
     "title": "Skilled hands, thoughtful minds",
     "subtitle": "Meet the surgeons and aesthetic physicians who lead your care with experience and an artist's eye.",
     "cta": "Meet the team"
+  },
+  "results": {
+    "eyebrow": "Real Results",
+    "title": "Before & After",
+    "subtitle": "Authentic outcomes from our patients in Kuala Lumpur, across surgical and aesthetic treatments.",
+    "tabs": { "surgical": "Surgical", "nonSurgical": "Aesthetic & Skin" },
+    "note": "Real patient photos. Results may vary from person to person.",
+    "labels": {
+      "bodySculpt": "Body Sculpting",
+      "hifu": "HIFU Lifting",
+      "picoLaser": "Pico Laser",
+      "hairRemoval": "Hair Removal",
+      "cellLight": "Cell Light Therapy",
+      "whiteningDrip": "Whitening Drip"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Patient Stories",
+    "title": "Words from our patients",
+    "subtitle": "Real messages our clients shared with us on WhatsApp."
   },
   "cta": {
     "eyebrow": "Begin Your Journey",

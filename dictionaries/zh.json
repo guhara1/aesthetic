@@ -16,6 +16,7 @@
     "treatments": "诊疗项目",
     "doctors": "专科医师",
     "gallery": "案例展示",
+    "reviews": "客户评价",
     "contact": "联系方式",
     "book": "预约咨询"
   },
@@ -72,6 +73,26 @@
     "title": "精湛技艺，匠心独运",
     "subtitle": "认识以丰富经验与审美眼光为您悉心诊疗的外科与美容医师团队。",
     "cta": "认识团队"
+  },
+  "results": {
+    "eyebrow": "真实案例",
+    "title": "术前 & 术后",
+    "subtitle": "来自吉隆坡客户的真实案例，涵盖外科整形与美容护理。",
+    "tabs": { "surgical": "外科整形", "nonSurgical": "美容与护肤" },
+    "note": "真实客户照片，效果因人而异。",
+    "labels": {
+      "bodySculpt": "身体塑形",
+      "hifu": "HIFU 提拉",
+      "picoLaser": "皮秒激光",
+      "hairRemoval": "激光脱毛",
+      "cellLight": "细胞光疗",
+      "whiteningDrip": "美白点滴"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "客户心声",
+    "title": "客户的真实评价",
+    "subtitle": "客户通过 WhatsApp 与我们分享的真实留言。"
   },
   "cta": {
     "eyebrow": "开启您的旅程",

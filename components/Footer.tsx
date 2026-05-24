@@ -43,6 +43,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 { href: `${base}#about`, label: dict.nav.about },
                 { href: `${base}#doctors`, label: dict.nav.doctors },
                 { href: `${base}#gallery`, label: dict.nav.gallery },
+                { href: `${base}#reviews`, label: dict.nav.reviews },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-ivory/70 transition-colors hover:text-gold">

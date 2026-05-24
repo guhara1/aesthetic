@@ -2,6 +2,8 @@ import Link from "next/link";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { notFound } from "next/navigation";
+import { Results } from "@/components/Results";
+import { Testimonials } from "@/components/Testimonials";
 
 const TREATMENT_KEYS = [
   "liposuction",
@@ -228,8 +230,14 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* ───────────────── Before & After results ───────────────── */}
+      <Results dict={dict} />
+
+      {/* ───────────────── WhatsApp testimonials ───────────────── */}
+      <Testimonials dict={dict} />
+
       {/* ───────────────── CTA banner ───────────────── */}
-      <section id="gallery" className="scroll-mt-24 bg-ink py-24 lg:py-32">
+      <section className="bg-ink py-24 lg:py-32">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-10">
           <p className="text-[11px] tracking-[0.28em] uppercase text-gold">
             {dict.cta.eyebrow}

@@ -1,0 +1,83 @@
+"use client";
+
+import { useState } from "react";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { reviewImages } from "@/lib/galleryData";
+
+export function Testimonials({ dict }: { dict: Dictionary }) {
+  const [lightbox, setLightbox] = useState<string | null>(null);
+
+  return (
+    <section id="reviews" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        <div className="mx-auto max-w-2xl text-center">
+          <p className="flex items-center justify-center gap-2 text-[11px] tracking-[0.28em] uppercase text-gold">
+            <WhatsAppMark />
+            {dict.testimonials.eyebrow}
+          </p>
+          <h2 className="mt-5 font-display text-4xl leading-tight text-ink text-balance lg:text-5xl">
+            {dict.testimonials.title}
+          </h2>
+          <p className="mt-5 text-base leading-relaxed text-ink-soft">
+            {dict.testimonials.subtitle}
+          </p>
+        </div>
+
+        <div className="mt-14 columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4 [&>*]:mb-5">
+          {reviewImages.map((file) => {
+            const src = `/images/reviews/${file}`;
+            return (
+              <button
+                key={file}
+                type="button"
+                onClick={() => setLightbox(src)}
+                className="group block w-full cursor-zoom-in break-inside-avoid overflow-hidden rounded-md border border-sand bg-white p-2 shadow-[0_18px_40px_-28px_rgba(42,36,32,0.5)] transition-transform duration-500 hover:-translate-y-1"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={src}
+                  alt="Customer WhatsApp review"
+                  loading="lazy"
+                  className="w-full rounded-sm"
+                />
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-[60] flex items-center justify-center bg-ink/85 p-4 backdrop-blur-sm sm:p-8"
+          onClick={() => setLightbox(null)}
+          role="dialog"
+          aria-modal="true"
+        >
+          <button
+            type="button"
+            onClick={() => setLightbox(null)}
+            aria-label="Close"
+            className="absolute right-5 top-5 text-3xl font-light text-ivory/80 transition-colors hover:text-ivory"
+          >
+            ×
+          </button>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={lightbox}
+            alt=""
+            className="max-h-[88vh] max-w-full rounded-sm object-contain shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
+    </section>
+  );
+}
+
+function WhatsAppMark() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 01-3.2-2.8c-.1-.2 0-.4.1-.5l.4-.5c.1-.1.1-.3 0-.4l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.6.6-.8 1.4-.8 2.3.1 1.4 1 2.6 1.2 2.8 1.6 2.4 3.4 3.1 4.6 3.5 1.1.3 1.6.2 2 .1.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.4-.2z" />
+    </svg>
+  );
+}

@@ -16,6 +16,7 @@
     "treatments": "施術・手術",
     "doctors": "専門医",
     "gallery": "症例",
+    "reviews": "口コミ",
     "contact": "アクセス",
     "book": "カウンセリング予約"
   },
@@ -72,6 +73,26 @@
     "title": "確かな技術と、思いやりの心",
     "subtitle": "豊富な経験と美的センスであなたのケアを導く、形成外科・美容医療の専門医をご紹介します。",
     "cta": "チームを見る"
+  },
+  "results": {
+    "eyebrow": "実際の症例",
+    "title": "ビフォー & アフター",
+    "subtitle": "クアラルンプールのお客様の実際の症例です。外科手術から美容施術までご覧ください。",
+    "tabs": { "surgical": "外科手術", "nonSurgical": "美容・スキンケア" },
+    "note": "実際のお客様の写真です。効果には個人差があります。",
+    "labels": {
+      "bodySculpt": "ボディシェイプ",
+      "hifu": "HIFU リフト",
+      "picoLaser": "ピコレーザー",
+      "hairRemoval": "医療脱毛",
+      "cellLight": "セルライト セラピー",
+      "whiteningDrip": "美白点滴"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "お客様の声",
+    "title": "お客様からのメッセージ",
+    "subtitle": "WhatsAppでお客様が実際に寄せてくださったメッセージです。"
   },
   "cta": {
     "eyebrow": "はじめの一歩",

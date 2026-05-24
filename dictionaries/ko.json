@@ -16,6 +16,7 @@
     "treatments": "시술·수술",
     "doctors": "전문 의료진",
     "gallery": "결과 사례",
+    "reviews": "고객 후기",
     "contact": "오시는 길",
     "book": "상담 예약"
   },
@@ -72,6 +73,26 @@
     "title": "숙련된 손길, 사려 깊은 마음",
     "subtitle": "풍부한 경험과 미적 감각으로 당신의 케어를 이끄는 성형외과 및 미용 의료진을 만나보세요.",
     "cta": "의료진 소개"
+  },
+  "results": {
+    "eyebrow": "실제 결과",
+    "title": "비포 & 애프터",
+    "subtitle": "쿠알라룸푸르 고객들의 실제 결과 사례입니다. 성형 수술과 미용 시술 전반을 확인하세요.",
+    "tabs": { "surgical": "성형 수술", "nonSurgical": "미용·스킨케어" },
+    "note": "실제 고객 사진이며, 결과는 개인에 따라 다를 수 있습니다.",
+    "labels": {
+      "bodySculpt": "바디 슬리밍",
+      "hifu": "HIFU 리프팅",
+      "picoLaser": "피코 레이저",
+      "hairRemoval": "제모",
+      "cellLight": "셀 라이트 테라피",
+      "whiteningDrip": "미백 수액"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "고객 이야기",
+    "title": "고객이 남긴 진심 어린 후기",
+    "subtitle": "고객들이 왓츠앱으로 직접 전해주신 실제 메시지입니다."
   },
   "cta": {
     "eyebrow": "여정의 시작",
