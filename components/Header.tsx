@@ -197,6 +197,11 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             {dict.nav.book}
           </Link>
 
+          {/* Language switcher — visible in the bar on mobile (utility bar handles md+) */}
+          <div className="md:hidden">
+            <LanguageSwitcher locale={locale} variant="light" />
+          </div>
+
           {/* Mobile toggle */}
           <button
             type="button"
