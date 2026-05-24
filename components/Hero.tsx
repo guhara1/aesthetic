@@ -78,7 +78,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                   alt={`${slide.eyebrow} — ${dict.brand.nameFull}, Kuala Lumpur`}
                   loading={i === 0 ? "eager" : "lazy"}
                   fetchPriority={i === 0 ? "high" : undefined}
-                  className={`absolute inset-0 h-full w-full object-cover object-center ${
+                  className={`absolute inset-0 h-full w-full object-cover object-top ${
                     slide.align === "left" ? "sm:object-right" : "sm:object-left"
                   }`}
                 />
