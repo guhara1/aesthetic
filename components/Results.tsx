@@ -10,7 +10,7 @@ import {
 
 type Tab = "surgical" | "nonSurgical";
 
-const SURGICAL_NAME_KEYS = ["liposuction", "rhinoplasty", "eye", "facelift", "breast", "chin"] as const;
+type TreatmentKey = keyof Dictionary["treatmentsMenu"]["items"];
 
 export function Results({ dict }: { dict: Dictionary }) {
   const [tab, setTab] = useState<Tab>("surgical");
@@ -19,13 +19,9 @@ export function Results({ dict }: { dict: Dictionary }) {
   const items = tab === "surgical" ? surgicalGallery : nonSurgicalGallery;
   const folder = tab === "surgical" ? "surgical" : "non-surgical";
 
-  function labelFor(item: GalleryItem): string {
-    if (tab === "surgical") {
-      const key = item.labelKey as (typeof SURGICAL_NAME_KEYS)[number];
-      return dict.treatmentsMenu.items[key]?.name ?? item.labelKey;
-    }
-    const labels = dict.results.labels as Record<string, string>;
-    return labels[item.labelKey] ?? item.labelKey;
+  function infoFor(item: GalleryItem): { name: string; desc: string } {
+    const entry = dict.treatmentsMenu.items[item.labelKey as TreatmentKey];
+    return entry ?? { name: item.labelKey, desc: "" };
   }
 
   return (
@@ -67,6 +63,8 @@ export function Results({ dict }: { dict: Dictionary }) {
         <div className="mt-12 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
           {items.map((item) => {
             const src = `/images/${folder}/${item.file}`;
+            const info = infoFor(item);
+            const alt = `${info.name} — ${dict.results.title} · ${dict.brand.name}, Kuala Lumpur`;
             return (
               <figure
                 key={item.file}
@@ -76,24 +74,31 @@ export function Results({ dict }: { dict: Dictionary }) {
                   type="button"
                   onClick={() => setLightbox(src)}
                   className="relative block w-full cursor-zoom-in"
-                  aria-label={labelFor(item)}
+                  aria-label={alt}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={src}
-                    alt={labelFor(item)}
+                    alt={alt}
                     loading="lazy"
                     className="w-full transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                   />
                   <span className="pointer-events-none absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/10" />
                 </button>
-                <figcaption className="flex items-center justify-between gap-3 px-5 py-4">
-                  <span className="font-display text-lg leading-tight text-ink">
-                    {labelFor(item)}
-                  </span>
-                  <span className="shrink-0 text-[9px] tracking-[0.18em] uppercase text-gold">
-                    Before / After
-                  </span>
+                <figcaption className="px-5 py-4">
+                  <div className="flex items-center justify-between gap-3">
+                    <h3 className="font-display text-lg leading-tight text-ink">
+                      {info.name}
+                    </h3>
+                    <span className="shrink-0 text-[9px] tracking-[0.18em] uppercase text-gold">
+                      Before / After
+                    </span>
+                  </div>
+                  {info.desc && (
+                    <p className="mt-1.5 text-xs leading-snug text-taupe">
+                      {info.desc}
+                    </p>
+                  )}
                 </figcaption>
               </figure>
             );
