@@ -29,18 +29,54 @@
     "skinTitle": "Aesthetic & Skin",
     "viewAll": "View all treatments",
     "items": {
-      "liposuction": { "name": "Liposuction", "desc": "Precise body contouring & fat sculpting" },
-      "rhinoplasty": { "name": "Rhinoplasty", "desc": "Refined, natural nose reshaping" },
-      "eye": { "name": "Eye Treatment", "desc": "Brighter, rejuvenated eyes" },
-      "facelift": { "name": "Facelift", "desc": "Lift & restore youthful contours" },
-      "breast": { "name": "Breast Implant", "desc": "Natural augmentation & balance" },
-      "chin": { "name": "Chin Implant", "desc": "Harmonised facial profile" },
-      "bodySculpt": { "name": "Body Sculpting", "desc": "Non-invasive fat reduction & contouring" },
-      "hifu": { "name": "HIFU Lifting", "desc": "Ultrasound skin tightening & lift" },
-      "picoLaser": { "name": "Pico Laser", "desc": "Pigmentation, tone & texture renewal" },
-      "hairRemoval": { "name": "Hair Removal", "desc": "Smooth, lasting laser hair removal" },
-      "cellLight": { "name": "Cell Light Therapy", "desc": "LED light skin rejuvenation" },
-      "whiteningDrip": { "name": "Whitening Drip", "desc": "Brightening IV wellness infusion" }
+      "liposuction": {
+        "name": "Liposuction",
+        "desc": "Precise body contouring & fat sculpting"
+      },
+      "rhinoplasty": {
+        "name": "Rhinoplasty",
+        "desc": "Refined, natural nose reshaping"
+      },
+      "eye": {
+        "name": "Eye Treatment",
+        "desc": "Brighter, rejuvenated eyes"
+      },
+      "facelift": {
+        "name": "Facelift",
+        "desc": "Lift & restore youthful contours"
+      },
+      "breast": {
+        "name": "Breast Implant",
+        "desc": "Natural augmentation & balance"
+      },
+      "chin": {
+        "name": "Chin Implant",
+        "desc": "Harmonised facial profile"
+      },
+      "bodySculpt": {
+        "name": "Body Sculpting",
+        "desc": "Non-invasive fat reduction & contouring"
+      },
+      "hifu": {
+        "name": "HIFU Lifting",
+        "desc": "Ultrasound skin tightening & lift"
+      },
+      "picoLaser": {
+        "name": "Pico Laser",
+        "desc": "Pigmentation, tone & texture renewal"
+      },
+      "hairRemoval": {
+        "name": "Hair Removal",
+        "desc": "Smooth, lasting laser hair removal"
+      },
+      "cellLight": {
+        "name": "Cell Light Therapy",
+        "desc": "LED light skin rejuvenation"
+      },
+      "whiteningDrip": {
+        "name": "Whitening Drip",
+        "desc": "Brightening IV wellness infusion"
+      }
     }
   },
   "hero": {
@@ -52,10 +88,22 @@
   },
   "trust": {
     "items": [
-      { "value": "10+", "label": "Years of expertise" },
-      { "value": "8,000+", "label": "Procedures performed" },
-      { "value": "100%", "label": "Board-certified specialists" },
-      { "value": "4", "label": "Languages spoken" }
+      {
+        "value": "10+",
+        "label": "Years of expertise"
+      },
+      {
+        "value": "8,000+",
+        "label": "Procedures performed"
+      },
+      {
+        "value": "100%",
+        "label": "Board-certified specialists"
+      },
+      {
+        "value": "4",
+        "label": "Languages spoken"
+      }
     ]
   },
   "treatmentsSection": {
@@ -86,7 +134,10 @@
     "eyebrow": "Real Results",
     "title": "Before & After",
     "subtitle": "Authentic outcomes from our patients in Kuala Lumpur, across surgical and aesthetic treatments.",
-    "tabs": { "surgical": "Surgical", "nonSurgical": "Aesthetic & Skin" },
+    "tabs": {
+      "surgical": "Surgical",
+      "nonSurgical": "Aesthetic & Skin"
+    },
     "note": "Real patient photos. Results may vary from person to person.",
     "labels": {
       "bodySculpt": "Body Sculpting",
@@ -213,163 +264,334 @@
     "related": "Other treatments",
     "allTreatments": "All treatments",
     "book": "Book a consultation",
-    "consultNote": "This page is general information, not medical advice. A personal consultation is required to determine what is suitable and safe for you."
+    "consultNote": "This page is general information, not medical advice. A personal consultation is required to determine what is suitable and safe for you.",
+    "whoFor": "Who it's for",
+    "how": "What the procedure involves",
+    "considerations": "Risks & considerations"
   },
   "procedures": {
     "liposuction": {
-      "overview": "Liposuction removes stubborn fat that resists diet and exercise to refine the contours of areas such as the abdomen, flanks, thighs and arms. It reshapes the body — it is not a weight-loss method.",
+      "overview": "Liposuction is a body-contouring procedure that removes pockets of stubborn fat which resist diet and exercise, refining areas such as the abdomen, waist, flanks, thighs, arms and the area beneath the chin. It is designed to reshape and define your silhouette — not to reduce overall body weight. At our Kuala Lumpur clinic the technique is planned around your individual proportions so the result looks balanced and natural rather than over-thinned.",
+      "whoFor": "Liposuction suits people who are close to a stable, healthy weight but have localised fat that will not shift despite a consistent diet and regular exercise. It is not a treatment for general weight loss or obesity, and it cannot replace healthy habits. During your consultation we assess your skin quality, the area of concern and your medical history to confirm whether you are a suitable candidate.",
+      "how": "Treatment begins with a private consultation in English, Mandarin, Korean or Japanese, where the surgeon maps the areas to be treated and agrees a plan with you. On the day, fine cannulas are used to loosen and remove fat through small, discreet incisions, with anaesthesia appropriate to the size of the area. Several zones can often be addressed in one session. The incisions are tiny and placed to be as inconspicuous as possible.",
       "benefits": [
-        "Targets localised, diet-resistant fat",
-        "Refines body contour and proportion",
-        "Long-lasting with a stable weight"
+        "Targets localised, diet-resistant fat deposits",
+        "Refines body contour, waistline and proportion",
+        "Several areas can be treated in one session",
+        "Long-lasting results when your weight stays stable"
       ],
-      "recovery": "Most people return to light routines within a few days and wear a compression garment for several weeks. The final contour settles over a few months.",
+      "recovery": "Most people return to light daily routines within a few days and wear a compression garment for several weeks to support healing and shape. Mild swelling and bruising are normal and settle gradually. The final contour becomes clear over a few months as the tissues recover, and we review your progress at scheduled follow-up visits.",
+      "considerations": "As with any surgical procedure there are risks, including swelling, bruising, temporary numbness, contour irregularities or asymmetry. Significant future weight gain can change your result. We will discuss the benefits, limitations and risks openly so your expectations are realistic, and we will tell you honestly if liposuction is not the right option for you.",
       "faq": [
-        { "q": "Is liposuction a weight-loss treatment?", "a": "No. It contours localised fat in people near a stable weight and is not a substitute for diet or exercise." },
-        { "q": "Which areas can be treated?", "a": "Commonly the abdomen, waist, flanks, thighs, arms and under the chin. Your surgeon advises what suits you." }
+        {
+          "q": "Is liposuction a weight-loss treatment?",
+          "a": "No. It contours localised fat in people near a stable weight and is not a substitute for diet, exercise or treatment of obesity."
+        },
+        {
+          "q": "Which areas can be treated?",
+          "a": "Commonly the abdomen, waist, flanks, thighs, arms and under the chin. Your surgeon will advise what is suitable for your body during the consultation."
+        },
+        {
+          "q": "Will the fat come back?",
+          "a": "Treated fat cells are removed, but remaining cells can still enlarge with weight gain, so a stable weight helps keep your result."
+        }
       ]
     },
     "rhinoplasty": {
-      "overview": "Rhinoplasty reshapes the nose — the bridge, tip or proportions — to bring it into harmony with the rest of your face. It is performed for aesthetic balance and, in some cases, breathing.",
+      "overview": "Rhinoplasty reshapes the nose — the bridge, tip, width or overall proportions — to bring it into harmony with the rest of your face. It is most often performed for aesthetic balance, and in some cases also to improve breathing. Our approach is conservative and face-led: we plan changes that suit your features and ethnicity, aiming for a refined, natural result rather than a generic shape.",
+      "whoFor": "Rhinoplasty is suited to people who feel their nose is out of balance with their face — a prominent bridge, a wide or drooping tip, or asymmetry — and who have realistic expectations. Facial growth should be complete. If you also have breathing difficulty, mention this at consultation so it can be assessed alongside the aesthetic plan.",
+      "how": "After a detailed consultation and facial analysis, the surgeon agrees a plan tailored to your anatomy. The procedure reshapes the underlying bone and cartilage through carefully placed incisions, which may be inside the nostrils or across the columella depending on the technique. A small splint is usually applied to support the new shape while it heals.",
       "benefits": [
-        "Refines the bridge, tip or width",
-        "Balances the nose with your features",
-        "Tailored to your anatomy and ethnicity"
+        "Refines the bridge, tip, width or projection",
+        "Balances the nose with your other features",
+        "Tailored to your anatomy and ethnic profile",
+        "Can address breathing concerns when present"
       ],
-      "recovery": "A splint is usually worn for about a week. Bruising and swelling ease over two to three weeks, while the refined shape continues to settle over several months.",
+      "recovery": "A splint is generally worn for about a week, and bruising or swelling around the eyes eases over two to three weeks. You can usually return to everyday activities within one to two weeks, avoiding strenuous exercise for longer. The tip continues to refine subtly over several months as residual swelling resolves.",
+      "considerations": "Rhinoplasty is technically demanding and results take time to settle. Risks include swelling, asymmetry, changes in sensation, or — uncommonly — a need for minor revision. The nose is also affected by healing and your underlying tissue, which can influence the final shape. We discuss all of this honestly so your decision is well informed.",
       "faq": [
-        { "q": "Will the result look natural?", "a": "We aim for a balanced result that suits your face, not a generic over-done look." },
-        { "q": "When will I see the final shape?", "a": "Most swelling subsides within weeks, but subtle refinement of the tip can continue for several months." }
+        {
+          "q": "Will the result look natural?",
+          "a": "Our aim is a balanced result that suits your face, not a generic 'done' look. We plan with your features and ethnicity in mind."
+        },
+        {
+          "q": "When will I see the final shape?",
+          "a": "Most swelling subsides within a few weeks, but subtle refinement of the tip can continue for several months."
+        },
+        {
+          "q": "Can rhinoplasty help my breathing?",
+          "a": "In some cases functional concerns can be addressed alongside the aesthetic plan. This is assessed individually at consultation."
+        }
       ]
     },
     "eye": {
-      "overview": "Eye treatments rejuvenate the upper and lower lids — removing excess skin, smoothing puffiness and brightening tired-looking eyes — for a more rested, alert appearance.",
+      "overview": "Eye treatments rejuvenate the upper and lower lids — removing or repositioning excess skin, smoothing puffiness and brightening tired-looking eyes — for a more rested, alert and approachable appearance. Because the eyes are central to facial expression, our priority is to refresh while fully respecting your natural eye shape and identity.",
+      "whoFor": "These treatments suit people troubled by hooded or heavy upper lids, under-eye bags or puffiness, or a generally tired look that rest does not fix. They are also popular with patients seeking subtle definition. Suitability depends on your eyelid anatomy and eye health, which we check at consultation.",
+      "how": "After assessing your lids and discussing your goals, the surgeon plans a tailored approach. Upper-lid work removes or repositions a fine strip of excess skin through a crease incision that is well hidden; lower-lid work addresses bags and smoothness, sometimes from inside the lid. Techniques are adapted for monolid and Asian eyelid anatomy where appropriate.",
       "benefits": [
         "Reduces hooded or heavy upper lids",
         "Softens under-eye puffiness and bags",
-        "Opens and refreshes the eye area"
+        "Opens and refreshes the eye area",
+        "Tailored to monolid and Asian eyelids"
       ],
-      "recovery": "Swelling and bruising typically settle within one to two weeks. Where used, fine sutures are removed within about a week.",
+      "recovery": "Swelling and bruising typically settle within one to two weeks, and any fine sutures are removed within about a week. Cool compresses and rest help in the first few days. Most people feel comfortable returning to social activities within one to two weeks, with final refinement appearing as residual swelling fades.",
+      "considerations": "Risks include temporary dryness, swelling, asymmetry or sensitivity to light during healing. Results should refresh rather than change your fundamental eye shape. We will be honest if a non-surgical option would serve you better, and we plan carefully to protect both appearance and eye comfort.",
       "faq": [
-        { "q": "Will it change my eye shape?", "a": "The goal is to refresh, not to alter your identity. We plan changes that respect your natural eye shape." },
-        { "q": "Is it suitable for monolid or Asian eyelids?", "a": "Yes. Techniques are tailored to your individual anatomy and preferences, discussed at consultation." }
+        {
+          "q": "Will it change my eye shape?",
+          "a": "The goal is to refresh, not to alter your identity. We plan changes that respect your natural eye shape."
+        },
+        {
+          "q": "Is it suitable for monolid or Asian eyelids?",
+          "a": "Yes. Techniques are tailored to your individual anatomy and preferences, which we discuss in detail at consultation."
+        },
+        {
+          "q": "How long is the downtime?",
+          "a": "Most visible swelling and bruising settle within one to two weeks, though this varies between individuals."
+        }
       ]
     },
     "facelift": {
-      "overview": "A facelift lifts and re-drapes sagging skin and tissue along the cheeks, jawline and neck to restore a firmer, more youthful contour while keeping your natural expression.",
+      "overview": "A facelift lifts and re-drapes sagging skin and deeper tissue along the cheeks, jawline and neck to restore a firmer, more youthful contour while preserving your natural expression. Rather than simply tightening skin, modern technique repositions the deeper layers, which gives a more natural and longer-lasting result.",
+      "whoFor": "A facelift suits people noticing mid-face descent, jowls, loss of jawline definition or neck laxity that creams and non-surgical treatments no longer address. Good general health and realistic expectations are important. At consultation we assess your skin, tissue and goals to recommend the most appropriate approach — which may be a full or a more limited lift.",
+      "how": "Following a thorough consultation, the surgeon agrees a plan and places incisions discreetly around the ear and hairline. The deeper facial layers are repositioned, excess skin is removed, and the contour is refined so the result looks natural and unforced. The extent is tailored to your anatomy and the changes you wish to address.",
       "benefits": [
         "Lifts the mid-face, jawline and neck",
+        "Repositions deeper tissue, not just skin",
         "Restores definition lost with ageing",
         "Long-lasting, natural-looking rejuvenation"
       ],
-      "recovery": "Most swelling and bruising settle within two to three weeks, and you can usually return to social activities within a few weeks.",
+      "recovery": "Most swelling and bruising settle within two to three weeks, and many people return to social activities within a few weeks. Scars are placed to be discreet and continue to fade over months. We provide a structured aftercare plan with scheduled reviews throughout your recovery.",
+      "considerations": "As a surgical procedure, a facelift carries risks including swelling, bruising, altered sensation and scarring, which we discuss fully. A facelift turns back the clock but does not stop ageing; results are long-lasting but your face continues to mature naturally. We will advise honestly whether surgical or non-surgical options best suit your goals.",
       "faq": [
-        { "q": "Will I look 'pulled' or unnatural?", "a": "Modern techniques reposition deeper tissues for a natural lift, not a tight, wind-blown look." },
-        { "q": "How long do results last?", "a": "A facelift sets the clock back; results are long-lasting, though your face continues to age naturally over time." }
+        {
+          "q": "Will I look 'pulled' or unnatural?",
+          "a": "Modern techniques reposition deeper tissues for a natural lift, not a tight, wind-blown look."
+        },
+        {
+          "q": "How long do results last?",
+          "a": "A facelift sets the clock back and results are long-lasting, though your face continues to age naturally over time."
+        },
+        {
+          "q": "Is a full facelift always needed?",
+          "a": "No. Depending on your concerns, a more limited lift or a combination of treatments may be more appropriate."
+        }
       ]
     },
     "breast": {
-      "overview": "Breast augmentation uses implants to enhance volume, restore fullness or improve balance between the breasts, with size and shape chosen to suit your body and your goals.",
+      "overview": "Breast augmentation uses implants to enhance volume, restore fullness lost after weight change or pregnancy, or improve balance between the breasts. Implant type, shape, size and placement are chosen together with you, so the result feels proportionate to your frame and suits your lifestyle.",
+      "whoFor": "Augmentation suits people who would like more volume or improved symmetry and who are in good general health with realistic expectations. It is also chosen to restore fullness after breastfeeding or weight loss. We assess your frame, tissue and goals to recommend an approach that looks natural for you.",
+      "how": "After a detailed consultation, you can try sizers to help choose a natural, proportionate result. The implant is placed through a discreet incision, either under the breast tissue or partly under the muscle, depending on your anatomy and the look you prefer. The plan, implant choice and placement are all agreed with you in advance.",
       "benefits": [
-        "Enhances volume and fullness",
+        "Enhances volume and natural fullness",
         "Improves symmetry and proportion",
-        "Implant type and size tailored to you"
+        "Restores fullness after pregnancy or weight loss",
+        "Implant type and size tailored to your frame"
       ],
-      "recovery": "Light activity resumes within days. You avoid strenuous exercise for several weeks while tissues heal and the result settles.",
+      "recovery": "Light activity usually resumes within days, while strenuous exercise is avoided for several weeks as the tissues heal and the result settles. A supportive garment is worn during early healing. We provide a clear aftercare plan and scheduled reviews so recovery is well supported.",
+      "considerations": "Implants are long-lasting but not necessarily lifelong, and periodic monitoring is advised. Risks include changes in sensation, scarring, or — less commonly — issues that may need further attention over time. We explain the options, benefits and risks fully so you can make an informed, unhurried decision.",
       "faq": [
-        { "q": "How do I choose the right size?", "a": "We assess your frame, tissue and goals together, and you can try sizers to find a natural, proportionate result." },
-        { "q": "Are the results permanent?", "a": "Implants are long-lasting but not necessarily lifelong; periodic monitoring is advised, as discussed at consultation." }
+        {
+          "q": "How do I choose the right size?",
+          "a": "We assess your frame, tissue and goals together, and you can try sizers to find a natural, proportionate result."
+        },
+        {
+          "q": "Are the results permanent?",
+          "a": "Implants are long-lasting but not necessarily lifelong; periodic monitoring is advised, as discussed at consultation."
+        },
+        {
+          "q": "Will it affect breastfeeding?",
+          "a": "Many people can still breastfeed, but this depends on the technique and individual factors, which we discuss beforehand."
+        }
       ]
     },
     "chin": {
-      "overview": "A chin implant adds projection and definition to a receding or weak chin, improving the balance of the profile and the relationship between the chin, jaw and neck.",
+      "overview": "A chin implant adds projection and definition to a receding or weak chin, improving the balance of the profile and the relationship between the chin, jawline and neck. A well-proportioned chin can bring the whole face into harmony, and the change is designed to look subtle and natural.",
+      "whoFor": "Chin augmentation suits people whose profile looks unbalanced because the chin sits back relative to the lips and nose, or who would like a more defined jawline. It is often considered alongside rhinoplasty for overall facial harmony. Suitability is confirmed by assessing your profile and proportions at consultation.",
+      "how": "After analysing your profile, the surgeon selects an implant sized to your anatomy. It is placed through a small, discreet incision — usually under the chin or inside the mouth — and positioned to enhance projection in proportion to your features. The aim is a balanced improvement, never an overdone look.",
       "benefits": [
         "Strengthens a weak or receding chin",
         "Balances the profile and jawline",
+        "Often pairs well with rhinoplasty",
         "Subtle, proportionate enhancement"
       ],
-      "recovery": "Swelling settles over one to two weeks, and most people return to normal activities within a week.",
+      "recovery": "Swelling settles over one to two weeks and most people return to normal activities within a week, with a soft diet and care around the area in the early days. The final contour becomes clear as swelling resolves, and we review your healing at follow-up.",
+      "considerations": "Risks include temporary numbness, swelling or, uncommonly, implant movement that may need adjustment. A chin implant is designed to be long-lasting; non-surgical alternatives such as fillers can also be discussed if you prefer a temporary option. We will recommend only what genuinely suits your face.",
       "faq": [
-        { "q": "Will a chin implant suit my face?", "a": "We assess your profile and proportions to recommend an implant that looks balanced, not overdone." },
-        { "q": "Is it a permanent solution?", "a": "Chin implants are designed to be long-lasting; non-surgical alternatives such as fillers can also be discussed." }
+        {
+          "q": "Will a chin implant suit my face?",
+          "a": "We assess your profile and proportions to recommend an implant that looks balanced, not overdone."
+        },
+        {
+          "q": "Is it a permanent solution?",
+          "a": "Chin implants are designed to be long-lasting; non-surgical alternatives such as fillers can also be discussed."
+        },
+        {
+          "q": "Can it be combined with other procedures?",
+          "a": "Yes. It is often combined with rhinoplasty or jawline treatments to improve overall facial harmony."
+        }
       ]
     },
     "bodySculpt": {
-      "overview": "Non-surgical body sculpting reduces the appearance of stubborn fat and refines contours without surgery or downtime, using targeted technology over a course of sessions.",
+      "overview": "Non-surgical body sculpting reduces the appearance of stubborn fat and refines contours without surgery or downtime, using targeted technology over a course of sessions. It is best thought of as a refinement for milder, localised concerns rather than a replacement for surgery, and it pairs well with a healthy lifestyle.",
+      "whoFor": "This treatment suits people near a stable weight who have small, localised areas they would like to smooth or refine, and who prefer to avoid surgery and downtime. It is not a weight-loss solution. We assess the area and your goals to advise whether non-surgical sculpting or another approach will serve you best.",
+      "how": "After a consultation to map the area, targeted energy is applied to the chosen zone over a planned course of sessions. Each session is comfortable and requires no recovery time. The number of sessions depends on the area and your goal, and we set realistic expectations from the outset.",
       "benefits": [
         "Non-invasive with little to no downtime",
         "Targets localised, diet-resistant areas",
+        "Comfortable sessions, no surgery required",
         "Gradual, natural-looking refinement"
       ],
-      "recovery": "There is little to no downtime — most people return to normal activities immediately after a session.",
+      "recovery": "There is little to no downtime — most people return to normal activities immediately after a session. Results appear gradually over the following weeks as the body responds, and a course of several sessions usually gives the best outcome.",
+      "considerations": "Results are gradual and more subtle than surgery, and they vary between individuals. Non-surgical sculpting is not suitable for large-volume fat reduction. If a surgical option such as liposuction would give you a better result, we will tell you honestly rather than recommend an unsuitable course.",
       "faq": [
-        { "q": "How many sessions will I need?", "a": "It varies by area and goal; a typical plan runs over several sessions, advised at your consultation." },
-        { "q": "Is it a replacement for liposuction?", "a": "No — it suits milder, localised concerns. We advise honestly whether a surgical or non-surgical route is right for you." }
+        {
+          "q": "How many sessions will I need?",
+          "a": "It varies by area and goal; a typical plan runs over several sessions, which we advise at your consultation."
+        },
+        {
+          "q": "Is it a replacement for liposuction?",
+          "a": "No — it suits milder, localised concerns. We advise honestly whether a surgical or non-surgical route is right for you."
+        },
+        {
+          "q": "Is there any downtime?",
+          "a": "Generally none — most people return to their day straight after a session."
+        }
       ]
     },
     "hifu": {
-      "overview": "HIFU uses focused ultrasound to stimulate collagen deep within the skin, gradually lifting and tightening the face and neck without surgery or downtime.",
+      "overview": "HIFU (high-intensity focused ultrasound) stimulates collagen deep within the skin to gradually lift and tighten the face and neck, without surgery or downtime. It targets the same supportive layer addressed in surgical lifting, making it a popular choice for early to moderate laxity or for maintaining results over time.",
+      "whoFor": "HIFU suits people with mild to moderate skin laxity who want a firmer, more lifted look without surgery, and who are comfortable with a gradual result. It is not a substitute for a facelift where laxity is advanced. We assess your skin and goals to confirm whether HIFU is the right choice.",
+      "how": "After assessing your skin, focused ultrasound energy is delivered to precise depths to stimulate your own collagen. The treatment is carried out in a single session for most areas, and comfort settings are adjusted to you throughout. No incisions or downtime are involved.",
       "benefits": [
         "Non-surgical lifting and tightening",
-        "Stimulates your own collagen",
+        "Stimulates your own collagen renewal",
+        "Targets the face and neck with no incisions",
         "No downtime after treatment"
       ],
-      "recovery": "You can resume normal activities straight away. Results build gradually over two to three months as collagen renews.",
+      "recovery": "You can resume normal activities straight away. Some tightening may be felt early, but the main lift develops gradually over two to three months as collagen renews. Results can be maintained with periodic sessions as advised.",
+      "considerations": "Results are gradual and vary between individuals; HIFU refines and lifts but cannot match the effect of surgery on advanced sagging. Temporary redness or tenderness may occur. We will recommend surgery instead if it would genuinely give you a better outcome.",
       "faq": [
-        { "q": "When will I see results?", "a": "Some tightening is felt early, but the main lift develops gradually over two to three months." },
-        { "q": "Is it painful?", "a": "Most people feel warmth and brief tingling; comfort settings are adjusted to you during treatment." }
+        {
+          "q": "When will I see results?",
+          "a": "Some tightening is felt early, but the main lift develops gradually over two to three months."
+        },
+        {
+          "q": "Is it painful?",
+          "a": "Most people feel warmth and brief tingling; comfort settings are adjusted to you during treatment."
+        },
+        {
+          "q": "How long do results last?",
+          "a": "Results can last many months and are often maintained with periodic sessions, depending on your skin."
+        }
       ]
     },
     "picoLaser": {
-      "overview": "Pico laser delivers ultra-short pulses of energy to break down pigment and stimulate renewal, helping with dark spots, uneven tone, dullness and skin texture.",
+      "overview": "Pico laser delivers ultra-short pulses of energy that break pigment into fine particles and stimulate skin renewal, helping with dark spots, uneven tone, dullness and overall texture. Because the pulses are extremely brief, treatment can be effective with minimal downtime, and settings are tailored to your skin type.",
+      "whoFor": "Pico laser suits people troubled by sun spots, uneven tone, dullness or rough texture, and — with careful, conservative settings — some cases of melasma. Your skin type and history are assessed first, as suitability and settings differ for each individual.",
+      "how": "After a skin assessment, the laser is set to your skin type and concern, then passed over the treatment area in a comfortable session. A short course is usually planned for the best, even result. We explain realistic timelines and aftercare, including sun protection, which is essential between sessions.",
       "benefits": [
-        "Targets pigmentation and dark spots",
-        "Evens tone and refines texture",
+        "Targets pigmentation, sun spots and dark marks",
+        "Evens skin tone and refines texture",
+        "Stimulates renewal for clearer skin",
         "Minimal downtime between sessions"
       ],
-      "recovery": "Mild redness may last a few hours and most people return to their routine the same day, with results building over a course of sessions.",
+      "recovery": "Mild redness may last a few hours and most people return to their routine the same day. Results build over a course of sessions as pigment clears and the skin renews. Diligent sun protection protects and prolongs your result.",
+      "considerations": "Pigmentation conditions such as melasma can be stubborn and may recur, so realistic expectations matter. Incorrect settings can risk irritation, which is why we assess your skin type carefully and treat conservatively. Sun exposure between sessions can undo progress.",
       "faq": [
-        { "q": "What concerns does Pico laser address?", "a": "Sun spots, uneven tone, dullness and texture, and melasma with care. Suitability is assessed at consultation." },
-        { "q": "Is it safe for my skin tone?", "a": "Settings are tailored to your skin; we assess your skin type to treat safely and effectively." }
+        {
+          "q": "What concerns does Pico laser address?",
+          "a": "Sun spots, uneven tone, dullness and texture, and melasma with careful settings. Suitability is assessed at consultation."
+        },
+        {
+          "q": "Is it safe for my skin tone?",
+          "a": "Settings are tailored to your skin; we assess your skin type to treat safely and effectively."
+        },
+        {
+          "q": "How many sessions are needed?",
+          "a": "A short course is usually recommended; the exact number depends on your skin and concern."
+        }
       ]
     },
     "hairRemoval": {
-      "overview": "Laser hair removal reduces unwanted hair over a course of sessions by targeting the follicle, leaving skin smoother and lower-maintenance than shaving or waxing.",
+      "overview": "Laser hair removal reduces unwanted hair over a course of sessions by targeting the pigment in the follicle, leaving skin smoother and far lower-maintenance than shaving or waxing. Because hair grows in cycles, a planned course spaced over time gives the best, longest-lasting reduction.",
+      "whoFor": "It suits people who want a lasting reduction in unwanted hair on areas such as the face, underarms, legs, arms or bikini line, and who are tired of frequent shaving or waxing. Hair and skin type influence the approach, so these are assessed before treatment.",
+      "how": "After assessing your hair and skin, the device is set appropriately and passed over the area in a comfortable session. Several sessions spaced weeks apart are needed to catch hairs across their growth cycles. We advise on preparation and aftercare, including sun protection of treated skin.",
       "benefits": [
         "Lasting reduction of unwanted hair",
         "Smoother skin with fewer ingrown hairs",
-        "Suitable for many areas of the body"
+        "Suitable for many areas of the body",
+        "Lower maintenance than shaving or waxing"
       ],
-      "recovery": "Mild redness can occur briefly after treatment. You can return to normal activities the same day, avoiding sun on treated areas.",
+      "recovery": "Mild redness can occur briefly after treatment, and you can return to normal activities the same day while avoiding sun on the treated area. Hair sheds over the following days, and reduction builds across the course of sessions.",
+      "considerations": "Results vary with hair colour, thickness and skin type, and very light or fine hair responds less well. Maintenance sessions may be needed over time. We assess your hair and skin to set the device safely and to give you a realistic idea of the outcome.",
       "faq": [
-        { "q": "How many sessions are needed?", "a": "Hair grows in cycles, so a course of several sessions spaced weeks apart gives the best, lasting reduction." },
-        { "q": "Does it work on all hair and skin types?", "a": "Modern lasers treat a wide range; we assess your hair and skin to set this safely at consultation." }
+        {
+          "q": "How many sessions are needed?",
+          "a": "Hair grows in cycles, so a course of several sessions spaced weeks apart gives the best, lasting reduction."
+        },
+        {
+          "q": "Does it work on all hair and skin types?",
+          "a": "Modern lasers treat a wide range; we assess your hair and skin to set this safely at consultation."
+        },
+        {
+          "q": "Is it permanent?",
+          "a": "It gives long-lasting reduction; occasional maintenance sessions may be needed depending on the individual."
+        }
       ]
     },
     "cellLight": {
-      "overview": "Cell light (LED) therapy uses specific wavelengths of light to calm, rejuvenate and support the skin — a gentle, relaxing treatment often paired with other facials.",
+      "overview": "Cell light (LED) therapy uses specific wavelengths of light to calm, rejuvenate and support the skin. It is a gentle, relaxing treatment with no downtime, often combined with facials or used after other procedures to support recovery and overall skin quality.",
+      "whoFor": "LED therapy suits people looking to improve dullness or congestion, support post-treatment recovery, or simply maintain healthy-looking skin with a gentle, non-invasive option. It is well tolerated by most skin types and is a good complement to other treatments.",
+      "how": "After cleansing, the chosen wavelength of light is applied to the skin in a comfortable, relaxing session. Different wavelengths support different concerns, and we select and combine them based on your skin. It is frequently paired with a facial or scheduled as a short course.",
       "benefits": [
         "Calms and rejuvenates the skin",
+        "Supports recovery after other treatments",
         "Gentle, with no downtime",
-        "Complements other skin treatments"
+        "Complements facials and skin programmes"
       ],
-      "recovery": "There is no downtime — the treatment is relaxing and you can return to your day immediately.",
+      "recovery": "There is no downtime — the treatment is relaxing and you can return to your day immediately. Benefits build gently with a regular course, and we advise a sensible frequency for your skin and goals.",
+      "considerations": "LED therapy is gentle and its effects are supportive and gradual rather than dramatic; it works best as part of a wider skin plan. We will set realistic expectations and combine it sensibly with other treatments where helpful.",
       "faq": [
-        { "q": "What does LED light therapy help with?", "a": "Different wavelengths support concerns such as dullness, congestion and post-treatment recovery; we tailor it to your skin." },
-        { "q": "How often should I have it?", "a": "It works best as a course; frequency is advised based on your skin and goals." }
+        {
+          "q": "What does LED light therapy help with?",
+          "a": "Different wavelengths support concerns such as dullness, congestion and post-treatment recovery; we tailor it to your skin."
+        },
+        {
+          "q": "How often should I have it?",
+          "a": "It works best as a course; frequency is advised based on your skin and goals."
+        },
+        {
+          "q": "Is there any downtime?",
+          "a": "None — it is a gentle, relaxing treatment and you can continue your day straight after."
+        }
       ]
     },
     "whiteningDrip": {
-      "overview": "A whitening IV drip delivers antioxidants and nutrients to support radiance and overall wellness from within, administered by trained medical staff after a health check.",
+      "overview": "A whitening IV drip delivers antioxidants and nutrients to support skin radiance and overall wellness from within. It is administered by trained medical staff following a health check, as part of a considered wellness approach rather than a quick fix, and results are supportive and gradual.",
+      "whoFor": "It may suit people looking to support skin radiance and general wellbeing alongside good skincare, nutrition and sun protection. A health check is required first, and it is not suitable for everyone. We review your health history before recommending any infusion.",
+      "how": "After a suitability check and discussion of your health history, the infusion is administered by trained medical staff in a comfortable, private setting. The session is straightforward and monitored, and we advise a sensible schedule based on your goals rather than encouraging unnecessary frequency.",
       "benefits": [
         "Supports skin radiance from within",
         "Antioxidant and nutrient infusion",
-        "Administered by trained medical staff"
+        "Administered by trained medical staff",
+        "Part of a considered wellness approach"
       ],
-      "recovery": "There is no downtime; you can continue your day as normal after the infusion.",
+      "recovery": "There is no downtime; you can continue your day as normal after the infusion. Any effects on radiance are supportive and build with a sensible schedule alongside healthy habits and sun protection.",
+      "considerations": "An IV drip is a medical procedure and is not suitable for everyone; a health check is essential and we discuss your history first. Claims of dramatic skin-whitening should be treated with caution — we focus on safe, realistic support for radiance rather than over-promising.",
       "faq": [
-        { "q": "Is an IV drip safe?", "a": "Drips are administered by trained medical staff after a suitability check, and we discuss your health history first." },
-        { "q": "How often should I have a drip?", "a": "Frequency depends on your goals and health; we advise a sensible plan at your consultation." }
+        {
+          "q": "Is an IV drip safe?",
+          "a": "Drips are administered by trained medical staff after a suitability check, and we discuss your health history first."
+        },
+        {
+          "q": "How often should I have a drip?",
+          "a": "Frequency depends on your goals and health; we advise a sensible plan and avoid unnecessary sessions."
+        },
+        {
+          "q": "Will it dramatically whiten my skin?",
+          "a": "We focus on supporting radiance realistically alongside good skincare and sun protection, rather than over-promising results."
+        }
       ]
     }
   },
@@ -398,7 +620,11 @@
     "title": "Our Specialists",
     "lead": "Experienced surgeons and aesthetic physicians who lead your care with clinical precision and an artist's eye.",
     "note": "Individual practitioner profiles and credentials are being finalised. During your consultation you will be matched with the right specialist for your treatment.",
-    "roles": ["Aesthetic & Cosmetic Surgeon", "Aesthetic Physician", "Patient Care Lead"],
+    "roles": [
+      "Aesthetic & Cosmetic Surgeon",
+      "Aesthetic Physician",
+      "Patient Care Lead"
+    ],
     "reviewerTitle": "Medical content reviewer"
   },
   "cta": {

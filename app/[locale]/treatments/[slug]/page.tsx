@@ -170,10 +170,28 @@ export default async function TreatmentPage({
               </ul>
             </section>
 
+            {/* Who it's for */}
+            <section className="mt-14 border-t border-sand pt-10">
+              <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">{ui.whoFor}</h2>
+              <p className="mt-5 text-lg leading-relaxed text-ink-soft">{proc.whoFor}</p>
+            </section>
+
+            {/* What the procedure involves */}
+            <section className="mt-14 border-t border-sand pt-10">
+              <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">{ui.how}</h2>
+              <p className="mt-5 text-lg leading-relaxed text-ink-soft">{proc.how}</p>
+            </section>
+
             {/* Recovery */}
             <section className="mt-14 border-t border-sand pt-10">
               <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">{ui.recovery}</h2>
               <p className="mt-5 text-lg leading-relaxed text-ink-soft">{proc.recovery}</p>
+            </section>
+
+            {/* Risks & considerations */}
+            <section className="mt-14 border-t border-sand pt-10">
+              <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">{ui.considerations}</h2>
+              <p className="mt-5 text-lg leading-relaxed text-ink-soft">{proc.considerations}</p>
             </section>
 
             {/* Before & After */}
