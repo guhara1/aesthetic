@@ -31,8 +31,12 @@
       "facelift": { "name": "面部提升", "desc": "提拉并重塑年轻轮廓" },
       "breast": { "name": "隆胸手术", "desc": "自然丰盈与比例之美" },
       "chin": { "name": "下巴植入", "desc": "和谐协调的面部线条" },
-      "skincare": { "name": "皮肤护理", "desc": "医学级护肤与焕肤" },
-      "aesthetic": { "name": "美容疗程", "desc": "注射、激光与焕肤护理" }
+      "bodySculpt": { "name": "身体塑形", "desc": "非侵入式减脂与塑形" },
+      "hifu": { "name": "HIFU 提拉", "desc": "超声波紧致提升" },
+      "picoLaser": { "name": "皮秒激光", "desc": "改善色斑、肤色与肤质" },
+      "hairRemoval": { "name": "激光脱毛", "desc": "顺滑持久的激光脱毛" },
+      "cellLight": { "name": "细胞光疗", "desc": "LED 光疗焕活肌肤" },
+      "whiteningDrip": { "name": "美白点滴", "desc": "焕亮静脉营养输注" }
     }
   },
   "hero": {
@@ -92,7 +96,9 @@
   "testimonials": {
     "eyebrow": "客户心声",
     "title": "客户的真实评价",
-    "subtitle": "客户通过 WhatsApp 与我们分享的真实留言。"
+    "subtitle": "客户通过 WhatsApp 与我们分享的真实留言。",
+    "showMore": "查看更多评价",
+    "showLess": "收起"
   },
   "cta": {
     "eyebrow": "开启您的旅程",

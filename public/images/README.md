@@ -9,5 +9,7 @@ Upload images into the matching folder. Recommended: `.jpg`/`.png`, web-optimise
   Treatment / injectables, laser, peels). Same naming convention.
 - `reviews/` — real customer review screenshots left via WhatsApp. Suggested
   naming: `whatsapp-review-01.jpg`, `whatsapp-review-02.jpg`, ...
+- `doctors/` — specialist portraits for the "Our Specialists" section.
+  Suggested naming: `dr-name.jpg` (ideally portrait orientation, 3:4).
 
 After uploading, tell me the filenames and I will wire them into the pages.

@@ -31,8 +31,12 @@
       "facelift": { "name": "フェイスリフト", "desc": "リフトして若々しい輪郭を" },
       "breast": { "name": "豊胸（インプラント）", "desc": "自然なボリュームとバランス" },
       "chin": { "name": "あご（インプラント）", "desc": "調和のとれた横顔へ" },
-      "skincare": { "name": "スキンケア", "desc": "医療グレードのフェイシャル＆ピーリング" },
-      "aesthetic": { "name": "美容施術", "desc": "注入・レーザー・ツヤ肌ケア" }
+      "bodySculpt": { "name": "ボディシェイプ", "desc": "非侵襲の脂肪減少・引き締め" },
+      "hifu": { "name": "HIFU リフト", "desc": "超音波による肌の引き締め・リフト" },
+      "picoLaser": { "name": "ピコレーザー", "desc": "シミ・色調・キメの改善" },
+      "hairRemoval": { "name": "医療脱毛", "desc": "なめらかで持続する医療脱毛" },
+      "cellLight": { "name": "セルライト セラピー", "desc": "LED光による肌の再生" },
+      "whiteningDrip": { "name": "美白点滴", "desc": "透明感を高める点滴ケア" }
     }
   },
   "hero": {
@@ -92,7 +96,9 @@
   "testimonials": {
     "eyebrow": "お客様の声",
     "title": "お客様からのメッセージ",
-    "subtitle": "WhatsAppでお客様が実際に寄せてくださったメッセージです。"
+    "subtitle": "WhatsAppでお客様が実際に寄せてくださったメッセージです。",
+    "showMore": "口コミをもっと見る",
+    "showLess": "閉じる"
   },
   "cta": {
     "eyebrow": "はじめの一歩",

@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Static export so the site can be hosted on Cloudflare Pages (output dir: "out").
+  output: "export",
+  trailingSlash: true,
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

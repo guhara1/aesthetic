@@ -4,8 +4,14 @@ import { useState } from "react";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { reviewImages } from "@/lib/galleryData";
 
+const INITIAL_COUNT = 8;
+
 export function Testimonials({ dict }: { dict: Dictionary }) {
   const [lightbox, setLightbox] = useState<string | null>(null);
+  const [expanded, setExpanded] = useState(false);
+
+  const visible = expanded ? reviewImages : reviewImages.slice(0, INITIAL_COUNT);
+  const hasMore = reviewImages.length > INITIAL_COUNT;
 
   return (
     <section id="reviews" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
@@ -24,7 +30,7 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
         </div>
 
         <div className="mt-14 columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4 [&>*]:mb-5">
-          {reviewImages.map((file) => {
+          {visible.map((file) => {
             const src = `/images/reviews/${file}`;
             return (
               <button
@@ -44,6 +50,21 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
             );
           })}
         </div>
+
+        {hasMore && (
+          <div className="mt-12 text-center">
+            <button
+              type="button"
+              onClick={() => setExpanded((v) => !v)}
+              className="inline-flex items-center gap-2 rounded-full border border-gold px-8 py-3 text-xs tracking-[0.14em] uppercase text-gold-deep transition-all duration-300 hover:bg-gold hover:text-white"
+            >
+              {expanded ? dict.testimonials.showLess : dict.testimonials.showMore}
+              <span className={expanded ? "rotate-180 transition-transform" : "transition-transform"}>
+                ↓
+              </span>
+            </button>
+          </div>
+        )}
       </div>
 
       {lightbox && (

@@ -31,8 +31,12 @@
       "facelift": { "name": "Facelift", "desc": "Lift & restore youthful contours" },
       "breast": { "name": "Breast Implant", "desc": "Natural augmentation & balance" },
       "chin": { "name": "Chin Implant", "desc": "Harmonised facial profile" },
-      "skincare": { "name": "Skin Care", "desc": "Medical-grade facials & peels" },
-      "aesthetic": { "name": "Aesthetic Treatment", "desc": "Injectables, laser & glow therapy" }
+      "bodySculpt": { "name": "Body Sculpting", "desc": "Non-invasive fat reduction & contouring" },
+      "hifu": { "name": "HIFU Lifting", "desc": "Ultrasound skin tightening & lift" },
+      "picoLaser": { "name": "Pico Laser", "desc": "Pigmentation, tone & texture renewal" },
+      "hairRemoval": { "name": "Hair Removal", "desc": "Smooth, lasting laser hair removal" },
+      "cellLight": { "name": "Cell Light Therapy", "desc": "LED light skin rejuvenation" },
+      "whiteningDrip": { "name": "Whitening Drip", "desc": "Brightening IV wellness infusion" }
     }
   },
   "hero": {
@@ -92,7 +96,9 @@
   "testimonials": {
     "eyebrow": "Patient Stories",
     "title": "Words from our patients",
-    "subtitle": "Real messages our clients shared with us on WhatsApp."
+    "subtitle": "Real messages our clients shared with us on WhatsApp.",
+    "showMore": "Show more reviews",
+    "showLess": "Show less"
   },
   "cta": {
     "eyebrow": "Begin Your Journey",

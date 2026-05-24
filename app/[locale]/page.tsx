@@ -12,8 +12,12 @@ const TREATMENT_KEYS = [
   "facelift",
   "breast",
   "chin",
-  "skincare",
-  "aesthetic",
+  "bodySculpt",
+  "hifu",
+  "picoLaser",
+  "hairRemoval",
+  "cellLight",
+  "whiteningDrip",
 ] as const;
 
 export default async function HomePage({

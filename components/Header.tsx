@@ -13,11 +13,16 @@ const TREATMENT_KEYS = [
   "facelift",
   "breast",
   "chin",
-  "skincare",
-  "aesthetic",
+  "bodySculpt",
+  "hifu",
+  "picoLaser",
+  "hairRemoval",
+  "cellLight",
+  "whiteningDrip",
 ] as const;
 
-const SURGICAL = ["liposuction", "rhinoplasty", "eye", "facelift", "breast", "chin"];
+const SURGICAL = ["liposuction", "rhinoplasty", "eye", "facelift", "breast", "chin"] as const;
+const NON_SURGICAL = ["bodySculpt", "hifu", "picoLaser", "hairRemoval", "cellLight", "whiteningDrip"] as const;
 
 export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [scrolled, setScrolled] = useState(false);
@@ -132,38 +137,40 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             </button>
 
             {treatOpen && (
-              <div className="absolute left-1/2 top-full z-50 w-[640px] -translate-x-1/2 pt-5">
-                <div className="grid grid-cols-2 gap-x-8 gap-y-1 rounded-sm border border-sand bg-ivory p-7 text-ink shadow-[0_30px_70px_-30px_rgba(42,36,32,0.45)]">
-                  <div className="col-span-2 mb-2 grid grid-cols-2 gap-x-8">
-                    <p className="text-[10px] tracking-[0.22em] uppercase text-gold">
-                      {dict.treatmentsMenu.surgicalTitle}
-                    </p>
-                    <p className="text-[10px] tracking-[0.22em] uppercase text-gold">
-                      {dict.treatmentsMenu.skinTitle}
-                    </p>
+              <div className="absolute left-1/2 top-full z-50 w-[660px] -translate-x-1/2 pt-5">
+                <div className="rounded-sm border border-sand bg-ivory p-7 text-ink shadow-[0_30px_70px_-30px_rgba(42,36,32,0.45)]">
+                  <div className="grid grid-cols-2 gap-x-8">
+                    {[
+                      { title: dict.treatmentsMenu.surgicalTitle, keys: SURGICAL },
+                      { title: dict.treatmentsMenu.skinTitle, keys: NON_SURGICAL },
+                    ].map((col) => (
+                      <div key={col.title}>
+                        <p className="mb-2 text-[10px] tracking-[0.22em] uppercase text-gold">
+                          {col.title}
+                        </p>
+                        {col.keys.map((key) => {
+                          const item = dict.treatmentsMenu.items[key];
+                          return (
+                            <Link
+                              key={key}
+                              href={`${base}#treatments`}
+                              className="group block rounded-sm px-3 py-2 transition-colors hover:bg-cream"
+                            >
+                              <span className="block font-display text-lg leading-tight text-ink group-hover:text-gold-deep">
+                                {item.name}
+                              </span>
+                              <span className="mt-0.5 block text-xs leading-snug text-taupe">
+                                {item.desc}
+                              </span>
+                            </Link>
+                          );
+                        })}
+                      </div>
+                    ))}
                   </div>
-                  {TREATMENT_KEYS.map((key) => {
-                    const item = dict.treatmentsMenu.items[key];
-                    return (
-                      <Link
-                        key={key}
-                        href={`${base}#treatments`}
-                        className={`group rounded-sm px-3 py-2.5 transition-colors hover:bg-cream ${
-                          SURGICAL.includes(key) ? "col-start-1" : "col-start-2"
-                        }`}
-                      >
-                        <span className="block font-display text-lg leading-tight text-ink group-hover:text-gold-deep">
-                          {item.name}
-                        </span>
-                        <span className="mt-0.5 block text-xs leading-snug text-taupe">
-                          {item.desc}
-                        </span>
-                      </Link>
-                    );
-                  })}
                   <Link
                     href={`${base}#treatments`}
-                    className="col-span-2 mt-3 border-t border-sand pt-4 text-xs tracking-[0.14em] uppercase text-gold transition-colors hover:text-gold-deep"
+                    className="mt-4 block border-t border-sand pt-4 text-xs tracking-[0.14em] uppercase text-gold transition-colors hover:text-gold-deep"
                   >
                     {dict.treatmentsMenu.viewAll} →
                   </Link>

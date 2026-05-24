@@ -31,8 +31,12 @@
       "facelift": { "name": "안면 리프팅", "desc": "젊고 탄탄한 윤곽 복원" },
       "breast": { "name": "가슴 성형", "desc": "자연스러운 볼륨과 균형" },
       "chin": { "name": "턱 보형물", "desc": "조화로운 얼굴 라인" },
-      "skincare": { "name": "스킨케어", "desc": "의료용 페이셜 & 필링" },
-      "aesthetic": { "name": "미용 시술", "desc": "주사·레이저·광채 케어" }
+      "bodySculpt": { "name": "바디 슬리밍", "desc": "비침습 지방 감소 & 라인 정리" },
+      "hifu": { "name": "HIFU 리프팅", "desc": "초음파 피부 타이트닝 & 리프팅" },
+      "picoLaser": { "name": "피코 레이저", "desc": "색소·톤·피부결 개선" },
+      "hairRemoval": { "name": "제모", "desc": "매끈하고 오래가는 레이저 제모" },
+      "cellLight": { "name": "셀 라이트 테라피", "desc": "LED 광 피부 재생" },
+      "whiteningDrip": { "name": "미백 수액", "desc": "환한 피부를 위한 영양 수액" }
     }
   },
   "hero": {
@@ -92,7 +96,9 @@
   "testimonials": {
     "eyebrow": "고객 이야기",
     "title": "고객이 남긴 진심 어린 후기",
-    "subtitle": "고객들이 왓츠앱으로 직접 전해주신 실제 메시지입니다."
+    "subtitle": "고객들이 왓츠앱으로 직접 전해주신 실제 메시지입니다.",
+    "showMore": "후기 더 보기",
+    "showLess": "접기"
   },
   "cta": {
     "eyebrow": "여정의 시작",
