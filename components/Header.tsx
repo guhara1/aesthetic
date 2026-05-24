@@ -30,17 +30,9 @@ const SURGICAL = ["liposuction", "rhinoplasty", "eye", "facelift", "breast", "ch
 const NON_SURGICAL = ["bodySculpt", "hifu", "picoLaser", "hairRemoval", "cellLight", "whiteningDrip"] as const;
 
 export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
-  const [scrolled, setScrolled] = useState(false);
   const [treatOpen, setTreatOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const base = `/${locale}`;
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
@@ -57,7 +49,9 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
     { href: `${base}#contact`, label: dict.nav.contact },
   ];
 
-  const solid = scrolled || treatOpen || mobileOpen;
+  // Header stays solid (ivory bg, dark text) on every page so it remains legible
+  // over both light and dark hero sections.
+  const solid = true;
 
   return (
     <header

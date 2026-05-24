@@ -7,6 +7,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { Approach } from "@/components/Approach";
 import { Safety } from "@/components/Safety";
 import { Faq } from "@/components/Faq";
+import { Hero } from "@/components/Hero";
 import { SITE_URL, medicalReviewer, contentLastReviewed } from "@/lib/clinic";
 import { treatments } from "@/lib/treatments";
 
@@ -56,48 +57,7 @@ export default async function HomePage({
       />
 
       {/* ───────────────── Hero ───────────────── */}
-      <section className="relative flex min-h-screen items-center overflow-hidden">
-        <div className="absolute inset-0 -z-10">
-          <div className="h-full w-full bg-[radial-gradient(120%_120%_at_75%_15%,#5a4a3a_0%,#3a2f27_45%,#241d18_100%)]" />
-          <div className="absolute inset-0 bg-[radial-gradient(60%_60%_at_85%_30%,rgba(176,141,87,0.32),transparent_60%)]" />
-          <div className="absolute -right-24 top-1/2 h-[34rem] w-[34rem] -translate-y-1/2 rounded-full border border-ivory/10" />
-          <div className="absolute -right-10 top-1/2 h-[24rem] w-[24rem] -translate-y-1/2 rounded-full border border-gold/20" />
-        </div>
-
-        <div className="mx-auto w-full max-w-7xl px-6 pt-32 pb-20 lg:px-10">
-          <div className="max-w-2xl animate-fade-up">
-            <p className="flex items-center gap-3 text-[11px] tracking-[0.28em] uppercase text-gold">
-              <span className="h-px w-10 bg-gold/70" />
-              {dict.hero.eyebrow}
-            </p>
-            <h1 className="mt-7 font-display text-5xl font-medium leading-[1.05] text-ivory text-balance sm:text-6xl lg:text-[4.6rem]">
-              {dict.hero.title.split("\n").map((line, i) => (
-                <span key={i} className="block">
-                  {line}
-                </span>
-              ))}
-            </h1>
-            <p className="mt-7 max-w-xl text-base leading-relaxed text-ivory/75 sm:text-lg">
-              {dict.hero.subtitle}
-            </p>
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-              <Link
-                href={`${base}#contact`}
-                className="rounded-full bg-gold px-8 py-4 text-center text-xs tracking-[0.14em] uppercase text-white transition-all duration-300 hover:bg-gold-deep"
-              >
-                {dict.hero.ctaPrimary}
-              </Link>
-              <Link
-                href={`${base}#treatments`}
-                className="group flex items-center justify-center gap-2 text-xs tracking-[0.14em] uppercase text-ivory/85 transition-colors hover:text-gold sm:justify-start"
-              >
-                {dict.hero.ctaSecondary}
-                <span className="transition-transform group-hover:translate-x-1">→</span>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Hero dict={dict} locale={locale as Locale} />
 
       {/* ───────────────── Trust strip ───────────────── */}
       <section className="border-b border-sand bg-cream">
