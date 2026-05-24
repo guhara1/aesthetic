@@ -4,6 +4,10 @@ import { getDictionary } from "@/lib/i18n/dictionaries";
 import { notFound } from "next/navigation";
 import { Results } from "@/components/Results";
 import { Testimonials } from "@/components/Testimonials";
+import { Approach } from "@/components/Approach";
+import { Safety } from "@/components/Safety";
+import { Faq } from "@/components/Faq";
+import { medicalReviewer } from "@/lib/clinic";
 
 const TREATMENT_KEYS = [
   "liposuction",
@@ -183,15 +187,37 @@ export default async function HomePage({
                 </li>
               ))}
             </ul>
+
+            {/* Medical reviewer byline — E-E-A-T authorship signal */}
+            <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-sand pt-5 text-xs text-taupe">
+              <span className="tracking-[0.1em] uppercase text-gold-deep">
+                {dict.reviewer.label}
+              </span>
+              <span className="font-medium text-ink-soft">{medicalReviewer.name}</span>
+              <span>· {medicalReviewer.credentials}</span>
+              <span className="w-full text-[11px] text-taupe/80">
+                {dict.reviewer.updatedLabel}: {dict.reviewer.updatedDate}
+              </span>
+            </div>
+
             <Link
               href={`${base}#contact`}
-              className="mt-10 inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
+              className="mt-8 inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
             >
               {dict.about.cta} →
             </Link>
           </div>
         </div>
       </section>
+
+      {/* ───────────────── How we work ───────────────── */}
+      <Approach dict={dict} />
+
+      {/* ───────────────── Before & After results ───────────────── */}
+      <Results dict={dict} />
+
+      {/* ───────────────── Safety & standards ───────────────── */}
+      <Safety dict={dict} />
 
       {/* ───────────────── Doctors teaser ───────────────── */}
       <section id="doctors" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
@@ -234,11 +260,11 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* ───────────────── Before & After results ───────────────── */}
-      <Results dict={dict} />
-
       {/* ───────────────── WhatsApp testimonials ───────────────── */}
       <Testimonials dict={dict} />
+
+      {/* ───────────────── FAQ ───────────────── */}
+      <Faq dict={dict} />
 
       {/* ───────────────── CTA banner ───────────────── */}
       <section className="bg-ink py-24 lg:py-32">

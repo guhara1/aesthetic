@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
+import { medicalReviewer } from "@/lib/clinic";
 
 const TREATMENT_KEYS = [
   "liposuction",
@@ -44,6 +45,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 { href: `${base}#doctors`, label: dict.nav.doctors },
                 { href: `${base}#gallery`, label: dict.nav.gallery },
                 { href: `${base}#reviews`, label: dict.nav.reviews },
+                { href: `${base}#faq`, label: dict.faq.title },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-ivory/70 transition-colors hover:text-gold">
@@ -99,6 +101,10 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         <div className="mt-16 border-t border-ivory/12 pt-8">
           <p className="text-xs leading-relaxed text-ivory/45">
             {dict.footer.disclaimer}
+          </p>
+          <p className="mt-3 text-xs text-ivory/45">
+            {dict.reviewer.label} {medicalReviewer.name}, {medicalReviewer.credentials}.{" "}
+            {dict.reviewer.updatedLabel}: {dict.reviewer.updatedDate}.
           </p>
           <p className="mt-3 text-xs text-ivory/45">
             © {year} {dict.brand.nameFull}. {dict.footer.rights}

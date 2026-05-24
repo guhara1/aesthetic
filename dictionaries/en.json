@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "The Valley Beauty Medical Spa | Aesthetic & Cosmetic Surgery in Kuala Lumpur",
+    "description": "Cosmetic surgery and aesthetic medicine in Kuala Lumpur — liposuction, rhinoplasty, facelift, HIFU, laser and more. Experienced practitioners, multilingual care and real before & after results."
+  },
   "brand": {
     "name": "The Valley",
     "nameFull": "The Valley Beauty Medical Spa",
@@ -99,6 +103,87 @@
     "subtitle": "Real messages our clients shared with us on WhatsApp.",
     "showMore": "Show more reviews",
     "showLess": "Show less"
+  },
+  "reviewer": {
+    "label": "Medically reviewed by",
+    "updatedLabel": "Content last reviewed",
+    "updatedDate": "24 May 2026"
+  },
+  "approach": {
+    "eyebrow": "How We Work",
+    "title": "A considered process, from first hello to full recovery",
+    "subtitle": "We don't rush decisions. Every plan is built around your anatomy, your goals and an honest conversation about what a procedure can — and cannot — do.",
+    "steps": [
+      {
+        "title": "Private consultation",
+        "body": "A one-to-one assessment with your surgeon — in English, 中文, 한국어 or 日本語 — to understand your goals, review your medical history and discuss realistic outcomes."
+      },
+      {
+        "title": "Personalised plan",
+        "body": "We map a treatment plan to your anatomy, explain the expected results and recovery, and provide transparent, itemised pricing before you commit to anything."
+      },
+      {
+        "title": "The procedure",
+        "body": "Your treatment is carried out in an accredited, sterile facility by an experienced practitioner, with anaesthesia and monitoring appropriate to each procedure."
+      },
+      {
+        "title": "Aftercare & follow-up",
+        "body": "Structured aftercare with scheduled reviews. We stay reachable on WhatsApp throughout your recovery — as our patients' own messages on this page show."
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Safety & Standards",
+    "title": "Medical-grade care, not a beauty counter",
+    "body": "Cosmetic procedures are real medical interventions, and we treat them that way — with qualified practitioners, an accredited facility and informed consent at every step.",
+    "items": [
+      {
+        "title": "Qualified practitioners",
+        "body": "Procedures are performed by registered medical practitioners with dedicated cosmetic and aesthetic training."
+      },
+      {
+        "title": "Accredited facility",
+        "body": "Treatments take place in a clean, regulated clinical environment with appropriate equipment and protocols."
+      },
+      {
+        "title": "Informed consent",
+        "body": "You receive clear information on the benefits, risks, alternatives and recovery before agreeing to any treatment."
+      },
+      {
+        "title": "Honest expectations",
+        "body": "We will tell you when a procedure is not right for you. The results shown are real and individual — yours may differ."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Good to Know",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Is a consultation required before treatment?",
+        "a": "Yes. Every procedure begins with a private consultation so the surgeon can assess your suitability, explain the options and agree a plan with you. Many concerns can also be addressed non-surgically."
+      },
+      {
+        "q": "Which languages does your team speak?",
+        "a": "Our team supports English, Mandarin Chinese, Korean and Japanese, so you can discuss your treatment comfortably in your own language."
+      },
+      {
+        "q": "Are the before & after photos real patients?",
+        "a": "Yes. The images on this site are from real patients treated at our clinic and shared with their consent. Outcomes vary from person to person."
+      },
+      {
+        "q": "How do you handle recovery and aftercare?",
+        "a": "You receive a structured aftercare plan with scheduled follow-up reviews, and you can reach our team directly on WhatsApp during your recovery."
+      },
+      {
+        "q": "Where are you located?",
+        "a": "We are based in Kuala Lumpur, Malaysia. The exact address and directions are shared with you when you book your consultation."
+      },
+      {
+        "q": "How much do procedures cost?",
+        "a": "Pricing depends on the procedure and your individual plan. You receive transparent, itemised pricing during your consultation, with no obligation to proceed."
+      }
+    ]
   },
   "cta": {
     "eyebrow": "Begin Your Journey",
