@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Jost } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
+import { cormorant, jost } from "../fonts";
 import {
   isLocale,
   locales,
@@ -14,20 +14,6 @@ import { SITE_URL } from "@/lib/clinic";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StructuredData } from "@/components/StructuredData";
-
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-cormorant",
-  display: "swap",
-});
-
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-jost",
-  display: "swap",
-});
 
 const OG_LOCALE: Record<Locale, string> = {
   en: "en_GB",
