@@ -1,16 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 
 type Slide = {
   img: string;
+  imgMobile: string;
   align: "left" | "right";
-  // object-position so the model stays in frame when cropped
-  focus: string;
   eyebrow: string;
   title: string[];
   subtitle: string;
@@ -20,8 +18,8 @@ type Slide = {
 const SLIDES: Slide[] = [
   {
     img: "/images/hero/hero-1.webp",
+    imgMobile: "/images/hero/hero-1-mobile.webp",
     align: "left",
-    focus: "right center",
     eyebrow: "Aesthetic & Cosmetic Surgery",
     title: ["Beauty that looks", "entirely like you"],
     subtitle:
@@ -29,8 +27,8 @@ const SLIDES: Slide[] = [
   },
   {
     img: "/images/hero/hero-2.webp",
+    imgMobile: "/images/hero/hero-2-mobile.webp",
     align: "left",
-    focus: "right center",
     eyebrow: "Surgical Artistry",
     title: ["Sculpted with", "precision & care"],
     subtitle:
@@ -38,8 +36,8 @@ const SLIDES: Slide[] = [
   },
   {
     img: "/images/hero/hero-3.webp",
+    imgMobile: "/images/hero/hero-3-mobile.webp",
     align: "right",
-    focus: "left center",
     eyebrow: "Confidence for Everyone",
     title: ["Natural enhancement,", "for him too"],
     subtitle:
@@ -71,15 +69,20 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 active ? "opacity-100" : "pointer-events-none opacity-0"
               }`}
             >
-              <Image
-                src={slide.img}
-                alt={`${slide.eyebrow} — ${dict.brand.nameFull}, Kuala Lumpur`}
-                fill
-                priority={i === 0}
-                sizes="100vw"
-                className="object-cover"
-                style={{ objectPosition: slide.focus }}
-              />
+              {/* Art-directed: portrait image on phones, 16:9 on larger screens */}
+              <picture>
+                <source media="(max-width: 639px)" srcSet={slide.imgMobile} />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={slide.img}
+                  alt={`${slide.eyebrow} — ${dict.brand.nameFull}, Kuala Lumpur`}
+                  loading={i === 0 ? "eager" : "lazy"}
+                  fetchPriority={i === 0 ? "high" : undefined}
+                  className={`absolute inset-0 h-full w-full object-cover object-center ${
+                    slide.align === "left" ? "sm:object-right" : "sm:object-left"
+                  }`}
+                />
+              </picture>
               {/* Legibility scrim on the text side */}
               <div
                 className={`absolute inset-0 ${
