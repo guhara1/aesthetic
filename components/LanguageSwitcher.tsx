@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { locales, localeNames, type Locale } from "@/lib/i18n/config";
 
 export function LanguageSwitcher({
@@ -13,7 +13,6 @@ export function LanguageSwitcher({
 }) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const router = useRouter();
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -26,10 +25,12 @@ export function LanguageSwitcher({
 
   function switchTo(next: Locale) {
     document.cookie = `NEXT_LOCALE=${next}; path=/; max-age=31536000; samesite=lax`;
-    const segments = pathname.split("/");
+    const segments = (pathname || `/${locale}/`).split("/");
     segments[1] = next;
-    router.push(segments.join("/") || "/");
-    setOpen(false);
+    let target = segments.join("/") || `/${next}/`;
+    if (!target.endsWith("/")) target += "/"; // match trailingSlash export
+    // Full navigation — reliable for locale switching on a static export.
+    window.location.href = target;
   }
 
   const tone =
