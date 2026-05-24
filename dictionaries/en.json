@@ -22,7 +22,8 @@
     "gallery": "Results",
     "reviews": "Reviews",
     "contact": "Contact",
-    "book": "Book a Consultation"
+    "book": "Book a Consultation",
+    "magazine": "Magazine"
   },
   "treatmentsMenu": {
     "surgicalTitle": "Surgical Procedures",
@@ -668,5 +669,110 @@
       ],
       "subtitle": "Discreet, tailored treatments for men — in a calm, private and professional setting."
     }
-  ]
+  ],
+  "magazine": {
+    "title": "Magazine",
+    "lead": "Honest, practical articles on cosmetic surgery and aesthetic care — written and reviewed by our team in Kuala Lumpur.",
+    "readTime": "min read",
+    "byLabel": "Written & reviewed by",
+    "backToList": "All articles",
+    "posts": {
+      "choosing": {
+        "title": "How to choose a cosmetic surgery clinic in Kuala Lumpur",
+        "excerpt": "A practical, honest guide to finding a clinic you can trust — from checking qualifications to reading between the lines of a consultation.",
+        "date": "2026-05-20",
+        "readMinutes": 6,
+        "sections": [
+          {
+            "heading": "Start with qualifications and registration",
+            "body": [
+              "A safe cosmetic procedure begins with a qualified practitioner. In Malaysia, look for a doctor registered with the Malaysian Medical Council and, for surgery, appropriate specialist or aesthetic training. Ask directly who will perform your procedure and what their experience is with it — a reputable clinic answers openly. Be cautious of anyone who avoids these questions or promises results without assessing you first."
+            ]
+          },
+          {
+            "heading": "Look closely at the facility and safety",
+            "body": [
+              "The setting matters as much as the price. Surgical procedures should take place in a clean, properly equipped and licensed facility, with clear protocols for anaesthesia, hygiene and emergencies. When you visit, notice whether the environment feels clinical and well organised. Ask how aftercare and follow-up are handled, and what happens if you have a concern during recovery."
+            ]
+          },
+          {
+            "heading": "Value an honest consultation over a hard sell",
+            "body": [
+              "A good consultation feels like a conversation, not a sales pitch. Your practitioner should listen to your goals, review your medical history, explain realistic outcomes, and be willing to say when a treatment is not right for you. Transparent, itemised pricing should be given without pressure to commit on the day. If you feel rushed, or are promised guaranteed perfection, take a step back."
+            ]
+          },
+          {
+            "heading": "Check real results, reviews and language",
+            "body": [
+              "Ask to see genuine before-and-after photos of patients with concerns similar to yours, and remember that results vary between individuals. Independent reviews — such as those on Google — give a sense of other patients' experiences. In a multicultural city like Kuala Lumpur, it also helps to choose a clinic that can communicate clearly in your own language, so nothing about your care is lost in translation."
+            ]
+          }
+        ]
+      },
+      "surgicalVsNonsurgical": {
+        "title": "Surgical or non-surgical? Choosing the right approach",
+        "excerpt": "Not every concern needs surgery — and not every concern can be solved without it. Here is how to think about the difference.",
+        "date": "2026-05-14",
+        "readMinutes": 5,
+        "sections": [
+          {
+            "heading": "What non-surgical treatments do well",
+            "body": [
+              "Non-surgical options such as HIFU, lasers and energy- or injectable-based treatments are excellent for early to moderate concerns: skin laxity, pigmentation, texture, or small, localised areas. They usually involve little or no downtime and bring gradual, natural change over a course of sessions. They are a strong choice when you want subtle refinement or maintenance, or when you are simply not ready for surgery."
+            ]
+          },
+          {
+            "heading": "When surgery is the better choice",
+            "body": [
+              "Surgery addresses what non-surgical treatments cannot. Significant excess skin, advanced sagging, or a structural change — to the nose, eyelids or body contour — usually needs a surgical solution to give a meaningful, lasting result. Surgery involves downtime and carries real risks, but for the right concern it can achieve what no device or injectable can match."
+            ]
+          },
+          {
+            "heading": "Often, the answer is a combination",
+            "body": [
+              "Many treatment plans blend both. Surgery may restore structure while non-surgical therapies maintain skin quality over time. The right balance depends on your anatomy, your goals, your budget and how much downtime suits your life. There is rarely a single 'best' treatment — only the one that genuinely fits you."
+            ]
+          },
+          {
+            "heading": "How a good clinic helps you decide",
+            "body": [
+              "An experienced clinic assesses you honestly and explains the trade-offs of each route, rather than pushing the most expensive option. We will tell you when a non-surgical treatment is enough, and equally when surgery would serve you better. The goal is a result that is safe, natural and right for you — not simply more treatment."
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "title": "Recovery after cosmetic surgery: a realistic guide",
+        "excerpt": "Good recovery is part of a good result. An honest look at what to expect, and how to give your body the best chance to heal.",
+        "date": "2026-05-06",
+        "readMinutes": 6,
+        "sections": [
+          {
+            "heading": "Recovery is part of the result",
+            "body": [
+              "The outcome of a procedure depends not only on the surgery itself, but on how you heal. Swelling, bruising and tenderness are a normal part of the process, and rushing back to full activity too soon can affect your result. Planning time to rest — and following your aftercare instructions carefully — is one of the most important things you can do."
+            ]
+          },
+          {
+            "heading": "The first few days",
+            "body": [
+              "In the early days, expect swelling and some discomfort, managed with the guidance your clinic provides. Rest, gentle movement, and any compression garments or dressings all support healing. Keep your follow-up appointments, take medications as advised, and avoid strenuous activity, alcohol and smoking, which can slow recovery."
+            ]
+          },
+          {
+            "heading": "Weeks to months: the result settles",
+            "body": [
+              "Most visible bruising and swelling ease within two to three weeks, but the final result often takes longer to appear as the tissues fully settle — sometimes several months. This is normal and expected. Patience matters: judging your result too early can be misleading. Scheduled reviews let your clinic track your progress and reassure you along the way."
+            ]
+          },
+          {
+            "heading": "When to contact your clinic",
+            "body": [
+              "Clear aftercare includes knowing what is normal and what is not. Contact your clinic promptly if you notice increasing pain, unusual swelling, signs of infection such as fever or spreading redness, or anything that worries you. A good clinic stays reachable throughout your recovery — at The Valley, patients can reach us on WhatsApp — and would always rather you ask than wait."
+            ]
+          }
+        ]
+      }
+    }
+  }
 }

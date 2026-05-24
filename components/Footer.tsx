@@ -39,6 +39,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 { href: `${base}/doctors`, label: dict.nav.doctors },
                 { href: `${base}#gallery`, label: dict.nav.gallery },
                 { href: `${base}#reviews`, label: dict.nav.reviews },
+                { href: `${base}/magazine`, label: dict.nav.magazine },
                 { href: `${base}#faq`, label: dict.faq.title },
               ].map((l) => (
                 <li key={l.href}>

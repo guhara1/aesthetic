@@ -46,6 +46,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
     { href: `${base}/doctors`, label: dict.nav.doctors },
     { href: `${base}#gallery`, label: dict.nav.gallery },
     { href: `${base}#reviews`, label: dict.nav.reviews },
+    { href: `${base}/magazine`, label: dict.nav.magazine },
     { href: `${base}/contact`, label: dict.nav.contact },
   ];
 
