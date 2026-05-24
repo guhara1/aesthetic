@@ -108,85 +108,139 @@ export default async function PostPage({
     <article className="bg-ivory">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }} />
 
-      <header className="relative overflow-hidden bg-ink pt-36 pb-16 text-ivory lg:pt-44">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(120%_120%_at_80%_10%,#5a4a3a_0%,#3a2f27_45%,#241d18_100%)]" />
-        <div className="mx-auto max-w-3xl px-6 lg:px-10">
-          <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.14em] uppercase text-ivory/55">
-            <ol className="flex flex-wrap items-center gap-2">
-              <li><Link href={base} className="hover:text-gold">{dict.procedureUi.home}</Link></li>
-              <li aria-hidden>/</li>
-              <li><Link href={`${base}/magazine`} className="hover:text-gold">{dict.magazine.title}</Link></li>
+      {/* ── Hero ── */}
+      <header className="relative overflow-hidden bg-ink pt-32 pb-28 text-ivory lg:pt-40 lg:pb-36">
+        <div className="absolute inset-0 -z-10">
+          <div className="h-full w-full bg-[radial-gradient(120%_120%_at_80%_0%,#5a4a3a_0%,#3a2f27_45%,#211b16_100%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(50%_45%_at_50%_0%,rgba(176,141,87,0.22),transparent_70%)]" />
+        </div>
+        <div className="mx-auto max-w-3xl px-6 text-center lg:px-10">
+          <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.16em] uppercase text-ivory/45">
+            <ol className="flex flex-wrap items-center justify-center gap-2">
+              <li><Link href={base} className="transition-colors hover:text-gold">{dict.procedureUi.home}</Link></li>
+              <li aria-hidden>·</li>
+              <li><Link href={`${base}/magazine`} className="transition-colors hover:text-gold">{dict.magazine.title}</Link></li>
             </ol>
           </nav>
-          <h1 className="mt-7 font-display text-4xl leading-[1.12] text-ivory text-balance lg:text-5xl">
+
+          <p className="mt-8 text-[11px] tracking-[0.32em] uppercase text-gold">
+            {dict.magazine.title}
+          </p>
+          <h1 className="mx-auto mt-5 max-w-2xl font-display text-[2.35rem] font-medium leading-[1.12] text-ivory text-balance break-keep lg:text-[3.4rem] lg:leading-[1.08]">
             {p.title}
           </h1>
-          <p className="mt-5 text-[11px] tracking-[0.14em] uppercase text-ivory/55">
-            {fmt(p.date)} · {p.readMinutes} {dict.magazine.readTime}
-          </p>
+          <div className="mt-7 flex items-center justify-center gap-3 text-[11px] tracking-[0.16em] uppercase text-ivory/55">
+            <span>{fmt(p.date)}</span>
+            <span className="h-3 w-px bg-ivory/30" />
+            <span>{p.readMinutes} {dict.magazine.readTime}</span>
+          </div>
         </div>
       </header>
 
-      {/* Cover */}
-      <div className="mx-auto -mt-8 max-w-3xl px-6 lg:px-10">
-        <div className="overflow-hidden rounded-sm border border-sand shadow-[0_30px_70px_-40px_rgba(42,36,32,0.5)]">
+      {/* ── Cover (overlaps hero) ── */}
+      <div className="mx-auto -mt-20 max-w-3xl px-6 lg:-mt-24 lg:px-10">
+        <div className="overflow-hidden rounded-sm border border-sand/80 shadow-[0_40px_90px_-50px_rgba(42,36,32,0.65)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={post.cover} alt={p.title} className="aspect-[16/9] w-full object-cover" />
         </div>
       </div>
 
-      {/* Body */}
-      <div className="mx-auto max-w-3xl px-6 py-16 lg:px-10 lg:py-20">
-        <p className="border-l-2 border-gold pl-5 font-display text-xl leading-relaxed text-ink lg:text-2xl">
+      {/* ── Body ── */}
+      <div className="mx-auto max-w-[44rem] px-6 py-14 lg:px-8 lg:py-20">
+        {/* Lead */}
+        <p className="font-display text-2xl leading-[1.5] text-ink text-balance lg:text-[1.7rem]">
           {p.excerpt}
         </p>
+        <div className="mt-10 hairline" />
 
         {p.sections.map((s, i) => (
-          <section key={i} className="mt-12">
-            <h2 className="font-display text-2xl leading-snug text-ink lg:text-3xl">{s.heading}</h2>
+          <section key={i} className="mt-12 first:mt-10">
+            <div className="flex items-baseline gap-4">
+              <span className="font-display text-lg text-gold/70">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <h2 className="font-display text-[1.7rem] leading-snug text-ink lg:text-[2rem]">
+                {s.heading}
+              </h2>
+            </div>
             {s.body.map((para, k) => (
-              <p key={k} className="mt-4 text-base leading-[1.8] text-ink-soft">{para}</p>
+              <p
+                key={k}
+                className={`mt-5 text-[1.075rem] leading-[1.9] text-ink-soft ${
+                  i === 0 && k === 0
+                    ? "first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:font-display first-letter:text-6xl first-letter:leading-[0.8] first-letter:text-gold-deep"
+                    : ""
+                }`}
+              >
+                {para}
+              </p>
             ))}
           </section>
         ))}
 
-        {/* Byline — E-E-A-T authorship */}
-        <div className="mt-14 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-sand pt-6 text-xs text-taupe">
-          <span className="tracking-[0.1em] uppercase text-gold-deep">{dict.magazine.byLabel}</span>
-          <span className="font-medium text-ink-soft">{medicalReviewer.name}</span>
-          <span>· {medicalReviewer.credentials}</span>
-          <span className="w-full text-[11px] text-taupe/80">
-            {dict.reviewer.updatedLabel}: {fmt(contentLastReviewed)}
-          </span>
+        {/* ── Author / reviewer card (E-E-A-T) ── */}
+        <div className="mt-16 flex items-center gap-5 rounded-sm border border-sand bg-cream p-6">
+          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold/50 bg-ivory font-display text-2xl text-gold-deep">
+            ✦
+          </div>
+          <div>
+            <p className="text-[10px] tracking-[0.2em] uppercase text-gold-deep">
+              {dict.magazine.byLabel}
+            </p>
+            <p className="mt-1 font-display text-xl leading-tight text-ink">
+              {medicalReviewer.name}
+            </p>
+            <p className="mt-0.5 text-sm text-taupe">
+              {medicalReviewer.role} · {medicalReviewer.credentials}
+            </p>
+            <p className="mt-1 text-xs text-taupe/80">
+              {dict.reviewer.updatedLabel}: {fmt(contentLastReviewed)}
+            </p>
+          </div>
         </div>
 
-        <div className="mt-10 flex flex-wrap items-center gap-4">
+        {/* ── CTA ── */}
+        <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-4">
           <Link
             href={`${base}/contact`}
-            className="rounded-full bg-gold px-8 py-3.5 text-xs tracking-[0.14em] uppercase text-white transition-colors hover:bg-gold-deep"
+            className="rounded-full bg-gold px-8 py-4 text-xs tracking-[0.14em] uppercase text-white transition-colors hover:bg-gold-deep"
           >
             {dict.nav.book}
           </Link>
           <Link
             href={`${base}/magazine`}
-            className="text-xs tracking-[0.14em] uppercase text-gold-deep hover:text-gold"
+            className="text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
           >
             ← {dict.magazine.backToList}
           </Link>
         </div>
       </div>
 
-      {/* More articles */}
+      {/* ── More articles ── */}
       {more.length > 0 && (
-        <div className="border-t border-sand bg-cream py-16">
-          <div className="mx-auto max-w-3xl px-6 lg:px-10">
-            <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">{dict.magazine.title}</h2>
-            <div className="mt-6 grid gap-6 sm:grid-cols-2">
+        <div className="border-t border-sand bg-cream py-20">
+          <div className="mx-auto max-w-5xl px-6 lg:px-10">
+            <h2 className="text-center text-[11px] tracking-[0.28em] uppercase text-gold">
+              {dict.magazine.title}
+            </h2>
+            <div className="mt-10 grid gap-8 sm:grid-cols-2">
               {more.map((m) => {
                 const mp = dict.magazine.posts[m.key as PostKey];
                 return (
-                  <Link key={m.slug} href={`${base}/magazine/${m.slug}`} className="group">
-                    <h3 className="font-display text-xl leading-snug text-ink group-hover:text-gold-deep">
+                  <Link key={m.slug} href={`${base}/magazine/${m.slug}`} className="group flex flex-col">
+                    <div className="overflow-hidden rounded-sm border border-sand">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={m.cover}
+                        alt={mp.title}
+                        loading="lazy"
+                        className="aspect-[16/9] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                      />
+                    </div>
+                    <p className="mt-4 text-[11px] tracking-[0.14em] uppercase text-taupe">
+                      {fmt(mp.date)} · {mp.readMinutes} {dict.magazine.readTime}
+                    </p>
+                    <h3 className="mt-2 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-gold-deep">
                       {mp.title}
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-taupe">{mp.excerpt}</p>
