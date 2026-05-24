@@ -1,56 +1,47 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 
-type Slide = {
-  img: string;
-  imgMobile: string;
-  align: "left" | "right";
-  eyebrow: string;
-  title: string[];
-  subtitle: string;
-};
-
-// Promotional copy is intentionally in English (primary market language).
-const SLIDES: Slide[] = [
+// Language-neutral slide metadata; copy comes from dict.heroSlides per locale.
+const SLIDE_META = [
   {
     img: "/images/hero/hero-1.webp",
     imgMobile: "/images/hero/hero-1-mobile.webp",
-    align: "left",
-    eyebrow: "Aesthetic & Cosmetic Surgery",
-    title: ["Beauty that looks", "entirely like you"],
-    subtitle:
-      "Refined, natural results crafted by experienced specialists in the heart of Kuala Lumpur.",
+    align: "left" as const,
   },
   {
     img: "/images/hero/hero-2.webp",
     imgMobile: "/images/hero/hero-2-mobile.webp",
-    align: "left",
-    eyebrow: "Surgical Artistry",
-    title: ["Sculpted with", "precision & care"],
-    subtitle:
-      "From rhinoplasty to facelift — a personalised plan for confident, lasting results.",
+    align: "left" as const,
   },
   {
     img: "/images/hero/hero-3.webp",
     imgMobile: "/images/hero/hero-3-mobile.webp",
-    align: "right",
-    eyebrow: "Confidence for Everyone",
-    title: ["Natural enhancement,", "for him too"],
-    subtitle:
-      "Discreet, tailored treatments for men — in a calm, private and professional setting.",
+    align: "right" as const,
   },
 ];
 
 export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [index, setIndex] = useState(0);
   const base = `/${locale}`;
-  const count = SLIDES.length;
+  const count = SLIDE_META.length;
 
   const go = (dir: number) => setIndex((i) => (i + dir + count) % count);
+
+  const touchX = useRef<number | null>(null);
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchX.current = e.touches[0].clientX;
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchX.current === null) return;
+    const dx = e.changedTouches[0].clientX - touchX.current;
+    if (dx < -45) go(1);
+    else if (dx > 45) go(-1);
+    touchX.current = null;
+  };
 
   return (
     <section
@@ -58,8 +49,13 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
       aria-label={dict.brand.nameFull}
       className="relative w-full overflow-hidden bg-cream"
     >
-      <div className="relative h-[78vh] min-h-[500px] w-full sm:h-[88vh] sm:min-h-[560px]">
-        {SLIDES.map((slide, i) => {
+      <div
+        className="relative h-[78vh] min-h-[500px] w-full sm:h-[88vh] sm:min-h-[560px]"
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+      >
+        {SLIDE_META.map((meta, i) => {
+          const slide = { ...meta, ...dict.heroSlides[i] };
           const active = i === index;
           return (
             <div
@@ -167,20 +163,40 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
           <span className="text-lg leading-none">›</span>
         </button>
 
-        {/* Dots */}
-        <div className="absolute bottom-7 left-1/2 z-10 flex -translate-x-1/2 items-center gap-3">
-          {SLIDES.map((_, i) => (
-            <button
-              key={i}
-              type="button"
-              onClick={() => setIndex(i)}
-              aria-label={`Go to slide ${i + 1}`}
-              aria-current={i === index}
-              className={`h-1.5 rounded-full transition-all duration-300 ${
-                i === index ? "w-8 bg-gold" : "w-2.5 bg-ink/25 hover:bg-ink/40"
-              }`}
-            />
-          ))}
+        {/* Bottom controls — dots, flanked by prev/next arrows on mobile */}
+        <div className="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 items-center gap-4">
+          <button
+            type="button"
+            onClick={() => go(-1)}
+            aria-label="Previous slide"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-ink/20 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:hidden"
+          >
+            <span className="text-base leading-none">‹</span>
+          </button>
+
+          <div className="flex items-center gap-3">
+            {SLIDE_META.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                onClick={() => setIndex(i)}
+                aria-label={`Go to slide ${i + 1}`}
+                aria-current={i === index}
+                className={`h-1.5 rounded-full transition-all duration-300 ${
+                  i === index ? "w-8 bg-gold" : "w-2.5 bg-ink/25 hover:bg-ink/40"
+                }`}
+              />
+            ))}
+          </div>
+
+          <button
+            type="button"
+            onClick={() => go(1)}
+            aria-label="Next slide"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-ink/20 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:hidden"
+          >
+            <span className="text-base leading-none">›</span>
+          </button>
         </div>
       </div>
     </section>

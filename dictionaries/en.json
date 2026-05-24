@@ -642,5 +642,31 @@
     "hours": "Monday – Saturday\n10:00 – 19:00\nSunday: By appointment",
     "rights": "All rights reserved.",
     "disclaimer": "Results may vary from person to person. A consultation is required before any procedure."
-  }
+  },
+  "heroSlides": [
+    {
+      "eyebrow": "Aesthetic & Cosmetic Surgery",
+      "title": [
+        "Beauty that looks",
+        "entirely like you"
+      ],
+      "subtitle": "Refined, natural results crafted by experienced specialists in the heart of Kuala Lumpur."
+    },
+    {
+      "eyebrow": "Surgical Artistry",
+      "title": [
+        "Sculpted with",
+        "precision & care"
+      ],
+      "subtitle": "From rhinoplasty to facelift — a personalised plan for confident, lasting results."
+    },
+    {
+      "eyebrow": "Confidence for Everyone",
+      "title": [
+        "Natural enhancement,",
+        "for him too"
+      ],
+      "subtitle": "Discreet, tailored treatments for men — in a calm, private and professional setting."
+    }
+  ]
 }
