@@ -8,7 +8,8 @@ import { Approach } from "@/components/Approach";
 import { Safety } from "@/components/Safety";
 import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
-import { SITE_URL, medicalReviewer, contentLastReviewed } from "@/lib/clinic";
+import { SectionHeading } from "@/components/SectionHeading";
+import { SITE_URL, clinic, medicalReviewer, contentLastReviewed } from "@/lib/clinic";
 import { treatments } from "@/lib/treatments";
 
 export default async function HomePage({
@@ -61,50 +62,61 @@ export default async function HomePage({
 
       {/* ───────────────── Trust strip ───────────────── */}
       <section className="border-b border-sand bg-cream">
-        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-y-10 px-6 py-14 lg:grid-cols-4 lg:px-10">
-          {dict.trust.items.map((item, i) => (
-            <div
-              key={i}
-              className={`px-4 text-center lg:px-8 ${
-                i !== 0 ? "lg:border-l lg:border-sand" : ""
-              }`}
-            >
-              <p className="font-display text-4xl font-semibold text-gold lg:text-5xl">
-                {item.value}
-              </p>
-              <p className="mt-2 text-xs tracking-[0.12em] uppercase text-taupe">
-                {item.label}
-              </p>
-            </div>
-          ))}
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
+          {/* Google rating */}
+          <a
+            href={clinic.googleProfile}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-auto mb-12 flex w-fit items-center gap-3 rounded-full border border-sand bg-ivory px-6 py-2.5 transition-colors hover:border-gold"
+          >
+            <span className="font-display text-xl text-ink">{clinic.rating.value}</span>
+            <span className="text-sm tracking-wide text-gold">★★★★★</span>
+            <span className="text-xs tracking-[0.1em] uppercase text-taupe">
+              {clinic.rating.count} Google reviews
+            </span>
+          </a>
+
+          <div className="grid grid-cols-2 gap-y-12 lg:grid-cols-4">
+            {dict.trust.items.map((item, i) => (
+              <div
+                key={i}
+                className={`px-4 text-center lg:px-8 ${
+                  i !== 0 ? "lg:border-l lg:border-sand/70" : ""
+                }`}
+              >
+                <p className="font-display text-5xl font-medium text-gold lg:text-6xl">
+                  {item.value}
+                </p>
+                <div className="mx-auto mt-3 h-px w-6 bg-gold/40" />
+                <p className="mt-3 text-xs tracking-[0.16em] uppercase text-taupe">
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ───────────────── Treatments ───────────────── */}
       <section id="treatments" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-[11px] tracking-[0.28em] uppercase text-gold">
-              {dict.treatmentsSection.eyebrow}
-            </p>
-            <h2 className="mt-5 font-display text-4xl leading-tight text-ink text-balance lg:text-5xl">
-              {dict.treatmentsSection.title}
-            </h2>
-            <p className="mt-5 text-base leading-relaxed text-ink-soft">
-              {dict.treatmentsSection.subtitle}
-            </p>
-          </div>
+          <SectionHeading
+            eyebrow={dict.treatmentsSection.eyebrow}
+            title={dict.treatmentsSection.title}
+            subtitle={dict.treatmentsSection.subtitle}
+          />
 
-          <div className="mt-16 grid gap-px overflow-hidden rounded-sm border border-sand bg-sand sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {treatments.map((t, i) => {
               const item = dict.treatmentsMenu.items[t.key as keyof typeof dict.treatmentsMenu.items];
               return (
                 <Link
                   key={t.slug}
                   href={`${base}/treatments/${t.slug}`}
-                  className="group relative flex flex-col bg-ivory p-8 transition-colors duration-300 hover:bg-cream"
+                  className="group relative flex flex-col rounded-sm border border-sand bg-ivory p-7 transition-all duration-300 hover:-translate-y-1 hover:border-gold/50 hover:shadow-[0_24px_50px_-30px_rgba(42,36,32,0.5)]"
                 >
-                  <span className="font-display text-sm text-gold/60">
+                  <span className="font-display text-base text-gold/50">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <h3 className="mt-4 font-display text-2xl leading-tight text-ink transition-colors group-hover:text-gold-deep">
@@ -113,8 +125,9 @@ export default async function HomePage({
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-taupe">
                     {item.desc}
                   </p>
-                  <span className="mt-6 text-gold opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
-                    →
+                  <span className="mt-6 inline-flex items-center gap-1.5 text-[11px] tracking-[0.14em] uppercase text-gold opacity-0 transition-all duration-300 group-hover:opacity-100">
+                    {dict.procedureUi.overview}
+                    <span className="transition-transform group-hover:translate-x-1">→</span>
                   </span>
                 </Link>
               );
@@ -201,17 +214,11 @@ export default async function HomePage({
       {/* ───────────────── Doctors teaser ───────────────── */}
       <section id="doctors" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-[11px] tracking-[0.28em] uppercase text-gold">
-              {dict.doctors.eyebrow}
-            </p>
-            <h2 className="mt-5 font-display text-4xl leading-tight text-ink text-balance lg:text-5xl">
-              {dict.doctors.title}
-            </h2>
-            <p className="mt-5 text-base leading-relaxed text-ink-soft">
-              {dict.doctors.subtitle}
-            </p>
-          </div>
+          <SectionHeading
+            eyebrow={dict.doctors.eyebrow}
+            title={dict.doctors.title}
+            subtitle={dict.doctors.subtitle}
+          />
 
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[0, 1, 2].map((i) => (
@@ -246,12 +253,19 @@ export default async function HomePage({
       <Faq dict={dict} />
 
       {/* ───────────────── CTA banner ───────────────── */}
-      <section className="bg-ink py-24 lg:py-32">
+      <section className="relative overflow-hidden bg-ink py-28 lg:py-36">
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute inset-0 bg-[radial-gradient(60%_60%_at_50%_0%,rgba(176,141,87,0.20),transparent_70%)]" />
+          <div className="absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-ivory/10" />
+          <div className="absolute left-1/2 top-1/2 h-[22rem] w-[22rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-gold/15" />
+        </div>
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-10">
-          <p className="text-[11px] tracking-[0.28em] uppercase text-gold">
+          <span className="inline-flex items-center justify-center gap-3 text-[11px] tracking-[0.3em] uppercase text-gold">
+            <span className="h-px w-8 bg-gold/40" />
             {dict.cta.eyebrow}
-          </p>
-          <h2 className="mt-5 font-display text-4xl leading-tight text-ivory text-balance lg:text-[3.4rem]">
+            <span className="h-px w-8 bg-gold/40" />
+          </span>
+          <h2 className="mt-6 font-display text-[2.3rem] leading-[1.1] text-ivory text-balance break-keep lg:text-[3.4rem]">
             {dict.cta.title}
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-ivory/70">
@@ -259,7 +273,7 @@ export default async function HomePage({
           </p>
           <Link
             href={`${base}/contact`}
-            className="mt-10 inline-block rounded-full bg-gold px-10 py-4 text-xs tracking-[0.14em] uppercase text-white transition-all duration-300 hover:bg-gold-deep"
+            className="mt-10 inline-block rounded-full bg-gold px-10 py-4 text-xs tracking-[0.14em] uppercase text-white transition-all duration-300 hover:bg-gold-deep hover:shadow-[0_18px_40px_-16px_rgba(176,141,87,0.8)]"
           >
             {dict.cta.button}
           </Link>

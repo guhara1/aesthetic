@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { SectionHeading } from "./SectionHeading";
 
 export function Faq({ dict }: { dict: Dictionary }) {
   const [open, setOpen] = useState<number | null>(0);
@@ -9,14 +10,7 @@ export function Faq({ dict }: { dict: Dictionary }) {
   return (
     <section id="faq" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
       <div className="mx-auto max-w-3xl px-6 lg:px-10">
-        <div className="text-center">
-          <p className="text-[11px] tracking-[0.28em] uppercase text-gold">
-            {dict.faq.eyebrow}
-          </p>
-          <h2 className="mt-5 font-display text-4xl leading-tight text-ink text-balance lg:text-5xl">
-            {dict.faq.title}
-          </h2>
-        </div>
+        <SectionHeading eyebrow={dict.faq.eyebrow} title={dict.faq.title} />
 
         <dl className="mt-14 divide-y divide-sand border-y border-sand">
           {dict.faq.items.map((item, i) => {

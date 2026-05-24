@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { reviewImages } from "@/lib/galleryData";
+import { SectionHeading } from "./SectionHeading";
 
 const INITIAL_COUNT = 8;
 
@@ -16,18 +17,11 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
   return (
     <section id="reviews" className="scroll-mt-24 bg-cream py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="flex items-center justify-center gap-2 text-[11px] tracking-[0.28em] uppercase text-gold">
-            <WhatsAppMark />
-            {dict.testimonials.eyebrow}
-          </p>
-          <h2 className="mt-5 font-display text-4xl leading-tight text-ink text-balance lg:text-5xl">
-            {dict.testimonials.title}
-          </h2>
-          <p className="mt-5 text-base leading-relaxed text-ink-soft">
-            {dict.testimonials.subtitle}
-          </p>
-        </div>
+        <SectionHeading
+          eyebrow={dict.testimonials.eyebrow}
+          title={dict.testimonials.title}
+          subtitle={dict.testimonials.subtitle}
+        />
 
         <div className="mt-14 columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4 [&>*]:mb-5">
           {visible.map((file) => {

@@ -7,6 +7,7 @@ import {
   nonSurgicalGallery,
   type GalleryItem,
 } from "@/lib/galleryData";
+import { SectionHeading } from "./SectionHeading";
 
 type Tab = "surgical" | "nonSurgical";
 
@@ -27,17 +28,11 @@ export function Results({ dict }: { dict: Dictionary }) {
   return (
     <section id="gallery" className="scroll-mt-24 bg-cream py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="text-[11px] tracking-[0.28em] uppercase text-gold">
-            {dict.results.eyebrow}
-          </p>
-          <h2 className="mt-5 font-display text-4xl leading-tight text-ink text-balance lg:text-5xl">
-            {dict.results.title}
-          </h2>
-          <p className="mt-5 text-base leading-relaxed text-ink-soft">
-            {dict.results.subtitle}
-          </p>
-        </div>
+        <SectionHeading
+          eyebrow={dict.results.eyebrow}
+          title={dict.results.title}
+          subtitle={dict.results.subtitle}
+        />
 
         {/* Tabs */}
         <div className="mt-10 flex justify-center">
