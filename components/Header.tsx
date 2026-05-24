@@ -50,7 +50,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   }, [mobileOpen]);
 
   const navLinks = [
-    { href: `${base}#about`, label: dict.nav.about },
+    { href: `${base}/about`, label: dict.nav.about },
     { href: `${base}#doctors`, label: dict.nav.doctors },
     { href: `${base}#gallery`, label: dict.nav.gallery },
     { href: `${base}#reviews`, label: dict.nav.reviews },

@@ -185,6 +185,21 @@
       }
     ]
   },
+  "aboutPage": {
+    "title": "About The Valley",
+    "lead": "A medical spa in Kuala Lumpur where surgical expertise meets genuine, multilingual care.",
+    "story": [
+      "The Valley Beauty Medical Spa was founded on a simple belief: cosmetic and aesthetic medicine should feel safe, private and honest. Our team brings more than a decade of dedicated experience in cosmetic surgery and aesthetic treatments to patients from across our diverse community.",
+      "We serve a multicultural city, so our care is delivered in English, Mandarin Chinese, Korean and Japanese. Every plan begins with listening — to your goals, your concerns and your questions — before any treatment is recommended."
+    ],
+    "missionTitle": "Our mission",
+    "mission": "To deliver natural-looking, medically sound results in a calm, spa-like environment — and to be honest about what each procedure can and cannot achieve.",
+    "policyTitle": "Editorial & medical content policy",
+    "policy": "The information on this website is created by our team and reviewed by a qualified medical practitioner. It is intended for general education only and is not a substitute for a personal consultation or professional medical advice. Before-and-after images are from real patients, shared with their consent; individual results vary. We update our content as practice and guidance evolve, and the date of the most recent review is shown on our pages.",
+    "visitTitle": "Visit us",
+    "contactTitle": "Get in touch",
+    "directions": "View on Google Maps"
+  },
   "procedureUi": {
     "home": "Home",
     "treatments": "Treatments",

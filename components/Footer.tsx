@@ -35,7 +35,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <ul className="mt-5 space-y-3 text-sm">
               {[
                 { href: base, label: dict.nav.home },
-                { href: `${base}#about`, label: dict.nav.about },
+                { href: `${base}/about`, label: dict.nav.about },
                 { href: `${base}#doctors`, label: dict.nav.doctors },
                 { href: `${base}#gallery`, label: dict.nav.gallery },
                 { href: `${base}#reviews`, label: dict.nav.reviews },
