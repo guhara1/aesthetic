@@ -1,0 +1,92 @@
+{
+  "brand": {
+    "name": "The Valley",
+    "nameFull": "The Valley Beauty Medical Spa",
+    "tagline": "Aesthetic & Cosmetic Surgery"
+  },
+  "topbar": {
+    "location": "Kuala Lumpur, Malaysia",
+    "hours": "Mon–Sat · 10:00–19:00",
+    "callUs": "Call us",
+    "phone": "+60 3-0000 0000"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "treatments": "Treatments",
+    "doctors": "Our Specialists",
+    "gallery": "Results",
+    "contact": "Contact",
+    "book": "Book a Consultation"
+  },
+  "treatmentsMenu": {
+    "surgicalTitle": "Surgical Procedures",
+    "skinTitle": "Aesthetic & Skin",
+    "viewAll": "View all treatments",
+    "items": {
+      "liposuction": { "name": "Liposuction", "desc": "Precise body contouring & fat sculpting" },
+      "rhinoplasty": { "name": "Rhinoplasty", "desc": "Refined, natural nose reshaping" },
+      "eye": { "name": "Eye Treatment", "desc": "Brighter, rejuvenated eyes" },
+      "facelift": { "name": "Facelift", "desc": "Lift & restore youthful contours" },
+      "breast": { "name": "Breast Implant", "desc": "Natural augmentation & balance" },
+      "chin": { "name": "Chin Implant", "desc": "Harmonised facial profile" },
+      "skincare": { "name": "Skin Care", "desc": "Medical-grade facials & peels" },
+      "aesthetic": { "name": "Aesthetic Treatment", "desc": "Injectables, laser & glow therapy" }
+    }
+  },
+  "hero": {
+    "eyebrow": "Premium Aesthetic & Cosmetic Surgery",
+    "title": "Refined Beauty,\nCrafted by Experts",
+    "subtitle": "A discreet medical sanctuary in the heart of Kuala Lumpur, where over a decade of surgical artistry meets the warmth of personalised care.",
+    "ctaPrimary": "Book a Consultation",
+    "ctaSecondary": "Explore Treatments"
+  },
+  "trust": {
+    "items": [
+      { "value": "10+", "label": "Years of expertise" },
+      { "value": "8,000+", "label": "Procedures performed" },
+      { "value": "100%", "label": "Board-certified specialists" },
+      { "value": "4", "label": "Languages spoken" }
+    ]
+  },
+  "treatmentsSection": {
+    "eyebrow": "Our Signature Treatments",
+    "title": "Tailored procedures for a confident, natural you",
+    "subtitle": "From sculpting surgery to advanced skin therapies, every treatment is led by experienced specialists and planned around you.",
+    "cta": "Discover all treatments"
+  },
+  "about": {
+    "eyebrow": "Why The Valley",
+    "title": "A decade of trusted surgical artistry",
+    "body": "Our team brings more than ten years of dedicated experience in cosmetic surgery and aesthetic medicine. We pair clinical precision with a refined, spa-like environment — so every step of your journey feels safe, private and reassuring.",
+    "points": [
+      "Experienced, board-certified surgeons",
+      "Personalised, natural-looking results",
+      "Internationally accredited safety standards",
+      "Multilingual care for our diverse community"
+    ],
+    "cta": "More about us"
+  },
+  "doctors": {
+    "eyebrow": "Our Specialists",
+    "title": "Skilled hands, thoughtful minds",
+    "subtitle": "Meet the surgeons and aesthetic physicians who lead your care with experience and an artist's eye.",
+    "cta": "Meet the team"
+  },
+  "cta": {
+    "eyebrow": "Begin Your Journey",
+    "title": "Ready to discover your most confident self?",
+    "subtitle": "Arrange a private, no-pressure consultation with our specialists. We will listen, advise and design a plan made just for you.",
+    "button": "Book your consultation"
+  },
+  "footer": {
+    "tagline": "Aesthetic & cosmetic surgery, delivered with precision and warmth in Kuala Lumpur.",
+    "exploreTitle": "Explore",
+    "treatmentsTitle": "Treatments",
+    "contactTitle": "Visit Us",
+    "hoursTitle": "Opening Hours",
+    "hours": "Monday – Saturday\n10:00 – 19:00\nSunday: By appointment",
+    "rights": "All rights reserved.",
+    "disclaimer": "Results may vary from person to person. A consultation is required before any procedure."
+  }
+}

@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/*
+  The Valley Beauty Medical Spa — design tokens
+  Palette: ivory canvas, espresso ink, champagne gold, soft taupe & blush.
+*/
+@theme {
+  --color-ivory: #faf7f1;
+  --color-cream: #f3ece1;
+  --color-sand: #e8ddcc;
+  --color-blush: #ecd9c9;
+  --color-gold: #b08d57;
+  --color-gold-deep: #8c6d3f;
+  --color-taupe: #8a7b6b;
+  --color-ink: #2a2420;
+  --color-ink-soft: #4a423b;
+
+  --color-background: var(--color-ivory);
+  --color-foreground: var(--color-ink);
+
+  --font-display: var(--font-cormorant), "Times New Roman", serif;
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", "Noto Sans", "Noto Sans KR", "Noto Sans JP", "Noto Sans SC",
+    sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-gold);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .tracking-luxe {
+    letter-spacing: 0.28em;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .hairline {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--color-gold) 60%, transparent),
+      transparent
+    );
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-up {
+  animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}

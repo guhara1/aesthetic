@@ -1,0 +1,92 @@
+{
+  "brand": {
+    "name": "悦谷",
+    "nameFull": "悦谷美容医学中心",
+    "tagline": "美容与整形外科"
+  },
+  "topbar": {
+    "location": "马来西亚 · 吉隆坡",
+    "hours": "周一至周六 · 10:00–19:00",
+    "callUs": "联系我们",
+    "phone": "+60 3-0000 0000"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "treatments": "诊疗项目",
+    "doctors": "专科医师",
+    "gallery": "案例展示",
+    "contact": "联系方式",
+    "book": "预约咨询"
+  },
+  "treatmentsMenu": {
+    "surgicalTitle": "外科整形",
+    "skinTitle": "美容与护肤",
+    "viewAll": "查看全部项目",
+    "items": {
+      "liposuction": { "name": "抽脂塑形", "desc": "精准塑形与脂肪雕塑" },
+      "rhinoplasty": { "name": "隆鼻手术", "desc": "自然精致的鼻形重塑" },
+      "eye": { "name": "眼部整形", "desc": "明亮焕活的双眼" },
+      "facelift": { "name": "面部提升", "desc": "提拉并重塑年轻轮廓" },
+      "breast": { "name": "隆胸手术", "desc": "自然丰盈与比例之美" },
+      "chin": { "name": "下巴植入", "desc": "和谐协调的面部线条" },
+      "skincare": { "name": "皮肤护理", "desc": "医学级护肤与焕肤" },
+      "aesthetic": { "name": "美容疗程", "desc": "注射、激光与焕肤护理" }
+    }
+  },
+  "hero": {
+    "eyebrow": "高端美容与整形外科",
+    "title": "精致之美，\n源自专业匠心",
+    "subtitle": "位于吉隆坡核心的私密医学殿堂，以逾十年的外科技艺，融合细致入微的个性化关怀。",
+    "ctaPrimary": "预约咨询",
+    "ctaSecondary": "浏览项目"
+  },
+  "trust": {
+    "items": [
+      { "value": "10+", "label": "年专业经验" },
+      { "value": "8,000+", "label": "成功案例" },
+      { "value": "100%", "label": "认证专科医师" },
+      { "value": "4", "label": "种服务语言" }
+    ]
+  },
+  "treatmentsSection": {
+    "eyebrow": "招牌诊疗项目",
+    "title": "为自信自然的您量身打造",
+    "subtitle": "从塑形手术到先进护肤疗程，每一项治疗均由资深专科医师主导，并为您悉心规划。",
+    "cta": "探索全部项目"
+  },
+  "about": {
+    "eyebrow": "为何选择悦谷",
+    "title": "十年值得信赖的外科匠心",
+    "body": "我们的团队在整形外科与美容医学领域拥有逾十年的专注经验。我们将临床的精准与如水疗般雅致的环境相结合，让您旅程的每一步都安心、私密而从容。",
+    "points": [
+      "经验丰富的认证外科医师",
+      "个性化、自然的效果",
+      "符合国际认证的安全标准",
+      "为多元社群提供多语言服务"
+    ],
+    "cta": "了解更多"
+  },
+  "doctors": {
+    "eyebrow": "专科医师",
+    "title": "精湛技艺，匠心独运",
+    "subtitle": "认识以丰富经验与审美眼光为您悉心诊疗的外科与美容医师团队。",
+    "cta": "认识团队"
+  },
+  "cta": {
+    "eyebrow": "开启您的旅程",
+    "title": "准备好遇见更自信的自己了吗？",
+    "subtitle": "预约与专科医师的私密咨询，毫无压力。我们将倾听、建议，并为您量身设计专属方案。",
+    "button": "立即预约咨询"
+  },
+  "footer": {
+    "tagline": "在吉隆坡，以精准与温暖呈现美容与整形外科服务。",
+    "exploreTitle": "探索",
+    "treatmentsTitle": "诊疗项目",
+    "contactTitle": "到访我们",
+    "hoursTitle": "营业时间",
+    "hours": "周一至周六\n10:00 – 19:00\n周日：需预约",
+    "rights": "版权所有。",
+    "disclaimer": "效果因人而异。任何疗程前均需进行咨询。"
+  }
+}
