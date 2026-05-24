@@ -7,22 +7,8 @@ import { Testimonials } from "@/components/Testimonials";
 import { Approach } from "@/components/Approach";
 import { Safety } from "@/components/Safety";
 import { Faq } from "@/components/Faq";
-import { medicalReviewer } from "@/lib/clinic";
-
-const TREATMENT_KEYS = [
-  "liposuction",
-  "rhinoplasty",
-  "eye",
-  "facelift",
-  "breast",
-  "chin",
-  "bodySculpt",
-  "hifu",
-  "picoLaser",
-  "hairRemoval",
-  "cellLight",
-  "whiteningDrip",
-] as const;
+import { SITE_URL, medicalReviewer, contentLastReviewed } from "@/lib/clinic";
+import { treatments } from "@/lib/treatments";
 
 export default async function HomePage({
   params,
@@ -34,8 +20,41 @@ export default async function HomePage({
   const dict = await getDictionary(locale as Locale);
   const base = `/${locale}`;
 
+  const pageUrl = `${SITE_URL}/${locale}/`;
+  const homeGraph = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: dict.brand.nameFull,
+        inLanguage: locale,
+        isPartOf: { "@id": `${SITE_URL}/#clinic` },
+        primaryImageOfPage: `${SITE_URL}/images/og-cover.png`,
+        lastReviewed: contentLastReviewed,
+        reviewedBy: { "@type": "Person", name: medicalReviewer.name },
+        about: { "@id": `${SITE_URL}/#clinic` },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${pageUrl}#faq`,
+        mainEntity: dict.faq.items.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: { "@type": "Answer", text: item.a },
+        })),
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeGraph) }}
+      />
+
       {/* ───────────────── Hero ───────────────── */}
       <section className="relative flex min-h-screen items-center overflow-hidden">
         <div className="absolute inset-0 -z-10">
@@ -117,12 +136,12 @@ export default async function HomePage({
           </div>
 
           <div className="mt-16 grid gap-px overflow-hidden rounded-sm border border-sand bg-sand sm:grid-cols-2 lg:grid-cols-4">
-            {TREATMENT_KEYS.map((key, i) => {
-              const item = dict.treatmentsMenu.items[key];
+            {treatments.map((t, i) => {
+              const item = dict.treatmentsMenu.items[t.key as keyof typeof dict.treatmentsMenu.items];
               return (
                 <Link
-                  key={key}
-                  href={`${base}#contact`}
+                  key={t.slug}
+                  href={`${base}/treatments/${t.slug}`}
                   className="group relative flex flex-col bg-ivory p-8 transition-colors duration-300 hover:bg-cream"
                 >
                   <span className="font-display text-sm text-gold/60">
@@ -144,7 +163,7 @@ export default async function HomePage({
 
           <div className="mt-12 text-center">
             <Link
-              href={`${base}#contact`}
+              href={`${base}/treatments`}
               className="inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
             >
               {dict.treatmentsSection.cta} →

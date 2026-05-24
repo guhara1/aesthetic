@@ -1,11 +1,6 @@
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
-import {
-  SITE_URL,
-  clinic,
-  medicalReviewer,
-  contentLastReviewed,
-} from "@/lib/clinic";
+import { SITE_URL, clinic, medicalReviewer } from "@/lib/clinic";
 
 const TREATMENT_KEYS = [
   "liposuction",
@@ -83,32 +78,9 @@ export function StructuredData({
     medicalSpecialty: "PlasticSurgery",
   };
 
-  const faqNode = {
-    "@type": "FAQPage",
-    "@id": `${pageUrl}#faq`,
-    mainEntity: dict.faq.items.map((item) => ({
-      "@type": "Question",
-      name: item.q,
-      acceptedAnswer: { "@type": "Answer", text: item.a },
-    })),
-  };
-
-  const webPageNode = {
-    "@type": "MedicalWebPage",
-    "@id": `${pageUrl}#webpage`,
-    url: pageUrl,
-    name: dict.brand.nameFull,
-    inLanguage: locale,
-    isPartOf: { "@id": clinicId },
-    primaryImageOfPage: ogImage,
-    lastReviewed: contentLastReviewed,
-    reviewedBy: { "@type": "Person", name: medicalReviewer.name },
-    about: { "@id": clinicId },
-  };
-
   const graph = {
     "@context": "https://schema.org",
-    "@graph": [clinicNode, physicianNode, faqNode, webPageNode],
+    "@graph": [clinicNode, physicianNode],
   };
 
   return (

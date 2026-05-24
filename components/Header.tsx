@@ -4,7 +4,12 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
+import { treatments } from "@/lib/treatments";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+
+const slugByKey: Record<string, string> = Object.fromEntries(
+  treatments.map((t) => [t.key, t.slug]),
+);
 
 const TREATMENT_KEYS = [
   "liposuction",
@@ -153,7 +158,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                           return (
                             <Link
                               key={key}
-                              href={`${base}#treatments`}
+                              href={`${base}/treatments/${slugByKey[key]}`}
                               className="group block rounded-sm px-3 py-2 transition-colors hover:bg-cream"
                             >
                               <span className="block font-display text-lg leading-tight text-ink group-hover:text-gold-deep">
@@ -169,7 +174,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                     ))}
                   </div>
                   <Link
-                    href={`${base}#treatments`}
+                    href={`${base}/treatments`}
                     className="mt-4 block border-t border-sand pt-4 text-xs tracking-[0.14em] uppercase text-gold transition-colors hover:text-gold-deep"
                   >
                     {dict.treatmentsMenu.viewAll} →
@@ -227,7 +232,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             {TREATMENT_KEYS.map((key) => (
               <MobileLink
                 key={key}
-                href={`${base}#treatments`}
+                href={`${base}/treatments/${slugByKey[key]}`}
                 onClick={() => setMobileOpen(false)}
                 small
               >

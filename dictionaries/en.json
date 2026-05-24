@@ -185,6 +185,179 @@
       }
     ]
   },
+  "procedureUi": {
+    "home": "Home",
+    "treatments": "Treatments",
+    "surgical": "Surgical",
+    "nonSurgical": "Aesthetic & Skin",
+    "overview": "Overview",
+    "benefits": "Why consider it",
+    "recovery": "Recovery & downtime",
+    "results": "Before & After",
+    "faq": "Questions",
+    "related": "Other treatments",
+    "allTreatments": "All treatments",
+    "book": "Book a consultation",
+    "consultNote": "This page is general information, not medical advice. A personal consultation is required to determine what is suitable and safe for you."
+  },
+  "procedures": {
+    "liposuction": {
+      "overview": "Liposuction removes stubborn fat that resists diet and exercise to refine the contours of areas such as the abdomen, flanks, thighs and arms. It reshapes the body — it is not a weight-loss method.",
+      "benefits": [
+        "Targets localised, diet-resistant fat",
+        "Refines body contour and proportion",
+        "Long-lasting with a stable weight"
+      ],
+      "recovery": "Most people return to light routines within a few days and wear a compression garment for several weeks. The final contour settles over a few months.",
+      "faq": [
+        { "q": "Is liposuction a weight-loss treatment?", "a": "No. It contours localised fat in people near a stable weight and is not a substitute for diet or exercise." },
+        { "q": "Which areas can be treated?", "a": "Commonly the abdomen, waist, flanks, thighs, arms and under the chin. Your surgeon advises what suits you." }
+      ]
+    },
+    "rhinoplasty": {
+      "overview": "Rhinoplasty reshapes the nose — the bridge, tip or proportions — to bring it into harmony with the rest of your face. It is performed for aesthetic balance and, in some cases, breathing.",
+      "benefits": [
+        "Refines the bridge, tip or width",
+        "Balances the nose with your features",
+        "Tailored to your anatomy and ethnicity"
+      ],
+      "recovery": "A splint is usually worn for about a week. Bruising and swelling ease over two to three weeks, while the refined shape continues to settle over several months.",
+      "faq": [
+        { "q": "Will the result look natural?", "a": "We aim for a balanced result that suits your face, not a generic over-done look." },
+        { "q": "When will I see the final shape?", "a": "Most swelling subsides within weeks, but subtle refinement of the tip can continue for several months." }
+      ]
+    },
+    "eye": {
+      "overview": "Eye treatments rejuvenate the upper and lower lids — removing excess skin, smoothing puffiness and brightening tired-looking eyes — for a more rested, alert appearance.",
+      "benefits": [
+        "Reduces hooded or heavy upper lids",
+        "Softens under-eye puffiness and bags",
+        "Opens and refreshes the eye area"
+      ],
+      "recovery": "Swelling and bruising typically settle within one to two weeks. Where used, fine sutures are removed within about a week.",
+      "faq": [
+        { "q": "Will it change my eye shape?", "a": "The goal is to refresh, not to alter your identity. We plan changes that respect your natural eye shape." },
+        { "q": "Is it suitable for monolid or Asian eyelids?", "a": "Yes. Techniques are tailored to your individual anatomy and preferences, discussed at consultation." }
+      ]
+    },
+    "facelift": {
+      "overview": "A facelift lifts and re-drapes sagging skin and tissue along the cheeks, jawline and neck to restore a firmer, more youthful contour while keeping your natural expression.",
+      "benefits": [
+        "Lifts the mid-face, jawline and neck",
+        "Restores definition lost with ageing",
+        "Long-lasting, natural-looking rejuvenation"
+      ],
+      "recovery": "Most swelling and bruising settle within two to three weeks, and you can usually return to social activities within a few weeks.",
+      "faq": [
+        { "q": "Will I look 'pulled' or unnatural?", "a": "Modern techniques reposition deeper tissues for a natural lift, not a tight, wind-blown look." },
+        { "q": "How long do results last?", "a": "A facelift sets the clock back; results are long-lasting, though your face continues to age naturally over time." }
+      ]
+    },
+    "breast": {
+      "overview": "Breast augmentation uses implants to enhance volume, restore fullness or improve balance between the breasts, with size and shape chosen to suit your body and your goals.",
+      "benefits": [
+        "Enhances volume and fullness",
+        "Improves symmetry and proportion",
+        "Implant type and size tailored to you"
+      ],
+      "recovery": "Light activity resumes within days. You avoid strenuous exercise for several weeks while tissues heal and the result settles.",
+      "faq": [
+        { "q": "How do I choose the right size?", "a": "We assess your frame, tissue and goals together, and you can try sizers to find a natural, proportionate result." },
+        { "q": "Are the results permanent?", "a": "Implants are long-lasting but not necessarily lifelong; periodic monitoring is advised, as discussed at consultation." }
+      ]
+    },
+    "chin": {
+      "overview": "A chin implant adds projection and definition to a receding or weak chin, improving the balance of the profile and the relationship between the chin, jaw and neck.",
+      "benefits": [
+        "Strengthens a weak or receding chin",
+        "Balances the profile and jawline",
+        "Subtle, proportionate enhancement"
+      ],
+      "recovery": "Swelling settles over one to two weeks, and most people return to normal activities within a week.",
+      "faq": [
+        { "q": "Will a chin implant suit my face?", "a": "We assess your profile and proportions to recommend an implant that looks balanced, not overdone." },
+        { "q": "Is it a permanent solution?", "a": "Chin implants are designed to be long-lasting; non-surgical alternatives such as fillers can also be discussed." }
+      ]
+    },
+    "bodySculpt": {
+      "overview": "Non-surgical body sculpting reduces the appearance of stubborn fat and refines contours without surgery or downtime, using targeted technology over a course of sessions.",
+      "benefits": [
+        "Non-invasive with little to no downtime",
+        "Targets localised, diet-resistant areas",
+        "Gradual, natural-looking refinement"
+      ],
+      "recovery": "There is little to no downtime — most people return to normal activities immediately after a session.",
+      "faq": [
+        { "q": "How many sessions will I need?", "a": "It varies by area and goal; a typical plan runs over several sessions, advised at your consultation." },
+        { "q": "Is it a replacement for liposuction?", "a": "No — it suits milder, localised concerns. We advise honestly whether a surgical or non-surgical route is right for you." }
+      ]
+    },
+    "hifu": {
+      "overview": "HIFU uses focused ultrasound to stimulate collagen deep within the skin, gradually lifting and tightening the face and neck without surgery or downtime.",
+      "benefits": [
+        "Non-surgical lifting and tightening",
+        "Stimulates your own collagen",
+        "No downtime after treatment"
+      ],
+      "recovery": "You can resume normal activities straight away. Results build gradually over two to three months as collagen renews.",
+      "faq": [
+        { "q": "When will I see results?", "a": "Some tightening is felt early, but the main lift develops gradually over two to three months." },
+        { "q": "Is it painful?", "a": "Most people feel warmth and brief tingling; comfort settings are adjusted to you during treatment." }
+      ]
+    },
+    "picoLaser": {
+      "overview": "Pico laser delivers ultra-short pulses of energy to break down pigment and stimulate renewal, helping with dark spots, uneven tone, dullness and skin texture.",
+      "benefits": [
+        "Targets pigmentation and dark spots",
+        "Evens tone and refines texture",
+        "Minimal downtime between sessions"
+      ],
+      "recovery": "Mild redness may last a few hours and most people return to their routine the same day, with results building over a course of sessions.",
+      "faq": [
+        { "q": "What concerns does Pico laser address?", "a": "Sun spots, uneven tone, dullness and texture, and melasma with care. Suitability is assessed at consultation." },
+        { "q": "Is it safe for my skin tone?", "a": "Settings are tailored to your skin; we assess your skin type to treat safely and effectively." }
+      ]
+    },
+    "hairRemoval": {
+      "overview": "Laser hair removal reduces unwanted hair over a course of sessions by targeting the follicle, leaving skin smoother and lower-maintenance than shaving or waxing.",
+      "benefits": [
+        "Lasting reduction of unwanted hair",
+        "Smoother skin with fewer ingrown hairs",
+        "Suitable for many areas of the body"
+      ],
+      "recovery": "Mild redness can occur briefly after treatment. You can return to normal activities the same day, avoiding sun on treated areas.",
+      "faq": [
+        { "q": "How many sessions are needed?", "a": "Hair grows in cycles, so a course of several sessions spaced weeks apart gives the best, lasting reduction." },
+        { "q": "Does it work on all hair and skin types?", "a": "Modern lasers treat a wide range; we assess your hair and skin to set this safely at consultation." }
+      ]
+    },
+    "cellLight": {
+      "overview": "Cell light (LED) therapy uses specific wavelengths of light to calm, rejuvenate and support the skin — a gentle, relaxing treatment often paired with other facials.",
+      "benefits": [
+        "Calms and rejuvenates the skin",
+        "Gentle, with no downtime",
+        "Complements other skin treatments"
+      ],
+      "recovery": "There is no downtime — the treatment is relaxing and you can return to your day immediately.",
+      "faq": [
+        { "q": "What does LED light therapy help with?", "a": "Different wavelengths support concerns such as dullness, congestion and post-treatment recovery; we tailor it to your skin." },
+        { "q": "How often should I have it?", "a": "It works best as a course; frequency is advised based on your skin and goals." }
+      ]
+    },
+    "whiteningDrip": {
+      "overview": "A whitening IV drip delivers antioxidants and nutrients to support radiance and overall wellness from within, administered by trained medical staff after a health check.",
+      "benefits": [
+        "Supports skin radiance from within",
+        "Antioxidant and nutrient infusion",
+        "Administered by trained medical staff"
+      ],
+      "recovery": "There is no downtime; you can continue your day as normal after the infusion.",
+      "faq": [
+        { "q": "Is an IV drip safe?", "a": "Drips are administered by trained medical staff after a suitability check, and we discuss your health history first." },
+        { "q": "How often should I have a drip?", "a": "Frequency depends on your goals and health; we advise a sensible plan at your consultation." }
+      ]
+    }
+  },
   "cta": {
     "eyebrow": "Begin Your Journey",
     "title": "Ready to discover your most confident self?",

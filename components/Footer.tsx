@@ -2,15 +2,9 @@ import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { medicalReviewer } from "@/lib/clinic";
+import { treatments } from "@/lib/treatments";
 
-const TREATMENT_KEYS = [
-  "liposuction",
-  "rhinoplasty",
-  "eye",
-  "facelift",
-  "breast",
-  "chin",
-] as const;
+const footerTreatments = treatments.filter((t) => t.category === "surgical");
 
 export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const base = `/${locale}`;
@@ -62,13 +56,13 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
               {dict.footer.treatmentsTitle}
             </h4>
             <ul className="mt-5 grid grid-cols-1 gap-3 text-sm sm:grid-cols-2">
-              {TREATMENT_KEYS.map((key) => (
-                <li key={key}>
+              {footerTreatments.map((t) => (
+                <li key={t.slug}>
                   <Link
-                    href={`${base}#treatments`}
+                    href={`${base}/treatments/${t.slug}`}
                     className="text-ivory/70 transition-colors hover:text-gold"
                   >
-                    {dict.treatmentsMenu.items[key].name}
+                    {dict.treatmentsMenu.items[t.key as keyof typeof dict.treatmentsMenu.items].name}
                   </Link>
                 </li>
               ))}
