@@ -60,7 +60,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
       aria-label={dict.brand.nameFull}
       className="relative w-full overflow-hidden bg-cream"
     >
-      <div className="relative h-[88vh] min-h-[560px] w-full">
+      <div className="relative h-[78vh] min-h-[500px] w-full sm:h-[88vh] sm:min-h-[560px]">
         {SLIDES.map((slide, i) => {
           const active = i === index;
           return (
@@ -93,7 +93,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
               <div className="absolute inset-0">
                 <div className="mx-auto flex h-full max-w-7xl items-center px-6 lg:px-10">
                   <div
-                    className={`max-w-xl ${
+                    className={`max-w-[88%] sm:max-w-xl ${
                       slide.align === "right" ? "ml-auto text-right" : ""
                     } ${active ? "animate-fade-up" : ""}`}
                   >
@@ -106,7 +106,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                       {slide.eyebrow}
                       {slide.align === "right" && <span className="h-px w-10 bg-gold/70" />}
                     </p>
-                    <h1 className="mt-6 font-display text-5xl font-medium leading-[1.04] text-ink text-balance sm:text-6xl lg:text-[4.4rem]">
+                    <h1 className="mt-5 font-display text-[1.9rem] font-medium leading-[1.12] text-ink text-balance break-keep sm:mt-6 sm:text-5xl sm:leading-[1.04] lg:text-[4.4rem]">
                       {slide.title.map((line, k) => (
                         <span key={k} className="block">
                           {line}
@@ -151,7 +151,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
           type="button"
           onClick={() => go(-1)}
           aria-label="Previous slide"
-          className="absolute left-3 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white lg:left-6"
+          className="absolute left-3 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:flex lg:left-6"
         >
           <span className="text-lg leading-none">‹</span>
         </button>
@@ -159,7 +159,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
           type="button"
           onClick={() => go(1)}
           aria-label="Next slide"
-          className="absolute right-3 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white lg:right-6"
+          className="absolute right-3 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:flex lg:right-6"
         >
           <span className="text-lg leading-none">›</span>
         </button>
