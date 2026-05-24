@@ -12,7 +12,7 @@
     "location": "Kuala Lumpur, Malaysia",
     "hours": "Mon–Sat · 10:00–19:00",
     "callUs": "Call us",
-    "phone": "+60 3-0000 0000"
+    "phone": "+60 10-911 8518"
   },
   "nav": {
     "home": "Home",
@@ -372,6 +372,34 @@
         { "q": "How often should I have a drip?", "a": "Frequency depends on your goals and health; we advise a sensible plan at your consultation." }
       ]
     }
+  },
+  "contactPage": {
+    "title": "Book a Consultation",
+    "lead": "Tell us a little about your goals. We'll reply on WhatsApp to arrange your private, no-obligation consultation.",
+    "form": {
+      "name": "Your name",
+      "contact": "Phone or email",
+      "treatment": "Treatment of interest",
+      "treatmentDefault": "Select a treatment (optional)",
+      "message": "Your message",
+      "messagePlaceholder": "Tell us about your goals or questions…",
+      "submit": "Send via WhatsApp",
+      "note": "Sending opens WhatsApp with your details pre-filled. No information is stored on this website."
+    },
+    "orTitle": "Prefer to reach us directly?",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call the clinic",
+    "visitTitle": "Visit us",
+    "hoursTitle": "Opening hours",
+    "ratingLabel": "rating on Google",
+    "waPrefill": "Hello The Valley, I would like to book a consultation."
+  },
+  "doctorsPage": {
+    "title": "Our Specialists",
+    "lead": "Experienced surgeons and aesthetic physicians who lead your care with clinical precision and an artist's eye.",
+    "note": "Individual practitioner profiles and credentials are being finalised. During your consultation you will be matched with the right specialist for your treatment.",
+    "roles": ["Aesthetic & Cosmetic Surgeon", "Aesthetic Physician", "Patient Care Lead"],
+    "reviewerTitle": "Medical content reviewer"
   },
   "cta": {
     "eyebrow": "Begin Your Journey",

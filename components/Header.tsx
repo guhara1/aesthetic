@@ -43,10 +43,10 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
   const navLinks = [
     { href: `${base}/about`, label: dict.nav.about },
-    { href: `${base}#doctors`, label: dict.nav.doctors },
+    { href: `${base}/doctors`, label: dict.nav.doctors },
     { href: `${base}#gallery`, label: dict.nav.gallery },
     { href: `${base}#reviews`, label: dict.nav.reviews },
-    { href: `${base}#contact`, label: dict.nav.contact },
+    { href: `${base}/contact`, label: dict.nav.contact },
   ];
 
   // Header stays solid (ivory bg, dark text) on every page so it remains legible
@@ -187,7 +187,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
         <div className="flex items-center gap-4">
           <Link
-            href={`${base}#contact`}
+            href={`${base}/contact`}
             className={`hidden rounded-full px-6 py-2.5 text-xs tracking-[0.12em] uppercase transition-all duration-300 sm:inline-block ${
               solid
                 ? "bg-gold text-white hover:bg-gold-deep"
@@ -240,7 +240,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
               </MobileLink>
             ))}
             <Link
-              href={`${base}#contact`}
+              href={`${base}/contact`}
               onClick={() => setMobileOpen(false)}
               className="mt-5 rounded-full bg-gold px-6 py-3 text-center text-xs tracking-[0.12em] uppercase text-white"
             >

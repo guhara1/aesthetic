@@ -108,15 +108,14 @@ export default async function AboutPage({
           <div className="rounded-sm border border-sand bg-cream p-7">
             <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">{a.visitTitle}</h2>
             <address className="mt-5 space-y-3 text-sm not-italic leading-relaxed text-ink-soft">
-              <p>{dict.topbar.location}</p>
+              <p>
+                {clinic.address.street},<br />
+                {clinic.address.postalCode} {clinic.address.locality},<br />
+                {clinic.address.region}
+              </p>
               <p>
                 <a href={`tel:${clinic.telephone.replace(/\s/g, "")}`} className="hover:text-gold">
                   {clinic.telephone}
-                </a>
-              </p>
-              <p>
-                <a href={`mailto:${clinic.email}`} className="hover:text-gold">
-                  {clinic.email}
                 </a>
               </p>
             </address>
@@ -138,7 +137,7 @@ export default async function AboutPage({
             </a>
 
             <Link
-              href={`${base}#contact`}
+              href={`${base}/contact`}
               className="mt-7 block rounded-full bg-gold px-6 py-3.5 text-center text-xs tracking-[0.14em] uppercase text-white transition-colors hover:bg-gold-deep"
             >
               {ui.book}

@@ -12,7 +12,7 @@
     "location": "马来西亚 · 吉隆坡",
     "hours": "周一至周六 · 10:00–19:00",
     "callUs": "联系我们",
-    "phone": "+60 3-0000 0000"
+    "phone": "+60 10-911 8518"
   },
   "nav": {
     "home": "首页",
@@ -324,6 +324,34 @@
         { "q": "多久做一次？", "a": "频率取决于您的目标与健康状况；我们会在面诊时为您建议合理的方案。" }
       ]
     }
+  },
+  "contactPage": {
+    "title": "预约咨询",
+    "lead": "告诉我们您的诉求，我们将通过 WhatsApp 回复，为您安排私密、无压力的咨询。",
+    "form": {
+      "name": "您的姓名",
+      "contact": "电话或邮箱",
+      "treatment": "感兴趣的项目",
+      "treatmentDefault": "选择项目（可选）",
+      "message": "留言",
+      "messagePlaceholder": "告诉我们您的诉求或疑问……",
+      "submit": "通过 WhatsApp 发送",
+      "note": "发送后将打开 WhatsApp 并自动填入您的信息。本网站不会存储任何资料。"
+    },
+    "orTitle": "想直接联系我们？",
+    "whatsapp": "WhatsApp 咨询",
+    "call": "致电诊所",
+    "visitTitle": "到访我们",
+    "hoursTitle": "营业时间",
+    "ratingLabel": "Google 评分",
+    "waPrefill": "您好 The Valley，我想预约咨询。"
+  },
+  "doctorsPage": {
+    "title": "专科医师",
+    "lead": "经验丰富的外科与美容医师，以临床的精准与审美的眼光为您悉心诊疗。",
+    "note": "医师个人简介与资历正在完善中。咨询时，我们会为您匹配适合您治疗的专科医师。",
+    "roles": ["美容与整形外科医师", "美容医师", "客户关怀主管"],
+    "reviewerTitle": "医疗内容审核"
   },
   "cta": {
     "eyebrow": "开启您的旅程",

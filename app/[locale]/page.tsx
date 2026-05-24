@@ -180,7 +180,7 @@ export default async function HomePage({
             </div>
 
             <Link
-              href={`${base}#contact`}
+              href={`${base}/about`}
               className="mt-8 inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
             >
               {dict.about.cta} →
@@ -230,7 +230,7 @@ export default async function HomePage({
 
           <div className="mt-12 text-center">
             <Link
-              href={`${base}#contact`}
+              href={`${base}/doctors`}
               className="inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
             >
               {dict.doctors.cta} →
@@ -258,7 +258,7 @@ export default async function HomePage({
             {dict.cta.subtitle}
           </p>
           <Link
-            href={`${base}#contact`}
+            href={`${base}/contact`}
             className="mt-10 inline-block rounded-full bg-gold px-10 py-4 text-xs tracking-[0.14em] uppercase text-white transition-all duration-300 hover:bg-gold-deep"
           >
             {dict.cta.button}

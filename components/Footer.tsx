@@ -36,7 +36,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
               {[
                 { href: base, label: dict.nav.home },
                 { href: `${base}/about`, label: dict.nav.about },
-                { href: `${base}#doctors`, label: dict.nav.doctors },
+                { href: `${base}/doctors`, label: dict.nav.doctors },
                 { href: `${base}#gallery`, label: dict.nav.gallery },
                 { href: `${base}#reviews`, label: dict.nav.reviews },
                 { href: `${base}#faq`, label: dict.faq.title },

@@ -36,8 +36,12 @@ export function StructuredData({
     image: ogImage,
     logo: `${SITE_URL}/images/og-cover.png`,
     telephone: clinic.telephone,
-    email: clinic.email,
     priceRange: clinic.priceRange,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: clinic.rating.value,
+      reviewCount: clinic.rating.count,
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: clinic.address.street,

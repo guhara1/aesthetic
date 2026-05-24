@@ -126,7 +126,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                       }`}
                     >
                       <Link
-                        href={`${base}#contact`}
+                        href={`${base}/contact`}
                         className="rounded-full bg-gold px-8 py-4 text-center text-xs tracking-[0.14em] uppercase text-white transition-colors duration-300 hover:bg-gold-deep"
                       >
                         {dict.hero.ctaPrimary}

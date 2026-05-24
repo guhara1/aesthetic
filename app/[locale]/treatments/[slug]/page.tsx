@@ -145,7 +145,7 @@ export default async function TreatmentPage({
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ivory/75">{proc.overview}</p>
           <Link
-            href={`${base}#contact`}
+            href={`${base}/contact`}
             className="mt-9 inline-block rounded-full bg-gold px-8 py-4 text-xs tracking-[0.14em] uppercase text-white transition-colors hover:bg-gold-deep"
           >
             {ui.book}
@@ -220,7 +220,7 @@ export default async function TreatmentPage({
               <p className="font-display text-2xl text-ink">{dict.cta.title}</p>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">{ui.consultNote}</p>
               <Link
-                href={`${base}#contact`}
+                href={`${base}/contact`}
                 className="mt-6 block rounded-full bg-gold px-6 py-3.5 text-center text-xs tracking-[0.14em] uppercase text-white transition-colors hover:bg-gold-deep"
               >
                 {ui.book}
