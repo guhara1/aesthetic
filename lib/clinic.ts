@@ -26,7 +26,13 @@ export const clinic = {
   telephone: "+60 10-911 8518",
   priceRange: "$$$",
   googleProfile: "https://share.google/EeVrX3evtp85hVgeZ",
-  sameAs: ["https://share.google/EeVrX3evtp85hVgeZ"],
+  facebook: "https://www.facebook.com/HuaLiBeautyCentreSriHartamas",
+  instagram: "https://www.instagram.com/hualibeautycentre/",
+  sameAs: [
+    "https://share.google/EeVrX3evtp85hVgeZ",
+    "https://www.facebook.com/HuaLiBeautyCentreSriHartamas",
+    "https://www.instagram.com/hualibeautycentre/",
+  ],
   rating: { value: 4.7, count: 45 },
   // Days the clinic is open (Mon–Sat, 10:00–19:00).
   openingHours: {

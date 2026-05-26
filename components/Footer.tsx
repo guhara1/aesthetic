@@ -63,6 +63,26 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-ivory/65">
               {dict.footer.tagline}
             </p>
+            <div className="mt-7 flex items-center gap-3">
+              <a
+                href={clinic.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/20 text-ivory/70 transition-colors hover:border-gold hover:text-gold"
+              >
+                <FacebookIcon />
+              </a>
+              <a
+                href={clinic.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/20 text-ivory/70 transition-colors hover:border-gold hover:text-gold"
+              >
+                <InstagramIcon />
+              </a>
+            </div>
           </div>
 
           {/* Explore */}
@@ -145,5 +165,23 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         </div>
       </div>
     </footer>
+  );
+}
+
+function FacebookIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M14 8.5V6.8c0-.8.2-1.2 1.3-1.2H17V2.8c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1v1.7H8v2.9h2.6V22H14v-8.6h2.5l.4-2.9H14z" />
+    </svg>
+  );
+}
+
+function InstagramIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" />
+    </svg>
   );
 }
