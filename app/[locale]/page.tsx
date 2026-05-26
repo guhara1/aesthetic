@@ -148,9 +148,16 @@ export default async function HomePage({
       {/* ───────────────── About ───────────────── */}
       <section id="about" className="scroll-mt-24 bg-cream py-24 lg:py-32">
         <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2 lg:px-10">
-          {/* Image placeholder panel */}
+          {/* Clinic interior */}
           <div className="relative">
-            <div className="aspect-[4/5] w-full rounded-sm bg-[linear-gradient(150deg,#e8ddcc,#cdbba1)]" />
+            <img
+              src="/images/clinic/about.webp"
+              alt={dict.about.title}
+              width={1200}
+              height={1500}
+              loading="lazy"
+              className="aspect-[4/5] w-full rounded-sm object-cover shadow-[0_30px_70px_-40px_rgba(42,36,32,0.6)]"
+            />
             <div className="absolute -bottom-6 -right-6 hidden h-40 w-40 items-center justify-center rounded-sm border border-gold/40 bg-ink text-center sm:flex">
               <div>
                 <p className="font-display text-4xl font-semibold text-gold">10+</p>
