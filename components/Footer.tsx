@@ -69,7 +69,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/20 text-ivory/70 transition-colors hover:border-gold hover:text-gold"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1877F2] text-white shadow-[0_8px_20px_-8px_rgba(24,119,242,0.8)] transition-transform duration-300 hover:-translate-y-0.5"
               >
                 <FacebookIcon />
               </a>
@@ -78,7 +78,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/20 text-ivory/70 transition-colors hover:border-gold hover:text-gold"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-[radial-gradient(circle_at_30%_107%,#fdf497_0%,#fdf497_5%,#fd5949_45%,#d6249f_60%,#285AEB_90%)] text-white shadow-[0_8px_20px_-8px_rgba(214,36,159,0.8)] transition-transform duration-300 hover:-translate-y-0.5"
               >
                 <InstagramIcon />
               </a>
