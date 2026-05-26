@@ -17,6 +17,39 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
   return (
     <footer id="contact" className="bg-ink text-ivory/80">
+      {/* Location map — full-width band above the footer */}
+      <div className="relative border-b border-ivory/12">
+        <iframe
+          title={`${clinic.legalName} — ${clinic.address.locality}`}
+          src={mapEmbedSrc}
+          width="100%"
+          height="420"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="block w-full grayscale-[0.2] [color-scheme:light]"
+          style={{ border: 0 }}
+        />
+        <div className="pointer-events-none absolute left-1/2 top-6 z-10 flex w-full max-w-7xl -translate-x-1/2 items-start justify-between px-6 lg:px-10">
+          <div className="pointer-events-auto rounded-sm bg-ink/85 px-5 py-4 shadow-[0_18px_50px_-20px_rgba(0,0,0,0.7)] backdrop-blur-sm">
+            <h4 className="text-[10px] tracking-[0.22em] uppercase text-gold">
+              {dict.footer.findUsTitle}
+            </h4>
+            <p className="mt-2 max-w-xs text-sm leading-relaxed text-ivory/80">
+              {dict.topbar.location}
+            </p>
+            <a
+              href={clinic.googleProfile}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center gap-1.5 text-xs tracking-[0.1em] uppercase text-gold transition-colors hover:text-ivory"
+            >
+              {dict.footer.directions}
+              <span aria-hidden>→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
           {/* Brand */}
@@ -95,36 +128,6 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <p className="mt-3 whitespace-pre-line text-sm leading-relaxed text-ivory/70">
               {dict.footer.hours}
             </p>
-          </div>
-        </div>
-
-        {/* Location map */}
-        <div className="mt-16">
-          <div className="flex items-end justify-between gap-4">
-            <h4 className="text-[10px] tracking-[0.22em] uppercase text-gold">
-              {dict.footer.findUsTitle}
-            </h4>
-            <a
-              href={clinic.googleProfile}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs tracking-[0.1em] uppercase text-ivory/70 transition-colors hover:text-gold"
-            >
-              {dict.footer.directions}
-              <span aria-hidden>→</span>
-            </a>
-          </div>
-          <div className="mt-5 overflow-hidden rounded-sm border border-ivory/15">
-            <iframe
-              title={`${clinic.legalName} — ${clinic.address.locality}`}
-              src={mapEmbedSrc}
-              width="100%"
-              height="340"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="block w-full grayscale-[0.2] [color-scheme:light]"
-              style={{ border: 0 }}
-            />
           </div>
         </div>
 
