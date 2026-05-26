@@ -1,10 +1,15 @@
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
-import { medicalReviewer } from "@/lib/clinic";
+import { medicalReviewer, clinic } from "@/lib/clinic";
 import { treatments } from "@/lib/treatments";
 
 const footerTreatments = treatments.filter((t) => t.category === "surgical");
+
+const mapQuery = encodeURIComponent(
+  `${clinic.legalName}, ${clinic.address.street}, ${clinic.address.postalCode} ${clinic.address.locality}`,
+);
+const mapEmbedSrc = `https://www.google.com/maps?q=${mapQuery}&z=16&output=embed`;
 
 export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const base = `/${locale}`;
@@ -90,6 +95,36 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <p className="mt-3 whitespace-pre-line text-sm leading-relaxed text-ivory/70">
               {dict.footer.hours}
             </p>
+          </div>
+        </div>
+
+        {/* Location map */}
+        <div className="mt-16">
+          <div className="flex items-end justify-between gap-4">
+            <h4 className="text-[10px] tracking-[0.22em] uppercase text-gold">
+              {dict.footer.findUsTitle}
+            </h4>
+            <a
+              href={clinic.googleProfile}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs tracking-[0.1em] uppercase text-ivory/70 transition-colors hover:text-gold"
+            >
+              {dict.footer.directions}
+              <span aria-hidden>→</span>
+            </a>
+          </div>
+          <div className="mt-5 overflow-hidden rounded-sm border border-ivory/15">
+            <iframe
+              title={`${clinic.legalName} — ${clinic.address.locality}`}
+              src={mapEmbedSrc}
+              width="100%"
+              height="340"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="block w-full grayscale-[0.2] [color-scheme:light]"
+              style={{ border: 0 }}
+            />
           </div>
         </div>
 

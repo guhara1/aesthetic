@@ -642,7 +642,9 @@
     "hoursTitle": "营业时间",
     "hours": "周一至周六\n10:00 – 19:00\n周日：需预约",
     "rights": "版权所有。",
-    "disclaimer": "效果因人而异。任何疗程前均需进行咨询。"
+    "disclaimer": "效果因人而异。任何疗程前均需进行咨询。",
+    "findUsTitle": "位置导航",
+    "directions": "获取路线"
   },
   "heroSlides": [
     {

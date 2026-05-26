@@ -642,7 +642,9 @@
     "hoursTitle": "診療時間",
     "hours": "月曜日 – 土曜日\n10:00 – 19:00\n日曜日：予約制",
     "rights": "All rights reserved.",
-    "disclaimer": "効果には個人差があります。施術前にカウンセリングが必要です。"
+    "disclaimer": "効果には個人差があります。施術前にカウンセリングが必要です。",
+    "findUsTitle": "アクセスマップ",
+    "directions": "ルート案内"
   },
   "heroSlides": [
     {

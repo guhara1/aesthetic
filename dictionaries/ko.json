@@ -642,7 +642,9 @@
     "hoursTitle": "진료 시간",
     "hours": "월요일 – 토요일\n10:00 – 19:00\n일요일: 예약제",
     "rights": "All rights reserved.",
-    "disclaimer": "결과는 개인에 따라 다를 수 있습니다. 모든 시술 전 상담이 필요합니다."
+    "disclaimer": "결과는 개인에 따라 다를 수 있습니다. 모든 시술 전 상담이 필요합니다.",
+    "findUsTitle": "찾아오시는 길",
+    "directions": "길찾기"
   },
   "heroSlides": [
     {
