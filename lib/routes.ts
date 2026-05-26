@@ -5,7 +5,6 @@ import { posts } from "./magazine";
 export const contentPaths: string[] = [
   "",
   "about",
-  "doctors",
   "contact",
   "treatments",
   ...treatments.map((t) => `treatments/${t.slug}`),

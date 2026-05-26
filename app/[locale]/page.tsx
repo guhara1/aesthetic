@@ -211,41 +211,6 @@ export default async function HomePage({
       {/* ───────────────── Safety & standards ───────────────── */}
       <Safety dict={dict} />
 
-      {/* ───────────────── Doctors teaser ───────────────── */}
-      <section id="doctors" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
-          <SectionHeading
-            eyebrow={dict.doctors.eyebrow}
-            title={dict.doctors.title}
-            subtitle={dict.doctors.subtitle}
-          />
-
-          <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {[0, 1, 2].map((i) => (
-              <div key={i} className="group">
-                <div className="aspect-[3/4] w-full rounded-sm bg-[linear-gradient(160deg,#efe6d8,#d8c6ac)] transition-transform duration-500 group-hover:-translate-y-1" />
-                <div className="mt-5 text-center">
-                  <div className="mx-auto h-px w-10 bg-gold/50" />
-                  <p className="mt-4 font-display text-xl text-ink">Dr. ——</p>
-                  <p className="mt-1 text-xs tracking-[0.14em] uppercase text-taupe">
-                    {dict.brand.tagline}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <Link
-              href={`${base}/doctors`}
-              className="inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
-            >
-              {dict.doctors.cta} →
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* ───────────────── WhatsApp testimonials ───────────────── */}
       <Testimonials dict={dict} />
 
