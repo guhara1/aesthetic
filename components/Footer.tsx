@@ -172,8 +172,8 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
 function FacebookIcon() {
   return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-      <path d="M14 8.5V6.8c0-.8.2-1.2 1.3-1.2H17V2.8c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1v1.7H8v2.9h2.6V22H14v-8.6h2.5l.4-2.9H14z" />
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3v-4h-3a5 5 0 0 0-5 5v2.01h-2l-.396 3.98h2.396v8.01Z" />
     </svg>
   );
 }
