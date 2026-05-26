@@ -46,6 +46,7 @@ export default async function ContactPage({
   const ui = dict.procedureUi;
   const base = `/${locale}`;
   const tel = clinic.telephone.replace(/\s/g, "");
+  const tel2 = clinic.telephone2.replace(/\s/g, "");
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${clinic.geo.lat},${clinic.geo.lng}`;
   const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(c.waPrefill)}`;
 
@@ -85,7 +86,7 @@ export default async function ContactPage({
               {c.whatsapp}
             </a>
             <a
-              href={`tel:${tel}`}
+              href={`tel:${tel2}`}
               className="flex flex-1 items-center justify-center gap-2 rounded-full border border-ink/20 px-6 py-3.5 text-xs tracking-[0.12em] uppercase text-ink transition-colors hover:border-gold hover:text-gold"
             >
               {c.call}
@@ -116,8 +117,9 @@ export default async function ContactPage({
                 {clinic.address.postalCode} {clinic.address.locality},<br />
                 {clinic.address.region}, Malaysia
               </p>
-              <p>
+              <p className="flex flex-col gap-1">
                 <a href={`tel:${tel}`} className="hover:text-gold">{clinic.telephone}</a>
+                <a href={`tel:${tel2}`} className="hover:text-gold">{clinic.telephone2}</a>
               </p>
             </address>
             <a
