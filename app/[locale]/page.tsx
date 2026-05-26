@@ -61,7 +61,7 @@ export default async function HomePage({
       <Hero dict={dict} locale={locale as Locale} />
 
       {/* ───────────────── Trust strip ───────────────── */}
-      <section className="border-b border-sand bg-cream">
+      <section className="reveal border-b border-sand bg-cream">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
           {/* Google rating */}
           <a
@@ -99,7 +99,7 @@ export default async function HomePage({
       </section>
 
       {/* ───────────────── Treatments ───────────────── */}
-      <section id="treatments" className="scroll-mt-24 bg-ivory py-24 lg:py-32">
+      <section id="treatments" className="reveal scroll-mt-24 bg-ivory py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <SectionHeading
             eyebrow={dict.treatmentsSection.eyebrow}
@@ -146,7 +146,7 @@ export default async function HomePage({
       </section>
 
       {/* ───────────────── About ───────────────── */}
-      <section id="about" className="scroll-mt-24 bg-cream py-24 lg:py-32">
+      <section id="about" className="reveal scroll-mt-24 bg-cream py-24 lg:py-32">
         <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2 lg:px-10">
           {/* Clinic interior */}
           <div className="relative">
@@ -210,22 +210,32 @@ export default async function HomePage({
       </section>
 
       {/* ───────────────── How we work ───────────────── */}
-      <Approach dict={dict} />
+      <div className="reveal">
+        <Approach dict={dict} />
+      </div>
 
       {/* ───────────────── Before & After results ───────────────── */}
-      <Results dict={dict} />
+      <div className="reveal">
+        <Results dict={dict} />
+      </div>
 
       {/* ───────────────── Safety & standards ───────────────── */}
-      <Safety dict={dict} />
+      <div className="reveal">
+        <Safety dict={dict} />
+      </div>
 
       {/* ───────────────── WhatsApp testimonials ───────────────── */}
-      <Testimonials dict={dict} />
+      <div className="reveal">
+        <Testimonials dict={dict} />
+      </div>
 
       {/* ───────────────── FAQ ───────────────── */}
-      <Faq dict={dict} />
+      <div className="reveal">
+        <Faq dict={dict} />
+      </div>
 
       {/* ───────────────── CTA banner ───────────────── */}
-      <section className="relative overflow-hidden bg-ink py-28 lg:py-36">
+      <section className="reveal relative overflow-hidden bg-ink py-28 lg:py-36">
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-[radial-gradient(60%_60%_at_50%_0%,rgba(176,141,87,0.20),transparent_70%)]" />
           <div className="absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-ivory/10" />

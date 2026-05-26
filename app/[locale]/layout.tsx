@@ -14,6 +14,7 @@ import { SITE_URL } from "@/lib/clinic";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StructuredData } from "@/components/StructuredData";
+import { RevealObserver } from "@/components/RevealObserver";
 
 const OG_LOCALE: Record<Locale, string> = {
   en: "en_GB",
@@ -83,8 +84,16 @@ export default async function LocaleLayout({
 
   return (
     <html lang={localeHtmlLang[locale]} className={`${cormorant.variable} ${jost.variable}`}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: "document.documentElement.classList.add('reveal-on')",
+          }}
+        />
+      </head>
       <body className="min-h-screen antialiased">
         <StructuredData dict={dict} locale={locale} />
+        <RevealObserver />
         <Header dict={dict} locale={locale} />
         <main>{children}</main>
         <Footer dict={dict} locale={locale} />

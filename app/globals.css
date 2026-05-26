@@ -75,3 +75,27 @@
 .animate-fade-up {
   animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
+
+/* Scroll reveal — sections fade/slide in as they enter the viewport.
+   The `reveal-on` class is added on <html> by an inline script before
+   paint (so there's no flash), which means content stays fully visible
+   if JS is disabled. Reduced-motion users see everything at once. */
+html.reveal-on .reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+html.reveal-on .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html.reveal-on .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
