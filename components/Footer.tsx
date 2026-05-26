@@ -135,12 +135,15 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <p className="mt-5 text-sm leading-relaxed text-ivory/70">
               {dict.topbar.location}
             </p>
-            <a
-              href={`tel:${dict.topbar.phone.replace(/\s/g, "")}`}
-              className="mt-2 block text-sm text-ivory/70 transition-colors hover:text-gold"
-            >
-              {dict.topbar.phone}
-            </a>
+            {[dict.topbar.phone, clinic.telephone2].map((phone) => (
+              <a
+                key={phone}
+                href={`tel:${phone.replace(/\s/g, "")}`}
+                className="mt-2 block text-sm text-ivory/70 transition-colors hover:text-gold"
+              >
+                {phone}
+              </a>
+            ))}
             <h4 className="mt-6 text-[10px] tracking-[0.22em] uppercase text-gold">
               {dict.footer.hoursTitle}
             </h4>

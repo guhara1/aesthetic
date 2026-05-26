@@ -24,6 +24,7 @@ export const clinic = {
   // Desa Sri Hartamas, Kuala Lumpur (approximate — refine if needed).
   geo: { lat: 3.1623, lng: 101.6497 },
   telephone: "+60 10-911 8518",
+  telephone2: "+60 10-912 8518",
   priceRange: "$$$",
   googleProfile: "https://share.google/EeVrX3evtp85hVgeZ",
   facebook: "https://www.facebook.com/HuaLiBeautyCentreSriHartamas",
