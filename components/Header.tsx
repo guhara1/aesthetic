@@ -85,21 +85,14 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
       {/* Main bar */}
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
-        <Link href={base} className="group flex flex-col leading-none">
-          <span
-            className={`font-display text-2xl font-semibold tracking-wide transition-colors lg:text-[1.7rem] ${
-              solid ? "text-ink" : "text-ivory"
-            }`}
-          >
-            {dict.brand.name}
-          </span>
-          <span
-            className={`mt-1 text-[9px] tracking-[0.34em] uppercase transition-colors ${
-              solid ? "text-gold" : "text-ivory/70"
-            }`}
-          >
-            {dict.brand.tagline}
-          </span>
+        <Link href={base} className="flex items-center">
+          <img
+            src="/images/brand/logo.png"
+            alt={dict.brand.nameFull}
+            width={1043}
+            height={700}
+            className="h-12 w-auto lg:h-16"
+          />
         </Link>
 
         {/* Desktop nav */}
