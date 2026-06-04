@@ -10,8 +10,7 @@ export const surgicalGallery: GalleryItem[] = [
   { file: "eye-treatment.png", labelKey: "eye" },
   { file: "facelift.jpg", labelKey: "facelift" },
   { file: "chin-implant.jpg", labelKey: "chin" },
-  { file: "breast-implant-before.png", labelKey: "breast" },
-  { file: "breast-implant-after.png", labelKey: "breast" },
+  { file: "breast-implant.png", labelKey: "breast" },
 ];
 
 export const nonSurgicalGallery: GalleryItem[] = [
