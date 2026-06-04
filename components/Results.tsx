@@ -83,7 +83,7 @@ export function Results({ dict }: { dict: Dictionary }) {
         </div>
 
         {/* Carousel */}
-        <div className="relative mt-12">
+        <div className="mt-12">
           <div
             className="relative mx-auto max-w-5xl overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_24px_60px_-30px_rgba(42,36,32,0.5)]"
             onTouchStart={onTouchStart}
@@ -160,48 +160,50 @@ export function Results({ dict }: { dict: Dictionary }) {
             </div>
           </div>
 
-          {/* Prev / Next buttons — sit outside the frame on desktop, on top
-              of the corners on mobile. */}
-          <button
-            type="button"
-            onClick={() => go(-1)}
-            aria-label={dict.results.prevLabel ?? "Previous"}
-            className="absolute left-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/95 text-ink shadow-[0_8px_20px_-8px_rgba(42,36,32,0.4)] transition hover:bg-white lg:-left-6"
-          >
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M15 6l-6 6 6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </button>
-          <button
-            type="button"
-            onClick={() => go(1)}
-            aria-label={dict.results.nextLabel ?? "Next"}
-            className="absolute right-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/95 text-ink shadow-[0_8px_20px_-8px_rgba(42,36,32,0.4)] transition hover:bg-white lg:-right-6"
-          >
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </button>
-        </div>
-
-        {/* Dots */}
-        <div className="mt-8 flex items-center justify-center gap-3">
-          {items.map((_, i) => (
+          {/* Control bar — prev / dots / next, all under the image so nothing
+              covers the photo itself. */}
+          <div className="mx-auto mt-6 flex max-w-5xl items-center justify-center gap-4">
             <button
-              key={i}
               type="button"
-              onClick={() => setIndex(i)}
-              aria-label={`Go to slide ${i + 1}`}
-              aria-current={i === safeIndex}
-              className="group flex h-9 items-center justify-center px-1"
+              onClick={() => go(-1)}
+              aria-label={dict.results.prevLabel ?? "Previous"}
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/15 bg-ivory text-ink shadow-[0_6px_16px_-8px_rgba(42,36,32,0.4)] transition hover:bg-white hover:border-gold/40 hover:text-gold-deep"
             >
-              <span
-                className={`block h-1.5 rounded-full transition-all duration-300 ${
-                  i === safeIndex ? "w-8 bg-gold" : "w-2.5 bg-ink/25 group-hover:bg-ink/40"
-                }`}
-              />
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path d="M15 6l-6 6 6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </button>
-          ))}
+
+            <div className="flex items-center gap-2 px-1">
+              {items.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  onClick={() => setIndex(i)}
+                  aria-label={`Go to slide ${i + 1}`}
+                  aria-current={i === safeIndex}
+                  className="group flex h-9 items-center justify-center px-1"
+                >
+                  <span
+                    className={`block h-1.5 rounded-full transition-all duration-300 ${
+                      i === safeIndex ? "w-8 bg-gold" : "w-2.5 bg-ink/25 group-hover:bg-ink/40"
+                    }`}
+                  />
+                </button>
+              ))}
+            </div>
+
+            <button
+              type="button"
+              onClick={() => go(1)}
+              aria-label={dict.results.nextLabel ?? "Next"}
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/15 bg-ivory text-ink shadow-[0_6px_16px_-8px_rgba(42,36,32,0.4)] transition hover:bg-white hover:border-gold/40 hover:text-gold-deep"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+          </div>
         </div>
 
         <p className="mt-8 text-center text-xs text-taupe">{dict.results.note}</p>
