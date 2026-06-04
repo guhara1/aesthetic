@@ -105,7 +105,7 @@ export function Results({ dict }: { dict: Dictionary }) {
                       height={1200}
                       loading="lazy"
                       decoding="async"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-contain"
                     />
                     <span className="absolute left-3 top-3 rounded-sm bg-ink/65 px-2.5 py-1 text-[10px] tracking-[0.18em] uppercase text-ivory backdrop-blur-sm">
                       {dict.results.beforeLabel ?? "Before"}
@@ -122,7 +122,7 @@ export function Results({ dict }: { dict: Dictionary }) {
                       height={1200}
                       loading="lazy"
                       decoding="async"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-contain"
                     />
                     <span className="absolute right-3 top-3 rounded-sm bg-ink/65 px-2.5 py-1 text-[10px] tracking-[0.18em] uppercase text-ivory backdrop-blur-sm">
                       {dict.results.afterLabel ?? "After"}
