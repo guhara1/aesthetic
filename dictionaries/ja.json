@@ -150,7 +150,9 @@
     },
     "beforeLabel": "Before",
     "afterLabel": "After",
-    "dragHint": "ドラッグで比較"
+    "dragHint": "ドラッグで比較",
+    "prevLabel": "前へ",
+    "nextLabel": "次へ"
   },
   "testimonials": {
     "eyebrow": "お客様の声",

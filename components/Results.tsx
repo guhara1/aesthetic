@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import {
   surgicalGallery,
@@ -8,7 +8,6 @@ import {
   type GalleryItem,
 } from "@/lib/galleryData";
 import { SectionHeading } from "./SectionHeading";
-import { BeforeAfterSlider } from "./BeforeAfterSlider";
 
 type Tab = "surgical" | "nonSurgical";
 
@@ -16,15 +15,43 @@ type TreatmentKey = keyof Dictionary["treatmentsMenu"]["items"];
 
 export function Results({ dict }: { dict: Dictionary }) {
   const [tab, setTab] = useState<Tab>("surgical");
-  const [lightbox, setLightbox] = useState<string | null>(null);
+  const [index, setIndex] = useState(0);
+  const touchX = useRef<number | null>(null);
 
   const items = tab === "surgical" ? surgicalGallery : nonSurgicalGallery;
   const folder = tab === "surgical" ? "surgical" : "non-surgical";
+  const count = items.length;
+  const safeIndex = ((index % count) + count) % count;
+  const current = items[safeIndex];
 
   function infoFor(item: GalleryItem): { name: string; desc: string } {
     const entry = dict.treatmentsMenu.items[item.labelKey as TreatmentKey];
     return entry ?? { name: item.labelKey, desc: "" };
   }
+
+  function go(dir: number) {
+    setIndex((i) => (i + dir + count) % count);
+  }
+
+  function switchTab(t: Tab) {
+    setTab(t);
+    setIndex(0);
+  }
+
+  function onTouchStart(e: React.TouchEvent) {
+    touchX.current = e.touches[0].clientX;
+  }
+  function onTouchEnd(e: React.TouchEvent) {
+    if (touchX.current === null) return;
+    const dx = e.changedTouches[0].clientX - touchX.current;
+    if (dx < -45) go(1);
+    else if (dx > 45) go(-1);
+    touchX.current = null;
+  }
+
+  const info = infoFor(current);
+  const alt = `${info.name} before & after — ${dict.brand.name}, aesthetic clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`;
+  const isPair = "beforeFile" in current && current.beforeFile;
 
   return (
     <section id="gallery" className="scroll-mt-24 bg-cream py-24 lg:py-32">
@@ -42,7 +69,7 @@ export function Results({ dict }: { dict: Dictionary }) {
               <button
                 key={t}
                 type="button"
-                onClick={() => setTab(t)}
+                onClick={() => switchTab(t)}
                 className={`rounded-full px-6 py-2.5 text-xs tracking-[0.12em] uppercase transition-all duration-300 ${
                   tab === t
                     ? "bg-gold text-white shadow-[0_8px_20px_-10px_rgba(176,141,87,0.8)]"
@@ -55,100 +82,130 @@ export function Results({ dict }: { dict: Dictionary }) {
           </div>
         </div>
 
-        {/* Gallery grid — 2-column layout where side-by-side before/after
-            composites span both columns (full width) and tall single shots
-            pair up two per row. `grid-flow-dense` lets the browser pack
-            small items into any gaps without changing DOM order. */}
-        <div className="mt-12 grid grid-cols-1 grid-flow-row-dense gap-5 sm:grid-cols-2">
-          {items.map((item) => {
-            const info = infoFor(item);
-            const alt = `${info.name} before & after — ${dict.brand.name}, aesthetic clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`;
-            const isPair = "beforeFile" in item && item.beforeFile;
-            const key = isPair ? `${item.beforeFile}-${item.afterFile}` : (item as { file: string }).file;
-            return (
-              <figure
-                key={key}
-                className={`group block self-start overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_18px_40px_-28px_rgba(42,36,32,0.45)] ${
-                  item.wide ? "sm:col-span-2" : ""
-                }`}
-              >
-                {isPair ? (
-                  <BeforeAfterSlider
-                    before={`/images/${folder}/${item.beforeFile}`}
-                    after={`/images/${folder}/${item.afterFile}`}
-                    alt={alt}
-                    beforeLabel={dict.results.beforeLabel ?? "Before"}
-                    afterLabel={dict.results.afterLabel ?? "After"}
-                  />
-                ) : (
-                  <button
-                    type="button"
-                    onClick={() => setLightbox(`/images/${folder}/${(item as { file: string }).file}`)}
-                    className="relative block w-full cursor-zoom-in"
-                    aria-label={alt}
-                  >
+        {/* Carousel */}
+        <div className="relative mt-12">
+          <div
+            className="relative mx-auto max-w-5xl overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_24px_60px_-30px_rgba(42,36,32,0.5)]"
+            onTouchStart={onTouchStart}
+            onTouchEnd={onTouchEnd}
+          >
+            {/* Frame — 2:1 ratio fits side-by-side pairs nicely on desktop;
+                stacks gracefully on mobile via inner grid responsiveness. */}
+            <div className="relative aspect-[16/10] w-full bg-ink sm:aspect-[2/1]">
+              {isPair ? (
+                <div className="grid h-full grid-cols-2">
+                  {/* Before */}
+                  <div className="relative h-full overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={`/images/${folder}/${(item as { file: string }).file}`}
-                      alt={alt}
-                      width={1080}
-                      height={1440}
+                      key={`b-${current.beforeFile}`}
+                      src={`/images/${folder}/${current.beforeFile}`}
+                      alt={`${info.name} before`}
+                      width={900}
+                      height={1200}
                       loading="lazy"
                       decoding="async"
-                      className="block w-full transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                      style={{ aspectRatio: "3 / 4" }}
+                      className="absolute inset-0 h-full w-full object-cover"
                     />
-                    <span className="pointer-events-none absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/10" />
-                  </button>
-                )}
-                <figcaption className="px-5 py-4">
-                  <div className="flex items-center justify-between gap-3">
-                    <h3 className="font-display text-lg leading-tight text-ink">
-                      {info.name}
-                    </h3>
-                    <span className="shrink-0 text-[9px] tracking-[0.18em] uppercase text-gold">
-                      {isPair ? (dict.results.dragHint ?? "Drag to compare") : "Before / After"}
+                    <span className="absolute left-3 top-3 rounded-sm bg-ink/65 px-2.5 py-1 text-[10px] tracking-[0.18em] uppercase text-ivory backdrop-blur-sm">
+                      {dict.results.beforeLabel ?? "Before"}
                     </span>
                   </div>
-                  {info.desc && (
-                    <p className="mt-1.5 text-xs leading-snug text-taupe">
-                      {info.desc}
-                    </p>
-                  )}
-                </figcaption>
-              </figure>
-            );
-          })}
-        </div>
+                  {/* After */}
+                  <div className="relative h-full overflow-hidden border-l border-ivory/80">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      key={`a-${current.afterFile}`}
+                      src={`/images/${folder}/${current.afterFile}`}
+                      alt={`${info.name} after`}
+                      width={900}
+                      height={1200}
+                      loading="lazy"
+                      decoding="async"
+                      className="absolute inset-0 h-full w-full object-cover"
+                    />
+                    <span className="absolute right-3 top-3 rounded-sm bg-ink/65 px-2.5 py-1 text-[10px] tracking-[0.18em] uppercase text-ivory backdrop-blur-sm">
+                      {dict.results.afterLabel ?? "After"}
+                    </span>
+                  </div>
+                </div>
+              ) : (
+                <>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    key={`s-${(current as { file: string }).file}`}
+                    src={`/images/${folder}/${(current as { file: string }).file}`}
+                    alt={alt}
+                    width={1600}
+                    height={1000}
+                    loading="lazy"
+                    decoding="async"
+                    className="absolute inset-0 h-full w-full object-contain"
+                  />
+                </>
+              )}
+            </div>
 
-        <p className="mt-10 text-center text-xs text-taupe">{dict.results.note}</p>
-      </div>
+            {/* Caption bar */}
+            <div className="flex items-center justify-between gap-4 border-t border-sand bg-ivory px-6 py-4">
+              <div>
+                <h3 className="font-display text-xl leading-tight text-ink">{info.name}</h3>
+                {info.desc && (
+                  <p className="mt-0.5 text-xs leading-snug text-taupe">{info.desc}</p>
+                )}
+              </div>
+              <span className="shrink-0 font-display text-sm text-gold">
+                {safeIndex + 1} / {count}
+              </span>
+            </div>
+          </div>
 
-      {/* Lightbox */}
-      {lightbox && (
-        <div
-          className="fixed inset-0 z-[60] flex items-center justify-center bg-ink/85 p-4 backdrop-blur-sm sm:p-8"
-          onClick={() => setLightbox(null)}
-          role="dialog"
-          aria-modal="true"
-        >
+          {/* Prev / Next buttons — sit outside the frame on desktop, on top
+              of the corners on mobile. */}
           <button
             type="button"
-            onClick={() => setLightbox(null)}
-            aria-label="Close"
-            className="absolute right-5 top-5 text-3xl font-light text-ivory/80 transition-colors hover:text-ivory"
+            onClick={() => go(-1)}
+            aria-label={dict.results.prevLabel ?? "Previous"}
+            className="absolute left-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/95 text-ink shadow-[0_8px_20px_-8px_rgba(42,36,32,0.4)] transition hover:bg-white lg:-left-6"
           >
-            ×
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M15 6l-6 6 6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
           </button>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={lightbox}
-            alt=""
-            className="max-h-[88vh] max-w-full rounded-sm object-contain shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          />
+          <button
+            type="button"
+            onClick={() => go(1)}
+            aria-label={dict.results.nextLabel ?? "Next"}
+            className="absolute right-2 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-ink/15 bg-white/95 text-ink shadow-[0_8px_20px_-8px_rgba(42,36,32,0.4)] transition hover:bg-white lg:-right-6"
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
         </div>
-      )}
+
+        {/* Dots */}
+        <div className="mt-8 flex items-center justify-center gap-3">
+          {items.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              onClick={() => setIndex(i)}
+              aria-label={`Go to slide ${i + 1}`}
+              aria-current={i === safeIndex}
+              className="group flex h-9 items-center justify-center px-1"
+            >
+              <span
+                className={`block h-1.5 rounded-full transition-all duration-300 ${
+                  i === safeIndex ? "w-8 bg-gold" : "w-2.5 bg-ink/25 group-hover:bg-ink/40"
+                }`}
+              />
+            </button>
+          ))}
+        </div>
+
+        <p className="mt-8 text-center text-xs text-taupe">{dict.results.note}</p>
+      </div>
     </section>
   );
 }

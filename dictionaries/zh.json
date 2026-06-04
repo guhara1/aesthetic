@@ -150,7 +150,9 @@
     },
     "beforeLabel": "Before",
     "afterLabel": "After",
-    "dragHint": "拖动比较"
+    "dragHint": "拖动比较",
+    "prevLabel": "上一个",
+    "nextLabel": "下一个"
   },
   "testimonials": {
     "eyebrow": "客户心声",

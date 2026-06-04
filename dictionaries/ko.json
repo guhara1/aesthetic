@@ -150,7 +150,9 @@
     },
     "beforeLabel": "Before",
     "afterLabel": "After",
-    "dragHint": "드래그해서 비교"
+    "dragHint": "드래그해서 비교",
+    "prevLabel": "이전",
+    "nextLabel": "다음"
   },
   "testimonials": {
     "eyebrow": "고객 이야기",

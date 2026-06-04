@@ -150,7 +150,9 @@
     },
     "beforeLabel": "Before",
     "afterLabel": "After",
-    "dragHint": "Drag to compare"
+    "dragHint": "Drag to compare",
+    "prevLabel": "Previous",
+    "nextLabel": "Next"
   },
   "testimonials": {
     "eyebrow": "Patient Stories",
