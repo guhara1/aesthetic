@@ -54,9 +54,11 @@ export function Results({ dict }: { dict: Dictionary }) {
           </div>
         </div>
 
-        {/* Gallery grid — wide composites take 2 columns so before/after
-            side-by-side stays visually prominent. */}
-        <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {/* Gallery grid — 2-column layout where side-by-side before/after
+            composites span both columns (full width) and tall single shots
+            pair up two per row. `grid-flow-dense` lets the browser pack
+            small items into any gaps without changing DOM order. */}
+        <div className="mt-12 grid grid-cols-1 grid-flow-row-dense gap-5 sm:grid-cols-2">
           {items.map((item) => {
             const src = `/images/${folder}/${item.file}`;
             const info = infoFor(item);
@@ -64,7 +66,7 @@ export function Results({ dict }: { dict: Dictionary }) {
             return (
               <figure
                 key={item.file}
-                className={`group block overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_18px_40px_-28px_rgba(42,36,32,0.45)] ${
+                className={`group block self-start overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_18px_40px_-28px_rgba(42,36,32,0.45)] ${
                   item.wide ? "sm:col-span-2" : ""
                 }`}
               >
