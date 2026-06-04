@@ -142,4 +142,5 @@ ${items
 `;
 
 fs.writeFileSync("public/rss.xml", rss);
-console.log(`wrote public/rss.xml (${items.length} items, ${rss.length} bytes)`);
+fs.writeFileSync("public/rss1.xml", rss);
+console.log(`wrote public/rss.xml and public/rss1.xml (${items.length} items, ${rss.length} bytes each)`);

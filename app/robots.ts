@@ -22,6 +22,7 @@ export default function robots(): MetadataRoute.Robots {
       `${SITE_URL}/sitemap.xml`,
       `${SITE_URL}/sitemap1.xml`,
       `${SITE_URL}/rss.xml`,
+      `${SITE_URL}/rss1.xml`,
     ],
     host: SITE_URL,
   };
