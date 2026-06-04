@@ -142,5 +142,11 @@ ${items
 `;
 
 fs.writeFileSync("public/rss.xml", rss);
-fs.writeFileSync("public/rss1.xml", rss);
-console.log(`wrote public/rss.xml and public/rss1.xml (${items.length} items, ${rss.length} bytes each)`);
+// rss1.xml — same content but with self-link pointing at rss1.xml so feed
+// readers don't redirect to rss.xml.
+const rss1 = rss.replace(
+  `href="${SITE_URL}/rss.xml"`,
+  `href="${SITE_URL}/rss1.xml"`,
+);
+fs.writeFileSync("public/rss1.xml", rss1);
+console.log(`wrote public/rss.xml and public/rss1.xml (${items.length} items)`);
