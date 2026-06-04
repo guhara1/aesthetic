@@ -5,15 +5,30 @@
 // the Results gallery. Items with `file` render as a single static photo.
 
 export type GalleryItem =
-  | { file: string; labelKey: string; wide?: boolean; beforeFile?: never; afterFile?: never }
-  | { beforeFile: string; afterFile: string; labelKey: string; wide?: boolean; file?: never };
+  | { file: string; labelKey: string; wide?: boolean; beforeFile?: never; afterFile?: never; overlay?: never }
+  | {
+      beforeFile: string;
+      afterFile: string;
+      labelKey: string;
+      wide?: boolean;
+      file?: never;
+      // Optional decorative overlay image (e.g. the Chinese 即刻 VS band)
+      // shown floating between the before and after panels.
+      overlay?: string;
+    };
 
 export const surgicalGallery: GalleryItem[] = [
   { beforeFile: "liposuction-before.png", afterFile: "liposuction-after.png", labelKey: "liposuction", wide: true },
   { file: "rhinoplasty.jpg", labelKey: "rhinoplasty" },
   { beforeFile: "eye-treatment-before.png", afterFile: "eye-treatment-after.png", labelKey: "eye", wide: true },
   { file: "facelift.jpg", labelKey: "facelift" },
-  { beforeFile: "chin-implant-before.jpg", afterFile: "chin-implant-after.jpg", labelKey: "chin", wide: true },
+  {
+    beforeFile: "chin-implant-before.jpg",
+    afterFile: "chin-implant-after.jpg",
+    labelKey: "chin",
+    wide: true,
+    overlay: "chin-implant-label.png",
+  },
   { beforeFile: "breast-implant-before.png", afterFile: "breast-implant-after.png", labelKey: "breast", wide: true },
 ];
 

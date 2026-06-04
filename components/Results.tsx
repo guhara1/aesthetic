@@ -128,6 +128,16 @@ export function Results({ dict }: { dict: Dictionary }) {
                       {dict.results.afterLabel ?? "After"}
                     </span>
                   </div>
+                  {current.overlay && (
+                    <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={`/images/${folder}/${current.overlay}`}
+                        alt=""
+                        className="max-w-[60%] drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)]"
+                      />
+                    </div>
+                  )}
                 </div>
               ) : (
                 <>
