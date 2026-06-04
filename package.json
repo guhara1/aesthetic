@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/post-build.mjs",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "prebuild": "node scripts/gen-feeds.mjs"
   },
   "dependencies": {
     "next": "16.2.6",
