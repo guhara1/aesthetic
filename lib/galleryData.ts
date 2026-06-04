@@ -1,24 +1,26 @@
 // Real patient before/after photos and WhatsApp review screenshots.
 // `labelKey` for surgical items maps to dict.treatmentsMenu.items[key].name;
 // non-surgical keys map to dict.results.labels[key].
+// `wide: true` flags side-by-side before/after composites so the gallery
+// grid gives them double width instead of squeezing them.
 
-export type GalleryItem = { file: string; labelKey: string };
+export type GalleryItem = { file: string; labelKey: string; wide?: boolean };
 
 export const surgicalGallery: GalleryItem[] = [
-  { file: "liposuction.png", labelKey: "liposuction" },
+  { file: "liposuction.png", labelKey: "liposuction", wide: true },
   { file: "rhinoplasty.jpg", labelKey: "rhinoplasty" },
-  { file: "eye-treatment.png", labelKey: "eye" },
+  { file: "eye-treatment.png", labelKey: "eye", wide: true },
   { file: "facelift.jpg", labelKey: "facelift" },
-  { file: "chin-implant.jpg", labelKey: "chin" },
-  { file: "breast-implant.png", labelKey: "breast" },
+  { file: "chin-implant.jpg", labelKey: "chin", wide: true },
+  { file: "breast-implant.png", labelKey: "breast", wide: true },
 ];
 
 export const nonSurgicalGallery: GalleryItem[] = [
   { file: "body-sculpt.jpg", labelKey: "bodySculpt" },
   { file: "hifu.jpg", labelKey: "hifu" },
-  { file: "pico-laser.png", labelKey: "picoLaser" },
+  { file: "pico-laser.png", labelKey: "picoLaser", wide: true },
   { file: "hair-removal.jpg", labelKey: "hairRemoval" },
-  { file: "cell-light.jpg", labelKey: "cellLight" },
+  { file: "cell-light.jpg", labelKey: "cellLight", wide: true },
   { file: "whitening-drip.webp", labelKey: "whiteningDrip" },
 ];
 

@@ -54,8 +54,9 @@ export function Results({ dict }: { dict: Dictionary }) {
           </div>
         </div>
 
-        {/* Masonry gallery */}
-        <div className="mt-12 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
+        {/* Gallery grid — wide composites take 2 columns so before/after
+            side-by-side stays visually prominent. */}
+        <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item) => {
             const src = `/images/${folder}/${item.file}`;
             const info = infoFor(item);
@@ -63,7 +64,9 @@ export function Results({ dict }: { dict: Dictionary }) {
             return (
               <figure
                 key={item.file}
-                className="group block break-inside-avoid overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_18px_40px_-28px_rgba(42,36,32,0.45)]"
+                className={`group block overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_18px_40px_-28px_rgba(42,36,32,0.45)] ${
+                  item.wide ? "sm:col-span-2" : ""
+                }`}
               >
                 <button
                   type="button"
