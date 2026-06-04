@@ -19,6 +19,11 @@ export const posts: Post[] = [
     key: "recovery",
     cover: "/images/hero/hero-3.webp",
   },
+  {
+    slug: "bridal-skincare-pre-wedding-guide",
+    key: "bridalSkincare",
+    cover: "/images/magazine/bridal-skincare.webp",
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
