@@ -67,6 +67,12 @@ export async function generateMetadata({
       images: [ogImage],
     },
     robots: { index: true, follow: true },
+    verification: {
+      google: "FWsfdxNNp6xUb614U72QNLkCbRgUXIVwno7hPXvhHAQ",
+      other: {
+        "naver-site-verification": "8b7f20c7eddc4e6611d701c359033c6ac7c68ba4",
+      },
+    },
   };
 }
 
