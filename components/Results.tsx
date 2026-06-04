@@ -80,8 +80,12 @@ export function Results({ dict }: { dict: Dictionary }) {
                   <img
                     src={src}
                     alt={alt}
+                    width={item.wide ? 1800 : 1080}
+                    height={item.wide ? 600 : 1440}
                     loading="lazy"
-                    className="w-full transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                    decoding="async"
+                    className="block w-full transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                    style={{ aspectRatio: item.wide ? "3 / 1" : "3 / 4" }}
                   />
                   <span className="pointer-events-none absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/10" />
                 </button>

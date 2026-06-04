@@ -57,8 +57,8 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <img
               src="/images/brand/logo-light.png"
               alt={dict.brand.nameFull}
-              width={1043}
-              height={700}
+              width={280}
+              height={188}
               loading="lazy"
               className="h-20 w-auto"
             />

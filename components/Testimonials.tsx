@@ -60,8 +60,12 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
                 <img
                   src={src}
                   alt={`Patient WhatsApp review — ${dict.brand.nameFull}, aesthetic clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`}
+                  width={540}
+                  height={1200}
                   loading="lazy"
-                  className="w-full rounded-sm"
+                  decoding="async"
+                  className="block w-full rounded-sm"
+                  style={{ aspectRatio: "9 / 16", height: "auto" }}
                 />
               </button>
             );
