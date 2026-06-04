@@ -54,12 +54,14 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
           {/* Brand */}
           <div className="lg:col-span-4">
-            <p className="font-display text-3xl font-semibold tracking-wide text-ivory">
-              {dict.brand.name}
-            </p>
-            <p className="mt-1 text-[10px] tracking-[0.32em] uppercase text-gold">
-              {dict.brand.tagline}
-            </p>
+            <img
+              src="/images/brand/logo-light.png"
+              alt={dict.brand.nameFull}
+              width={1043}
+              height={700}
+              loading="lazy"
+              className="h-20 w-auto"
+            />
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-ivory/65">
               {dict.footer.tagline}
             </p>
