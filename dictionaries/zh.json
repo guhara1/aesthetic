@@ -852,5 +852,87 @@
         ]
       }
     }
+  },
+  "localAreas": {
+    "montKiara": {
+      "areaName": "Mont Kiara 孟沙北",
+      "eyebrow": "Mont Kiara 诊所",
+      "title": "Mont Kiara 美容与整形外科诊所",
+      "lead": "位于吉隆坡 Mont Kiara（孟沙北）中心地带的高端美容医学与整形外科诊所，距离 Solaris Mont Kiara、1 Mont Kiara、Plaza Mont Kiara 仅几分钟车程。提供英语、马来语与中文咨询。",
+      "metaTitle": "Mont Kiara 美容诊所 | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "吉隆坡 Mont Kiara 的美容整形与医学美容——抽脂、隆鼻、面部提升、HIFU、激光。靠近 Solaris Mont Kiara 与 Plaza Damas，多语言服务。",
+      "sections": [
+        {
+          "heading": "Mont Kiara 居民信赖的美容诊所",
+          "body": "Mont Kiara 是吉隆坡最具国际气息的社区之一，居民对精致、诊所级的美容护理有更高的期望。我们的医美中心位于 Desa Sri Hartamas，距 Solaris Mont Kiara、1 Mont Kiara、Mont Kiara 2、Plaza Mont Kiara、Verve Suites 与 Garden International School 都仅在短距离之内。咨询从容不迫，方案围绕您的解剖结构与生活方式量身制定，并以英语、马来语或中文清晰说明每一步。"
+        },
+        {
+          "heading": "为 Mont Kiara 患者提供的疗程",
+          "body": "我们为 Mont Kiara 患者提供完整的疗程菜单，从精细整形到高级非手术皮肤护理。手术包括 [抽脂](treatments/liposuction)、[隆鼻](treatments/rhinoplasty)、[眼部疗程](treatments/eye-treatment)、[面部提升](treatments/facelift)、[隆胸](treatments/breast-implant) 与 [下巴假体](treatments/chin-implant)。非手术疗程包括 [身体雕塑](treatments/body-sculpting)、[HIFU 提升](treatments/hifu-lifting)、[皮秒激光](treatments/pico-laser)、[激光脱毛](treatments/hair-removal)、[细胞光疗法](treatments/cell-light-therapy) 与 [美白点滴](treatments/whitening-drip)。完整列表请见 [疗程总览](treatments)。"
+        },
+        {
+          "heading": "Mont Kiara 患者选择 The Valley 的理由",
+          "body": "团队在美容整形与医学美容领域累积超过十年经验，定期接待来自 Mont Kiara、Damansara Heights、Bukit Tunku 与 Bangsar 的患者。我们坚持临床精度与如同 Spa 般的安静环境并重；提供逐项透明报价；并通过 WhatsApp 维持有条理的术后跟进。真实案例与回馈可在 [Results](#gallery) 与 [Reviews](#reviews) 区段查看。"
+        },
+        {
+          "heading": "从 Mont Kiara 抵达诊所",
+          "body": "从 Mont Kiara 至 Desa Sri Hartamas 的诊所约 5–10 分钟车程（视交通情况）。沿 Jalan Kiara 行驶，经过 Plaza Mont Kiara，进入 Jalan Sri Hartamas 1，再转入 Jalan 30/70A——我们位于 Lot 22-1, Wisma Rapid，正对 Hartamas 商业带。Grab 与车叫服务都能很快抵达，Wisma Rapid 楼内提供免费停车。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "可以用英语、中文或马来语咨询吗？",
+          "a": "可以。我们的团队以英语、马来语与中文进行咨询，让您能用最舒适的语言谈论疗程。"
+        },
+        {
+          "q": "从 Mont Kiara 到诊所要多久？",
+          "a": "视交通情况约 5–10 分钟车程。诊所位置：Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas。"
+        },
+        {
+          "q": "需要预约吗，还是可以直接到诊所？",
+          "a": "我们以预约制安排私密、从容的咨询。您可通过 WhatsApp 或联系表单预约，我们会为您安排合适的时间。"
+        }
+      ]
+    },
+    "sriHartamas": {
+      "areaName": "Sri Hartamas",
+      "eyebrow": "Sri Hartamas 诊所",
+      "title": "Sri Hartamas 美容整形与医学美容",
+      "lead": "我们的旗舰诊所位于吉隆坡 Desa Sri Hartamas，距 Plaza Damas 与 Hartamas Shopping Centre 步行可达。提供美容整形、医学美容与高级皮肤疗程，并以英语、马来语和中文进行咨询。",
+      "metaTitle": "Sri Hartamas 美容整形诊所 | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "吉隆坡 Desa Sri Hartamas 的美容整形与医学美容——抽脂、隆鼻、面部提升、HIFU、激光。靠近 Plaza Damas 与 Hartamas Shopping Centre。",
+      "sections": [
+        {
+          "heading": "Sri Hartamas 本地的美容诊所",
+          "body": "The Valley Beauty Medical Spa 位于 Desa Sri Hartamas 核心地段 — Lot 22-1, Wisma Rapid, Jalan 30/70A — 是 Sri Hartamas、Mont Kiara、Damansara Heights 与 Bukit Tunku 居民的自然之选。我们提供如同 Spa 般沉稳的环境、透明报价与多语言团队，Plaza Damas、Hartamas Shopping Centre 与整条 Hartamas 商业街都在步行范围内。"
+        },
+        {
+          "heading": "Sri Hartamas 的疗程项目",
+          "body": "我们为 Sri Hartamas 患者提供完整的美容疗程菜单。整形项目包括 [抽脂](treatments/liposuction)、[隆鼻](treatments/rhinoplasty)、[眼部疗程](treatments/eye-treatment)、[面部提升](treatments/facelift)、[隆胸](treatments/breast-implant) 与 [下巴假体](treatments/chin-implant)。医学美容与皮肤疗程包括 [身体雕塑](treatments/body-sculpting)、[HIFU 提升](treatments/hifu-lifting)、[皮秒激光](treatments/pico-laser)、[激光脱毛](treatments/hair-removal)、[细胞光疗法](treatments/cell-light-therapy) 与 [美白点滴](treatments/whitening-drip)。完整内容请见 [疗程总览](treatments)。"
+        },
+        {
+          "heading": "Sri Hartamas 咨询的体验",
+          "body": "每一份方案都从一次私密、不催促的咨询开始 — 我们倾听您的诉求、回顾您的病史，并诚实告诉您所考虑的疗程是否合适。在任何决定前，您都会先收到逐项透明的报价。术后支持有条不紊：预约复诊、书面术后说明，以及在恢复期间始终通过 WhatsApp 联络的团队。真实经验请见 [Results](#gallery) 与 [Reviews](#reviews) 区段。"
+        },
+        {
+          "heading": "在 Desa Sri Hartamas 找到我们",
+          "body": "地址：Lot 22-1, Wisma Rapid, Jalan 30/70A, 50480 Kuala Lumpur。距 Plaza Damas 步行 3 分钟、距 Hartamas Shopping Centre 约 5 分钟。Grab 与所有车叫服务皆熟悉 Wisma Rapid 位置；楼内提供免费停车。国际患者也可由前台协助安排交通。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "诊所在 Sri Hartamas 的确切位置在哪？",
+          "a": "Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas, 50480 Kuala Lumpur。Plaza Damas 与 Hartamas Shopping Centre 都在步行范围内。"
+        },
+        {
+          "q": "有停车位吗？",
+          "a": "有 — Wisma Rapid 楼内提供免费停车，您抵达时我们的团队会为您引导。"
+        },
+        {
+          "q": "可以用中文、英语或马来语咨询吗？",
+          "a": "可以。我们以英语、马来语与中文提供咨询，并以您最舒适的语言提供书面术后说明。"
+        }
+      ]
+    }
   }
 }

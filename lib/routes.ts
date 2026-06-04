@@ -1,5 +1,6 @@
 import { treatments } from "./treatments";
 import { posts } from "./magazine";
+import { localAreas } from "./localAreas";
 
 // All content paths, relative to the locale segment (no leading/trailing slash).
 export const contentPaths: string[] = [
@@ -10,6 +11,7 @@ export const contentPaths: string[] = [
   ...treatments.map((t) => `treatments/${t.slug}`),
   "magazine",
   ...posts.map((p) => `magazine/${p.slug}`),
+  ...localAreas.map((a) => a.slug),
 ];
 
 // Absolute URL for a locale + relative path, with trailing slash (matches

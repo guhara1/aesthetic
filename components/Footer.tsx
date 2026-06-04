@@ -100,6 +100,14 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 { href: `${base}#reviews`, label: dict.nav.reviews },
                 { href: `${base}/magazine`, label: dict.nav.magazine },
                 { href: `${base}#faq`, label: dict.faq.title },
+                {
+                  href: `${base}/mont-kiara-aesthetic-clinic`,
+                  label: dict.localAreas.montKiara.areaName,
+                },
+                {
+                  href: `${base}/sri-hartamas-cosmetic-surgery`,
+                  label: dict.localAreas.sriHartamas.areaName,
+                },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-ivory/70 transition-colors hover:text-gold">

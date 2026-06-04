@@ -852,5 +852,87 @@
         ]
       }
     }
+  },
+  "localAreas": {
+    "montKiara": {
+      "areaName": "Mont Kiara",
+      "eyebrow": "Mont Kiara Clinic",
+      "title": "Aesthetic & Cosmetic Surgery Clinic in Mont Kiara",
+      "lead": "Premium aesthetic medicine and cosmetic surgery in the heart of Mont Kiara, Kuala Lumpur — minutes from Solaris Mont Kiara, 1 Mont Kiara and Plaza Mont Kiara. English, Bahasa Malaysia and Chinese consultations available.",
+      "metaTitle": "Mont Kiara Aesthetic Clinic | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "Cosmetic surgery and aesthetic medicine in Mont Kiara, Kuala Lumpur — liposuction, rhinoplasty, facelift, HIFU and laser. Multilingual care minutes from Solaris Mont Kiara and Plaza Damas.",
+      "sections": [
+        {
+          "heading": "A trusted aesthetic clinic for Mont Kiara residents",
+          "body": "Mont Kiara is one of Kuala Lumpur's most international neighbourhoods, home to families and professionals who expect refined, clinic-grade aesthetic care. Our medical spa serves the Mont Kiara community from our flagship in Desa Sri Hartamas — a short drive from Solaris Mont Kiara, 1 Mont Kiara, Mont Kiara 2, Plaza Mont Kiara, Verve Suites and the Garden International School. Consultations are unhurried, results are planned around your anatomy and lifestyle, and every step is explained in English, Bahasa Malaysia or Mandarin Chinese."
+        },
+        {
+          "heading": "Treatments offered to Mont Kiara patients",
+          "body": "From precise cosmetic surgery to advanced non-surgical skin therapies, we offer a complete menu of treatments to Mont Kiara patients. Surgical options include [liposuction](treatments/liposuction), [rhinoplasty](treatments/rhinoplasty), [eye treatment](treatments/eye-treatment), [facelift](treatments/facelift), [breast implant](treatments/breast-implant) and [chin implant](treatments/chin-implant). Non-surgical care includes [body sculpting](treatments/body-sculpting), [HIFU lifting](treatments/hifu-lifting), [pico laser](treatments/pico-laser), [hair removal](treatments/hair-removal), [cell light therapy](treatments/cell-light-therapy) and a [whitening drip](treatments/whitening-drip). Browse all options on the [full treatments page](treatments)."
+        },
+        {
+          "heading": "Why Mont Kiara patients choose The Valley",
+          "body": "Our team brings more than ten years of cosmetic surgery and aesthetic medicine experience to every consultation, with patients from across Mont Kiara, Damansara Heights, Bukit Tunku and Bangsar. We pair clinical precision with a quiet, spa-like environment, transparent itemised pricing and structured aftercare that stays reachable on WhatsApp. Patient stories are visible across our [results](#gallery) and [reviews](#reviews) sections."
+        },
+        {
+          "heading": "Getting to our clinic from Mont Kiara",
+          "body": "From Mont Kiara, our Desa Sri Hartamas clinic is a 5–10 minute drive depending on traffic. Take Jalan Kiara down through Plaza Mont Kiara, continue along Jalan Sri Hartamas 1 and turn into Jalan 30/70A — we are at Lot 22-1, Wisma Rapid, opposite the Hartamas commercial belt. Grab and ride-hailing services reach us within minutes, and complimentary parking is available within the Wisma Rapid building."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do you offer consultations in English, Chinese or Malay?",
+          "a": "Yes. Our team consults in English, Bahasa Malaysia and Mandarin Chinese, so you can discuss treatments comfortably in your own language."
+        },
+        {
+          "q": "How long does it take to reach the clinic from Mont Kiara?",
+          "a": "From Mont Kiara, the clinic is a 5–10 minute drive depending on traffic. The clinic sits at Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas."
+        },
+        {
+          "q": "Do I need an appointment, or can I walk in?",
+          "a": "We see patients by appointment so we can plan an unhurried, private consultation. Book on WhatsApp or use the contact form and our team will confirm a time that suits you."
+        }
+      ]
+    },
+    "sriHartamas": {
+      "areaName": "Sri Hartamas",
+      "eyebrow": "Sri Hartamas Clinic",
+      "title": "Cosmetic Surgery & Aesthetic Medicine in Sri Hartamas",
+      "lead": "Our flagship clinic is in Desa Sri Hartamas, Kuala Lumpur — a short walk from Plaza Damas and Hartamas Shopping Centre. Cosmetic surgery, aesthetic medicine and advanced skin therapies, with consultations in English, Bahasa Malaysia and Mandarin Chinese.",
+      "metaTitle": "Sri Hartamas Cosmetic Surgery Clinic | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "Cosmetic surgery and aesthetic medicine in Desa Sri Hartamas, Kuala Lumpur — liposuction, rhinoplasty, facelift, HIFU and laser. Multilingual care near Plaza Damas and Hartamas Shopping Centre.",
+      "sections": [
+        {
+          "heading": "Your local cosmetic clinic in Sri Hartamas",
+          "body": "The Valley Beauty Medical Spa is based at Lot 22-1, Wisma Rapid, Jalan 30/70A in Desa Sri Hartamas, Kuala Lumpur — the natural choice for residents of Sri Hartamas, Mont Kiara, Damansara Heights and Bukit Tunku. Our patients enjoy a calm, spa-like environment, transparent pricing and a multilingual team. Plaza Damas, Hartamas Shopping Centre and the Hartamas commercial belt are within walking distance."
+        },
+        {
+          "heading": "What we treat in Sri Hartamas",
+          "body": "We provide a full menu of cosmetic procedures to Sri Hartamas patients. Cosmetic surgery includes [liposuction](treatments/liposuction), [rhinoplasty](treatments/rhinoplasty), [eye treatment](treatments/eye-treatment), [facelift](treatments/facelift), [breast implant](treatments/breast-implant) and [chin implant](treatments/chin-implant). Aesthetic medicine and skin therapies include [body sculpting](treatments/body-sculpting), [HIFU lifting](treatments/hifu-lifting), [pico laser](treatments/pico-laser), [hair removal](treatments/hair-removal), [cell light therapy](treatments/cell-light-therapy) and a [whitening drip](treatments/whitening-drip). See the [full treatments page](treatments) for details."
+        },
+        {
+          "heading": "What to expect at your Sri Hartamas consultation",
+          "body": "Every plan begins with a private, unhurried consultation — we listen to your goals, review your medical history and confirm whether the treatment you are considering is the right fit. You receive an honest, itemised quote before any commitment. Recovery support is structured: scheduled reviews, written aftercare instructions and a team reachable on WhatsApp throughout your healing. Read patient experiences on our [results](#gallery) and [reviews](#reviews) sections."
+        },
+        {
+          "heading": "Finding us in Desa Sri Hartamas",
+          "body": "We are located at Lot 22-1, Wisma Rapid, Jalan 30/70A, 50480 Kuala Lumpur. From Plaza Damas it is a 3-minute walk; from Hartamas Shopping Centre, around 5 minutes. Ride-hailing and Grab drivers all know Wisma Rapid; complimentary parking is available within the building. Our front desk also helps coordinate transport for international patients."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where exactly is the clinic in Sri Hartamas?",
+          "a": "Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas, 50480 Kuala Lumpur. Plaza Damas and Hartamas Shopping Centre are both within walking distance."
+        },
+        {
+          "q": "Is parking available?",
+          "a": "Yes — complimentary parking is available within the Wisma Rapid building. Our team will direct you on arrival."
+        },
+        {
+          "q": "Can I consult in Mandarin, English or Malay?",
+          "a": "Yes. Our consultations are offered in English, Bahasa Malaysia and Mandarin Chinese, with written aftercare available in the language you are most comfortable with."
+        }
+      ]
+    }
   }
 }

@@ -852,5 +852,87 @@
         ]
       }
     }
+  },
+  "localAreas": {
+    "montKiara": {
+      "areaName": "Mont Kiara",
+      "eyebrow": "Mont Kiara 클리닉",
+      "title": "Mont Kiara 미용·성형외과 클리닉",
+      "lead": "쿠알라룸푸르 Mont Kiara(몽키아라) 중심에서 가까운 프리미엄 미용 의학·성형외과. Solaris Mont Kiara, 1 Mont Kiara, Plaza Mont Kiara에서 5~10분 거리이며, 영어·말레이어·중국어 상담이 가능합니다.",
+      "metaTitle": "Mont Kiara 미용 클리닉 | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "Mont Kiara·쿠알라룸푸르의 미용 성형 및 미용 의학 — 지방흡입, 코 성형, 안면 리프팅, HIFU, 레이저. Solaris Mont Kiara와 Plaza Damas 인근, 다국어 진료.",
+      "sections": [
+        {
+          "heading": "Mont Kiara 주민이 신뢰하는 미용 클리닉",
+          "body": "Mont Kiara는 쿠알라룸푸르에서 가장 국제적인 동네 중 하나로, 정밀하고 차분한 미용 케어를 요구하는 패밀리와 전문직 종사자가 많이 거주합니다. 저희 클리닉은 Desa Sri Hartamas에 위치해 Mont Kiara 커뮤니티와 가깝습니다 — Solaris Mont Kiara, 1 Mont Kiara, Mont Kiara 2, Plaza Mont Kiara, Verve Suites, Garden International School에서 차로 짧은 거리. 모든 상담은 서두르지 않고 진행되며, 결과는 환자의 해부학적 조건과 라이프스타일에 맞춰 설계됩니다. 영어·말레이어·중국어로 안내드립니다."
+        },
+        {
+          "heading": "Mont Kiara 환자를 위한 시술",
+          "body": "정밀한 미용 수술부터 첨단 비수술 피부 케어까지 완전한 시술 메뉴를 제공합니다. 수술 옵션 — [지방흡입](treatments/liposuction), [코 성형](treatments/rhinoplasty), [눈 시술](treatments/eye-treatment), [안면거상술](treatments/facelift), [가슴 보형물](treatments/breast-implant), [턱 보형물](treatments/chin-implant). 비수술 케어 — [바디 스컬프팅](treatments/body-sculpting), [HIFU 리프팅](treatments/hifu-lifting), [피코 레이저](treatments/pico-laser), [제모](treatments/hair-removal), [셀 라이트 테라피](treatments/cell-light-therapy), [화이트닝 드립](treatments/whitening-drip). 전체 시술 목록은 [Treatments 페이지](treatments)에서 확인하세요."
+        },
+        {
+          "heading": "Mont Kiara 환자들이 The Valley를 선택하는 이유",
+          "body": "10년 이상의 미용 성형·미용 의학 경험을 가진 팀이 모든 상담을 진행합니다. Mont Kiara, Damansara Heights, Bukit Tunku, Bangsar 지역 환자들이 정기적으로 방문합니다. 임상적 정밀함과 스파 같은 차분한 공간, 항목별로 투명한 가격, WhatsApp으로 이어지는 체계적인 사후 관리 — 모든 과정이 환자 중심입니다. 실제 결과와 후기는 [Results](#gallery) 및 [Reviews](#reviews) 섹션에서 확인하실 수 있습니다."
+        },
+        {
+          "heading": "Mont Kiara에서 오시는 길",
+          "body": "Mont Kiara에서 Desa Sri Hartamas 클리닉까지 차로 5~10분 거리입니다(교통 상황에 따라). Jalan Kiara → Plaza Mont Kiara → Jalan Sri Hartamas 1 → Jalan 30/70A 진입. Lot 22-1, Wisma Rapid에 위치하며 Hartamas 상업 지구 맞은편입니다. Grab과 차량 호출 서비스로 짧은 시간에 도착하며, Wisma Rapid 건물 내 무료 주차가 가능합니다."
+        }
+      ],
+      "faq": [
+        {
+          "q": "영어·중국어·말레이어 상담이 가능한가요?",
+          "a": "네. 저희 팀은 영어·말레이어·중국어로 상담을 진행하므로 모국어로 편안하게 시술에 대해 상담하실 수 있습니다."
+        },
+        {
+          "q": "Mont Kiara에서 클리닉까지 얼마나 걸리나요?",
+          "a": "교통 상황에 따라 차로 5~10분 정도입니다. 클리닉 위치는 Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas입니다."
+        },
+        {
+          "q": "예약 없이도 방문할 수 있나요?",
+          "a": "여유로운 비공개 상담을 위해 예약제로 진료합니다. WhatsApp 또는 문의 양식으로 예약해 주시면 편안한 시간으로 안내해 드립니다."
+        }
+      ]
+    },
+    "sriHartamas": {
+      "areaName": "Sri Hartamas",
+      "eyebrow": "Sri Hartamas 클리닉",
+      "title": "Sri Hartamas 미용 성형·미용 의학",
+      "lead": "저희 본점은 쿠알라룸푸르 Desa Sri Hartamas에 자리하며, Plaza Damas와 Hartamas Shopping Centre에서 도보 거리입니다. 미용 성형, 미용 의학, 첨단 피부 케어 — 영어·말레이어·중국어 상담 가능.",
+      "metaTitle": "Sri Hartamas 미용 성형 클리닉 | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "Desa Sri Hartamas·쿠알라룸푸르의 미용 성형 및 미용 의학 — 지방흡입, 코 성형, 안면 리프팅, HIFU, 레이저. Plaza Damas, Hartamas Shopping Centre 인근.",
+      "sections": [
+        {
+          "heading": "Sri Hartamas 동네의 미용 클리닉",
+          "body": "The Valley Beauty Medical Spa는 Desa Sri Hartamas 중심부, Lot 22-1, Wisma Rapid, Jalan 30/70A에 자리하고 있습니다. Sri Hartamas, Mont Kiara, Damansara Heights, Bukit Tunku 주민에게 가장 자연스러운 선택지입니다. 차분한 스파형 환경, 투명한 가격, 다국어 팀 — Plaza Damas, Hartamas Shopping Centre, Hartamas 상업 거리가 모두 도보 거리에 있습니다."
+        },
+        {
+          "heading": "Sri Hartamas에서 받는 시술",
+          "body": "Sri Hartamas 환자를 위한 풀 메뉴의 미용 시술을 제공합니다. 미용 성형 — [지방흡입](treatments/liposuction), [코 성형](treatments/rhinoplasty), [눈 시술](treatments/eye-treatment), [안면거상술](treatments/facelift), [가슴 보형물](treatments/breast-implant), [턱 보형물](treatments/chin-implant). 미용 의학 및 피부 케어 — [바디 스컬프팅](treatments/body-sculpting), [HIFU 리프팅](treatments/hifu-lifting), [피코 레이저](treatments/pico-laser), [제모](treatments/hair-removal), [셀 라이트 테라피](treatments/cell-light-therapy), [화이트닝 드립](treatments/whitening-drip). 자세한 내용은 [Treatments 페이지](treatments)를 확인하세요."
+        },
+        {
+          "heading": "Sri Hartamas 상담에서 기대할 수 있는 것",
+          "body": "모든 플랜은 비공개로 진행되는 여유로운 상담에서 시작합니다 — 목표를 경청하고, 병력을 검토하며, 고려 중인 시술이 적합한지 정직하게 확인해 드립니다. 어떠한 결정 전에도 항목별 투명한 견적을 제공해 드립니다. 회복 지원은 체계적입니다: 예약된 검진, 서면 사후 관리 지침, 회복 기간 동안 항상 닿는 WhatsApp 팀. 실제 경험은 [Results](#gallery)와 [Reviews](#reviews) 섹션에서 확인하실 수 있습니다."
+        },
+        {
+          "heading": "Desa Sri Hartamas에서 클리닉 찾기",
+          "body": "주소: Lot 22-1, Wisma Rapid, Jalan 30/70A, 50480 Kuala Lumpur. Plaza Damas에서 도보 3분, Hartamas Shopping Centre에서 약 5분. Grab과 모든 차량 호출 서비스가 Wisma Rapid 위치를 알고 있으며, 건물 내 무료 주차가 가능합니다. 해외 환자의 경우 프런트 데스크에서 교통 안내를 도와드립니다."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Sri Hartamas 클리닉 정확한 위치가 어디인가요?",
+          "a": "Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas, 50480 Kuala Lumpur. Plaza Damas와 Hartamas Shopping Centre 모두 도보 거리입니다."
+        },
+        {
+          "q": "주차 가능한가요?",
+          "a": "네 — Wisma Rapid 건물 내 무료 주차가 가능합니다. 도착하시면 안내해 드립니다."
+        },
+        {
+          "q": "영어·중국어·말레이어로 상담할 수 있나요?",
+          "a": "네. 영어, 말레이어, 중국어로 상담을 제공하며, 사후 관리 안내문도 가장 편한 언어로 제공해 드립니다."
+        }
+      ]
+    }
   }
 }
