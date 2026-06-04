@@ -66,6 +66,18 @@ export default async function HomePage({
 
   return (
     <>
+      {/* Preload the LCP hero image so the browser starts fetching it before
+          encountering the <picture> tag. The mobile/desktop variants are
+          fetched via the existing <source> elements, but the link hint
+          accelerates discovery on slow networks. */}
+      <link
+        rel="preload"
+        as="image"
+        href="/images/hero/hero-1.webp"
+        imageSrcSet="/images/hero/hero-1-mobile.webp 900w, /images/hero/hero-1.webp 1800w"
+        imageSizes="(max-width: 639px) 100vw, 100vw"
+        fetchPriority="high"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeGraph) }}

@@ -60,7 +60,11 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
           return (
             <div
               key={slide.img}
-              aria-hidden={!active}
+              // inert removes the slide and its links from the focus order
+              // while it is hidden, which is what aria-hidden alone can't
+              // do — Lighthouse flagged focusable descendants under
+              // aria-hidden previously.
+              inert={!active}
               className={`absolute inset-0 transition-opacity duration-[900ms] ease-out ${
                 active ? "opacity-100" : "pointer-events-none opacity-0"
               }`}
@@ -72,8 +76,11 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 <img
                   src={slide.img}
                   alt={`${slide.eyebrow} — ${dict.brand.nameFull}, aesthetic & cosmetic surgery clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`}
+                  width={1800}
+                  height={1013}
                   loading={i === 0 ? "eager" : "lazy"}
                   fetchPriority={i === 0 ? "high" : undefined}
+                  decoding={i === 0 ? "sync" : "async"}
                   className={`absolute inset-0 h-full w-full object-cover object-top ${
                     slide.align === "left" ? "sm:object-right" : "sm:object-left"
                   }`}
@@ -169,7 +176,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             type="button"
             onClick={() => go(-1)}
             aria-label="Previous slide"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-ink/20 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/20 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:hidden"
           >
             <span className="text-base leading-none">‹</span>
           </button>
@@ -182,10 +189,14 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 onClick={() => setIndex(i)}
                 aria-label={`Go to slide ${i + 1}`}
                 aria-current={i === index}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  i === index ? "w-8 bg-gold" : "w-2.5 bg-ink/25 hover:bg-ink/40"
-                }`}
-              />
+                className="group flex h-11 items-center justify-center px-1"
+              >
+                <span
+                  className={`block h-1.5 rounded-full transition-all duration-300 ${
+                    i === index ? "w-8 bg-gold" : "w-2.5 bg-ink/25 group-hover:bg-ink/40"
+                  }`}
+                />
+              </button>
             ))}
           </div>
 
@@ -193,7 +204,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             type="button"
             onClick={() => go(1)}
             aria-label="Next slide"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-ink/20 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/20 bg-white/70 text-ink backdrop-blur transition-colors hover:bg-white sm:hidden"
           >
             <span className="text-base leading-none">›</span>
           </button>

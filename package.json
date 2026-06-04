@@ -20,5 +20,14 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome major versions",
+    "last 2 Safari major versions",
+    "last 2 Firefox major versions",
+    "last 2 Edge major versions",
+    "last 2 iOS major versions",
+    "last 2 Android major versions",
+    "not dead"
+  ]
 }
