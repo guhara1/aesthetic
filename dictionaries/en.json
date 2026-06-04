@@ -110,13 +110,13 @@
   "treatmentsSection": {
     "eyebrow": "Our Signature Treatments",
     "title": "Tailored procedures for a confident, natural you",
-    "subtitle": "From sculpting surgery to advanced skin therapies, every treatment is led by experienced specialists and planned around you.",
+    "subtitle": "From sculpting surgery to advanced skin therapies, every treatment is led by experienced specialists and planned around you — at our Mont Kiara · Sri Hartamas clinic in the heart of Kuala Lumpur.",
     "cta": "Discover all treatments"
   },
   "about": {
     "eyebrow": "Why The Valley",
     "title": "A decade of trusted surgical artistry",
-    "body": "Our team brings more than ten years of dedicated experience in cosmetic surgery and aesthetic medicine. We pair clinical precision with a refined, spa-like environment — so every step of your journey feels safe, private and reassuring.",
+    "body": "Our team brings more than ten years of dedicated experience in cosmetic surgery and aesthetic medicine. From our clinic in Mont Kiara and Sri Hartamas, Kuala Lumpur, we pair clinical precision with a refined, spa-like environment — so every step of your journey feels safe, private and reassuring.",
     "points": [
       "Experienced, board-certified surgeons",
       "Personalised, natural-looking results",
@@ -154,7 +154,30 @@
     "title": "Words from our patients",
     "subtitle": "Real messages our clients shared with us on WhatsApp.",
     "showMore": "Show more reviews",
-    "showLess": "Show less"
+    "showLess": "Show less",
+    "quotesHeading": "What our patients say",
+    "quotes": [
+      {
+        "author": "Mei L.",
+        "treatment": "Pico Laser",
+        "text": "Service is great. The laser treatment is effective and you can see results. My consultant was friendly, informative, gentle and thorough — and I loved the calm ambiance of the clinic."
+      },
+      {
+        "author": "Rachel A.",
+        "treatment": "Rhinoplasty",
+        "text": "I love the result so much. My nose now looks so pretty — like I was born with it. The team followed up with me carefully and made sure I felt taken care of."
+      },
+      {
+        "author": "Esther F.",
+        "treatment": "Body Sculpt",
+        "text": "Very satisfied. My hips and thighs slimmed down a lot — I genuinely look better now. What I appreciate most is the after-care: they keep checking in and treat you like family."
+      },
+      {
+        "author": "Hannah T.",
+        "treatment": "Laser Hair Removal",
+        "text": "Sorry for the late reply — I've been seeing progress after the third session and can't wait for more sessions for my drastic improvement. Thank you for the great service."
+      }
+    ]
   },
   "reviewer": {
     "label": "Medically reviewed by",
@@ -239,7 +262,7 @@
   },
   "aboutPage": {
     "title": "About The Valley",
-    "lead": "A medical spa in Kuala Lumpur where surgical expertise meets genuine, multilingual care.",
+    "lead": "A medical spa in Mont Kiara · Sri Hartamas, Kuala Lumpur, where surgical expertise meets genuine, multilingual care.",
     "story": [
       "The Valley Beauty Medical Spa was founded on a simple belief: cosmetic and aesthetic medicine should feel safe, private and honest. Our team brings more than a decade of dedicated experience in cosmetic surgery and aesthetic treatments to patients from across our diverse community.",
       "We serve a multicultural city, so our care is delivered in English, Mandarin Chinese, Korean and Japanese. Every plan begins with listening — to your goals, your concerns and your questions — before any treatment is recommended."
@@ -598,7 +621,7 @@
   },
   "contactPage": {
     "title": "Book a Consultation",
-    "lead": "Tell us a little about your goals. We'll reply on WhatsApp to arrange your private, no-obligation consultation.",
+    "lead": "Tell us a little about your goals. Our Mont Kiara · Sri Hartamas team will reply on WhatsApp to arrange your private, no-obligation consultation.",
     "form": {
       "name": "Your name",
       "contact": "Phone or email",
@@ -720,7 +743,7 @@
           {
             "heading": "What non-surgical treatments do well",
             "body": [
-              "Non-surgical options such as HIFU, lasers and energy- or injectable-based treatments are excellent for early to moderate concerns: skin laxity, pigmentation, texture, or small, localised areas. They usually involve little or no downtime and bring gradual, natural change over a course of sessions. They are a strong choice when you want subtle refinement or maintenance, or when you are simply not ready for surgery."
+              "Non-surgical options such as [HIFU](treatments/hifu), [laser](treatments/pico-laser)s and energy- or injectable-based treatments are excellent for early to moderate concerns: skin laxity, pigmentation, texture, or small, localised areas. They usually involve little or no downtime and bring gradual, natural change over a course of sessions. They are a strong choice when you want subtle refinement or maintenance, or when you are simply not ready for surgery."
             ]
           },
           {
@@ -804,8 +827,8 @@
             "heading": "Treatments to choose, treatments to skip",
             "body": [
               "Which procedures are appropriate depends almost entirely on how much time remains. Anything that risks lingering swelling or redness on the day is not worth the gamble, regardless of how good the result might be.",
-              "Safe options up to four weeks before: hydrafacial, LED light therapy, mild chemical peels, brightening facials and gentle laser toning. These have short downtime, low irritation risk and compound nicely if started early.",
-              "Treatments that need more lead time: stronger chemical peels and high-energy lasers should be completed six weeks out at the latest. Botulinum toxin and dermal fillers should be finished at least three weeks before the wedding so that swelling resolves and the result settles into a natural position.",
+              "Safe options up to four weeks before: [hydrafacial, LED light therapy](treatments/cell-light), mild chemical peels, brightening facials and gentle laser toning. These have short downtime, low irritation risk and compound nicely if started early.",
+              "Treatments that need more lead time: stronger chemical peels and high-energy lasers should be completed six weeks out at the latest. [Botulinum toxin and dermal fillers](treatments/hifu) should be finished at least three weeks before the wedding so that swelling resolves and the result settles into a natural position.",
               "A firm no in the final weeks: any treatment you have never tried before. The wedding is not the time to discover an allergy or an unexpected reaction. Reserve first-time treatments for the assessment phase, eight weeks out."
             ]
           },

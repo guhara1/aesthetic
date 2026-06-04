@@ -59,7 +59,7 @@ export function Results({ dict }: { dict: Dictionary }) {
           {items.map((item) => {
             const src = `/images/${folder}/${item.file}`;
             const info = infoFor(item);
-            const alt = `${info.name} — ${dict.results.title} · ${dict.brand.name}, Kuala Lumpur`;
+            const alt = `${info.name} before & after — ${dict.brand.name}, aesthetic clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`;
             return (
               <figure
                 key={item.file}

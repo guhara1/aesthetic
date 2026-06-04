@@ -23,7 +23,30 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
           subtitle={dict.testimonials.subtitle}
         />
 
-        <div className="mt-14 columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4 [&>*]:mb-5">
+        {/* Text quotes — schema-friendly individual reviews */}
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {dict.testimonials.quotes.map((q, i) => (
+            <figure
+              key={i}
+              className="flex h-full flex-col justify-between rounded-sm border border-sand bg-ivory p-6 shadow-[0_18px_40px_-30px_rgba(42,36,32,0.5)]"
+            >
+              <blockquote className="text-sm leading-relaxed text-ink-soft">
+                <span className="mr-1 font-display text-2xl leading-none text-gold/60" aria-hidden>
+                  &ldquo;
+                </span>
+                {q.text}
+              </blockquote>
+              <figcaption className="mt-4 border-t border-sand/70 pt-3">
+                <p className="font-display text-base text-ink">{q.author}</p>
+                <p className="text-[11px] tracking-[0.12em] uppercase text-gold-deep">
+                  {q.treatment}
+                </p>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+
+        <div className="mt-10 columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4 [&>*]:mb-5">
           {visible.map((file) => {
             const src = `/images/reviews/${file}`;
             return (
@@ -36,7 +59,7 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={src}
-                  alt="Customer WhatsApp review"
+                  alt={`Patient WhatsApp review — ${dict.brand.nameFull}, aesthetic clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`}
                   loading="lazy"
                   className="w-full rounded-sm"
                 />

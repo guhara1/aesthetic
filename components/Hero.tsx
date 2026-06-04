@@ -71,7 +71,7 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={slide.img}
-                  alt={`${slide.eyebrow} — ${dict.brand.nameFull}, Kuala Lumpur`}
+                  alt={`${slide.eyebrow} — ${dict.brand.nameFull}, aesthetic & cosmetic surgery clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`}
                   loading={i === 0 ? "eager" : "lazy"}
                   fetchPriority={i === 0 ? "high" : undefined}
                   className={`absolute inset-0 h-full w-full object-cover object-top ${

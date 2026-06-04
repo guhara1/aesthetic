@@ -152,7 +152,7 @@ export default async function HomePage({
           <div className="relative">
             <img
               src="/images/clinic/about.webp"
-              alt={dict.about.title}
+              alt={`${dict.brand.nameFull} clinic interior — aesthetic & cosmetic surgery in Mont Kiara · Sri Hartamas, Kuala Lumpur`}
               width={1200}
               height={1500}
               loading="lazy"

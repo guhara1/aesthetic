@@ -179,7 +179,7 @@ export default async function PostPage({
                     : ""
                 }`}
               >
-                {para}
+                {renderWithLinks(para, base)}
               </p>
             ))}
           </section>
@@ -239,4 +239,30 @@ export default async function PostPage({
       )}
     </article>
   );
+}
+
+// Render paragraph text with inline [label](relative/path) tokens converted
+// to internal <Link>s. Paths are appended to the locale base so the same
+// dictionary string works across all four languages.
+function renderWithLinks(text: string, base: string): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let key = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    parts.push(
+      <Link
+        key={`l-${key++}`}
+        href={`${base}/${m[2].replace(/^\/+/, "")}`}
+        className="text-gold-deep underline decoration-gold/40 underline-offset-4 transition-colors hover:text-gold hover:decoration-gold"
+      >
+        {m[1]}
+      </Link>,
+    );
+    last = re.lastIndex;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
 }

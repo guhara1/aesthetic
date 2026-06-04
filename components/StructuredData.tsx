@@ -69,7 +69,37 @@ export function StructuredData({
       name: dict.treatmentsMenu.items[key].name,
       description: dict.treatmentsMenu.items[key].desc,
     })),
-    areaServed: { "@type": "City", name: "Kuala Lumpur" },
+    review: dict.testimonials.quotes.map((q) => ({
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
+      author: { "@type": "Person", name: q.author },
+      reviewBody: q.text,
+      itemReviewed: { "@id": clinicId },
+    })),
+    areaServed: [
+      { "@type": "City", name: "Kuala Lumpur" },
+      {
+        "@type": "Place",
+        name: "Mont Kiara",
+        geo: {
+          "@type": "GeoCircle",
+          geoMidpoint: { "@type": "GeoCoordinates", latitude: 3.1718, longitude: 101.6527 },
+          geoRadius: "1500",
+        },
+      },
+      {
+        "@type": "Place",
+        name: "Sri Hartamas",
+        geo: {
+          "@type": "GeoCircle",
+          geoMidpoint: { "@type": "GeoCoordinates", latitude: 3.1640, longitude: 101.6498 },
+          geoRadius: "1500",
+        },
+      },
+      { "@type": "Place", name: "Desa Sri Hartamas" },
+      { "@type": "Place", name: "Solaris Mont Kiara" },
+      { "@type": "Place", name: "Plaza Damas" },
+    ],
     ...(clinic.sameAs.length ? { sameAs: clinic.sameAs } : {}),
   };
 
