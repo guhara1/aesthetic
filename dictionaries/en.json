@@ -147,7 +147,10 @@
       "hairRemoval": "Hair Removal",
       "cellLight": "Cell Light Therapy",
       "whiteningDrip": "Whitening Drip"
-    }
+    },
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "dragHint": "Drag to compare"
   },
   "testimonials": {
     "eyebrow": "Patient Stories",

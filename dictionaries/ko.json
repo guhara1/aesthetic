@@ -147,7 +147,10 @@
       "hairRemoval": "제모",
       "cellLight": "셀 라이트 테라피",
       "whiteningDrip": "미백 수액"
-    }
+    },
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "dragHint": "드래그해서 비교"
   },
   "testimonials": {
     "eyebrow": "고객 이야기",

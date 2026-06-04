@@ -1,26 +1,28 @@
 // Real patient before/after photos and WhatsApp review screenshots.
 // `labelKey` for surgical items maps to dict.treatmentsMenu.items[key].name;
 // non-surgical keys map to dict.results.labels[key].
-// `wide: true` flags side-by-side before/after composites so the gallery
-// grid gives them double width instead of squeezing them.
+// Items with `beforeFile`/`afterFile` render as a drag-to-reveal slider in
+// the Results gallery. Items with `file` render as a single static photo.
 
-export type GalleryItem = { file: string; labelKey: string; wide?: boolean };
+export type GalleryItem =
+  | { file: string; labelKey: string; wide?: boolean; beforeFile?: never; afterFile?: never }
+  | { beforeFile: string; afterFile: string; labelKey: string; wide?: boolean; file?: never };
 
 export const surgicalGallery: GalleryItem[] = [
-  { file: "liposuction.png", labelKey: "liposuction", wide: true },
+  { beforeFile: "liposuction-before.png", afterFile: "liposuction-after.png", labelKey: "liposuction", wide: true },
   { file: "rhinoplasty.jpg", labelKey: "rhinoplasty" },
-  { file: "eye-treatment.png", labelKey: "eye", wide: true },
+  { beforeFile: "eye-treatment-before.png", afterFile: "eye-treatment-after.png", labelKey: "eye", wide: true },
   { file: "facelift.jpg", labelKey: "facelift" },
-  { file: "chin-implant.jpg", labelKey: "chin", wide: true },
-  { file: "breast-implant.png", labelKey: "breast", wide: true },
+  { beforeFile: "chin-implant-before.jpg", afterFile: "chin-implant-after.jpg", labelKey: "chin", wide: true },
+  { beforeFile: "breast-implant-before.png", afterFile: "breast-implant-after.png", labelKey: "breast", wide: true },
 ];
 
 export const nonSurgicalGallery: GalleryItem[] = [
   { file: "body-sculpt.jpg", labelKey: "bodySculpt" },
   { file: "hifu.jpg", labelKey: "hifu" },
-  { file: "pico-laser.png", labelKey: "picoLaser", wide: true },
+  { beforeFile: "pico-laser-before.png", afterFile: "pico-laser-after.png", labelKey: "picoLaser", wide: true },
   { file: "hair-removal.jpg", labelKey: "hairRemoval" },
-  { file: "cell-light.jpg", labelKey: "cellLight", wide: true },
+  { beforeFile: "cell-light-before.jpg", afterFile: "cell-light-after.jpg", labelKey: "cellLight", wide: true },
   { file: "whitening-drip.webp", labelKey: "whiteningDrip" },
 ];
 

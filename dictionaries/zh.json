@@ -147,7 +147,10 @@
       "hairRemoval": "激光脱毛",
       "cellLight": "细胞光疗",
       "whiteningDrip": "美白点滴"
-    }
+    },
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "dragHint": "拖动比较"
   },
   "testimonials": {
     "eyebrow": "客户心声",

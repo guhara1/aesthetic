@@ -147,7 +147,10 @@
       "hairRemoval": "医療脱毛",
       "cellLight": "セルライト セラピー",
       "whiteningDrip": "美白点滴"
-    }
+    },
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "dragHint": "ドラッグで比較"
   },
   "testimonials": {
     "eyebrow": "お客様の声",

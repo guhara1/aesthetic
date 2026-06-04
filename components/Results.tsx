@@ -8,6 +8,7 @@ import {
   type GalleryItem,
 } from "@/lib/galleryData";
 import { SectionHeading } from "./SectionHeading";
+import { BeforeAfterSlider } from "./BeforeAfterSlider";
 
 type Tab = "surgical" | "nonSurgical";
 
@@ -60,42 +61,53 @@ export function Results({ dict }: { dict: Dictionary }) {
             small items into any gaps without changing DOM order. */}
         <div className="mt-12 grid grid-cols-1 grid-flow-row-dense gap-5 sm:grid-cols-2">
           {items.map((item) => {
-            const src = `/images/${folder}/${item.file}`;
             const info = infoFor(item);
             const alt = `${info.name} before & after — ${dict.brand.name}, aesthetic clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`;
+            const isPair = "beforeFile" in item && item.beforeFile;
+            const key = isPair ? `${item.beforeFile}-${item.afterFile}` : (item as { file: string }).file;
             return (
               <figure
-                key={item.file}
+                key={key}
                 className={`group block self-start overflow-hidden rounded-sm border border-sand bg-ivory shadow-[0_18px_40px_-28px_rgba(42,36,32,0.45)] ${
                   item.wide ? "sm:col-span-2" : ""
                 }`}
               >
-                <button
-                  type="button"
-                  onClick={() => setLightbox(src)}
-                  className="relative block w-full cursor-zoom-in"
-                  aria-label={alt}
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={src}
+                {isPair ? (
+                  <BeforeAfterSlider
+                    before={`/images/${folder}/${item.beforeFile}`}
+                    after={`/images/${folder}/${item.afterFile}`}
                     alt={alt}
-                    width={item.wide ? 1800 : 1080}
-                    height={item.wide ? 600 : 1440}
-                    loading="lazy"
-                    decoding="async"
-                    className="block w-full transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                    style={{ aspectRatio: item.wide ? "3 / 1" : "3 / 4" }}
+                    beforeLabel={dict.results.beforeLabel ?? "Before"}
+                    afterLabel={dict.results.afterLabel ?? "After"}
                   />
-                  <span className="pointer-events-none absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/10" />
-                </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => setLightbox(`/images/${folder}/${(item as { file: string }).file}`)}
+                    className="relative block w-full cursor-zoom-in"
+                    aria-label={alt}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`/images/${folder}/${(item as { file: string }).file}`}
+                      alt={alt}
+                      width={1080}
+                      height={1440}
+                      loading="lazy"
+                      decoding="async"
+                      className="block w-full transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                      style={{ aspectRatio: "3 / 4" }}
+                    />
+                    <span className="pointer-events-none absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/10" />
+                  </button>
+                )}
                 <figcaption className="px-5 py-4">
                   <div className="flex items-center justify-between gap-3">
                     <h3 className="font-display text-lg leading-tight text-ink">
                       {info.name}
                     </h3>
                     <span className="shrink-0 text-[9px] tracking-[0.18em] uppercase text-gold">
-                      Before / After
+                      {isPair ? (dict.results.dragHint ?? "Drag to compare") : "Before / After"}
                     </span>
                   </div>
                   {info.desc && (
