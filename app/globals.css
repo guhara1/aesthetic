@@ -98,7 +98,7 @@
   position: absolute;
   inset: 0;
   border-radius: 9999px;
-  background: rgba(176, 141, 87, 0.55);
+  background: rgba(255, 122, 45, 0.55);
   animation: float-call-ring 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
   z-index: -1;
 }

@@ -11,7 +11,7 @@ export function FloatingCallButton({ ariaLabel }: { ariaLabel: string }) {
     <a
       href={`tel:${tel}`}
       aria-label={ariaLabel}
-      className="float-call-btn fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-gold text-white shadow-[0_12px_28px_-8px_rgba(176,141,87,0.7)] transition-transform active:scale-95 lg:hidden"
+      className="float-call-btn fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#ff7a2d] text-white shadow-[0_12px_28px_-8px_rgba(255,122,45,0.75)] transition-transform active:scale-95 lg:hidden"
     >
       <span className="float-call-pulse" aria-hidden />
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden>
