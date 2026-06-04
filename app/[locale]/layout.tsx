@@ -15,6 +15,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StructuredData } from "@/components/StructuredData";
 import { RevealObserver } from "@/components/RevealObserver";
+import { FloatingCallButton } from "@/components/FloatingCallButton";
 
 const OG_LOCALE: Record<Locale, string> = {
   en: "en_GB",
@@ -103,6 +104,7 @@ export default async function LocaleLayout({
         <Header dict={dict} locale={locale} />
         <main>{children}</main>
         <Footer dict={dict} locale={locale} />
+        <FloatingCallButton ariaLabel={dict.nav.book} />
       </body>
     </html>
   );

@@ -76,6 +76,43 @@
   animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+/* Floating call button: gentle pulse ring + subtle wiggle so it draws
+   attention without becoming distracting. */
+@keyframes float-call-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  80%,
+  100% {
+    transform: scale(2.1);
+    opacity: 0;
+  }
+}
+@keyframes float-call-wiggle {
+  0%, 70%, 100% { transform: rotate(0deg); }
+  75%, 85% { transform: rotate(-12deg); }
+  80%, 90% { transform: rotate(12deg); }
+}
+.float-call-pulse {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgba(176, 141, 87, 0.55);
+  animation: float-call-ring 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  z-index: -1;
+}
+.float-call-btn {
+  animation: float-call-wiggle 3s ease-in-out infinite;
+  transform-origin: center;
+}
+@media (prefers-reduced-motion: reduce) {
+  .float-call-pulse,
+  .float-call-btn {
+    animation: none;
+  }
+}
+
 /* Scroll reveal — sections fade/slide in as they enter the viewport.
    The `reveal-on` class is added on <html> by an inline script before
    paint (so there's no flash), which means content stays fully visible
