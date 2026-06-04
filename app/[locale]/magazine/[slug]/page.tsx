@@ -116,7 +116,7 @@ export default async function PostPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }} />
 
       {/* ── Hero ── */}
-      <header className="relative overflow-hidden bg-ink pt-32 pb-28 text-ivory lg:pt-40 lg:pb-36">
+      <header className="relative overflow-hidden bg-ink pt-32 pb-16 text-ivory lg:pt-40 lg:pb-20">
         <div className="absolute inset-0 -z-10">
           <div className="h-full w-full bg-[radial-gradient(120%_120%_at_80%_0%,#5a4a3a_0%,#3a2f27_45%,#211b16_100%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(50%_45%_at_50%_0%,rgba(176,141,87,0.22),transparent_70%)]" />
@@ -144,8 +144,8 @@ export default async function PostPage({
         </div>
       </header>
 
-      {/* ── Cover (overlaps hero) ── */}
-      <div className="mx-auto -mt-20 max-w-3xl px-6 lg:-mt-24 lg:px-10">
+      {/* ── Cover ── */}
+      <div className="mx-auto mt-10 max-w-3xl px-6 lg:mt-14 lg:px-10">
         <div className="overflow-hidden rounded-sm border border-sand/80 shadow-[0_40px_90px_-50px_rgba(42,36,32,0.65)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={post.cover} alt={p.title} className="block h-auto w-full" />
@@ -184,27 +184,6 @@ export default async function PostPage({
             ))}
           </section>
         ))}
-
-        {/* ── Author / reviewer card (E-E-A-T) ── */}
-        <div className="mt-16 flex items-center gap-5 rounded-sm border border-sand bg-cream p-6">
-          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold/50 bg-ivory font-display text-2xl text-gold-deep">
-            ✦
-          </div>
-          <div>
-            <p className="text-[10px] tracking-[0.2em] uppercase text-gold-deep">
-              {dict.magazine.byLabel}
-            </p>
-            <p className="mt-1 font-display text-xl leading-tight text-ink">
-              {medicalReviewer.name}
-            </p>
-            <p className="mt-0.5 text-sm text-taupe">
-              {medicalReviewer.role} · {medicalReviewer.credentials}
-            </p>
-            <p className="mt-1 text-xs text-taupe/80">
-              {dict.reviewer.updatedLabel}: {fmt(contentLastReviewed)}
-            </p>
-          </div>
-        </div>
 
         {/* ── CTA ── */}
         <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-4">
