@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
-import { medicalReviewer, clinic } from "@/lib/clinic";
+import { clinic } from "@/lib/clinic";
 import { treatments } from "@/lib/treatments";
 
 const footerTreatments = treatments.filter((t) => t.category === "surgical");
@@ -158,10 +158,6 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         <div className="mt-16 border-t border-ivory/12 pt-8">
           <p className="text-xs leading-relaxed text-ivory/45">
             {dict.footer.disclaimer}
-          </p>
-          <p className="mt-3 text-xs text-ivory/45">
-            {dict.reviewer.label} {medicalReviewer.name}, {medicalReviewer.credentials}.{" "}
-            {dict.reviewer.updatedLabel}: {dict.reviewer.updatedDate}.
           </p>
           <p className="mt-3 text-xs text-ivory/45">
             © {year} {dict.brand.nameFull}. {dict.footer.rights}
