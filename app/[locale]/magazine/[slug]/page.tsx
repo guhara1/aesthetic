@@ -102,7 +102,14 @@ export default async function PostPage({
     ],
   };
 
-  const more = posts.filter((x) => x.slug !== post.slug).slice(0, 2);
+  const more = posts
+    .filter((x) => x.slug !== post.slug)
+    .sort((a, b) =>
+      dict.magazine.posts[b.key as PostKey].date.localeCompare(
+        dict.magazine.posts[a.key as PostKey].date,
+      ),
+    )
+    .slice(0, 2);
 
   return (
     <article className="bg-ivory">
@@ -141,7 +148,7 @@ export default async function PostPage({
       <div className="mx-auto -mt-20 max-w-3xl px-6 lg:-mt-24 lg:px-10">
         <div className="overflow-hidden rounded-sm border border-sand/80 shadow-[0_40px_90px_-50px_rgba(42,36,32,0.65)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={post.cover} alt={p.title} className="aspect-[16/9] w-full object-cover" />
+          <img src={post.cover} alt={p.title} className="block h-auto w-full" />
         </div>
       </div>
 
@@ -234,7 +241,7 @@ export default async function PostPage({
                         src={m.cover}
                         alt={mp.title}
                         loading="lazy"
-                        className="aspect-[16/9] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                        className="aspect-[3/2] w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
                       />
                     </div>
                     <p className="mt-4 text-[11px] tracking-[0.14em] uppercase text-taupe">

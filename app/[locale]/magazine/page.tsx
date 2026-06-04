@@ -80,7 +80,13 @@ export default async function MagazineIndex({
 
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
         <div className="grid gap-10 md:grid-cols-3">
-          {posts.map((post) => {
+          {[...posts]
+            .sort((a, b) =>
+              dict.magazine.posts[b.key as PostKey].date.localeCompare(
+                dict.magazine.posts[a.key as PostKey].date,
+              ),
+            )
+            .map((post) => {
             const p = dict.magazine.posts[post.key as PostKey];
             return (
               <Link key={post.slug} href={`${base}/magazine/${post.slug}`} className="group flex flex-col">
@@ -90,7 +96,7 @@ export default async function MagazineIndex({
                     src={post.cover}
                     alt={p.title}
                     loading="lazy"
-                    className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                    className="aspect-[3/2] w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
                   />
                 </div>
                 <p className="mt-5 text-[11px] tracking-[0.14em] uppercase text-taupe">
