@@ -72,14 +72,17 @@ for (const p of contentPaths) {
 }
 
 const sitemap1 = `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urlSet.join("\n")}
 </urlset>
 `;
 
+// sitemap.xml — primary feed for Google. Identical content to sitemap1.xml.
+fs.writeFileSync("public/sitemap.xml", sitemap1);
 fs.writeFileSync("public/sitemap1.xml", sitemap1);
 console.log(
-  `wrote public/sitemap1.xml (${urlSet.length} urls, ${sitemap1.length} bytes)`,
+  `wrote public/sitemap.xml and public/sitemap1.xml (${urlSet.length} urls each)`,
 );
 
 // ───────────────── rss.xml ─────────────────
