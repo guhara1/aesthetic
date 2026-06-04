@@ -6,7 +6,7 @@
 // placeholder and must be replaced with the real licensed practitioner before
 // publishing — accurate authorship is required for medical (YMYL) E-E-A-T.
 
-export const SITE_URL = "https://aesthetic-9ot.pages.dev";
+export const SITE_URL = "https://thevalley-beauty.com";
 
 // E.164 digits used for WhatsApp / tel links (no spaces or symbols).
 export const WHATSAPP_NUMBER = "60109118518";

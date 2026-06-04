@@ -65,11 +65,14 @@ export default async function TreatmentsIndex({
               <li className="text-gold">{ui.treatments}</li>
             </ol>
           </nav>
-          <h1 className="mt-8 font-display text-5xl leading-tight text-ivory lg:text-6xl">
-            {dict.treatmentsSection.title}
+          <p className="mt-8 text-[11px] tracking-[0.28em] uppercase text-gold">
+            {dict.treatmentsHubPage?.eyebrow ?? dict.treatmentsSection.eyebrow}
+          </p>
+          <h1 className="mt-4 font-display text-5xl leading-tight text-ivory lg:text-6xl">
+            {dict.treatmentsHubPage?.title ?? dict.treatmentsSection.title}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ivory/75">
-            {dict.treatmentsSection.subtitle}
+            {dict.treatmentsHubPage?.lead ?? dict.treatmentsSection.subtitle}
           </p>
         </div>
       </header>
@@ -101,6 +104,21 @@ export default async function TreatmentsIndex({
           </section>
         ))}
       </div>
+
+      {dict.treatmentsHubPage?.sections && (
+        <section className="border-t border-sand bg-cream py-20 lg:py-24">
+          <div className="mx-auto max-w-3xl px-6 lg:px-10">
+            {dict.treatmentsHubPage.sections.map((s, i) => (
+              <div key={i} className="mt-12 first:mt-0">
+                <h2 className="font-display text-[1.7rem] leading-snug text-ink lg:text-[2rem]">
+                  {s.heading}
+                </h2>
+                <p className="mt-5 text-[1.05rem] leading-[1.9] text-ink-soft">{s.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

@@ -264,13 +264,15 @@
     "title": "About The Valley",
     "lead": "A medical spa in Mont Kiara · Sri Hartamas, Kuala Lumpur, where surgical expertise meets genuine, multilingual care.",
     "story": [
-      "The Valley Beauty Medical Spa was founded on a simple belief: cosmetic and aesthetic medicine should feel safe, private and honest. Our team brings more than a decade of dedicated experience in cosmetic surgery and aesthetic treatments to patients from across our diverse community.",
-      "We serve a multicultural city, so our care is delivered in English, Mandarin Chinese, Korean and Japanese. Every plan begins with listening — to your goals, your concerns and your questions — before any treatment is recommended."
+      "The Valley Beauty Medical Spa was founded on a simple belief: cosmetic and aesthetic medicine should feel safe, private and honest. Our team brings more than a decade of dedicated experience in cosmetic surgery and aesthetic treatments to patients from across our diverse community in Mont Kiara and Sri Hartamas.",
+      "We chose Desa Sri Hartamas for our flagship because it gives our patients quiet, easy access in the heart of Kuala Lumpur — minutes from Mont Kiara, Bukit Tunku, Damansara Heights and Bangsar. The space was designed to feel less like a hospital and more like a calm, refined retreat, because the way a clinic feels affects how you experience your care.",
+      "Every consultation starts the same way — with listening. We ask about your goals, your medical history and what has and hasn't worked for you in the past. From there, we either propose a plan we genuinely believe in, or we tell you when a procedure isn't the right fit. We see this as part of long-term care, not a single transaction.",
+      "We work in English, Bahasa Malaysia and Mandarin Chinese, and we treat every patient with the same standard of unrushed attention. Our before-and-after images, patient reviews and structured aftercare are all real outcomes from our clinic — not stock material — so what you see here is what you can expect from us."
     ],
     "missionTitle": "Our mission",
-    "mission": "To deliver natural-looking, medically sound results in a calm, spa-like environment — and to be honest about what each procedure can and cannot achieve.",
+    "mission": "To deliver natural-looking, medically sound results in a calm, spa-like environment — and to be honest about what each procedure can and cannot achieve. We measure success by how our patients feel six months and six years after a procedure, not just on the day they leave the clinic.",
     "policyTitle": "Editorial & medical content policy",
-    "policy": "The information on this website is created by our team and reviewed by a qualified medical practitioner. It is intended for general education only and is not a substitute for a personal consultation or professional medical advice. Before-and-after images are from real patients, shared with their consent; individual results vary. We update our content as practice and guidance evolve, and the date of the most recent review is shown on our pages.",
+    "policy": "The information on this website is created by our team and reviewed by our clinical staff. It is intended for general education only and is not a substitute for a personal consultation or professional medical advice. Before-and-after images are from real patients at our Mont Kiara · Sri Hartamas clinic, shared with their consent; individual results always vary. We update our content as practice and guidance evolve, and the date of the most recent review is shown on our pages. Where we cite a treatment, recovery time or expectation, it reflects what we observe in our own clinical practice rather than generic claims.",
     "visitTitle": "Visit us",
     "contactTitle": "Get in touch",
     "directions": "View on Google Maps"
@@ -466,8 +468,8 @@
         "Comfortable sessions, no surgery required",
         "Gradual, natural-looking refinement"
       ],
-      "recovery": "There is little to no downtime — most people return to normal activities immediately after a session. Results appear gradually over the following weeks as the body responds, and a course of several sessions usually gives the best outcome.",
-      "considerations": "Results are gradual and more subtle than surgery, and they vary between individuals. Non-surgical sculpting is not suitable for large-volume fat reduction. If a surgical option such as liposuction would give you a better result, we will tell you honestly rather than recommend an unsuitable course.",
+      "recovery": "There is little to no downtime — most people return to normal activities immediately after a session. Results appear gradually over the following weeks as the body responds, and a course of several sessions usually gives the best outcome. You can return to normal activities the same day, including light gym work. Mild soreness or tenderness in the treated area can last 24–48 hours.",
+      "considerations": "Results are gradual and more subtle than surgery, and they vary between individuals. Non-surgical sculpting is not suitable for large-volume fat reduction. If a surgical option such as liposuction would give you a better result, we will tell you honestly rather than recommend an unsuitable course. Body sculpting is not a weight-loss treatment. It works best for patients close to a stable weight who want to reduce stubborn pockets that resist exercise. We are honest during consultation if your goal is better served by a different approach.",
       "faq": [
         {
           "q": "How many sessions will I need?",
@@ -493,8 +495,8 @@
         "Targets the face and neck with no incisions",
         "No downtime after treatment"
       ],
-      "recovery": "You can resume normal activities straight away. Some tightening may be felt early, but the main lift develops gradually over two to three months as collagen renews. Results can be maintained with periodic sessions as advised.",
-      "considerations": "Results are gradual and vary between individuals; HIFU refines and lifts but cannot match the effect of surgery on advanced sagging. Temporary redness or tenderness may occur. We will recommend surgery instead if it would genuinely give you a better outcome.",
+      "recovery": "You can resume normal activities straight away. Some tightening may be felt early, but the main lift develops gradually over two to three months as collagen renews. Results can be maintained with periodic sessions as advised. You can return to work the same day. Mild redness or a slight pink flush is common for a few hours, and any tenderness usually settles within 24–48 hours.",
+      "considerations": "Results are gradual and vary between individuals; HIFU refines and lifts but cannot match the effect of surgery on advanced sagging. Temporary redness or tenderness may occur. We will recommend surgery instead if it would genuinely give you a better outcome. HIFU is most rewarding for patients in their thirties and forties with mild to moderate laxity — it will not reproduce a surgical facelift, and we will say so honestly during your consultation. Patients with very advanced skin laxity, or who want a one-step dramatic change, are usually better served by surgery.",
       "faq": [
         {
           "q": "When will I see results?",
@@ -520,8 +522,8 @@
         "Stimulates renewal for clearer skin",
         "Minimal downtime between sessions"
       ],
-      "recovery": "Mild redness may last a few hours and most people return to their routine the same day. Results build over a course of sessions as pigment clears and the skin renews. Diligent sun protection protects and prolongs your result.",
-      "considerations": "Pigmentation conditions such as melasma can be stubborn and may recur, so realistic expectations matter. Incorrect settings can risk irritation, which is why we assess your skin type carefully and treat conservatively. Sun exposure between sessions can undo progress.",
+      "recovery": "Mild redness may last a few hours and most people return to their routine the same day. Results build over a course of sessions as pigment clears and the skin renews. Diligent sun protection protects and prolongs your result. A mild pink flush for an hour or two is typical. You can apply gentle skincare and SPF the next morning; we ask you to skip strong actives (acids, retinol) for 48 hours.",
+      "considerations": "Pigmentation conditions such as melasma can be stubborn and may recur, so realistic expectations matter. Incorrect settings can risk irritation, which is why we assess your skin type carefully and treat conservatively. Sun exposure between sessions can undo progress. Pico laser is most effective when sessions are spaced four to six weeks apart, with strict sun protection in between. We use lower energies for darker skin tones to reduce the risk of post-inflammatory pigmentation, and we always start with a patch test for first-time patients.",
       "faq": [
         {
           "q": "What concerns does Pico laser address?",
@@ -547,8 +549,8 @@
         "Suitable for many areas of the body",
         "Lower maintenance than shaving or waxing"
       ],
-      "recovery": "Mild redness can occur briefly after treatment, and you can return to normal activities the same day while avoiding sun on the treated area. Hair sheds over the following days, and reduction builds across the course of sessions.",
-      "considerations": "Results vary with hair colour, thickness and skin type, and very light or fine hair responds less well. Maintenance sessions may be needed over time. We assess your hair and skin to set the device safely and to give you a realistic idea of the outcome.",
+      "recovery": "Mild redness can occur briefly after treatment, and you can return to normal activities the same day while avoiding sun on the treated area. Hair sheds over the following days, and reduction builds across the course of sessions. The treated area can look slightly pink for a few hours and feel like mild sunburn. Avoid hot showers, gym sessions and direct sun for 24 hours, and skip retinoids on the area for 48 hours.",
+      "considerations": "Results vary with hair colour, thickness and skin type, and very light or fine hair responds less well. Maintenance sessions may be needed over time. We assess your hair and skin to set the device safely and to give you a realistic idea of the outcome. Patients often ask how many sessions they need. In our experience six to eight sessions, spaced four to six weeks apart, capture most of the visible hair cycle for the average patient. We confirm a patch test on a small area before starting, and we adjust pulse settings for sensitive skin tones to keep the treatment comfortable and safe.",
       "faq": [
         {
           "q": "How many sessions are needed?",
@@ -574,8 +576,8 @@
         "Gentle, with no downtime",
         "Complements facials and skin programmes"
       ],
-      "recovery": "There is no downtime — the treatment is relaxing and you can return to your day immediately. Benefits build gently with a regular course, and we advise a sensible frequency for your skin and goals.",
-      "considerations": "LED therapy is gentle and its effects are supportive and gradual rather than dramatic; it works best as part of a wider skin plan. We will set realistic expectations and combine it sensibly with other treatments where helpful.",
+      "recovery": "There is no downtime — the treatment is relaxing and you can return to your day immediately. Benefits build gently with a regular course, and we advise a sensible frequency for your skin and goals. There is no enforced downtime — most patients return to work or makeup straight after a session. Mild warmth on the skin for an hour or two is normal and not a cause for concern.",
+      "considerations": "LED therapy is gentle and its effects are supportive and gradual rather than dramatic; it works best as part of a wider skin plan. We will set realistic expectations and combine it sensibly with other treatments where helpful. In our own practice, we find cell light therapy works best as part of a regular skin plan rather than a one-off session — three to six weekly sessions usually mark a visible turning point. Sun protection between sessions makes a real difference to outcomes, and any product with strong actives (high-percentage retinol, aggressive acids) should be paused for 48 hours either side.",
       "faq": [
         {
           "q": "What does LED light therapy help with?",
@@ -601,8 +603,8 @@
         "Administered by trained medical staff",
         "Part of a considered wellness approach"
       ],
-      "recovery": "There is no downtime; you can continue your day as normal after the infusion. Any effects on radiance are supportive and build with a sensible schedule alongside healthy habits and sun protection.",
-      "considerations": "An IV drip is a medical procedure and is not suitable for everyone; a health check is essential and we discuss your history first. Claims of dramatic skin-whitening should be treated with caution — we focus on safe, realistic support for radiance rather than over-promising.",
+      "recovery": "There is no downtime; you can continue your day as normal after the infusion. Any effects on radiance are supportive and build with a sensible schedule alongside healthy habits and sun protection. There is no downtime. You can resume work, exercise and travel immediately after the appointment.",
+      "considerations": "An IV drip is a medical procedure and is not suitable for everyone; a health check is essential and we discuss your history first. Claims of dramatic skin-whitening should be treated with caution — we focus on safe, realistic support for radiance rather than over-promising. Drips are not a one-time event. In our practice we recommend an initial short course followed by spaced maintenance, paired with daily SPF and a consistent home routine — without those two basics, the visible benefit fades faster. We screen for allergies and any underlying conditions before the first session.",
       "faq": [
         {
           "q": "Is an IV drip safe?",
@@ -621,7 +623,7 @@
   },
   "contactPage": {
     "title": "Book a Consultation",
-    "lead": "Tell us a little about your goals. Our Mont Kiara · Sri Hartamas team will reply on WhatsApp to arrange your private, no-obligation consultation.",
+    "lead": "Tell us a little about your goals. Our Mont Kiara · Sri Hartamas team will reply on WhatsApp to arrange your private, no-obligation consultation — usually within the same working day. Our team replies on WhatsApp — typically within the same working day during clinic hours, in English, Bahasa Malaysia or Mandarin Chinese. There is no obligation, no pressure to book, and no charge for the first reply: we use it to understand whether the treatment you have in mind is the right starting point, and to suggest the next step honestly.",
     "form": {
       "name": "Your name",
       "contact": "Phone or email",
@@ -638,7 +640,21 @@
     "visitTitle": "Visit us",
     "hoursTitle": "Opening hours",
     "ratingLabel": "rating on Google",
-    "waPrefill": "Hello The Valley, I would like to book a consultation."
+    "waPrefill": "Hello The Valley, I would like to book a consultation.",
+    "sections": [
+      {
+        "heading": "What to expect at your first consultation",
+        "body": "Your first visit is a private, unhurried conversation — not a sales pitch. We listen to your goals, review your medical history and examine the specific area of concern. From there, we either map out a plan we genuinely believe in, or honestly tell you when a procedure isn't the right fit. You receive a written, itemised quote before any commitment, with no pressure to decide on the day."
+      },
+      {
+        "heading": "How we follow up after your enquiry",
+        "body": "After you send us a message, our team replies on WhatsApp — typically within the same working day during clinic hours. We confirm the time you prefer, send you the clinic address with a Google Maps link, and let you know what to bring (a make-up free face for skin consultations, or a list of your current medications). If you'd prefer to call, our team speaks English, Bahasa Malaysia and Mandarin Chinese."
+      },
+      {
+        "heading": "Visiting us in Desa Sri Hartamas",
+        "body": "Our clinic is at Lot 22-1, Wisma Rapid, Jalan 30/70A, in the heart of Desa Sri Hartamas, Kuala Lumpur. Plaza Damas and Hartamas Shopping Centre are within walking distance, and we are a short 5–10 minute drive from Mont Kiara. Complimentary parking is available within the Wisma Rapid building, and our front desk is happy to help coordinate transport for patients arriving from further afield."
+      }
+    ]
   },
   "doctorsPage": {
     "title": "Our Specialists",
@@ -697,7 +713,7 @@
   ],
   "magazine": {
     "title": "Magazine",
-    "lead": "Honest, practical articles on cosmetic surgery and aesthetic care — written and reviewed by our team in Kuala Lumpur.",
+    "lead": "Honest, practical articles on cosmetic surgery and aesthetic care — written by our team in Mont Kiara · Sri Hartamas, Kuala Lumpur. We share what we see in our own practice: what works, what doesn't, what to expect and what to ask before any treatment.",
     "readTime": "min read",
     "byLabel": "Written & reviewed by",
     "backToList": "All articles",
@@ -731,6 +747,13 @@
             "body": [
               "Ask to see genuine before-and-after photos of patients with concerns similar to yours, and remember that results vary between individuals. Independent reviews — such as those on Google — give a sense of other patients' experiences. In a multicultural city like Kuala Lumpur, it also helps to choose a clinic that can communicate clearly in your own language, so nothing about your care is lost in translation."
             ]
+          },
+          {
+            "heading": "Questions worth asking — and a few warning signs",
+            "body": [
+              "A good clinic will welcome questions. Ask who exactly will perform the procedure, how many of these they have done in the last year, what their typical complication rate is and how they would handle a problem if one arose. Ask for written, itemised pricing and for a written aftercare plan you can take home.",
+              "Warning signs are usually quiet rather than loud. Pressure to decide on the day, vague answers about the practitioner's training, before-and-after images that look identical to images on other clinics' websites, and discomfort with the questions above are all worth taking seriously. The right clinic for you is the one where you feel calm enough to disagree."
+            ]
           }
         ]
       },
@@ -763,6 +786,13 @@
             "body": [
               "An experienced clinic assesses you honestly and explains the trade-offs of each route, rather than pushing the most expensive option. We will tell you when a non-surgical treatment is enough, and equally when surgery would serve you better. The goal is a result that is safe, natural and right for you — not simply more treatment."
             ]
+          },
+          {
+            "heading": "A practical example — the lower face",
+            "body": [
+              "Take the lower face as an example. A patient in her early thirties with mild jawline laxity and good skin quality usually has a non-surgical option that is genuinely worth trying first — HIFU or radio-frequency, paired with consistent daily SPF and a simple skin routine. The result is subtle and natural; nobody asks if she had something done, but those who knew her well can see the difference at six months.",
+              "A patient in her late fifties with significant skin and tissue laxity is a different conversation. Non-surgical treatments will help her skin tone and texture, but they will not reproduce a surgical lift. Recommending HIFU here would be over-promising. In our practice, the most important part of this discussion is matching the right tool to the right anatomy, not selling the more expensive option."
+            ]
           }
         ]
       },
@@ -794,6 +824,13 @@
             "heading": "When to contact your clinic",
             "body": [
               "Clear aftercare includes knowing what is normal and what is not. Contact your clinic promptly if you notice increasing pain, unusual swelling, signs of infection such as fever or spreading redness, or anything that worries you. A good clinic stays reachable throughout your recovery — at The Valley, patients can reach us on WhatsApp — and would always rather you ask than wait."
+            ]
+          },
+          {
+            "heading": "What to ask your clinic before surgery",
+            "body": [
+              "A short, honest conversation before the day of surgery shortens recovery later. We ask every patient to come prepared with a clear list — current medications and supplements, any history of bleeding or wound healing problems, prior surgeries, smoking status, and a realistic picture of the time off they can take.",
+              "From our side, we go through the same checklist with you: which medications to pause and when to restart them, what discomfort is normal in the first 48 hours and what is a warning sign, how to sleep in the first week, and a clear written aftercare plan to take home. Recovery is not a guess — it is a plan you and your clinical team agree on before anything begins."
             ]
           }
         ]
@@ -851,7 +888,15 @@
           }
         ]
       }
-    }
+    },
+    "intro": [
+      "Every article on this page is written by our clinic team and reviewed for medical accuracy before publication. Where we recommend a treatment or share a timeline, it reflects what we observe in our own consultations — not generic advice copied from elsewhere.",
+      "If you're researching a specific procedure, you can also use the related links inside each article to read about the treatment itself, including who it suits, the expected recovery and a fair view of its limitations. For anything that is not covered here, our team is happy to answer questions on WhatsApp.",
+      "We try to be careful about one thing: the gap between what marketing copy promises and what a real treatment delivers. Every article below is written to reduce that gap. We explain who a treatment is for, what the realistic recovery looks like, and where the limits sit — including when the right answer is to do nothing at all.",
+      "If you live in Mont Kiara, Sri Hartamas or anywhere else in Kuala Lumpur and are weighing a cosmetic procedure, we hope these articles save you research time and a few avoidable wrong turns. They are written for patients, not for search engines, and they are kept short on purpose: a useful read, not a long scroll.",
+      "Most articles take about five to seven minutes to read. Where possible we link directly to the relevant treatment page, so you can read the supporting context and the procedure detail in one sitting. If you find anything unclear, or you would like our team's view on a specific question, our WhatsApp is the fastest way to reach a real person at the clinic. We answer every message ourselves.",
+      "We add new pieces when we have something genuinely useful to share — not on a fixed publishing schedule. Quality matters more than frequency."
+    ]
   },
   "localAreas": {
     "montKiara": {
@@ -934,5 +979,24 @@
         }
       ]
     }
+  },
+  "treatmentsHubPage": {
+    "eyebrow": "Treatments",
+    "title": "Cosmetic surgery & aesthetic treatments in Mont Kiara · Sri Hartamas",
+    "lead": "From precise cosmetic surgery to advanced non-surgical skin therapies, every treatment we offer is led by an experienced specialist and planned around you. This page is a complete guide to the services available at our Mont Kiara · Sri Hartamas clinic in Kuala Lumpur.",
+    "sections": [
+      {
+        "heading": "How we approach treatment planning",
+        "body": "We do not believe in matching every patient to the same procedure. Your plan begins with an honest assessment of your anatomy, your goals and your lifestyle — including downtime you can realistically accommodate. Where a non-surgical option will achieve what you are looking for, we will say so even if it costs less than surgery. Where surgery is the only path to the result you want, we explain that openly too. Our recommendations are based on what we have actually seen work for patients like you in our own clinic."
+      },
+      {
+        "heading": "Surgical & non-surgical, side by side",
+        "body": "Our surgical menu covers liposuction, rhinoplasty, eye treatment, facelift, breast implant and chin implant. Our non-surgical and skin-care menu covers body sculpting, HIFU lifting, pico laser, laser hair removal, cell light therapy and a whitening drip. Each treatment page lists who it suits, how the procedure is performed, expected recovery and a candid view of considerations and risks. We update these pages as our experience and the evidence base evolve."
+      },
+      {
+        "heading": "Safety, aftercare and follow-up",
+        "body": "All procedures are performed in an accredited, sterile clinical environment, using appropriate anaesthesia, monitoring and infection control. After any treatment, you receive a clear, written aftercare plan and a direct line to our team on WhatsApp during your recovery. Scheduled follow-up reviews are included in every surgical plan, because a good result is only the result you still have six and twelve months later."
+      }
+    ]
   }
 }

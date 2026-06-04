@@ -140,6 +140,21 @@ export default async function ContactPage({
           </div>
         </div>
       </div>
+
+      {c.sections && (
+        <section className="border-t border-sand bg-cream py-20 lg:py-24">
+          <div className="mx-auto max-w-3xl px-6 lg:px-10">
+            {c.sections.map((s, i) => (
+              <div key={i} className="mt-12 first:mt-0">
+                <h2 className="font-display text-[1.55rem] leading-snug text-ink lg:text-[1.85rem]">
+                  {s.heading}
+                </h2>
+                <p className="mt-4 text-[1.02rem] leading-[1.85] text-ink-soft">{s.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

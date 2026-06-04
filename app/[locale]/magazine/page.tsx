@@ -79,6 +79,14 @@ export default async function MagazineIndex({
       </header>
 
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
+        {dict.magazine.intro && (
+          <div className="mx-auto mb-14 max-w-3xl space-y-5 text-[1.05rem] leading-[1.85] text-ink-soft">
+            {dict.magazine.intro.map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+          </div>
+        )}
+
         <div className="grid gap-10 md:grid-cols-3">
           {[...posts]
             .sort((a, b) =>

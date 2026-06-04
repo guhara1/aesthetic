@@ -28,13 +28,27 @@ export function StructuredData({
   const ogImage = `${SITE_URL}/images/og-cover.png`;
   const clinicId = `${SITE_URL}/#clinic`;
 
+  // Preferred image — Google's March 2026 guidance asks publishers to mark a
+  // single primary image explicitly via ImageObject so it doesn't have to
+  // guess. Keep this in sync with the og:image used in the page metadata.
+  const primaryImage = {
+    "@type": "ImageObject",
+    "@id": `${SITE_URL}/#primary-image`,
+    url: ogImage,
+    contentUrl: ogImage,
+    width: 1200,
+    height: 630,
+    caption: `${clinic.legalName} — aesthetic & cosmetic surgery clinic in Mont Kiara · Sri Hartamas, Kuala Lumpur`,
+  };
+
   const clinicNode = {
     "@type": ["MedicalBusiness", "MedicalClinic", "HealthAndBeautyBusiness"],
     "@id": clinicId,
     name: clinic.legalName,
     url: pageUrl,
-    image: ogImage,
-    logo: `${SITE_URL}/images/og-cover.png`,
+    image: primaryImage,
+    primaryImageOfPage: { "@id": `${SITE_URL}/#primary-image` },
+    logo: { "@type": "ImageObject", url: `${SITE_URL}/images/brand/logo.png`, caption: clinic.legalName },
     telephone: clinic.telephone,
     priceRange: clinic.priceRange,
     aggregateRating: {
@@ -114,7 +128,7 @@ export function StructuredData({
 
   const graph = {
     "@context": "https://schema.org",
-    "@graph": [clinicNode, physicianNode],
+    "@graph": [clinicNode, physicianNode, primaryImage],
   };
 
   return (
