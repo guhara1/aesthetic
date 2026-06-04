@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Results } from "@/components/Results";
 import { Testimonials } from "@/components/Testimonials";
 import { Approach } from "@/components/Approach";
+import { InsideTheValley } from "@/components/InsideTheValley";
 import { Safety } from "@/components/Safety";
 import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
@@ -46,6 +47,19 @@ export default async function HomePage({
           name: item.q,
           acceptedAnswer: { "@type": "Answer", text: item.a },
         })),
+      },
+      {
+        "@type": "VideoObject",
+        "@id": `${pageUrl}#inside-video`,
+        name: dict.inside.title,
+        description: dict.inside.body,
+        thumbnailUrl: `${SITE_URL}/videos/clinic-intro-poster.jpg`,
+        contentUrl: `${SITE_URL}/videos/clinic-intro.mp4`,
+        encodingFormat: "video/mp4",
+        uploadDate: "2026-06-04",
+        duration: "PT1M7S",
+        inLanguage: locale,
+        publisher: { "@id": `${SITE_URL}/#clinic` },
       },
     ],
   };
@@ -208,6 +222,11 @@ export default async function HomePage({
           </div>
         </div>
       </section>
+
+      {/* ───────────────── Inside The Valley (video) ───────────────── */}
+      <div className="reveal">
+        <InsideTheValley dict={dict} locale={locale as Locale} />
+      </div>
 
       {/* ───────────────── How we work ───────────────── */}
       <div className="reveal">
