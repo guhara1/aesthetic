@@ -223,10 +223,13 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* ───────────────── Inside The Valley (video) ───────────────── */}
+      {/* ───────────────── Inside The Valley (video) ─────────────────
+          Hidden at the client's request — keep the import and section in
+          place so it can be re-enabled later by uncommenting this block.
       <div className="reveal">
         <InsideTheValley dict={dict} locale={locale as Locale} />
       </div>
+      */}
 
       {/* ───────────────── How we work ───────────────── */}
       <div className="reveal">
