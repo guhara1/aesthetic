@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://thevalley-beauty.com/en/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/"/>
@@ -11,10 +11,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/"/>
@@ -22,10 +23,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/"/>
@@ -33,10 +35,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/"/>
@@ -44,10 +47,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/about/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/about/"/>
@@ -55,10 +71,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/about/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/about/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/about/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/about/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/about/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/about/"/>
@@ -66,10 +83,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/about/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/about/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/about/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/about/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/about/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/about/"/>
@@ -77,10 +95,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/about/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/about/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/about/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/about/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/about/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/about/"/>
@@ -88,10 +107,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/about/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/about/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/about/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/about/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/about/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/about/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/about/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/about/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/about/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/about/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/about/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/contact/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/contact/"/>
@@ -99,10 +131,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/contact/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/contact/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/contact/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/contact/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/contact/"/>
@@ -110,10 +143,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/contact/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/contact/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/contact/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/contact/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/contact/"/>
@@ -121,10 +155,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/contact/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/contact/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/contact/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/contact/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/contact/"/>
@@ -132,10 +167,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/contact/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/contact/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/contact/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/contact/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/contact/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/contact/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/contact/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/"/>
@@ -143,10 +191,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/"/>
@@ -154,10 +203,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/"/>
@@ -165,10 +215,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/"/>
@@ -176,10 +227,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/liposuction/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/liposuction/"/>
@@ -187,10 +251,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/liposuction/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/liposuction/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/liposuction/"/>
@@ -198,10 +263,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/liposuction/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/liposuction/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/liposuction/"/>
@@ -209,10 +275,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/liposuction/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/liposuction/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/liposuction/"/>
@@ -220,10 +287,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/liposuction/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/liposuction/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/liposuction/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/liposuction/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/liposuction/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/rhinoplasty/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/rhinoplasty/"/>
@@ -231,10 +311,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/rhinoplasty/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/rhinoplasty/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/rhinoplasty/"/>
@@ -242,10 +323,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/rhinoplasty/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/rhinoplasty/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/rhinoplasty/"/>
@@ -253,10 +335,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/rhinoplasty/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/rhinoplasty/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/rhinoplasty/"/>
@@ -264,10 +347,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/rhinoplasty/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/rhinoplasty/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/rhinoplasty/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/rhinoplasty/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/rhinoplasty/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/eye-treatment/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/eye-treatment/"/>
@@ -275,10 +371,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/eye-treatment/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/eye-treatment/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/eye-treatment/"/>
@@ -286,10 +383,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/eye-treatment/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/eye-treatment/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/eye-treatment/"/>
@@ -297,10 +395,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/eye-treatment/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/eye-treatment/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/eye-treatment/"/>
@@ -308,10 +407,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/eye-treatment/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/eye-treatment/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/eye-treatment/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/eye-treatment/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/eye-treatment/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/facelift/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/facelift/"/>
@@ -319,10 +431,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/facelift/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/facelift/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/facelift/"/>
@@ -330,10 +443,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/facelift/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/facelift/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/facelift/"/>
@@ -341,10 +455,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/facelift/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/facelift/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/facelift/"/>
@@ -352,10 +467,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/facelift/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/facelift/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/facelift/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/facelift/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/facelift/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/breast-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/breast-implant/"/>
@@ -363,10 +491,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/breast-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/breast-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/breast-implant/"/>
@@ -374,10 +503,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/breast-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/breast-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/breast-implant/"/>
@@ -385,10 +515,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/breast-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/breast-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/breast-implant/"/>
@@ -396,10 +527,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/breast-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/breast-implant/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/breast-implant/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/breast-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/breast-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/chin-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/chin-implant/"/>
@@ -407,10 +551,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/chin-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/chin-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/chin-implant/"/>
@@ -418,10 +563,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/chin-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/chin-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/chin-implant/"/>
@@ -429,10 +575,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/chin-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/chin-implant/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/chin-implant/"/>
@@ -440,10 +587,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/chin-implant/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/chin-implant/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/chin-implant/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/chin-implant/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/chin-implant/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/body-sculpting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/body-sculpting/"/>
@@ -451,10 +611,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/body-sculpting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/body-sculpting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/body-sculpting/"/>
@@ -462,10 +623,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/body-sculpting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/body-sculpting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/body-sculpting/"/>
@@ -473,10 +635,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/body-sculpting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/body-sculpting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/body-sculpting/"/>
@@ -484,10 +647,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/body-sculpting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/body-sculpting/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/body-sculpting/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/body-sculpting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/body-sculpting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/hifu-lifting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hifu-lifting/"/>
@@ -495,10 +671,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hifu-lifting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/hifu-lifting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hifu-lifting/"/>
@@ -506,10 +683,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hifu-lifting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/hifu-lifting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hifu-lifting/"/>
@@ -517,10 +695,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hifu-lifting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/hifu-lifting/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hifu-lifting/"/>
@@ -528,10 +707,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hifu-lifting/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hifu-lifting/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/hifu-lifting/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hifu-lifting/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hifu-lifting/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/pico-laser/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/pico-laser/"/>
@@ -539,10 +731,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/pico-laser/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/pico-laser/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/pico-laser/"/>
@@ -550,10 +743,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/pico-laser/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/pico-laser/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/pico-laser/"/>
@@ -561,10 +755,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/pico-laser/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/pico-laser/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/pico-laser/"/>
@@ -572,10 +767,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/pico-laser/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/pico-laser/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/pico-laser/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/pico-laser/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/pico-laser/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/hair-removal/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hair-removal/"/>
@@ -583,10 +791,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hair-removal/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/hair-removal/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hair-removal/"/>
@@ -594,10 +803,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hair-removal/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/hair-removal/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hair-removal/"/>
@@ -605,10 +815,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hair-removal/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/hair-removal/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hair-removal/"/>
@@ -616,10 +827,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hair-removal/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hair-removal/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/hair-removal/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/hair-removal/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/hair-removal/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/cell-light-therapy/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/cell-light-therapy/"/>
@@ -627,10 +851,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/cell-light-therapy/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/cell-light-therapy/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/cell-light-therapy/"/>
@@ -638,10 +863,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/cell-light-therapy/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/cell-light-therapy/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/cell-light-therapy/"/>
@@ -649,10 +875,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/cell-light-therapy/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/cell-light-therapy/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/cell-light-therapy/"/>
@@ -660,10 +887,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/cell-light-therapy/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/cell-light-therapy/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/cell-light-therapy/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/cell-light-therapy/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/cell-light-therapy/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/treatments/whitening-drip/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/whitening-drip/"/>
@@ -671,10 +911,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/whitening-drip/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/treatments/whitening-drip/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/whitening-drip/"/>
@@ -682,10 +923,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/whitening-drip/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/treatments/whitening-drip/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/whitening-drip/"/>
@@ -693,10 +935,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/whitening-drip/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/treatments/whitening-drip/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/whitening-drip/"/>
@@ -704,10 +947,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/whitening-drip/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/whitening-drip/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/treatments/whitening-drip/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/treatments/whitening-drip/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/treatments/whitening-drip/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/magazine/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/"/>
@@ -715,10 +971,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/magazine/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/"/>
@@ -726,10 +983,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/magazine/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/"/>
@@ -737,10 +995,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/magazine/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/"/>
@@ -748,10 +1007,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/magazine/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
@@ -759,10 +1031,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
@@ -770,10 +1043,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
@@ -781,10 +1055,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
@@ -792,10 +1067,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/magazine/surgical-or-non-surgical-treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/surgical-or-non-surgical-treatments/"/>
@@ -803,10 +1091,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/surgical-or-non-surgical-treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/magazine/surgical-or-non-surgical-treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/surgical-or-non-surgical-treatments/"/>
@@ -814,10 +1103,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/surgical-or-non-surgical-treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/magazine/surgical-or-non-surgical-treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/surgical-or-non-surgical-treatments/"/>
@@ -825,10 +1115,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/surgical-or-non-surgical-treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/magazine/surgical-or-non-surgical-treatments/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/surgical-or-non-surgical-treatments/"/>
@@ -836,10 +1127,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/surgical-or-non-surgical-treatments/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/surgical-or-non-surgical-treatments/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/magazine/surgical-or-non-surgical-treatments/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/surgical-or-non-surgical-treatments/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/surgical-or-non-surgical-treatments/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/magazine/recovery-after-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/recovery-after-cosmetic-surgery/"/>
@@ -847,10 +1151,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/recovery-after-cosmetic-surgery/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/magazine/recovery-after-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/recovery-after-cosmetic-surgery/"/>
@@ -858,10 +1163,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/recovery-after-cosmetic-surgery/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/magazine/recovery-after-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/recovery-after-cosmetic-surgery/"/>
@@ -869,10 +1175,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/recovery-after-cosmetic-surgery/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/magazine/recovery-after-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/recovery-after-cosmetic-surgery/"/>
@@ -880,10 +1187,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/recovery-after-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/recovery-after-cosmetic-surgery/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/magazine/recovery-after-cosmetic-surgery/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/recovery-after-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/recovery-after-cosmetic-surgery/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/magazine/bridal-skincare-pre-wedding-guide/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/bridal-skincare-pre-wedding-guide/"/>
@@ -891,10 +1211,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/bridal-skincare-pre-wedding-guide/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/magazine/bridal-skincare-pre-wedding-guide/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/bridal-skincare-pre-wedding-guide/"/>
@@ -902,10 +1223,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/bridal-skincare-pre-wedding-guide/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/magazine/bridal-skincare-pre-wedding-guide/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/bridal-skincare-pre-wedding-guide/"/>
@@ -913,10 +1235,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/bridal-skincare-pre-wedding-guide/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/magazine/bridal-skincare-pre-wedding-guide/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/bridal-skincare-pre-wedding-guide/"/>
@@ -924,10 +1247,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/bridal-skincare-pre-wedding-guide/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/bridal-skincare-pre-wedding-guide/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/magazine/bridal-skincare-pre-wedding-guide/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/magazine/bridal-skincare-pre-wedding-guide/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/magazine/bridal-skincare-pre-wedding-guide/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/mont-kiara-aesthetic-clinic/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/mont-kiara-aesthetic-clinic/"/>
@@ -935,10 +1271,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/mont-kiara-aesthetic-clinic/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/mont-kiara-aesthetic-clinic/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/mont-kiara-aesthetic-clinic/"/>
@@ -946,10 +1283,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/mont-kiara-aesthetic-clinic/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/mont-kiara-aesthetic-clinic/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/mont-kiara-aesthetic-clinic/"/>
@@ -957,10 +1295,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/mont-kiara-aesthetic-clinic/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/mont-kiara-aesthetic-clinic/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/mont-kiara-aesthetic-clinic/"/>
@@ -968,10 +1307,23 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/mont-kiara-aesthetic-clinic/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/mont-kiara-aesthetic-clinic/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/mont-kiara-aesthetic-clinic/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/mont-kiara-aesthetic-clinic/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/mont-kiara-aesthetic-clinic/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/en/sri-hartamas-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/sri-hartamas-cosmetic-surgery/"/>
@@ -979,10 +1331,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/sri-hartamas-cosmetic-surgery/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/zh/sri-hartamas-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/sri-hartamas-cosmetic-surgery/"/>
@@ -990,10 +1343,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/sri-hartamas-cosmetic-surgery/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ko/sri-hartamas-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/sri-hartamas-cosmetic-surgery/"/>
@@ -1001,10 +1355,11 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/sri-hartamas-cosmetic-surgery/"/>
   </url>
   <url>
     <loc>https://thevalley-beauty.com/ja/sri-hartamas-cosmetic-surgery/</loc>
-    <lastmod>2026-06-04T15:10:56.831Z</lastmod>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/sri-hartamas-cosmetic-surgery/"/>
@@ -1012,5 +1367,18 @@
       <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/sri-hartamas-cosmetic-surgery/"/>
       <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/sri-hartamas-cosmetic-surgery/"/>
+  </url>
+  <url>
+    <loc>https://thevalley-beauty.com/ms/sri-hartamas-cosmetic-surgery/</loc>
+    <lastmod>2026-06-08T14:23:27.820Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://thevalley-beauty.com/en/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="en-GB" href="https://thevalley-beauty.com/en/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thevalley-beauty.com/zh/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://thevalley-beauty.com/ko/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://thevalley-beauty.com/ja/sri-hartamas-cosmetic-surgery/"/>
+      <xhtml:link rel="alternate" hreflang="ms-MY" href="https://thevalley-beauty.com/ms/sri-hartamas-cosmetic-surgery/"/>
   </url>
 </urlset>

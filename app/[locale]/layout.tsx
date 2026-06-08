@@ -22,6 +22,7 @@ const OG_LOCALE: Record<Locale, string> = {
   zh: "zh_CN",
   ko: "ko_KR",
   ja: "ja_JP",
+  ms: "ms_MY",
 };
 
 export function generateStaticParams() {

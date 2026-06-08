@@ -1,0 +1,1014 @@
+{
+  "meta": {
+    "title": "The Valley Beauty Medical Spa | Pembedahan Kosmetik di Mont Kiara & Sri Hartamas, KL",
+    "description": "Pembedahan kosmetik dan perubatan estetik di Kuala Lumpur — sedutan lemak, pembedahan hidung, pembedahan muka, HIFU, laser dan banyak lagi. Pakar berpengalaman, layanan pelbagai bahasa dan hasil sebelum & selepas yang sebenar, terletak di Mont Kiara / Desa Sri Hartamas."
+  },
+  "brand": {
+    "name": "The Valley",
+    "nameFull": "The Valley Beauty Medical Spa",
+    "tagline": "Pembedahan Estetik & Kosmetik"
+  },
+  "topbar": {
+    "location": "Desa Sri Hartamas, Kuala Lumpur",
+    "hours": "Isn–Sab · 10:00–19:00",
+    "callUs": "Hubungi kami",
+    "phone": "+60 10-911 8518"
+  },
+  "nav": {
+    "home": "Laman Utama",
+    "about": "Tentang Kami",
+    "treatments": "Rawatan",
+    "doctors": "Pakar Kami",
+    "gallery": "Hasil",
+    "reviews": "Ulasan",
+    "contact": "Hubungi",
+    "book": "Tempah Perundingan",
+    "magazine": "Majalah"
+  },
+  "treatmentsMenu": {
+    "surgicalTitle": "Prosedur Pembedahan",
+    "skinTitle": "Estetik & Penjagaan Kulit",
+    "viewAll": "Lihat semua rawatan",
+    "items": {
+      "liposuction": {
+        "name": "Sedutan Lemak (Liposuction)",
+        "desc": "Bentuk tubuh yang tepat & pengecutan lemak"
+      },
+      "rhinoplasty": {
+        "name": "Pembedahan Hidung (Rhinoplasty)",
+        "desc": "Bentuk hidung semula yang halus dan semula jadi"
+      },
+      "eye": {
+        "name": "Rawatan Mata",
+        "desc": "Mata yang lebih cerah dan segar"
+      },
+      "facelift": {
+        "name": "Pembedahan Muka (Facelift)",
+        "desc": "Mengangkat & mengembalikan kontur muda"
+      },
+      "breast": {
+        "name": "Implan Payudara",
+        "desc": "Pembesaran semula jadi & keseimbangan"
+      },
+      "chin": {
+        "name": "Implan Dagu",
+        "desc": "Profil muka yang harmoni"
+      },
+      "bodySculpt": {
+        "name": "Pembentukan Tubuh",
+        "desc": "Pengurangan lemak & pembentukan tanpa pembedahan"
+      },
+      "hifu": {
+        "name": "Pengangkatan HIFU",
+        "desc": "Pengetatan & pengangkatan kulit secara ultrasound"
+      },
+      "picoLaser": {
+        "name": "Laser Pico",
+        "desc": "Pigmentasi, tona & pembaharuan tekstur"
+      },
+      "hairRemoval": {
+        "name": "Penyingkiran Bulu",
+        "desc": "Penyingkiran bulu laser yang lancar dan tahan lama"
+      },
+      "cellLight": {
+        "name": "Terapi Cell Light",
+        "desc": "Peremajaan kulit dengan cahaya LED"
+      },
+      "whiteningDrip": {
+        "name": "Infusi Pencerah",
+        "desc": "Infusi IV untuk kesegaran & kecerahan"
+      }
+    }
+  },
+  "hero": {
+    "eyebrow": "Pembedahan Estetik & Kosmetik Premium",
+    "title": "Kecantikan Halus,\nDibentuk oleh Pakar",
+    "subtitle": "Tempat perlindungan perubatan yang persendirian di tengah-tengah Kuala Lumpur, di mana lebih sedekad seni pembedahan bertemu dengan kehangatan layanan peribadi.",
+    "ctaPrimary": "Tempah Perundingan",
+    "ctaSecondary": "Terokai Rawatan"
+  },
+  "trust": {
+    "items": [
+      {
+        "value": "10+",
+        "label": "Tahun kepakaran"
+      },
+      {
+        "value": "8,000+",
+        "label": "Prosedur dijalankan"
+      },
+      {
+        "value": "100%",
+        "label": "Pakar bertauliah lembaga"
+      },
+      {
+        "value": "3",
+        "label": "Bahasa dituturkan"
+      }
+    ]
+  },
+  "treatmentsSection": {
+    "eyebrow": "Rawatan Tanda Tangan Kami",
+    "title": "Prosedur yang disesuaikan untuk anda yang lebih yakin dan semula jadi",
+    "subtitle": "Daripada pembedahan pembentukan kepada terapi kulit termaju, setiap rawatan diketuai oleh pakar berpengalaman dan dirancang khusus untuk anda — di klinik kami di Mont Kiara · Sri Hartamas, di tengah-tengah Kuala Lumpur.",
+    "cta": "Terokai semua rawatan"
+  },
+  "about": {
+    "eyebrow": "Mengapa The Valley",
+    "title": "Sedekad seni pembedahan yang dipercayai",
+    "body": "Pasukan kami membawa lebih sepuluh tahun pengalaman khusus dalam pembedahan kosmetik dan perubatan estetik. Dari klinik kami di Mont Kiara dan Sri Hartamas, Kuala Lumpur, kami menggabungkan ketepatan klinikal dengan persekitaran seperti spa yang halus — supaya setiap langkah perjalanan anda terasa selamat, peribadi dan meyakinkan.",
+    "points": [
+      "Pakar bedah berpengalaman dan bertauliah lembaga",
+      "Hasil yang diperibadikan dan kelihatan semula jadi",
+      "Standard keselamatan bertaraf antarabangsa",
+      "Layanan pelbagai bahasa untuk komuniti kami yang pelbagai"
+    ],
+    "cta": "Lebih lanjut tentang kami"
+  },
+  "doctors": {
+    "eyebrow": "Pakar Kami",
+    "title": "Tangan yang mahir, fikiran yang teliti",
+    "subtitle": "Kenali pakar bedah dan doktor estetik yang menerajui penjagaan anda dengan pengalaman dan pandangan seorang artis.",
+    "cta": "Kenali pasukan"
+  },
+  "results": {
+    "eyebrow": "Hasil Sebenar",
+    "title": "Sebelum & Selepas",
+    "subtitle": "Hasil sebenar daripada pesakit kami di Kuala Lumpur, merangkumi rawatan pembedahan dan estetik.",
+    "tabs": {
+      "surgical": "Pembedahan",
+      "nonSurgical": "Estetik & Kulit"
+    },
+    "note": "Foto pesakit sebenar. Hasil mungkin berbeza dari seorang ke seorang.",
+    "labels": {
+      "bodySculpt": "Pembentukan Tubuh",
+      "hifu": "Pengangkatan HIFU",
+      "picoLaser": "Laser Pico",
+      "hairRemoval": "Penyingkiran Bulu",
+      "cellLight": "Terapi Cell Light",
+      "whiteningDrip": "Infusi Pencerah"
+    },
+    "beforeLabel": "Sebelum",
+    "afterLabel": "Selepas",
+    "dragHint": "Seret untuk membandingkan",
+    "prevLabel": "Sebelumnya",
+    "nextLabel": "Seterusnya"
+  },
+  "testimonials": {
+    "eyebrow": "Kisah Pesakit",
+    "title": "Kata-kata daripada pesakit kami",
+    "subtitle": "Mesej sebenar yang dikongsi pelanggan kami melalui WhatsApp.",
+    "showMore": "Lihat lebih banyak ulasan",
+    "showLess": "Tunjuk kurang",
+    "quotesHeading": "Apa yang pesakit kami katakan",
+    "quotes": [
+      {
+        "author": "Mei L.",
+        "treatment": "Laser Pico",
+        "text": "Perkhidmatan yang sangat baik. Rawatan laser sangat berkesan dan anda dapat melihat hasilnya. Perunding saya mesra, sangat membantu, lembut dan teliti — dan saya suka suasana klinik yang tenang."
+      },
+      {
+        "author": "Rachel A.",
+        "treatment": "Pembedahan Hidung",
+        "text": "Saya sangat menyukai hasilnya. Hidung saya kini kelihatan begitu cantik — seperti memang sudah begitu sejak lahir. Pasukan ini menyusuli saya dengan teliti dan memastikan saya dijaga dengan baik."
+      },
+      {
+        "author": "Esther F.",
+        "treatment": "Pembentukan Tubuh",
+        "text": "Sangat berpuas hati. Pinggul dan paha saya banyak mengecil — saya benar-benar kelihatan lebih baik sekarang. Apa yang paling saya hargai ialah penjagaan selepas rawatan: mereka terus mengikuti perkembangan dan melayan anda seperti keluarga."
+      },
+      {
+        "author": "Hannah T.",
+        "treatment": "Penyingkiran Bulu Laser",
+        "text": "Maaf lambat balas — saya nampak perubahan selepas sesi ketiga dan tidak sabar untuk lebih banyak sesi bagi perubahan yang lebih ketara. Terima kasih atas perkhidmatan yang hebat."
+      }
+    ]
+  },
+  "reviewer": {
+    "label": "Disemak secara perubatan oleh",
+    "updatedLabel": "Kandungan terakhir disemak",
+    "updatedDate": "24 Mei 2026"
+  },
+  "approach": {
+    "eyebrow": "Cara Kami Bekerja",
+    "title": "Proses yang teliti, dari salam pertama hingga pemulihan sepenuhnya",
+    "subtitle": "Kami tidak terburu-buru dalam keputusan. Setiap pelan dibina berdasarkan anatomi anda, matlamat anda dan perbualan jujur tentang apa yang prosedur boleh — dan tidak boleh — lakukan.",
+    "steps": [
+      {
+        "title": "Perundingan persendirian",
+        "body": "Penilaian satu-dengan-satu bersama pakar bedah anda — dalam Bahasa Inggeris, Bahasa Malaysia atau 中文 — untuk memahami matlamat anda, menyemak sejarah perubatan dan membincangkan hasil yang realistik."
+      },
+      {
+        "title": "Pelan yang diperibadikan",
+        "body": "Kami merangka pelan rawatan mengikut anatomi anda, menjelaskan hasil yang dijangka dan pemulihan, serta menyediakan harga terperinci yang telus sebelum anda membuat sebarang komitmen."
+      },
+      {
+        "title": "Prosedur",
+        "body": "Rawatan anda dijalankan di kemudahan steril yang diiktiraf oleh pengamal berpengalaman, dengan bius dan pemantauan yang sesuai untuk setiap prosedur."
+      },
+      {
+        "title": "Penjagaan & susulan",
+        "body": "Penjagaan susulan yang berstruktur dengan ulasan yang dijadualkan. Kami sentiasa boleh dihubungi melalui WhatsApp sepanjang pemulihan anda — seperti yang ditunjukkan oleh mesej pesakit kami di halaman ini."
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Keselamatan & Piawaian",
+    "title": "Penjagaan bertaraf perubatan, bukan kaunter kecantikan",
+    "body": "Prosedur kosmetik adalah campur tangan perubatan yang sebenar, dan kami menjalankannya sedemikian — dengan pengamal yang berkelayakan, kemudahan yang diiktiraf dan persetujuan termaklum pada setiap langkah.",
+    "items": [
+      {
+        "title": "Pengamal berkelayakan",
+        "body": "Prosedur dijalankan oleh pengamal perubatan berdaftar dengan latihan khusus dalam bidang kosmetik dan estetik."
+      },
+      {
+        "title": "Kemudahan diiktiraf",
+        "body": "Rawatan berlangsung di persekitaran klinikal yang bersih dan dikawal selia, dengan peralatan dan protokol yang sesuai."
+      },
+      {
+        "title": "Persetujuan termaklum",
+        "body": "Anda menerima maklumat jelas mengenai manfaat, risiko, alternatif dan pemulihan sebelum bersetuju dengan sebarang rawatan."
+      },
+      {
+        "title": "Jangkaan yang jujur",
+        "body": "Kami akan memberitahu anda apabila sesuatu prosedur tidak sesuai untuk anda. Hasil yang ditunjukkan adalah sebenar dan individu — hasil anda mungkin berbeza."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Baik untuk Tahu",
+    "title": "Soalan lazim",
+    "items": [
+      {
+        "q": "Adakah perundingan diperlukan sebelum rawatan?",
+        "a": "Ya. Setiap prosedur bermula dengan perundingan persendirian supaya pakar bedah dapat menilai kesesuaian anda, menjelaskan pilihan dan bersetuju dengan satu pelan. Banyak kebimbangan juga boleh diatasi tanpa pembedahan."
+      },
+      {
+        "q": "Bahasa apa yang dituturkan oleh pasukan anda?",
+        "a": "Pasukan kami menyokong Bahasa Inggeris, Mandarin Cina dan Korea, supaya anda boleh membincangkan rawatan dengan selesa dalam bahasa anda sendiri."
+      },
+      {
+        "q": "Adakah foto sebelum & selepas itu pesakit sebenar?",
+        "a": "Ya. Imej di laman ini adalah daripada pesakit sebenar yang dirawat di klinik kami dan dikongsi dengan persetujuan mereka. Hasil berbeza-beza dari individu ke individu."
+      },
+      {
+        "q": "Bagaimana anda mengendalikan pemulihan dan penjagaan susulan?",
+        "a": "Anda menerima pelan penjagaan susulan berstruktur dengan ulasan susulan yang dijadualkan, dan anda boleh menghubungi pasukan kami terus melalui WhatsApp sepanjang pemulihan."
+      },
+      {
+        "q": "Di mana lokasi anda?",
+        "a": "Kami berpangkalan di Kuala Lumpur, Malaysia. Alamat tepat dan arah jalan akan dikongsi apabila anda menempah perundingan."
+      },
+      {
+        "q": "Berapakah kos prosedur?",
+        "a": "Harga bergantung pada prosedur dan pelan individu anda. Anda menerima harga terperinci yang telus semasa perundingan, tanpa kewajipan untuk meneruskan."
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "Tentang The Valley",
+    "lead": "Spa perubatan di Mont Kiara · Sri Hartamas, Kuala Lumpur, di mana kepakaran pembedahan bertemu dengan layanan pelbagai bahasa yang ikhlas.",
+    "story": [
+      "The Valley Beauty Medical Spa diasaskan atas satu kepercayaan mudah: perubatan kosmetik dan estetik harus terasa selamat, peribadi dan jujur. Pasukan kami membawa lebih sedekad pengalaman khusus dalam pembedahan kosmetik dan rawatan estetik kepada pesakit dari seluruh komuniti kami di Mont Kiara dan Sri Hartamas.",
+      "Kami memilih Desa Sri Hartamas sebagai cawangan utama kerana ia memberikan pesakit kami akses yang tenang dan mudah di tengah-tengah Kuala Lumpur — beberapa minit dari Mont Kiara, Bukit Tunku, Damansara Heights dan Bangsar. Ruang ini direka supaya kurang terasa seperti hospital dan lebih kepada tempat tenang yang halus, kerana suasana sesebuah klinik mempengaruhi pengalaman penjagaan anda.",
+      "Setiap perundingan bermula dengan cara yang sama — dengan mendengar. Kami bertanya tentang matlamat anda, sejarah perubatan anda dan apa yang berkesan atau tidak untuk anda pada masa lalu. Daripada situ, kami sama ada mencadangkan pelan yang benar-benar kami percaya, atau memberitahu anda apabila sesuatu prosedur tidak sesuai. Kami menganggap ini sebagai sebahagian daripada penjagaan jangka panjang, bukan urus niaga sekali.",
+      "Kami bekerja dalam Bahasa Inggeris, Bahasa Malaysia dan Mandarin Cina, dan melayan setiap pesakit dengan standard perhatian yang sama tanpa tergesa-gesa. Imej sebelum-dan-selepas kami, ulasan pesakit dan penjagaan susulan berstruktur semuanya merupakan hasil sebenar dari klinik kami — bukan bahan stok — supaya apa yang anda lihat di sini adalah apa yang anda boleh harapkan daripada kami."
+    ],
+    "missionTitle": "Misi kami",
+    "mission": "Untuk memberikan hasil yang kelihatan semula jadi dan sah dari segi perubatan dalam persekitaran tenang seperti spa — dan untuk jujur tentang apa yang setiap prosedur boleh dan tidak boleh capai. Kami mengukur kejayaan berdasarkan perasaan pesakit kami enam bulan dan enam tahun selepas sesuatu prosedur, bukan hanya pada hari mereka meninggalkan klinik.",
+    "policyTitle": "Polisi kandungan editorial & perubatan",
+    "policy": "Maklumat di laman web ini dibuat oleh pasukan kami dan disemak oleh staf klinikal kami. Ia bertujuan untuk pendidikan umum sahaja dan bukan pengganti perundingan peribadi atau nasihat perubatan profesional. Imej sebelum-dan-selepas adalah dari pesakit sebenar di klinik kami di Mont Kiara · Sri Hartamas, dikongsi dengan persetujuan mereka; hasil individu sentiasa berbeza. Kami mengemas kini kandungan kami apabila amalan dan panduan berkembang, dan tarikh semakan terkini ditunjukkan pada halaman kami. Apabila kami menyebut sesuatu rawatan, masa pemulihan atau jangkaan, ia mencerminkan apa yang kami lihat dalam amalan klinikal kami sendiri dan bukan dakwaan umum.",
+    "visitTitle": "Lawati kami",
+    "contactTitle": "Hubungi kami",
+    "directions": "Lihat di Google Maps"
+  },
+  "procedureUi": {
+    "home": "Laman Utama",
+    "treatments": "Rawatan",
+    "surgical": "Pembedahan",
+    "nonSurgical": "Estetik & Kulit",
+    "overview": "Gambaran Keseluruhan",
+    "benefits": "Mengapa pertimbangkannya",
+    "recovery": "Pemulihan & masa rehat",
+    "results": "Sebelum & Selepas",
+    "faq": "Soalan",
+    "related": "Rawatan lain",
+    "allTreatments": "Semua rawatan",
+    "book": "Tempah perundingan",
+    "consultNote": "Halaman ini adalah maklumat am, bukan nasihat perubatan. Perundingan peribadi diperlukan untuk menentukan apa yang sesuai dan selamat untuk anda.",
+    "whoFor": "Sesuai untuk siapa",
+    "how": "Apa yang prosedur ini libatkan",
+    "considerations": "Risiko & pertimbangan"
+  },
+  "procedures": {
+    "liposuction": {
+      "overview": "Sedutan lemak (liposuction) adalah prosedur pembentukan tubuh yang membuang lemak degil yang tidak hilang dengan diet dan senaman, memperhalusi kawasan seperti perut, pinggang, sisi badan, paha, lengan dan kawasan di bawah dagu. Ia direka untuk membentuk semula dan mentakrifkan siluet anda — bukan untuk mengurangkan berat badan keseluruhan. Di klinik Kuala Lumpur kami, teknik dirancang berdasarkan perkadaran individu anda supaya hasilnya kelihatan seimbang dan semula jadi.",
+      "whoFor": "Sedutan lemak sesuai untuk individu yang hampir kepada berat badan yang stabil dan sihat tetapi mempunyai lemak setempat yang tidak akan hilang walaupun diet konsisten dan senaman tetap. Ia bukan rawatan untuk kehilangan berat badan umum atau obesiti, dan tidak boleh menggantikan tabiat sihat. Semasa perundingan, kami menilai kualiti kulit, kawasan yang dibimbangkan dan sejarah perubatan anda untuk mengesahkan kesesuaian.",
+      "how": "Rawatan bermula dengan perundingan persendirian dalam Bahasa Inggeris, Mandarin, Korea atau Jepun, di mana pakar bedah memetakan kawasan yang akan dirawat dan bersetuju dengan satu pelan. Pada hari rawatan, kanula halus digunakan untuk melonggarkan dan membuang lemak melalui insisi kecil yang tersembunyi, dengan bius yang sesuai dengan saiz kawasan. Beberapa zon biasanya boleh ditangani dalam satu sesi. Insisi adalah sangat kecil dan diletakkan supaya tidak ketara.",
+      "benefits": [
+        "Menyasarkan timbunan lemak setempat yang tahan diet",
+        "Memperhalusi bentuk tubuh, garis pinggang dan perkadaran",
+        "Beberapa kawasan boleh dirawat dalam satu sesi",
+        "Hasil yang tahan lama apabila berat badan kekal stabil"
+      ],
+      "recovery": "Kebanyakan orang kembali kepada rutin harian ringan dalam beberapa hari dan memakai pakaian mampatan selama beberapa minggu untuk menyokong penyembuhan dan bentuk. Bengkak dan lebam ringan adalah normal dan akan reda secara beransur-ansur. Kontur akhir menjadi jelas selepas beberapa bulan apabila tisu pulih, dan kami menyemak kemajuan anda pada lawatan susulan yang dijadualkan.",
+      "considerations": "Seperti mana-mana prosedur pembedahan, terdapat risiko termasuk bengkak, lebam, kebas sementara, ketidakteraturan kontur atau asimetri. Penambahan berat badan yang ketara pada masa akan datang boleh mengubah hasil anda. Kami akan membincangkan manfaat, had dan risiko secara terbuka supaya jangkaan anda realistik, dan kami akan memberitahu anda dengan jujur jika sedutan lemak bukan pilihan yang sesuai.",
+      "faq": [
+        {
+          "q": "Adakah sedutan lemak merupakan rawatan penurunan berat badan?",
+          "a": "Tidak. Ia membentuk lemak setempat pada individu yang hampir kepada berat badan stabil dan bukan pengganti diet, senaman atau rawatan obesiti."
+        },
+        {
+          "q": "Kawasan mana yang boleh dirawat?",
+          "a": "Biasanya perut, pinggang, sisi badan, paha, lengan dan di bawah dagu. Pakar bedah anda akan menasihati apa yang sesuai untuk tubuh anda semasa perundingan."
+        },
+        {
+          "q": "Adakah lemak akan kembali?",
+          "a": "Sel lemak yang dirawat akan dibuang, tetapi sel yang tinggal masih boleh membesar dengan penambahan berat badan, jadi berat badan yang stabil membantu mengekalkan hasil."
+        }
+      ]
+    },
+    "rhinoplasty": {
+      "overview": "Pembedahan hidung (rhinoplasty) membentuk semula hidung — jambatan, hujung, lebar atau perkadaran keseluruhan — untuk menyelaraskannya dengan seluruh wajah anda. Ia paling kerap dijalankan untuk keseimbangan estetik, dan dalam beberapa kes juga untuk memperbaiki pernafasan. Pendekatan kami konservatif dan berorientasikan wajah: kami merancang perubahan yang sesuai dengan ciri dan etnik anda, mensasarkan hasil halus yang semula jadi.",
+      "whoFor": "Pembedahan hidung sesuai untuk individu yang merasakan hidung mereka tidak seimbang dengan wajah — jambatan yang menonjol, hujung yang lebar atau jatuh, atau asimetri — dan mempunyai jangkaan yang realistik. Pertumbuhan wajah harus lengkap. Jika anda juga mempunyai masalah pernafasan, sebutkan ini semasa perundingan supaya ia dapat dinilai bersama pelan estetik.",
+      "how": "Selepas perundingan terperinci dan analisis wajah, pakar bedah bersetuju dengan satu pelan yang disesuaikan dengan anatomi anda. Prosedur ini membentuk semula tulang dan rawan asas melalui insisi yang diletakkan dengan teliti, yang mungkin di dalam lubang hidung atau merentasi kolumela bergantung pada teknik. Bidai kecil biasanya digunakan untuk menyokong bentuk baharu semasa ia sembuh.",
+      "benefits": [
+        "Memperhalusi jambatan, hujung, lebar atau unjuran",
+        "Mengimbangkan hidung dengan ciri lain anda",
+        "Disesuaikan dengan anatomi dan profil etnik anda",
+        "Boleh menangani kebimbangan pernafasan jika ada"
+      ],
+      "recovery": "Bidai biasanya dipakai selama kira-kira seminggu, dan lebam atau bengkak di sekitar mata akan reda dalam dua hingga tiga minggu. Anda biasanya boleh kembali kepada aktiviti harian dalam masa satu hingga dua minggu, sambil mengelakkan senaman yang berat lebih lama. Hujung hidung terus diperhalusi secara halus selama beberapa bulan apabila bengkak baki hilang.",
+      "considerations": "Pembedahan hidung adalah teknikal yang mencabar dan hasilnya mengambil masa untuk menetap. Risiko termasuk bengkak, asimetri, perubahan sensasi atau — jarang berlaku — keperluan untuk semakan kecil. Hidung juga dipengaruhi oleh penyembuhan dan tisu asas anda, yang boleh mempengaruhi bentuk akhir. Kami membincangkan semua ini dengan jujur supaya keputusan anda dibuat dengan baik.",
+      "faq": [
+        {
+          "q": "Adakah hasilnya kelihatan semula jadi?",
+          "a": "Matlamat kami adalah hasil seimbang yang sesuai dengan wajah anda, bukan rupa 'siap' yang generik. Kami merancang dengan ciri dan etnik anda dalam fikiran."
+        },
+        {
+          "q": "Bila saya akan melihat bentuk akhir?",
+          "a": "Kebanyakan bengkak akan reda dalam beberapa minggu, tetapi penghalusan halus pada hujung boleh berterusan selama beberapa bulan."
+        },
+        {
+          "q": "Bolehkah pembedahan hidung membantu pernafasan saya?",
+          "a": "Dalam beberapa kes, kebimbangan fungsi boleh ditangani bersama pelan estetik. Ini dinilai secara individu semasa perundingan."
+        }
+      ]
+    },
+    "eye": {
+      "overview": "Rawatan mata meremajakan kelopak mata atas dan bawah — membuang atau menyusun semula kulit berlebihan, melicinkan bengkak dan mencerahkan mata yang kelihatan letih — untuk penampilan yang lebih segar, peka dan mesra. Kerana mata adalah pusat ekspresi wajah, keutamaan kami adalah untuk menyegarkan sambil menghormati sepenuhnya bentuk mata semula jadi dan identiti anda.",
+      "whoFor": "Rawatan ini sesuai untuk individu yang terganggu dengan kelopak mata atas yang tertutup atau berat, beg atau bengkak di bawah mata, atau penampilan yang umumnya letih yang tidak diatasi oleh rehat. Ia juga popular dalam kalangan pesakit yang mencari definisi yang halus. Kesesuaian bergantung pada anatomi kelopak mata dan kesihatan mata anda, yang kami semak semasa perundingan.",
+      "how": "Selepas menilai kelopak mata anda dan membincangkan matlamat anda, pakar bedah merancang pendekatan yang disesuaikan. Kerja kelopak atas membuang atau menyusun semula sebahagian kecil kulit berlebihan melalui insisi pada lipatan yang tersembunyi dengan baik; kerja kelopak bawah menangani beg dan kelancaran, kadangkala dari dalam kelopak. Teknik disesuaikan untuk anatomi monolid dan kelopak mata Asia di mana sesuai.",
+      "benefits": [
+        "Mengurangkan kelopak atas yang tertutup atau berat",
+        "Melembutkan bengkak dan beg di bawah mata",
+        "Membuka dan menyegarkan kawasan mata",
+        "Disesuaikan untuk monolid dan kelopak Asia"
+      ],
+      "recovery": "Bengkak dan lebam biasanya reda dalam masa satu hingga dua minggu, dan sebarang jahitan halus dikeluarkan dalam kira-kira seminggu. Tuala sejuk dan rehat membantu pada beberapa hari pertama. Kebanyakan orang berasa selesa untuk kembali kepada aktiviti sosial dalam satu hingga dua minggu, dengan penghalusan akhir muncul apabila baki bengkak menghilang.",
+      "considerations": "Risiko termasuk kekeringan sementara, bengkak, asimetri atau kepekaan terhadap cahaya semasa penyembuhan. Hasil sepatutnya menyegarkan dan bukan mengubah bentuk mata asas anda. Kami akan jujur jika pilihan bukan pembedahan lebih sesuai untuk anda, dan kami merancang dengan teliti untuk melindungi penampilan dan keselesaan mata.",
+      "faq": [
+        {
+          "q": "Adakah ia akan mengubah bentuk mata saya?",
+          "a": "Matlamatnya adalah untuk menyegarkan, bukan mengubah identiti anda. Kami merancang perubahan yang menghormati bentuk mata semula jadi anda."
+        },
+        {
+          "q": "Adakah ia sesuai untuk monolid atau kelopak Asia?",
+          "a": "Ya. Teknik disesuaikan dengan anatomi dan keutamaan individu anda, yang kami bincangkan secara terperinci semasa perundingan."
+        },
+        {
+          "q": "Berapa lama masa rehat?",
+          "a": "Kebanyakan bengkak dan lebam yang ketara reda dalam satu hingga dua minggu, walaupun ini berbeza-beza antara individu."
+        }
+      ]
+    },
+    "facelift": {
+      "overview": "Pembedahan muka (facelift) mengangkat dan menyusun semula kulit dan tisu yang kendur di sepanjang pipi, garis rahang dan leher untuk memulihkan kontur yang lebih tegap dan muda sambil mengekalkan ekspresi semula jadi anda. Daripada hanya mengetatkan kulit, teknik moden menyusun semula lapisan dalam, yang memberikan hasil yang lebih semula jadi dan tahan lama.",
+      "whoFor": "Pembedahan muka sesuai untuk individu yang mengesan kemerosotan pertengahan muka, dagu berlemak, kehilangan definisi garis rahang atau kelonggaran leher yang tidak lagi dapat ditangani oleh krim dan rawatan bukan pembedahan. Kesihatan umum yang baik dan jangkaan yang realistik adalah penting. Semasa perundingan, kami menilai kulit, tisu dan matlamat anda untuk mengesyorkan pendekatan yang paling sesuai — sama ada pembedahan penuh atau yang lebih terhad.",
+      "how": "Selepas perundingan menyeluruh, pakar bedah bersetuju dengan satu pelan dan meletakkan insisi secara berhemat di sekeliling telinga dan garis rambut. Lapisan wajah yang lebih dalam disusun semula, kulit berlebihan dibuang, dan kontur diperhalusi supaya hasilnya kelihatan semula jadi dan tidak dipaksa. Sejauh mana ia disesuaikan dengan anatomi anda dan perubahan yang anda mahu tangani.",
+      "benefits": [
+        "Mengangkat pertengahan muka, garis rahang dan leher",
+        "Menyusun semula tisu dalam, bukan hanya kulit",
+        "Memulihkan definisi yang hilang dengan usia",
+        "Peremajaan yang tahan lama dan kelihatan semula jadi"
+      ],
+      "recovery": "Kebanyakan bengkak dan lebam reda dalam dua hingga tiga minggu, dan ramai orang kembali kepada aktiviti sosial dalam beberapa minggu. Parut diletakkan supaya tersembunyi dan terus pudar selama berbulan-bulan. Kami menyediakan pelan penjagaan susulan berstruktur dengan ulasan yang dijadualkan sepanjang pemulihan anda.",
+      "considerations": "Sebagai prosedur pembedahan, pembedahan muka membawa risiko termasuk bengkak, lebam, perubahan sensasi dan parut, yang kami bincangkan sepenuhnya. Pembedahan muka memutarkan kembali jam tetapi tidak menghentikan penuaan; hasil tahan lama tetapi wajah anda terus matang secara semula jadi. Kami akan menasihati dengan jujur sama ada pilihan pembedahan atau bukan pembedahan paling sesuai dengan matlamat anda.",
+      "faq": [
+        {
+          "q": "Adakah saya akan kelihatan 'ditarik' atau tidak semula jadi?",
+          "a": "Teknik moden menyusun semula tisu dalam untuk pengangkatan semula jadi, bukan rupa ketat yang ditiup angin."
+        },
+        {
+          "q": "Berapa lama hasilnya bertahan?",
+          "a": "Pembedahan muka memutarkan kembali jam dan hasilnya tahan lama, walaupun wajah anda terus menua secara semula jadi dari masa ke masa."
+        },
+        {
+          "q": "Adakah pembedahan muka penuh sentiasa diperlukan?",
+          "a": "Tidak. Bergantung pada kebimbangan anda, pembedahan yang lebih terhad atau gabungan rawatan mungkin lebih sesuai."
+        }
+      ]
+    },
+    "breast": {
+      "overview": "Pembesaran payudara menggunakan implan untuk meningkatkan isipadu, memulihkan kepenuhan yang hilang selepas perubahan berat badan atau kehamilan, atau memperbaiki keseimbangan antara payudara. Jenis implan, bentuk, saiz dan penempatan dipilih bersama anda, supaya hasilnya kelihatan berkadar dengan rangka anda dan sesuai dengan gaya hidup anda.",
+      "whoFor": "Pembesaran sesuai untuk individu yang ingin lebih banyak isipadu atau simetri yang lebih baik dan berada dalam kesihatan umum yang baik dengan jangkaan yang realistik. Ia juga dipilih untuk memulihkan kepenuhan selepas penyusuan atau penurunan berat badan. Kami menilai rangka, tisu dan matlamat anda untuk mengesyorkan pendekatan yang kelihatan semula jadi untuk anda.",
+      "how": "Selepas perundingan terperinci, anda boleh mencuba pengukur saiz untuk membantu memilih hasil yang semula jadi dan berkadar. Implan dimasukkan melalui insisi yang tersembunyi, sama ada di bawah tisu payudara atau sebahagiannya di bawah otot, bergantung pada anatomi anda dan rupa yang anda inginkan. Pelan, pilihan implan dan penempatan semuanya dipersetujui dengan anda terlebih dahulu.",
+      "benefits": [
+        "Meningkatkan isipadu dan kepenuhan semula jadi",
+        "Memperbaiki simetri dan perkadaran",
+        "Memulihkan kepenuhan selepas kehamilan atau penurunan berat badan",
+        "Jenis dan saiz implan disesuaikan dengan rangka anda"
+      ],
+      "recovery": "Aktiviti ringan biasanya disambung dalam beberapa hari, manakala senaman yang berat dielakkan selama beberapa minggu apabila tisu sembuh dan hasilnya menetap. Pakaian sokongan dipakai semasa penyembuhan awal. Kami menyediakan pelan penjagaan yang jelas dan ulasan yang dijadualkan supaya pemulihan disokong dengan baik.",
+      "considerations": "Implan tahan lama tetapi tidak semestinya seumur hidup, dan pemantauan berkala dinasihatkan. Risiko termasuk perubahan sensasi, parut, atau — yang lebih jarang — isu yang mungkin memerlukan perhatian lanjut dari masa ke masa. Kami menjelaskan pilihan, manfaat dan risiko sepenuhnya supaya anda boleh membuat keputusan yang termaklum dan tidak tergesa-gesa.",
+      "faq": [
+        {
+          "q": "Bagaimana saya memilih saiz yang sesuai?",
+          "a": "Kami menilai rangka, tisu dan matlamat anda bersama-sama, dan anda boleh mencuba pengukur saiz untuk mencari hasil yang semula jadi dan berkadar."
+        },
+        {
+          "q": "Adakah hasilnya kekal?",
+          "a": "Implan tahan lama tetapi tidak semestinya seumur hidup; pemantauan berkala dinasihatkan, seperti yang dibincangkan semasa perundingan."
+        },
+        {
+          "q": "Adakah ia akan menjejaskan penyusuan?",
+          "a": "Ramai orang masih boleh menyusui, tetapi ini bergantung pada teknik dan faktor individu, yang kami bincangkan terlebih dahulu."
+        }
+      ]
+    },
+    "chin": {
+      "overview": "Implan dagu menambah unjuran dan definisi pada dagu yang surut atau lemah, memperbaiki keseimbangan profil dan hubungan antara dagu, garis rahang dan leher. Dagu yang berkadar baik boleh membawa keseluruhan wajah ke dalam keharmonian, dan perubahan ini direka untuk kelihatan halus dan semula jadi.",
+      "whoFor": "Pembesaran dagu sesuai untuk individu yang profilnya kelihatan tidak seimbang kerana dagu berada lebih ke belakang berbanding bibir dan hidung, atau yang ingin garis rahang yang lebih jelas. Ia sering dipertimbangkan bersama pembedahan hidung untuk keharmonian wajah keseluruhan. Kesesuaian disahkan dengan menilai profil dan perkadaran anda semasa perundingan.",
+      "how": "Selepas menganalisis profil anda, pakar bedah memilih implan dengan saiz yang sesuai dengan anatomi anda. Ia diletakkan melalui insisi kecil yang tersembunyi — biasanya di bawah dagu atau di dalam mulut — dan diposisikan untuk meningkatkan unjuran berkadar dengan ciri anda. Matlamatnya adalah peningkatan seimbang, bukan rupa yang berlebihan.",
+      "benefits": [
+        "Mengukuhkan dagu yang lemah atau surut",
+        "Mengimbangkan profil dan garis rahang",
+        "Sering berpadanan baik dengan pembedahan hidung",
+        "Peningkatan halus dan berkadar"
+      ],
+      "recovery": "Bengkak reda selama satu hingga dua minggu dan kebanyakan orang kembali kepada aktiviti biasa dalam seminggu, dengan diet lembut dan penjagaan di sekitar kawasan tersebut pada hari-hari awal. Kontur akhir menjadi jelas apabila bengkak hilang, dan kami menyemak penyembuhan anda semasa susulan.",
+      "considerations": "Risiko termasuk kebas sementara, bengkak atau, jarang berlaku, pergerakan implan yang mungkin memerlukan pelarasan. Implan dagu direka untuk tahan lama; alternatif bukan pembedahan seperti pengisi juga boleh dibincangkan jika anda lebih suka pilihan sementara. Kami hanya akan mencadangkan apa yang benar-benar sesuai dengan wajah anda.",
+      "faq": [
+        {
+          "q": "Adakah implan dagu sesuai dengan wajah saya?",
+          "a": "Kami menilai profil dan perkadaran anda untuk mengesyorkan implan yang kelihatan seimbang, bukan keterlaluan."
+        },
+        {
+          "q": "Adakah ia penyelesaian kekal?",
+          "a": "Implan dagu direka untuk tahan lama; alternatif bukan pembedahan seperti pengisi juga boleh dibincangkan."
+        },
+        {
+          "q": "Bolehkah ia digabungkan dengan prosedur lain?",
+          "a": "Ya. Ia sering digabungkan dengan pembedahan hidung atau rawatan garis rahang untuk memperbaiki keharmonian wajah keseluruhan."
+        }
+      ]
+    },
+    "bodySculpt": {
+      "overview": "Pembentukan tubuh bukan pembedahan mengurangkan penampilan lemak degil dan memperhalusi kontur tanpa pembedahan atau masa rehat, menggunakan teknologi yang disasarkan sepanjang satu siri sesi. Ia paling baik dianggap sebagai penghalusan untuk kebimbangan setempat yang ringan dan bukan pengganti pembedahan, dan ia berpadanan dengan baik dengan gaya hidup yang sihat.",
+      "whoFor": "Rawatan ini sesuai untuk individu hampir kepada berat badan stabil yang mempunyai kawasan kecil setempat yang ingin dihaluskan, dan yang lebih suka mengelakkan pembedahan dan masa rehat. Ia bukan penyelesaian penurunan berat badan. Kami menilai kawasan dan matlamat anda untuk menasihati sama ada pembentukan bukan pembedahan atau pendekatan lain akan paling sesuai.",
+      "how": "Selepas perundingan untuk memetakan kawasan, tenaga yang disasarkan dikenakan pada zon yang dipilih sepanjang siri sesi yang dirancang. Setiap sesi adalah selesa dan tidak memerlukan masa pemulihan. Bilangan sesi bergantung pada kawasan dan matlamat anda, dan kami menetapkan jangkaan realistik dari awal.",
+      "benefits": [
+        "Tidak invasif dengan masa rehat yang sangat sedikit",
+        "Menyasarkan kawasan setempat yang tahan diet",
+        "Sesi yang selesa, tiada pembedahan diperlukan",
+        "Penghalusan yang beransur-ansur dan kelihatan semula jadi"
+      ],
+      "recovery": "Hampir tiada masa rehat — kebanyakan orang kembali kepada aktiviti biasa serta-merta selepas satu sesi. Hasil muncul beransur-ansur dalam beberapa minggu kemudian apabila tubuh bertindak balas, dan satu siri beberapa sesi biasanya memberikan hasil terbaik. Anda boleh kembali ke aktiviti biasa pada hari yang sama, termasuk senaman ringan. Kesakitan atau kelembutan ringan di kawasan yang dirawat boleh berlangsung 24–48 jam.",
+      "considerations": "Hasilnya beransur-ansur dan lebih halus daripada pembedahan, dan berbeza-beza antara individu. Pembentukan bukan pembedahan tidak sesuai untuk pengurangan lemak isipadu besar. Jika pilihan pembedahan seperti sedutan lemak memberi anda hasil yang lebih baik, kami akan memberitahu dengan jujur dan bukan mengesyorkan rawatan yang tidak sesuai. Pembentukan tubuh bukan rawatan penurunan berat badan. Ia paling baik untuk pesakit hampir kepada berat badan stabil yang ingin mengurangkan poket degil yang tahan senaman. Kami jujur semasa perundingan jika matlamat anda lebih baik dilayan oleh pendekatan lain.",
+      "faq": [
+        {
+          "q": "Berapa banyak sesi yang saya perlukan?",
+          "a": "Ia berbeza mengikut kawasan dan matlamat; pelan biasa berjalan beberapa sesi, yang kami nasihatkan semasa perundingan anda."
+        },
+        {
+          "q": "Adakah ia pengganti untuk sedutan lemak?",
+          "a": "Tidak — ia sesuai untuk kebimbangan setempat yang lebih ringan. Kami menasihati dengan jujur sama ada laluan pembedahan atau bukan pembedahan sesuai untuk anda."
+        },
+        {
+          "q": "Adakah masa rehat?",
+          "a": "Biasanya tiada — kebanyakan orang meneruskan hari mereka selepas sesi."
+        }
+      ]
+    },
+    "hifu": {
+      "overview": "HIFU (ultrasound berfokus berintensiti tinggi) merangsang kolagen jauh di dalam kulit untuk secara beransur-ansur mengangkat dan mengetatkan wajah dan leher, tanpa pembedahan atau masa rehat. Ia menyasarkan lapisan sokongan yang sama yang ditangani dalam pengangkatan pembedahan, menjadikannya pilihan popular untuk kelonggaran awal hingga sederhana atau untuk mengekalkan hasil dari masa ke masa.",
+      "whoFor": "HIFU sesuai untuk individu dengan kelonggaran kulit ringan hingga sederhana yang inginkan rupa yang lebih tegap dan terangkat tanpa pembedahan, dan yang selesa dengan hasil yang beransur-ansur. Ia bukan pengganti pembedahan muka jika kelonggaran sudah lanjut. Kami menilai kulit dan matlamat anda untuk mengesahkan sama ada HIFU pilihan yang sesuai.",
+      "how": "Selepas menilai kulit anda, tenaga ultrasound berfokus dihantar pada kedalaman yang tepat untuk merangsang kolagen anda sendiri. Rawatan dijalankan dalam satu sesi untuk kebanyakan kawasan, dan tetapan keselesaan disesuaikan dengan anda sepanjang masa. Tiada insisi atau masa rehat terlibat.",
+      "benefits": [
+        "Pengangkatan dan pengetatan bukan pembedahan",
+        "Merangsang pembaharuan kolagen anda sendiri",
+        "Menyasarkan wajah dan leher tanpa insisi",
+        "Tiada masa rehat selepas rawatan"
+      ],
+      "recovery": "Anda boleh menyambung aktiviti biasa serta-merta. Beberapa pengetatan mungkin dirasai pada awal, tetapi pengangkatan utama berkembang beransur-ansur selama dua hingga tiga bulan apabila kolagen diperbaharui. Hasil boleh dikekalkan dengan sesi berkala seperti yang dinasihatkan. Anda boleh kembali bekerja pada hari yang sama. Kemerahan ringan atau sedikit warna merah jambu adalah biasa selama beberapa jam, dan sebarang kelembutan biasanya reda dalam 24–48 jam.",
+      "considerations": "Hasil beransur-ansur dan berbeza antara individu; HIFU memperhalusi dan mengangkat tetapi tidak boleh menandingi kesan pembedahan pada kelonggaran lanjut. Kemerahan atau kelembutan sementara mungkin berlaku. Kami akan mengesyorkan pembedahan jika ia benar-benar memberikan hasil yang lebih baik untuk anda. HIFU paling memberi pulangan untuk pesakit dalam lingkungan tiga puluhan dan empat puluhan dengan kelonggaran ringan hingga sederhana — ia tidak akan menghasilkan pembedahan muka, dan kami akan mengatakannya dengan jujur semasa perundingan. Pesakit dengan kelonggaran kulit yang sangat lanjut, atau yang inginkan perubahan dramatik satu langkah, biasanya lebih sesuai dengan pembedahan.",
+      "faq": [
+        {
+          "q": "Bilakah saya akan melihat hasilnya?",
+          "a": "Beberapa pengetatan dirasai awal, tetapi pengangkatan utama berkembang beransur-ansur selama dua hingga tiga bulan."
+        },
+        {
+          "q": "Adakah ia menyakitkan?",
+          "a": "Kebanyakan orang merasakan kehangatan dan kesemutan ringkas; tetapan keselesaan disesuaikan dengan anda semasa rawatan."
+        },
+        {
+          "q": "Berapa lama hasilnya bertahan?",
+          "a": "Hasil boleh bertahan banyak bulan dan sering dikekalkan dengan sesi berkala, bergantung pada kulit anda."
+        }
+      ]
+    },
+    "picoLaser": {
+      "overview": "Laser Pico menyampaikan denyutan tenaga yang sangat pendek yang memecahkan pigmen menjadi zarah halus dan merangsang pembaharuan kulit, membantu dengan bintik gelap, tona yang tidak rata, kekusaman dan tekstur keseluruhan. Kerana denyutan amat pendek, rawatan boleh berkesan dengan masa rehat yang minimum, dan tetapan disesuaikan dengan jenis kulit anda.",
+      "whoFor": "Laser Pico sesuai untuk individu yang terganggu dengan bintik matahari, tona tidak rata, kekusaman atau tekstur kasar, dan — dengan tetapan yang teliti dan konservatif — beberapa kes melasma. Jenis dan sejarah kulit anda dinilai terlebih dahulu, kerana kesesuaian dan tetapan berbeza untuk setiap individu.",
+      "how": "Selepas penilaian kulit, laser ditetapkan kepada jenis kulit dan kebimbangan anda, kemudian dilalui di kawasan rawatan dalam sesi yang selesa. Satu siri pendek biasanya dirancang untuk hasil terbaik dan sekata. Kami menjelaskan garis masa realistik dan penjagaan susulan, termasuk perlindungan matahari, yang penting antara sesi.",
+      "benefits": [
+        "Menyasarkan pigmentasi, bintik matahari dan tanda gelap",
+        "Menyeimbangkan tona kulit dan memperhalusi tekstur",
+        "Merangsang pembaharuan untuk kulit yang lebih jelas",
+        "Masa rehat minimum antara sesi"
+      ],
+      "recovery": "Kemerahan ringan mungkin berlangsung beberapa jam dan kebanyakan orang kembali kepada rutin mereka pada hari yang sama. Hasil terbina sepanjang satu siri sesi apabila pigmen hilang dan kulit diperbaharui. Perlindungan matahari yang teliti melindungi dan memanjangkan hasil anda. Warna merah jambu ringan selama satu atau dua jam adalah biasa. Anda boleh mengenakan penjagaan kulit lembut dan SPF keesokan paginya; kami minta anda mengelakkan aktif yang kuat (asid, retinol) selama 48 jam.",
+      "considerations": "Keadaan pigmentasi seperti melasma boleh degil dan mungkin berulang, jadi jangkaan realistik penting. Tetapan yang tidak betul boleh menyebabkan kerengsaan, sebab itu kami menilai jenis kulit anda dengan teliti dan merawat secara konservatif. Pendedahan kepada matahari antara sesi boleh menghapuskan kemajuan. Laser Pico paling berkesan apabila sesi dijarakkan empat hingga enam minggu, dengan perlindungan matahari yang ketat di antaranya. Kami menggunakan tenaga yang lebih rendah untuk tona kulit yang lebih gelap untuk mengurangkan risiko pigmentasi pasca-radang, dan kami sentiasa bermula dengan ujian tampalan untuk pesakit kali pertama.",
+      "faq": [
+        {
+          "q": "Apakah kebimbangan yang ditangani oleh laser Pico?",
+          "a": "Bintik matahari, tona tidak rata, kekusaman dan tekstur, serta melasma dengan tetapan teliti. Kesesuaian dinilai semasa perundingan."
+        },
+        {
+          "q": "Adakah ia selamat untuk tona kulit saya?",
+          "a": "Tetapan disesuaikan dengan kulit anda; kami menilai jenis kulit anda untuk merawat dengan selamat dan berkesan."
+        },
+        {
+          "q": "Berapa banyak sesi yang diperlukan?",
+          "a": "Satu siri pendek biasanya disyorkan; bilangan tepat bergantung pada kulit dan kebimbangan anda."
+        }
+      ]
+    },
+    "hairRemoval": {
+      "overview": "Penyingkiran bulu laser mengurangkan bulu yang tidak diingini sepanjang satu siri sesi dengan menyasarkan pigmen pada folikel, meninggalkan kulit yang lebih licin dan jauh kurang penyelenggaraan berbanding mencukur atau wax. Kerana bulu tumbuh dalam kitaran, satu siri yang dirancang yang dijarakkan dari masa ke masa memberikan pengurangan terbaik dan paling tahan lama.",
+      "whoFor": "Ia sesuai untuk individu yang inginkan pengurangan tahan lama bulu yang tidak diingini di kawasan seperti wajah, bawah lengan, kaki, lengan atau garis bikini, dan yang penat dengan kerap mencukur atau wax. Jenis bulu dan kulit mempengaruhi pendekatan, jadi ini dinilai sebelum rawatan.",
+      "how": "Selepas menilai bulu dan kulit anda, peranti ditetapkan dengan sesuai dan dilalui di kawasan dalam sesi yang selesa. Beberapa sesi dijarakkan beberapa minggu diperlukan untuk menangkap bulu melalui kitaran pertumbuhan mereka. Kami menasihati tentang persediaan dan penjagaan susulan, termasuk perlindungan matahari kulit yang dirawat.",
+      "benefits": [
+        "Pengurangan tahan lama bulu yang tidak diingini",
+        "Kulit lebih licin dengan kurang bulu tumbuh ke dalam",
+        "Sesuai untuk banyak kawasan tubuh",
+        "Penyelenggaraan lebih rendah berbanding mencukur atau wax"
+      ],
+      "recovery": "Kemerahan ringan boleh berlaku sebentar selepas rawatan, dan anda boleh kembali kepada aktiviti biasa pada hari yang sama sambil mengelakkan matahari pada kawasan yang dirawat. Bulu gugur dalam beberapa hari berikutnya, dan pengurangan terbina sepanjang siri sesi. Kawasan yang dirawat boleh kelihatan sedikit merah jambu selama beberapa jam dan terasa seperti kerengsaan matahari ringan. Elakkan mandian panas, sesi senaman dan matahari langsung selama 24 jam, dan langkau retinoid pada kawasan selama 48 jam.",
+      "considerations": "Hasil berbeza dengan warna bulu, ketebalan dan jenis kulit, dan bulu yang sangat terang atau halus bertindak balas kurang baik. Sesi penyelenggaraan mungkin diperlukan dari masa ke masa. Kami menilai bulu dan kulit anda untuk menetapkan peranti dengan selamat dan memberi gambaran realistik tentang hasil. Pesakit sering bertanya berapa banyak sesi yang mereka perlukan. Dalam pengalaman kami, enam hingga lapan sesi, dijarakkan empat hingga enam minggu, menangkap kebanyakan kitaran bulu yang kelihatan bagi pesakit biasa. Kami mengesahkan ujian tampalan pada kawasan kecil sebelum bermula, dan kami menyesuaikan tetapan denyutan untuk tona kulit sensitif untuk menjaga rawatan selesa dan selamat.",
+      "faq": [
+        {
+          "q": "Berapa banyak sesi yang diperlukan?",
+          "a": "Bulu tumbuh dalam kitaran, jadi satu siri beberapa sesi yang dijarakkan beberapa minggu memberikan pengurangan terbaik yang tahan lama."
+        },
+        {
+          "q": "Adakah ia berkesan pada semua jenis bulu dan kulit?",
+          "a": "Laser moden merawat pelbagai jenis; kami menilai bulu dan kulit anda untuk menetapkan ini dengan selamat semasa perundingan."
+        },
+        {
+          "q": "Adakah ia kekal?",
+          "a": "Ia memberikan pengurangan tahan lama; sesi penyelenggaraan sekali-sekala mungkin diperlukan bergantung pada individu."
+        }
+      ]
+    },
+    "cellLight": {
+      "overview": "Terapi cell light (LED) menggunakan panjang gelombang cahaya tertentu untuk menenangkan, meremajakan dan menyokong kulit. Ia adalah rawatan yang lembut dan menenangkan tanpa masa rehat, sering digabungkan dengan rawatan muka atau digunakan selepas prosedur lain untuk menyokong pemulihan dan kualiti kulit keseluruhan.",
+      "whoFor": "Terapi LED sesuai untuk individu yang ingin memperbaiki kekusaman atau kesesakan, menyokong pemulihan pasca rawatan, atau hanya mengekalkan kulit yang kelihatan sihat dengan pilihan yang lembut dan tidak invasif. Ia diterima dengan baik oleh kebanyakan jenis kulit dan merupakan pelengkap yang baik untuk rawatan lain.",
+      "how": "Selepas pembersihan, panjang gelombang cahaya yang dipilih dikenakan pada kulit dalam sesi yang selesa dan menenangkan. Panjang gelombang yang berbeza menyokong kebimbangan yang berbeza, dan kami memilih dan menggabungkannya berdasarkan kulit anda. Ia sering dipadankan dengan rawatan muka atau dijadualkan sebagai siri pendek.",
+      "benefits": [
+        "Menenangkan dan meremajakan kulit",
+        "Menyokong pemulihan selepas rawatan lain",
+        "Lembut, tanpa masa rehat",
+        "Melengkapkan rawatan muka dan program kulit"
+      ],
+      "recovery": "Tiada masa rehat — rawatan adalah menenangkan dan anda boleh kembali kepada hari anda serta-merta. Manfaat terbina perlahan dengan satu siri yang teratur, dan kami menasihati kekerapan yang munasabah untuk kulit dan matlamat anda. Tiada masa rehat yang dikuatkuasakan — kebanyakan pesakit kembali bekerja atau memakai mekap terus selepas sesi. Kehangatan ringan pada kulit selama satu atau dua jam adalah normal dan bukan kebimbangan.",
+      "considerations": "Terapi LED adalah lembut dan kesannya menyokong dan beransur-ansur dan bukan dramatik; ia paling berkesan sebagai sebahagian daripada pelan kulit yang lebih luas. Kami akan menetapkan jangkaan realistik dan menggabungkannya secara munasabah dengan rawatan lain di mana berguna. Dalam amalan kami sendiri, kami mendapati terapi cell light paling berkesan sebagai sebahagian daripada pelan kulit yang tetap dan bukan sesi sekali sahaja — tiga hingga enam sesi mingguan biasanya menandakan titik perubahan yang dapat dilihat. Perlindungan matahari antara sesi membuat perbezaan sebenar pada hasil, dan sebarang produk dengan aktif yang kuat (retinol peratusan tinggi, asid agresif) harus dihentikan selama 48 jam sebelah masing-masing.",
+      "faq": [
+        {
+          "q": "Apakah yang dibantu oleh terapi cahaya LED?",
+          "a": "Panjang gelombang yang berbeza menyokong kebimbangan seperti kekusaman, kesesakan dan pemulihan pasca rawatan; kami menyesuaikannya dengan kulit anda."
+        },
+        {
+          "q": "Berapa kerap saya patut mendapatkannya?",
+          "a": "Ia paling berkesan sebagai satu siri; kekerapan dinasihatkan berdasarkan kulit dan matlamat anda."
+        },
+        {
+          "q": "Adakah ada masa rehat?",
+          "a": "Tiada — ia rawatan yang lembut dan menenangkan dan anda boleh meneruskan hari anda terus selepasnya."
+        }
+      ]
+    },
+    "whiteningDrip": {
+      "overview": "Infusi IV pencerah menyampaikan antioksidan dan nutrien untuk menyokong kecerahan kulit dan kesejahteraan keseluruhan dari dalam. Ia diberikan oleh kakitangan perubatan terlatih selepas pemeriksaan kesihatan, sebagai sebahagian daripada pendekatan kesejahteraan yang teliti dan bukan penyelesaian cepat, dan hasilnya menyokong dan beransur-ansur.",
+      "whoFor": "Ia mungkin sesuai untuk individu yang ingin menyokong kecerahan kulit dan kesejahteraan umum bersama penjagaan kulit yang baik, pemakanan dan perlindungan matahari. Pemeriksaan kesihatan diperlukan terlebih dahulu, dan ia tidak sesuai untuk semua orang. Kami menyemak sejarah kesihatan anda sebelum mengesyorkan sebarang infusi.",
+      "how": "Selepas pemeriksaan kesesuaian dan perbincangan sejarah kesihatan anda, infusi diberikan oleh kakitangan perubatan terlatih dalam tetapan yang selesa dan peribadi. Sesi adalah mudah dan dipantau, dan kami menasihati jadual yang munasabah berdasarkan matlamat anda dan bukan menggalakkan kekerapan yang tidak perlu.",
+      "benefits": [
+        "Menyokong kecerahan kulit dari dalam",
+        "Infusi antioksidan dan nutrien",
+        "Diberikan oleh kakitangan perubatan terlatih",
+        "Sebahagian daripada pendekatan kesejahteraan yang teliti"
+      ],
+      "recovery": "Tiada masa rehat; anda boleh meneruskan hari anda seperti biasa selepas infusi. Sebarang kesan pada kecerahan menyokong dan terbina dengan jadual yang munasabah bersama tabiat sihat dan perlindungan matahari. Tiada masa rehat. Anda boleh menyambung kerja, senaman dan perjalanan serta-merta selepas temu janji.",
+      "considerations": "Infusi IV adalah prosedur perubatan dan tidak sesuai untuk semua orang; pemeriksaan kesihatan adalah penting dan kami membincangkan sejarah anda terlebih dahulu. Dakwaan pemutihan kulit yang dramatik harus diambil dengan berhati-hati — kami memberi tumpuan kepada sokongan yang selamat dan realistik untuk kecerahan dan bukan menjanjikan secara berlebihan. Infusi bukan acara satu kali. Dalam amalan kami, kami mengesyorkan siri awal pendek diikuti dengan penyelenggaraan dijarakkan, dipadankan dengan SPF harian dan rutin di rumah yang konsisten — tanpa dua asas tersebut, manfaat yang dapat dilihat akan pudar lebih cepat. Kami menyaring untuk alergi dan sebarang keadaan asas sebelum sesi pertama.",
+      "faq": [
+        {
+          "q": "Adakah infusi IV selamat?",
+          "a": "Infusi diberikan oleh kakitangan perubatan terlatih selepas pemeriksaan kesesuaian, dan kami membincangkan sejarah kesihatan anda terlebih dahulu."
+        },
+        {
+          "q": "Berapa kerap saya patut mendapatkan infusi?",
+          "a": "Kekerapan bergantung pada matlamat dan kesihatan anda; kami menasihati pelan munasabah dan mengelakkan sesi yang tidak perlu."
+        },
+        {
+          "q": "Adakah ia akan memutihkan kulit saya secara dramatik?",
+          "a": "Kami memberi tumpuan untuk menyokong kecerahan secara realistik bersama penjagaan kulit yang baik dan perlindungan matahari, dan bukan menjanjikan hasil secara berlebihan."
+        }
+      ]
+    }
+  },
+  "contactPage": {
+    "title": "Tempah Perundingan",
+    "lead": "Beritahu kami sedikit tentang matlamat anda. Pasukan kami di Mont Kiara · Sri Hartamas akan membalas melalui WhatsApp untuk mengatur perundingan persendirian dan tanpa kewajipan anda — biasanya dalam hari bekerja yang sama. Pasukan kami membalas di WhatsApp — biasanya dalam hari bekerja yang sama semasa waktu klinik, dalam Bahasa Inggeris, Bahasa Malaysia atau Mandarin Cina. Tiada kewajipan, tiada tekanan untuk menempah, dan tiada caj untuk balasan pertama: kami menggunakannya untuk memahami sama ada rawatan yang anda fikirkan adalah titik permulaan yang tepat, dan untuk mencadangkan langkah seterusnya dengan jujur.",
+    "form": {
+      "name": "Nama anda",
+      "contact": "Telefon atau e-mel",
+      "treatment": "Rawatan yang diminati",
+      "treatmentDefault": "Pilih rawatan (pilihan)",
+      "message": "Mesej anda",
+      "messagePlaceholder": "Beritahu kami matlamat atau soalan anda…",
+      "submit": "Hantar melalui WhatsApp",
+      "note": "Menghantar akan membuka WhatsApp dengan butiran anda telah diisi. Tiada maklumat disimpan di laman web ini."
+    },
+    "orTitle": "Lebih suka menghubungi kami secara langsung?",
+    "whatsapp": "Sembang di WhatsApp",
+    "call": "Hubungi klinik",
+    "visitTitle": "Lawati kami",
+    "hoursTitle": "Waktu pembukaan",
+    "ratingLabel": "penarafan di Google",
+    "waPrefill": "Helo The Valley, saya ingin menempah perundingan.",
+    "sections": [
+      {
+        "heading": "Apa yang anda boleh jangkakan pada perundingan pertama anda",
+        "body": "Lawatan pertama anda adalah perbualan yang peribadi dan tidak tergesa-gesa — bukan ucapan jualan. Kami mendengar matlamat anda, menyemak sejarah perubatan dan memeriksa kawasan kebimbangan tertentu. Daripada situ, kami sama ada merangka pelan yang benar-benar kami percaya, atau memberitahu dengan jujur apabila sesuatu prosedur tidak sesuai. Anda menerima sebut harga bertulis dan terperinci sebelum sebarang komitmen, tanpa tekanan untuk membuat keputusan pada hari itu."
+      },
+      {
+        "heading": "Bagaimana kami menyusuli pertanyaan anda",
+        "body": "Selepas anda menghantar mesej kepada kami, pasukan kami membalas di WhatsApp — biasanya dalam hari bekerja yang sama semasa waktu klinik. Kami mengesahkan masa yang anda inginkan, menghantar anda alamat klinik dengan pautan Google Maps, dan memberitahu apa yang perlu dibawa (muka tanpa mekap untuk perundingan kulit, atau senarai ubat semasa anda). Jika anda lebih suka menelefon, pasukan kami berkomunikasi dalam Bahasa Inggeris, Bahasa Malaysia dan Mandarin Cina."
+      },
+      {
+        "heading": "Melawat kami di Desa Sri Hartamas",
+        "body": "Klinik kami terletak di Lot 22-1, Wisma Rapid, Jalan 30/70A, di jantung Desa Sri Hartamas, Kuala Lumpur. Plaza Damas dan Hartamas Shopping Centre berada dalam jarak berjalan kaki, dan kami berada dalam pemanduan 5–10 minit dari Mont Kiara. Tempat letak kereta percuma tersedia di dalam bangunan Wisma Rapid, dan kakitangan kami sedia membantu menyelaras pengangkutan untuk pesakit yang datang dari jauh."
+      }
+    ]
+  },
+  "doctorsPage": {
+    "title": "Pakar Kami",
+    "lead": "Pakar bedah dan doktor estetik berpengalaman yang menerajui penjagaan anda dengan ketepatan klinikal dan pandangan seorang artis.",
+    "note": "Profil dan kelayakan pengamal individu sedang dimuktamadkan. Semasa perundingan anda, anda akan dipadankan dengan pakar yang sesuai untuk rawatan anda.",
+    "roles": [
+      "Pakar Bedah Estetik & Kosmetik",
+      "Doktor Estetik",
+      "Ketua Penjagaan Pesakit"
+    ],
+    "reviewerTitle": "Penyemak kandungan perubatan"
+  },
+  "cta": {
+    "eyebrow": "Mulakan Perjalanan Anda",
+    "title": "Bersedia untuk menemui diri anda yang paling yakin?",
+    "subtitle": "Atur perundingan persendirian tanpa tekanan dengan pakar kami. Kami akan mendengar, memberi nasihat dan merangka pelan yang dibuat khusus untuk anda.",
+    "button": "Tempah perundingan anda"
+  },
+  "footer": {
+    "tagline": "Pembedahan estetik & kosmetik, disampaikan dengan ketepatan dan kemesraan di Kuala Lumpur.",
+    "exploreTitle": "Terokai",
+    "treatmentsTitle": "Rawatan",
+    "contactTitle": "Lawati Kami",
+    "hoursTitle": "Waktu Pembukaan",
+    "hours": "Isnin – Sabtu\n10:00 – 19:00\nAhad: Mengikut janji temu",
+    "rights": "Semua hak terpelihara.",
+    "disclaimer": "Hasil mungkin berbeza dari seorang ke seorang. Perundingan diperlukan sebelum sebarang prosedur.",
+    "findUsTitle": "Cari Kami",
+    "directions": "Dapatkan Arah"
+  },
+  "heroSlides": [
+    {
+      "eyebrow": "Pembedahan Estetik & Kosmetik",
+      "title": [
+        "Kecantikan yang kelihatan",
+        "benar-benar seperti anda"
+      ],
+      "subtitle": "Hasil halus dan semula jadi yang dibuat oleh pakar berpengalaman di tengah-tengah Kuala Lumpur."
+    },
+    {
+      "eyebrow": "Seni Pembedahan",
+      "title": [
+        "Dibentuk dengan",
+        "ketepatan & penjagaan"
+      ],
+      "subtitle": "Dari pembedahan hidung kepada pembedahan muka — pelan diperibadikan untuk hasil yang yakin dan tahan lama."
+    },
+    {
+      "eyebrow": "Keyakinan untuk Semua",
+      "title": [
+        "Peningkatan semula jadi,",
+        "untuknya juga"
+      ],
+      "subtitle": "Rawatan yang berhemat dan disesuaikan untuk lelaki — dalam suasana yang tenang, peribadi dan profesional."
+    }
+  ],
+  "magazine": {
+    "title": "Majalah",
+    "lead": "Artikel yang jujur dan praktikal tentang pembedahan kosmetik dan penjagaan estetik — ditulis oleh pasukan kami di Mont Kiara · Sri Hartamas, Kuala Lumpur. Kami berkongsi apa yang kami lihat dalam amalan kami sendiri: apa yang berkesan, apa yang tidak, apa yang dijangkakan dan apa yang perlu ditanya sebelum sebarang rawatan.",
+    "readTime": "min bacaan",
+    "byLabel": "Ditulis & disemak oleh",
+    "backToList": "Semua artikel",
+    "posts": {
+      "choosing": {
+        "title": "Bagaimana memilih klinik pembedahan kosmetik di Kuala Lumpur",
+        "excerpt": "Panduan praktikal dan jujur untuk mencari klinik yang anda boleh percaya — dari menyemak kelayakan hingga membaca antara baris perundingan.",
+        "date": "2026-05-20",
+        "readMinutes": 6,
+        "sections": [
+          {
+            "heading": "Mulakan dengan kelayakan dan pendaftaran",
+            "body": [
+              "Prosedur kosmetik yang selamat bermula dengan pengamal yang berkelayakan. Di Malaysia, cari doktor yang berdaftar dengan Majlis Perubatan Malaysia dan, untuk pembedahan, latihan pakar atau estetik yang sesuai. Tanya secara langsung siapa yang akan menjalankan prosedur anda dan apakah pengalaman mereka dengannya — klinik yang bereputasi menjawab secara terbuka. Berhati-hatilah dengan sesiapa yang mengelak soalan ini atau menjanjikan hasil tanpa menilai anda terlebih dahulu."
+            ]
+          },
+          {
+            "heading": "Lihat dengan teliti kemudahan dan keselamatan",
+            "body": [
+              "Suasana sama pentingnya dengan harga. Prosedur pembedahan harus berlaku di kemudahan yang bersih, dilengkapi dan dilesenkan dengan betul, dengan protokol yang jelas untuk bius, kebersihan dan kecemasan. Apabila anda melawat, perhatikan sama ada persekitaran terasa klinikal dan tersusun dengan baik. Tanya bagaimana penjagaan susulan dikendalikan, dan apa yang berlaku jika anda mempunyai kebimbangan semasa pemulihan."
+            ]
+          },
+          {
+            "heading": "Hargai perundingan yang jujur lebih daripada jualan yang agresif",
+            "body": [
+              "Perundingan yang baik terasa seperti perbualan, bukan ucapan jualan. Pengamal anda harus mendengar matlamat anda, menyemak sejarah perubatan, menjelaskan hasil yang realistik, dan sanggup berkata apabila sesuatu rawatan tidak sesuai untuk anda. Harga terperinci yang telus harus diberikan tanpa tekanan untuk komitmen pada hari itu. Jika anda merasa tergesa-gesa, atau dijanjikan kesempurnaan yang dijamin, mundur selangkah."
+            ]
+          },
+          {
+            "heading": "Semak hasil sebenar, ulasan dan bahasa",
+            "body": [
+              "Minta untuk melihat foto sebelum-dan-selepas yang tulen dari pesakit dengan kebimbangan yang serupa, dan ingat bahawa hasil berbeza antara individu. Ulasan bebas — seperti yang ada di Google — memberi gambaran pengalaman pesakit lain. Dalam kota multibudaya seperti Kuala Lumpur, ia juga membantu untuk memilih klinik yang boleh berkomunikasi dengan jelas dalam bahasa anda sendiri, supaya tiada apa-apa tentang penjagaan anda hilang dalam terjemahan."
+            ]
+          },
+          {
+            "heading": "Soalan yang patut ditanya — dan beberapa tanda amaran",
+            "body": [
+              "Klinik yang baik akan mengalu-alukan soalan. Tanya siapa sebenarnya yang akan menjalankan prosedur, berapa banyak yang telah mereka lakukan dalam tahun lepas, apakah kadar komplikasi tipikal mereka dan bagaimana mereka akan mengendalikan masalah jika ada yang timbul. Minta harga terperinci yang bertulis dan pelan penjagaan susulan bertulis yang boleh anda bawa pulang.",
+              "Tanda amaran biasanya senyap dan bukan kuat. Tekanan untuk membuat keputusan pada hari itu, jawapan yang samar-samar tentang latihan pengamal, imej sebelum-dan-selepas yang kelihatan sama dengan imej di laman web klinik lain, dan ketidakselesaan dengan soalan di atas semuanya patut diambil serius. Klinik yang tepat untuk anda ialah klinik di mana anda berasa cukup tenang untuk tidak bersetuju."
+            ]
+          }
+        ]
+      },
+      "surgicalVsNonsurgical": {
+        "title": "Pembedahan atau bukan pembedahan? Memilih pendekatan yang tepat",
+        "excerpt": "Bukan setiap kebimbangan memerlukan pembedahan — dan bukan setiap kebimbangan boleh diselesaikan tanpanya. Inilah cara untuk berfikir tentang perbezaannya.",
+        "date": "2026-05-14",
+        "readMinutes": 5,
+        "sections": [
+          {
+            "heading": "Apa yang dilakukan dengan baik oleh rawatan bukan pembedahan",
+            "body": [
+              "Pilihan bukan pembedahan seperti [HIFU](treatments/hifu), [laser](treatments/pico-laser) dan rawatan berasaskan tenaga atau suntikan adalah sangat baik untuk kebimbangan awal hingga sederhana: kelonggaran kulit, pigmentasi, tekstur, atau kawasan kecil yang setempat. Mereka biasanya melibatkan masa rehat yang sedikit atau tiada dan membawa perubahan beransur-ansur dan semula jadi sepanjang satu siri sesi. Mereka pilihan yang kuat apabila anda mahukan penghalusan halus atau penyelenggaraan, atau apabila anda tidak bersedia untuk pembedahan."
+            ]
+          },
+          {
+            "heading": "Bila pembedahan adalah pilihan yang lebih baik",
+            "body": [
+              "Pembedahan menangani apa yang rawatan bukan pembedahan tidak boleh. Kulit berlebihan yang ketara, kelonggaran lanjut, atau perubahan struktur — pada hidung, kelopak mata atau kontur tubuh — biasanya memerlukan penyelesaian pembedahan untuk memberikan hasil yang bermakna dan tahan lama. Pembedahan melibatkan masa rehat dan membawa risiko sebenar, tetapi untuk kebimbangan yang tepat ia boleh mencapai apa yang tiada peranti atau suntikan boleh tandingi."
+            ]
+          },
+          {
+            "heading": "Selalunya, jawapannya adalah gabungan",
+            "body": [
+              "Banyak pelan rawatan menggabungkan kedua-duanya. Pembedahan mungkin memulihkan struktur manakala terapi bukan pembedahan mengekalkan kualiti kulit dari masa ke masa. Keseimbangan yang tepat bergantung pada anatomi anda, matlamat anda, bajet anda dan berapa banyak masa rehat yang sesuai untuk hidup anda. Jarang ada satu 'rawatan terbaik' — hanya yang benar-benar sesuai dengan anda."
+            ]
+          },
+          {
+            "heading": "Bagaimana klinik yang baik membantu anda membuat keputusan",
+            "body": [
+              "Klinik yang berpengalaman menilai anda dengan jujur dan menjelaskan pertukaran setiap laluan, dan bukan menolak pilihan yang paling mahal. Kami akan memberitahu anda apabila rawatan bukan pembedahan sudah memadai, dan begitu juga apabila pembedahan akan memberi anda hasil yang lebih baik. Matlamatnya adalah hasil yang selamat, semula jadi dan betul untuk anda — bukan sekadar lebih banyak rawatan."
+            ]
+          },
+          {
+            "heading": "Contoh praktikal — bahagian bawah muka",
+            "body": [
+              "Ambil bahagian bawah muka sebagai contoh. Seorang pesakit awal tiga puluhan dengan kelonggaran garis rahang ringan dan kualiti kulit yang baik biasanya mempunyai pilihan bukan pembedahan yang benar-benar berbaloi dicuba terlebih dahulu — HIFU atau radio-frekuensi, dipadankan dengan SPF harian yang konsisten dan rutin kulit yang ringkas. Hasilnya halus dan semula jadi; tiada siapa bertanya jika dia melakukan sesuatu, tetapi mereka yang mengenalinya dengan baik dapat melihat perbezaannya dalam enam bulan.",
+              "Seorang pesakit di akhir lima puluhan dengan kelonggaran kulit dan tisu yang ketara adalah perbualan yang berbeza. Rawatan bukan pembedahan akan membantu tona dan tekstur kulitnya, tetapi tidak akan menghasilkan pengangkatan pembedahan. Mengesyorkan HIFU di sini akan terlalu menjanjikan. Dalam amalan kami, bahagian paling penting dalam perbincangan ini adalah memadankan alat yang tepat dengan anatomi yang tepat, bukan menjual pilihan yang lebih mahal."
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "title": "Pemulihan selepas pembedahan kosmetik: panduan realistik",
+        "excerpt": "Pemulihan yang baik adalah sebahagian daripada hasil yang baik. Lihatan jujur tentang apa yang dijangkakan, dan bagaimana memberi tubuh anda peluang terbaik untuk sembuh.",
+        "date": "2026-05-06",
+        "readMinutes": 6,
+        "sections": [
+          {
+            "heading": "Pemulihan adalah sebahagian daripada hasil",
+            "body": [
+              "Hasil sesuatu prosedur bergantung bukan sahaja pada pembedahan itu sendiri, tetapi pada bagaimana anda sembuh. Bengkak, lebam dan kesakitan adalah sebahagian normal daripada proses, dan tergesa-gesa kembali kepada aktiviti penuh terlalu cepat boleh menjejaskan hasil anda. Merancang masa untuk berehat — dan mengikuti arahan penjagaan susulan dengan teliti — adalah salah satu perkara paling penting yang anda boleh lakukan."
+            ]
+          },
+          {
+            "heading": "Hari-hari pertama",
+            "body": [
+              "Pada hari-hari awal, jangkakan bengkak dan beberapa ketidakselesaan, diuruskan dengan panduan yang disediakan oleh klinik anda. Rehat, pergerakan lembut, dan sebarang pakaian mampatan atau pembalut semuanya menyokong penyembuhan. Kekal dengan temu janji susulan, ambil ubat seperti yang dinasihatkan, dan elakkan aktiviti berat, alkohol dan rokok, yang boleh melambatkan pemulihan."
+            ]
+          },
+          {
+            "heading": "Beberapa minggu hingga bulan: hasilnya menetap",
+            "body": [
+              "Kebanyakan lebam dan bengkak yang ketara reda dalam dua hingga tiga minggu, tetapi hasil akhir sering mengambil masa lebih lama untuk muncul apabila tisu menetap sepenuhnya — kadangkala beberapa bulan. Ini normal dan dijangkakan. Kesabaran penting: menilai hasil anda terlalu awal boleh mengelirukan. Ulasan yang dijadualkan membenarkan klinik anda menjejaki kemajuan anda dan menenangkan anda sepanjang perjalanan."
+            ]
+          },
+          {
+            "heading": "Bila perlu menghubungi klinik anda",
+            "body": [
+              "Penjagaan susulan yang jelas termasuk mengetahui apa yang normal dan apa yang tidak. Hubungi klinik anda dengan segera jika anda perasan kesakitan yang meningkat, bengkak luar biasa, tanda-tanda jangkitan seperti demam atau kemerahan yang merebak, atau apa-apa yang membimbangkan anda. Klinik yang baik kekal boleh dihubungi sepanjang pemulihan anda — di The Valley, pesakit boleh menghubungi kami di WhatsApp — dan akan sentiasa lebih suka anda bertanya daripada menunggu."
+            ]
+          },
+          {
+            "heading": "Apa yang perlu ditanya kepada klinik anda sebelum pembedahan",
+            "body": [
+              "Perbualan pendek dan jujur sebelum hari pembedahan memendekkan pemulihan kemudian. Kami meminta setiap pesakit datang dengan senarai yang jelas — ubat-ubatan dan suplemen semasa, sebarang sejarah masalah pendarahan atau penyembuhan luka, pembedahan terdahulu, status merokok, dan gambaran realistik tentang masa cuti yang mereka boleh ambil.",
+              "Dari pihak kami, kami menyelidiki senarai semakan yang sama dengan anda: ubat mana yang perlu dihentikan dan bila perlu disambung, apa ketidakselesaan yang normal dalam 48 jam pertama dan apa tanda amaran, bagaimana untuk tidur pada minggu pertama, dan pelan penjagaan susulan bertulis yang jelas untuk dibawa pulang. Pemulihan bukan tekaan — ia adalah pelan yang anda dan pasukan klinikal anda persetujui sebelum apa-apa bermula."
+            ]
+          }
+        ]
+      },
+      "bridalSkincare": {
+        "title": "Penjagaan kulit pengantin: panduan persiapan hari perkahwinan untuk masalah kulit",
+        "excerpt": "Lapan minggu perancangan yang munasabah, pilihan di klinik yang dipilih untuk keselamatan, dan rutin harian yang menenangkan — bagaimana untuk berjalan ke pelamin dengan kulit yang anda percaya.",
+        "date": "2026-06-04",
+        "readMinutes": 7,
+        "sections": [
+          {
+            "heading": "Hitung mundur hari perkahwinan — pelan kulit mengikut minggu",
+            "body": [
+              "Kulit yang cantik tidak dibina dalam sehari. Pelan penjagaan kulit pengantin yang paling selamat bermula sekurang-kurangnya lapan minggu sebelum perkahwinan dan beransur-ansur mereda apabila tarikh menghampiri. Rawatan yang dilakukan terlalu dekat dengan hari itu boleh meninggalkan kemerahan atau bengkak sementara yang masih ditunjukkan dalam gambar anda, jadi memberi kulit masa yang cukup untuk menetap lebih penting daripada mana-mana prosedur tunggal.",
+              "Lapan hingga dua belas minggu sebelum hari adalah untuk penilaian — pakar dermatologi atau estetik anda boleh memetakan kebimbangan anda (jerawat, pigmentasi, tekstur) dan mengesyorkan pelan yang jujur. Empat hingga enam minggu sebelum hari adalah tetingkap untuk kerja yang difokuskan pada pigmentasi, kesesakan atau garisan halus. Dari dua hingga tiga minggu sebelum perkahwinan, semua rawatan agresif harus berhenti, dan rutin bergerak ke arah penenangan dan hidrasi yang mendalam sahaja.",
+              "Minggu terakhir adalah tentang pengurangan, bukan penambahan: tiada produk baru, tiada aktif baru, tiada kejutan. Pada malam sebelumnya, pencuci yang lembut dan pelembap yang biasa adalah semua yang kulit anda perlukan."
+            ]
+          },
+          {
+            "heading": "Lima masalah kulit yang paling kerap dilihat pengantin",
+            "body": [
+              "Perancangan perkahwinan membawa tekanan sebenar dan tidur yang tidak teratur, kedua-duanya kulit perhatikan dengan cepat. Inilah lima kebimbangan yang paling kerap kami lihat dalam beberapa bulan sebelum perkahwinan — dan cara yang selamat dan berasaskan bukti untuk mengurusnya.",
+              "1. Jerawat akibat tekanan. Perubahan hormon cenderung muncul di sepanjang garis rahang dan dahi. Toner asid salisilik yang lembut dan rawatan tompok yang menenangkan biasanya lebih berkesan daripada scrub agresif. Jangan sekali-kali memerah — pigmentasi pasca-radang boleh berlangsung lebih lama daripada perkahwinan itu sendiri.",
+              "2. Pigmentasi akibat matahari. Sesi gambar luar dan ukuran pakaian bermakna pendedahan UV yang lebih daripada biasa. Pelindung matahari spektrum luas SPF 50+, disapu semula setiap dua jam apabila di luar, adalah produk pengantin paling berkesan yang anda miliki.",
+              "3. Pori membesar dan tekstur tidak rata. Punca paling biasa mekap yang tidak duduk dengan lancar. Pengelupasan ringan atau rawatan toning yang dimulakan empat minggu sebelum hari boleh memperhalusi permukaan dan membantu alas mekap duduk secara semula jadi pada hari itu.",
+              "4. Lingkaran gelap. Hutang tidur dan tekanan menjadikannya lebih dalam. Tuala sejuk, krim mata dengan kafein, dan — paling penting — tidur yang dilindungi pada minggu terakhir membuat perbezaan yang dapat dilihat.",
+              "5. Kekeringan dan kemerahan. Berjam-jam di bawah penyaman udara atau pemanasan menipiskan halangan kulit. Pelembap ceramide yang berlapis di atas serum penenang menjaga ketahanan kulit melalui ukuran, latihan dan hari itu sendiri."
+            ]
+          },
+          {
+            "heading": "Rawatan untuk dipilih, rawatan untuk dilangkau",
+            "body": [
+              "Prosedur mana yang sesuai bergantung hampir sepenuhnya pada berapa banyak masa yang tinggal. Apa-apa yang berisiko meninggalkan bengkak atau kemerahan pada hari itu tidak berbaloi dengan risiko, tanpa mengira betapa baiknya hasil itu mungkin.",
+              "Pilihan selamat sehingga empat minggu sebelum: [hydrafacial, terapi cahaya LED](treatments/cell-light), pengelupasan kimia ringan, rawatan muka pencerah dan toning laser lembut. Ini mempunyai masa rehat yang pendek, risiko kerengsaan rendah dan terkumpul dengan baik jika dimulakan awal.",
+              "Rawatan yang memerlukan masa lebih lama: pengelupasan kimia yang lebih kuat dan laser tenaga tinggi harus diselesaikan paling lewat enam minggu sebelum. [Toksin botulinum dan pengisi dermal](treatments/hifu) harus diselesaikan sekurang-kurangnya tiga minggu sebelum perkahwinan supaya bengkak hilang dan hasil menetap dalam kedudukan semula jadi.",
+              "'Tidak' yang tegas pada minggu terakhir: sebarang rawatan yang anda tidak pernah cuba sebelum ini. Perkahwinan bukan masa untuk menemui alergi atau tindak balas yang tidak dijangka. Simpan rawatan kali pertama untuk fasa penilaian, lapan minggu sebelum."
+            ]
+          },
+          {
+            "heading": "Rutin harian yang menenangkan untuk bulan sebelum",
+            "body": [
+              "Kulit pengantin yang terbaik dibina secara senyap, dalam rutin harian. Pada bulan terakhir, matlamatnya adalah konsistensi dengan produk yang sudah dikenali oleh kulit anda, bukan kebaharuan.",
+              "Pagi: pencuci yang lembut, toner hidrasi, serum vitamin C, pelembap, kemudian pelindung matahari spektrum luas SPF 50+. Vitamin C menyokong tona yang sekata, dan pelindung matahari harian menghalang pigmentasi baru daripada muncul dalam gambar anda.",
+              "Petang: pembersihan dua kali (peluntur berasaskan minyak, kemudian basuhan lembut), toner penenang, serum berkhasiat, kemudian pelembap. Retinol harus dihentikan dua minggu sebelum perkahwinan untuk membenarkan sebarang pengelupasan atau kepekaan reda jauh awal.",
+              "Dua kali seminggu, tambahkan topeng kepingan menenangkan dan pengelupasan yang sangat lembut. Elakkan scrub kasar dan aktif baru pada peringkat akhir. Jika anda ingin mencuba sesuatu yang baru, perkenalkannya lapan minggu sebelumnya — jangan sekali-kali dalam dua minggu terakhir."
+            ]
+          },
+          {
+            "heading": "Senarai semak perundingan dan nota perubatan",
+            "body": [
+              "Berjalan masuk ke perundingan dengan maklumat yang tepat memendekkan laluan ke pelan yang benar-benar sesuai dengan anda. Bawa tarikh perkahwinan yang tepat, senarai sebarang rawatan yang anda telah lakukan dalam setahun yang lalu, produk dalam rutin semasa anda, sebarang alergi atau kepekaan, pendedahan matahari biasa anda, rancangan kehamilan, dan sebarang ubat. Maklumat yang tepat melindungi hasil.",
+              "Sentiasa minta ujian tampalan sebelum rawatan baru, berapa lama sebarang bengkak atau kemerahan dijangka berlangsung, dan bila mekap boleh disapu semula dengan selamat. Untuk salah satu hari yang paling banyak digambarkan dalam hidup anda, pelan yang paling tenang dan paling konservatif hampir selalu yang tepat.",
+              "Nota perubatan: artikel ini adalah untuk maklumat umum sahaja. Tingkah laku kulit, penyembuhan dan tindak balas berbeza mengikut individu, dan sebarang pelan rawatan harus disahkan dengan profesional perubatan berlesen selepas penilaian secara peribadi."
+            ]
+          }
+        ]
+      }
+    },
+    "intro": [
+      "Setiap artikel di halaman ini ditulis oleh pasukan klinik kami dan disemak untuk ketepatan perubatan sebelum penerbitan. Apabila kami mengesyorkan rawatan atau berkongsi garis masa, ia mencerminkan apa yang kami perhatikan dalam perundingan kami sendiri — bukan nasihat generik yang disalin dari tempat lain.",
+      "Jika anda menyelidik prosedur tertentu, anda juga boleh menggunakan pautan yang berkaitan di dalam setiap artikel untuk membaca tentang rawatan itu sendiri, termasuk siapa yang sesuai, pemulihan yang dijangkakan dan pandangan yang adil tentang batasannya. Untuk apa-apa yang tidak diliputi di sini, pasukan kami dengan senang hati menjawab soalan di WhatsApp.",
+      "Kami cuba berhati-hati tentang satu perkara: jurang antara apa yang dijanjikan oleh salinan pemasaran dan apa yang sebenarnya disampaikan oleh rawatan sebenar. Setiap artikel di bawah ditulis untuk mengurangkan jurang itu. Kami menjelaskan untuk siapa sesuatu rawatan, bagaimana pemulihan realistik kelihatan, dan di mana hadnya — termasuk bila jawapan yang tepat adalah untuk tidak melakukan apa-apa.",
+      "Jika anda tinggal di Mont Kiara, Sri Hartamas atau di mana-mana lagi di Kuala Lumpur dan sedang menimbang prosedur kosmetik, kami berharap artikel ini menjimatkan masa penyelidikan anda dan beberapa kesilapan yang boleh dielakkan. Ia ditulis untuk pesakit, bukan untuk enjin carian, dan ia disengajakan pendek: bacaan yang berguna, bukan skrol yang panjang.",
+      "Kebanyakan artikel mengambil masa kira-kira lima hingga tujuh minit untuk dibaca. Apabila boleh, kami memaut terus ke halaman rawatan yang berkaitan, supaya anda boleh membaca konteks sokongan dan butiran prosedur dalam satu duduk. Jika anda mendapati apa-apa yang tidak jelas, atau anda ingin pandangan pasukan kami tentang soalan tertentu, WhatsApp kami adalah cara terpantas untuk menghubungi orang sebenar di klinik. Kami sendiri menjawab setiap mesej.",
+      "Kami menambah artikel baru apabila kami mempunyai sesuatu yang benar-benar berguna untuk dikongsi — bukan pada jadual penerbitan yang tetap. Kualiti lebih penting daripada kekerapan."
+    ]
+  },
+  "localAreas": {
+    "montKiara": {
+      "areaName": "Mont Kiara",
+      "eyebrow": "Klinik Mont Kiara",
+      "title": "Klinik Pembedahan Estetik & Kosmetik di Mont Kiara",
+      "lead": "Perubatan estetik premium dan pembedahan kosmetik di tengah-tengah Mont Kiara, Kuala Lumpur — beberapa minit dari Solaris Mont Kiara, 1 Mont Kiara dan Plaza Mont Kiara. Perundingan dalam Bahasa Inggeris, Bahasa Malaysia dan Cina tersedia.",
+      "metaTitle": "Klinik Estetik Mont Kiara | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "Pembedahan kosmetik dan perubatan estetik di Mont Kiara, Kuala Lumpur — sedutan lemak, pembedahan hidung, pembedahan muka, HIFU dan laser. Layanan pelbagai bahasa beberapa minit dari Solaris Mont Kiara dan Plaza Damas.",
+      "sections": [
+        {
+          "heading": "Klinik estetik yang dipercayai untuk penduduk Mont Kiara",
+          "body": "Mont Kiara ialah salah satu kawasan paling antarabangsa di Kuala Lumpur, rumah kepada keluarga dan profesional yang mengharapkan penjagaan estetik bertaraf klinik yang halus. Spa perubatan kami berkhidmat untuk komuniti Mont Kiara dari cawangan utama kami di Desa Sri Hartamas — pemanduan singkat dari Solaris Mont Kiara, 1 Mont Kiara, Mont Kiara 2, Plaza Mont Kiara, Verve Suites dan Garden International School. Perundingan tidak tergesa-gesa, hasil dirancang berdasarkan anatomi dan gaya hidup anda, dan setiap langkah dijelaskan dalam Bahasa Inggeris, Bahasa Malaysia atau Mandarin Cina."
+        },
+        {
+          "heading": "Rawatan yang ditawarkan kepada pesakit Mont Kiara",
+          "body": "Daripada pembedahan kosmetik yang tepat kepada terapi kulit bukan pembedahan termaju, kami menawarkan menu rawatan lengkap kepada pesakit Mont Kiara. Pilihan pembedahan termasuk [sedutan lemak](treatments/liposuction), [pembedahan hidung](treatments/rhinoplasty), [rawatan mata](treatments/eye-treatment), [pembedahan muka](treatments/facelift), [implan payudara](treatments/breast-implant) dan [implan dagu](treatments/chin-implant). Penjagaan bukan pembedahan termasuk [pembentukan tubuh](treatments/body-sculpting), [pengangkatan HIFU](treatments/hifu-lifting), [laser pico](treatments/pico-laser), [penyingkiran bulu](treatments/hair-removal), [terapi cell light](treatments/cell-light-therapy) dan [infusi pencerah](treatments/whitening-drip). Layari semua pilihan di [halaman rawatan penuh](treatments)."
+        },
+        {
+          "heading": "Mengapa pesakit Mont Kiara memilih The Valley",
+          "body": "Pasukan kami membawa lebih sepuluh tahun pengalaman pembedahan kosmetik dan perubatan estetik ke setiap perundingan, dengan pesakit dari seluruh Mont Kiara, Damansara Heights, Bukit Tunku dan Bangsar. Kami menggabungkan ketepatan klinikal dengan persekitaran tenang seperti spa, harga terperinci yang telus dan penjagaan susulan berstruktur yang kekal boleh dihubungi di WhatsApp. Kisah pesakit kelihatan di seluruh bahagian [hasil](#gallery) dan [ulasan](#reviews) kami."
+        },
+        {
+          "heading": "Mencapai klinik kami dari Mont Kiara",
+          "body": "Dari Mont Kiara, klinik kami di Desa Sri Hartamas adalah pemanduan 5–10 minit bergantung pada trafik. Ambil Jalan Kiara turun melalui Plaza Mont Kiara, teruskan di sepanjang Jalan Sri Hartamas 1 dan belok ke Jalan 30/70A — kami berada di Lot 22-1, Wisma Rapid, bertentangan dengan jalur perdagangan Hartamas. Perkhidmatan Grab dan perkongsian tumpangan mencapai kami dalam beberapa minit, dan tempat letak kereta percuma tersedia di dalam bangunan Wisma Rapid."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah anda menawarkan perundingan dalam Bahasa Inggeris, Cina atau Melayu?",
+          "a": "Ya. Pasukan kami berunding dalam Bahasa Inggeris, Bahasa Malaysia dan Mandarin Cina, supaya anda boleh membincangkan rawatan dengan selesa dalam bahasa anda sendiri."
+        },
+        {
+          "q": "Berapa lama masa yang diperlukan untuk sampai ke klinik dari Mont Kiara?",
+          "a": "Dari Mont Kiara, klinik adalah pemanduan 5–10 minit bergantung pada trafik. Klinik terletak di Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas."
+        },
+        {
+          "q": "Adakah saya perlu temujanji, atau boleh saya berjalan masuk?",
+          "a": "Kami melihat pesakit melalui temujanji supaya kami dapat merancang perundingan yang tidak tergesa-gesa dan peribadi. Tempah di WhatsApp atau gunakan borang hubungi dan pasukan kami akan mengesahkan masa yang sesuai dengan anda."
+        }
+      ]
+    },
+    "sriHartamas": {
+      "areaName": "Sri Hartamas",
+      "eyebrow": "Klinik Sri Hartamas",
+      "title": "Pembedahan Kosmetik & Perubatan Estetik di Sri Hartamas",
+      "lead": "Klinik utama kami terletak di Desa Sri Hartamas, Kuala Lumpur — jarak berjalan kaki dari Plaza Damas dan Hartamas Shopping Centre. Pembedahan kosmetik, perubatan estetik dan terapi kulit termaju, dengan perundingan dalam Bahasa Inggeris, Bahasa Malaysia dan Mandarin Cina.",
+      "metaTitle": "Klinik Pembedahan Kosmetik Sri Hartamas | The Valley Beauty Medical Spa, KL",
+      "metaDescription": "Pembedahan kosmetik dan perubatan estetik di Desa Sri Hartamas, Kuala Lumpur — sedutan lemak, pembedahan hidung, pembedahan muka, HIFU dan laser. Layanan pelbagai bahasa berhampiran Plaza Damas dan Hartamas Shopping Centre.",
+      "sections": [
+        {
+          "heading": "Klinik kosmetik tempatan anda di Sri Hartamas",
+          "body": "The Valley Beauty Medical Spa berpangkalan di Lot 22-1, Wisma Rapid, Jalan 30/70A di Desa Sri Hartamas, Kuala Lumpur — pilihan semula jadi untuk penduduk Sri Hartamas, Mont Kiara, Damansara Heights dan Bukit Tunku. Pesakit kami menikmati persekitaran tenang seperti spa, harga telus dan pasukan pelbagai bahasa. Plaza Damas, Hartamas Shopping Centre dan jalur perdagangan Hartamas berada dalam jarak berjalan kaki."
+        },
+        {
+          "heading": "Apa yang kami rawat di Sri Hartamas",
+          "body": "Kami menyediakan menu lengkap prosedur kosmetik kepada pesakit Sri Hartamas. Pembedahan kosmetik termasuk [sedutan lemak](treatments/liposuction), [pembedahan hidung](treatments/rhinoplasty), [rawatan mata](treatments/eye-treatment), [pembedahan muka](treatments/facelift), [implan payudara](treatments/breast-implant) dan [implan dagu](treatments/chin-implant). Perubatan estetik dan terapi kulit termasuk [pembentukan tubuh](treatments/body-sculpting), [pengangkatan HIFU](treatments/hifu-lifting), [laser pico](treatments/pico-laser), [penyingkiran bulu](treatments/hair-removal), [terapi cell light](treatments/cell-light-therapy) dan [infusi pencerah](treatments/whitening-drip). Lihat [halaman rawatan penuh](treatments) untuk butiran."
+        },
+        {
+          "heading": "Apa yang dijangkakan pada perundingan Sri Hartamas anda",
+          "body": "Setiap pelan bermula dengan perundingan persendirian dan tidak tergesa-gesa — kami mendengar matlamat anda, menyemak sejarah perubatan dan mengesahkan sama ada rawatan yang anda pertimbangkan adalah pilihan yang tepat. Anda menerima sebut harga terperinci yang jujur sebelum sebarang komitmen. Sokongan pemulihan adalah berstruktur: ulasan yang dijadualkan, arahan penjagaan susulan bertulis dan pasukan yang boleh dihubungi di WhatsApp sepanjang penyembuhan anda. Baca pengalaman pesakit di bahagian [hasil](#gallery) dan [ulasan](#reviews) kami."
+        },
+        {
+          "heading": "Mencari kami di Desa Sri Hartamas",
+          "body": "Kami terletak di Lot 22-1, Wisma Rapid, Jalan 30/70A, 50480 Kuala Lumpur. Dari Plaza Damas berjalan kaki 3 minit; dari Hartamas Shopping Centre, sekitar 5 minit. Perkongsian tumpangan dan pemandu Grab semua tahu Wisma Rapid; tempat letak kereta percuma tersedia di dalam bangunan. Kakitangan kami juga membantu menyelaras pengangkutan untuk pesakit antarabangsa."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Di manakah lokasi tepat klinik di Sri Hartamas?",
+          "a": "Lot 22-1, Wisma Rapid, Jalan 30/70A, Desa Sri Hartamas, 50480 Kuala Lumpur. Plaza Damas dan Hartamas Shopping Centre kedua-duanya berada dalam jarak berjalan kaki."
+        },
+        {
+          "q": "Adakah tempat letak kereta tersedia?",
+          "a": "Ya — tempat letak kereta percuma tersedia di dalam bangunan Wisma Rapid. Pasukan kami akan mengarahkan anda apabila tiba."
+        },
+        {
+          "q": "Bolehkah saya berunding dalam Mandarin, Inggeris atau Melayu?",
+          "a": "Ya. Perundingan kami ditawarkan dalam Bahasa Inggeris, Bahasa Malaysia dan Mandarin Cina, dengan penjagaan susulan bertulis tersedia dalam bahasa yang paling selesa untuk anda."
+        }
+      ]
+    }
+  },
+  "treatmentsHubPage": {
+    "eyebrow": "Rawatan",
+    "title": "Pembedahan kosmetik & rawatan estetik di Mont Kiara · Sri Hartamas",
+    "lead": "Daripada pembedahan kosmetik yang tepat kepada terapi kulit bukan pembedahan termaju, setiap rawatan yang kami tawarkan diketuai oleh pakar berpengalaman dan dirancang berdasarkan anda. Halaman ini adalah panduan lengkap kepada perkhidmatan yang tersedia di klinik kami di Mont Kiara · Sri Hartamas di Kuala Lumpur.",
+    "sections": [
+      {
+        "heading": "Bagaimana kami mendekati perancangan rawatan",
+        "body": "Kami tidak percaya untuk memadankan setiap pesakit dengan prosedur yang sama. Pelan anda bermula dengan penilaian jujur tentang anatomi anda, matlamat anda dan gaya hidup anda — termasuk masa rehat yang anda boleh berikan secara realistik. Apabila pilihan bukan pembedahan akan mencapai apa yang anda cari, kami akan mengatakannya walaupun kosnya kurang daripada pembedahan. Apabila pembedahan adalah satu-satunya jalan untuk hasil yang anda mahukan, kami menjelaskannya juga dengan terbuka. Cadangan kami berdasarkan apa yang kami sebenarnya lihat berkesan untuk pesakit seperti anda di klinik kami sendiri."
+      },
+      {
+        "heading": "Pembedahan & bukan pembedahan, bersebelahan",
+        "body": "Menu pembedahan kami merangkumi sedutan lemak, pembedahan hidung, rawatan mata, pembedahan muka, implan payudara dan implan dagu. Menu bukan pembedahan dan penjagaan kulit kami merangkumi pembentukan tubuh, pengangkatan HIFU, laser pico, penyingkiran bulu laser, terapi cell light dan infusi pencerah. Setiap halaman rawatan menyenaraikan untuk siapa ia sesuai, bagaimana prosedur dijalankan, pemulihan yang dijangkakan dan pandangan jujur tentang pertimbangan dan risiko. Kami mengemas kini halaman ini apabila pengalaman kami dan asas bukti berkembang."
+      },
+      {
+        "heading": "Keselamatan, penjagaan susulan dan susulan",
+        "body": "Semua prosedur dijalankan di persekitaran klinikal steril yang diiktiraf, menggunakan bius, pemantauan dan kawalan jangkitan yang sesuai. Selepas sebarang rawatan, anda menerima pelan penjagaan susulan bertulis yang jelas dan talian terus kepada pasukan kami di WhatsApp sepanjang pemulihan anda. Ulasan susulan yang dijadualkan disertakan dalam setiap pelan pembedahan, kerana hasil yang baik hanyalah hasil yang anda masih ada enam dan dua belas bulan kemudian."
+      }
+    ]
+  },
+  "inside": {
+    "eyebrow": "Di Dalam The Valley",
+    "title": "Tinjauan ke dalam klinik kami",
+    "body": "Tetingkap singkat ke arah cara kami bekerja — daripada perundingan kulit yang jujur kepada bilik tenang di mana pesakit kami menerima rawatan. Kami berkongsi detik-detik kecil kerana butiran harian itulah yang membentuk hasil yang anda boleh percaya.",
+    "cta": "Tempah perundingan",
+    "playLabel": "Mainkan video"
+  }
+}

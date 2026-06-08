@@ -16,6 +16,7 @@ const BCP47: Record<string, string> = {
   zh: "zh-CN",
   ko: "ko-KR",
   ja: "ja-JP",
+  ms: "ms-MY",
 };
 
 type PostKey = keyof Awaited<ReturnType<typeof getDictionary>>["magazine"]["posts"];

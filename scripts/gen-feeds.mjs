@@ -7,8 +7,8 @@ import path from "node:path";
 
 const SITE_URL = "https://thevalley-beauty.com";
 const DEFAULT_LOCALE = "en";
-const LOCALES = ["en", "zh", "ko", "ja"];
-const LOCALE_HTML_LANG = { en: "en-GB", zh: "zh-Hans", ko: "ko", ja: "ja" };
+const LOCALES = ["en", "zh", "ko", "ja", "ms"];
+const LOCALE_HTML_LANG = { en: "en-GB", zh: "zh-Hans", ko: "ko", ja: "ja", ms: "ms-MY" };
 
 // Read registries from lib/*.ts via regex (avoids running TS from Node).
 function readSlugs(filePath, re) {
