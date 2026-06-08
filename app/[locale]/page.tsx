@@ -213,18 +213,6 @@ export default async function HomePage({
               ))}
             </ul>
 
-            {/* Medical reviewer byline — E-E-A-T authorship signal */}
-            <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-sand pt-5 text-xs text-taupe">
-              <span className="tracking-[0.1em] uppercase text-gold-deep">
-                {dict.reviewer.label}
-              </span>
-              <span className="font-medium text-ink-soft">{medicalReviewer.name}</span>
-              <span>· {medicalReviewer.credentials}</span>
-              <span className="w-full text-[11px] text-taupe/80">
-                {dict.reviewer.updatedLabel}: {dict.reviewer.updatedDate}
-              </span>
-            </div>
-
             <Link
               href={`${base}/about`}
               className="mt-8 inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"

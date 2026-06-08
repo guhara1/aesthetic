@@ -8,12 +8,7 @@ import {
   defaultLocale,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import {
-  SITE_URL,
-  clinic,
-  medicalReviewer,
-  contentLastReviewed,
-} from "@/lib/clinic";
+import { SITE_URL, clinic, contentLastReviewed } from "@/lib/clinic";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -92,14 +87,9 @@ export default async function AboutPage({
           <section className="mt-14 border-t border-sand pt-10">
             <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">{a.policyTitle}</h2>
             <p className="mt-5 text-base leading-relaxed text-ink-soft">{a.policy}</p>
-            <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 rounded-sm border border-sand bg-cream px-5 py-4 text-xs text-taupe">
-              <span className="tracking-[0.1em] uppercase text-gold-deep">{dict.reviewer.label}</span>
-              <span className="font-medium text-ink-soft">{medicalReviewer.name}</span>
-              <span>· {medicalReviewer.credentials}</span>
-              <span className="w-full text-[11px] text-taupe/80">
-                {dict.reviewer.updatedLabel}: {dict.reviewer.updatedDate} ({contentLastReviewed})
-              </span>
-            </div>
+            <p className="mt-6 rounded-sm border border-sand bg-cream px-5 py-4 text-[11px] tracking-[0.04em] text-taupe/80">
+              {dict.reviewer.updatedLabel}: {dict.reviewer.updatedDate} ({contentLastReviewed})
+            </p>
           </section>
         </div>
 
