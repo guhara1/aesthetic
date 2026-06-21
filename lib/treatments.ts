@@ -33,10 +33,23 @@ export function getTreatmentBySlug(slug: string): Treatment | undefined {
 }
 
 // Before/after image file paths for a given treatment, reusing gallery data.
+// Gallery items come in two shapes — a single `file`, or a `beforeFile` +
+// `afterFile` pair — so we unfold pairs into two URLs.
 export function imagesForTreatment(t: Treatment): string[] {
   const source = t.category === "surgical" ? surgicalGallery : nonSurgicalGallery;
   const folder = t.category;
   return source
     .filter((item) => item.labelKey === t.key)
-    .map((item) => `/images/${folder}/${item.file}`);
+    .flatMap((item) => {
+      if ("beforeFile" in item && item.beforeFile && item.afterFile) {
+        return [
+          `/images/${folder}/${item.beforeFile}`,
+          `/images/${folder}/${item.afterFile}`,
+        ];
+      }
+      if ("file" in item && item.file) {
+        return [`/images/${folder}/${item.file}`];
+      }
+      return [];
+    });
 }
