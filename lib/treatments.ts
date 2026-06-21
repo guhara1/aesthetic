@@ -32,6 +32,19 @@ export function getTreatmentBySlug(slug: string): Treatment | undefined {
   return treatments.find((t) => t.slug === slug);
 }
 
+// Primary thumbnail for a given treatment — the first image in its gallery
+// entry (the single `file` when present, otherwise the `afterFile`, which
+// shows the result rather than the starting state).
+export function thumbnailForTreatment(t: Treatment): string | null {
+  const source = t.category === "surgical" ? surgicalGallery : nonSurgicalGallery;
+  const folder = t.category;
+  const item = source.find((g) => g.labelKey === t.key);
+  if (!item) return null;
+  if ("file" in item && item.file) return `/images/${folder}/${item.file}`;
+  if ("afterFile" in item && item.afterFile) return `/images/${folder}/${item.afterFile}`;
+  return null;
+}
+
 // Before/after image file paths for a given treatment, reusing gallery data.
 // Gallery items come in two shapes — a single `file`, or a `beforeFile` +
 // `afterFile` pair — so we unfold pairs into two URLs.

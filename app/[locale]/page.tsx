@@ -11,7 +11,7 @@ import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SITE_URL, clinic, medicalReviewer, contentLastReviewed } from "@/lib/clinic";
-import { treatments } from "@/lib/treatments";
+import { treatments, thumbnailForTreatment } from "@/lib/treatments";
 
 export default async function HomePage({
   params,
@@ -136,16 +136,34 @@ export default async function HomePage({
           <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {treatments.map((t, i) => {
               const item = dict.treatmentsMenu.items[t.key as keyof typeof dict.treatmentsMenu.items];
+              const thumb = thumbnailForTreatment(t);
               return (
                 <Link
                   key={t.slug}
                   href={`${base}/treatments/${t.slug}`}
                   className="group relative flex flex-col rounded-sm border border-sand bg-ivory p-7 transition-all duration-300 hover:-translate-y-1 hover:border-gold/50 hover:shadow-[0_24px_50px_-30px_rgba(42,36,32,0.5)]"
                 >
+                  {thumb && (
+                    <span
+                      aria-hidden
+                      className="pointer-events-none absolute right-5 top-5 h-14 w-14 overflow-hidden rounded-full border border-sand bg-cream shadow-[0_8px_18px_-10px_rgba(42,36,32,0.45)] sm:h-16 sm:w-16"
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={thumb}
+                        alt=""
+                        width={128}
+                        height={128}
+                        loading="lazy"
+                        decoding="async"
+                        className="h-full w-full object-cover"
+                      />
+                    </span>
+                  )}
                   <span className="font-display text-base text-gold/50">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="mt-4 font-display text-2xl leading-tight text-ink transition-colors group-hover:text-gold-deep">
+                  <h3 className="mt-4 pr-20 font-display text-2xl leading-tight text-ink transition-colors group-hover:text-gold-deep">
                     {item.name}
                   </h3>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-taupe">

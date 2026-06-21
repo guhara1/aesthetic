@@ -8,7 +8,7 @@ import {
   defaultLocale,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import { treatments } from "@/lib/treatments";
+import { treatments, thumbnailForTreatment } from "@/lib/treatments";
 import { SITE_URL } from "@/lib/clinic";
 
 export function generateStaticParams() {
@@ -84,13 +84,31 @@ export default async function TreatmentsIndex({
             <div className="mt-6 grid gap-px overflow-hidden rounded-sm border border-sand bg-sand sm:grid-cols-2 lg:grid-cols-3">
               {group.items.map((t) => {
                 const item = dict.treatmentsMenu.items[t.key as keyof typeof dict.treatmentsMenu.items];
+                const thumb = thumbnailForTreatment(t);
                 return (
                   <Link
                     key={t.slug}
                     href={`${base}/treatments/${t.slug}`}
-                    className="group flex flex-col bg-ivory p-8 transition-colors hover:bg-cream"
+                    className="group relative flex flex-col bg-ivory p-8 transition-colors hover:bg-cream"
                   >
-                    <h3 className="font-display text-2xl leading-tight text-ink group-hover:text-gold-deep">
+                    {thumb && (
+                      <span
+                        aria-hidden
+                        className="pointer-events-none absolute right-6 top-6 h-14 w-14 overflow-hidden rounded-full border border-sand bg-cream shadow-[0_8px_18px_-10px_rgba(42,36,32,0.45)] sm:h-16 sm:w-16"
+                      >
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={thumb}
+                          alt=""
+                          width={128}
+                          height={128}
+                          loading="lazy"
+                          decoding="async"
+                          className="h-full w-full object-cover"
+                        />
+                      </span>
+                    )}
+                    <h3 className="pr-20 font-display text-2xl leading-tight text-ink group-hover:text-gold-deep">
                       {item.name}
                     </h3>
                     <p className="mt-3 flex-1 text-sm leading-relaxed text-taupe">{item.desc}</p>
