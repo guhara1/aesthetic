@@ -94,6 +94,13 @@ export default async function TreatmentsIndex({
                       {item.name}
                     </h3>
                     <p className="mt-3 flex-1 text-sm leading-relaxed text-taupe">{item.desc}</p>
+                    <p className="mt-3 flex items-center gap-1.5 text-[11px] tracking-[0.06em] text-gold-deep/80">
+                      <svg width="10" height="10" viewBox="0 0 12 12" fill="none" aria-hidden>
+                        <path d="M6 11s4-3.5 4-6.5A4 4 0 0 0 2 4.5C2 7.5 6 11 6 11Z" stroke="currentColor" strokeWidth="1.1" strokeLinejoin="round" />
+                        <circle cx="6" cy="4.5" r="1.3" stroke="currentColor" strokeWidth="1.1" />
+                      </svg>
+                      {dict.treatmentsMenu.areaTag}
+                    </p>
                     <span className="mt-6 text-gold opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
                       →
                     </span>
