@@ -32,51 +32,51 @@
     "items": {
       "liposuction": {
         "name": "抽脂塑形",
-        "desc": "精准塑形与脂肪雕塑"
+        "desc": "精准塑形与脂肪雕塑（Mont Kiara）"
       },
       "rhinoplasty": {
         "name": "隆鼻手术",
-        "desc": "自然精致的鼻形重塑"
+        "desc": "自然精致的鼻形重塑（Sri Hartamas）"
       },
       "eye": {
         "name": "眼部整形",
-        "desc": "明亮焕活的双眼"
+        "desc": "明亮焕活的双眼（Kuala Lumpur）"
       },
       "facelift": {
         "name": "面部提升",
-        "desc": "提拉并重塑年轻轮廓"
+        "desc": "提拉并重塑年轻轮廓（Mont Kiara）"
       },
       "breast": {
         "name": "隆胸手术",
-        "desc": "自然丰盈与比例之美"
+        "desc": "自然丰盈与比例之美（Sri Hartamas）"
       },
       "chin": {
         "name": "下巴植入",
-        "desc": "和谐协调的面部线条"
+        "desc": "和谐协调的面部线条（KL）"
       },
       "bodySculpt": {
         "name": "身体塑形",
-        "desc": "非侵入式减脂与塑形"
+        "desc": "非侵入式减脂与塑形（Mont Kiara）"
       },
       "hifu": {
         "name": "HIFU 提拉",
-        "desc": "超声波紧致提升"
+        "desc": "超声波紧致提升（Sri Hartamas）"
       },
       "picoLaser": {
         "name": "皮秒激光",
-        "desc": "改善色斑、肤色与肤质"
+        "desc": "改善色斑、肤色与肤质（KL）"
       },
       "hairRemoval": {
         "name": "激光脱毛",
-        "desc": "顺滑持久的激光脱毛"
+        "desc": "顺滑持久的激光脱毛（Mont Kiara）"
       },
       "cellLight": {
         "name": "细胞光疗",
-        "desc": "LED 光疗焕活肌肤"
+        "desc": "LED 光疗焕活肌肤（Sri Hartamas）"
       },
       "whiteningDrip": {
         "name": "美白点滴",
-        "desc": "焕亮静脉营养输注"
+        "desc": "焕亮静脉营养输注（Kuala Lumpur）"
       }
     },
     "areaTag": "蒙特基亚拉 · 斯里哈达玛斯，吉隆坡"

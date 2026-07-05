@@ -32,51 +32,51 @@
     "items": {
       "liposuction": {
         "name": "지방흡입",
-        "desc": "정교한 바디 라인 & 지방 조각"
+        "desc": "정교한 바디 라인 & 지방 조각 (Mont Kiara)"
       },
       "rhinoplasty": {
         "name": "코 성형",
-        "desc": "자연스럽고 세련된 코 라인"
+        "desc": "자연스럽고 세련된 코 라인 (Sri Hartamas)"
       },
       "eye": {
         "name": "눈 성형",
-        "desc": "또렷하고 생기 있는 눈매"
+        "desc": "또렷하고 생기 있는 눈매 (Kuala Lumpur)"
       },
       "facelift": {
         "name": "안면 리프팅",
-        "desc": "젊고 탄탄한 윤곽 복원"
+        "desc": "젊고 탄탄한 윤곽 복원 (Mont Kiara)"
       },
       "breast": {
         "name": "가슴 성형",
-        "desc": "자연스러운 볼륨과 균형"
+        "desc": "자연스러운 볼륨과 균형 (Sri Hartamas)"
       },
       "chin": {
         "name": "턱 보형물",
-        "desc": "조화로운 얼굴 라인"
+        "desc": "조화로운 얼굴 라인 (KL)"
       },
       "bodySculpt": {
         "name": "바디 슬리밍",
-        "desc": "비침습 지방 감소 & 라인 정리"
+        "desc": "비침습 지방 감소 & 라인 정리 (Mont Kiara)"
       },
       "hifu": {
         "name": "HIFU 리프팅",
-        "desc": "초음파 피부 타이트닝 & 리프팅"
+        "desc": "초음파 피부 타이트닝 & 리프팅 (Sri Hartamas)"
       },
       "picoLaser": {
         "name": "피코 레이저",
-        "desc": "색소·톤·피부결 개선"
+        "desc": "색소·톤·피부결 개선 (KL)"
       },
       "hairRemoval": {
         "name": "제모",
-        "desc": "매끈하고 오래가는 레이저 제모"
+        "desc": "매끈하고 오래가는 레이저 제모 (Mont Kiara)"
       },
       "cellLight": {
         "name": "셀 라이트 테라피",
-        "desc": "LED 광 피부 재생"
+        "desc": "LED 광 피부 재생 (Sri Hartamas)"
       },
       "whiteningDrip": {
         "name": "미백 수액",
-        "desc": "환한 피부를 위한 영양 수액"
+        "desc": "환한 피부를 위한 영양 수액 (Kuala Lumpur)"
       }
     },
     "areaTag": "몽키아라 · 스리 하르타마스, 쿠알라룸푸르"
