@@ -219,7 +219,7 @@ export default async function PostPage({
                         src={m.cover}
                         alt={mp.title}
                         loading="lazy"
-                        className="aspect-[3/2] w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
+                        className="aspect-[16/9] w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
                       />
                     </div>
                     <p className="mt-4 text-[11px] tracking-[0.14em] uppercase text-taupe">
