@@ -1,1 +1,5 @@
-/    /en/    302
+# English is now served prefix-free at the site root. Permanently redirect the
+# old /en/ URLs to their root equivalents so existing links and search-engine
+# indexes carry over. Other locales (zh, ko, ja, ms) keep their prefix.
+/en                /              301
+/en/*              /:splat        301

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import type { Locale } from "@/lib/i18n/config";
+import { localeBase, type Locale } from "@/lib/i18n/config";
 
 // Inside The Valley — 9:16 portrait video shown in a phone-style frame.
 // Initial paint loads only the poster image (≈40 KB). The MP4 (≈11 MB) is
@@ -18,7 +18,7 @@ export function InsideTheValley({
 }) {
   const [playing, setPlaying] = useState(false);
   const content = dict.inside;
-  const base = `/${locale}`;
+  const base = localeBase(locale);
 
   return (
     <section className="relative overflow-hidden bg-ivory py-24 lg:py-32">

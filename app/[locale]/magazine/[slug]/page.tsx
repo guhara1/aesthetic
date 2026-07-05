@@ -3,9 +3,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
   isLocale,
-  locales,
-  localeHtmlLang,
-  defaultLocale,
+  intlLocales,
+  localeBase,
+  localeRoot,
+  buildAlternates,
+  contentUrlPath,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { posts, getPostBySlug } from "@/lib/magazine";
@@ -22,7 +24,7 @@ const BCP47: Record<string, string> = {
 type PostKey = keyof Awaited<ReturnType<typeof getDictionary>>["magazine"]["posts"];
 
 export function generateStaticParams() {
-  return locales.flatMap((locale) => posts.map((p) => ({ locale, slug: p.slug })));
+  return intlLocales.flatMap((locale) => posts.map((p) => ({ locale, slug: p.slug })));
 }
 
 export async function generateMetadata({
@@ -36,21 +38,16 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
   const p = dict.magazine.posts[post.key as PostKey];
 
-  const languages: Record<string, string> = {
-    "x-default": `/${defaultLocale}/magazine/${slug}/`,
-  };
-  for (const l of locales) languages[localeHtmlLang[l]] = `/${l}/magazine/${slug}/`;
-
   return {
     metadataBase: new URL(SITE_URL),
     title: `${p.title} | ${dict.brand.nameFull}`,
     description: p.excerpt,
-    alternates: { canonical: `/${locale}/magazine/${slug}/`, languages },
+    alternates: buildAlternates(locale, `magazine/${slug}`),
     openGraph: {
       type: "article",
       title: p.title,
       description: p.excerpt,
-      url: `/${locale}/magazine/${slug}/`,
+      url: contentUrlPath(locale, `magazine/${slug}`),
       publishedTime: p.date,
       images: [{ url: post.cover }],
     },
@@ -67,7 +64,8 @@ export default async function PostPage({
   if (!isLocale(locale) || !post) notFound();
   const dict = await getDictionary(locale);
   const p = dict.magazine.posts[post.key as PostKey];
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  const home = base || "/";
   const fmt = (iso: string) =>
     new Date(iso).toLocaleDateString(BCP47[locale], {
       year: "numeric",
@@ -75,7 +73,7 @@ export default async function PostPage({
       day: "numeric",
     });
 
-  const pageUrl = `${SITE_URL}/${locale}/magazine/${slug}/`;
+  const pageUrl = `${SITE_URL}${contentUrlPath(locale, `magazine/${slug}`)}`;
   const graph = {
     "@context": "https://schema.org",
     "@graph": [
@@ -95,8 +93,8 @@ export default async function PostPage({
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: dict.procedureUi.home, item: `${SITE_URL}/${locale}/` },
-          { "@type": "ListItem", position: 2, name: dict.magazine.title, item: `${SITE_URL}/${locale}/magazine/` },
+          { "@type": "ListItem", position: 1, name: dict.procedureUi.home, item: `${SITE_URL}${localeRoot(locale)}` },
+          { "@type": "ListItem", position: 2, name: dict.magazine.title, item: `${SITE_URL}${contentUrlPath(locale, "magazine")}` },
           { "@type": "ListItem", position: 3, name: p.title, item: pageUrl },
         ],
       },
@@ -125,7 +123,7 @@ export default async function PostPage({
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-10">
           <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.16em] uppercase text-ivory/45">
             <ol className="flex flex-wrap items-center justify-center gap-2">
-              <li><Link href={base} className="transition-colors hover:text-gold">{dict.procedureUi.home}</Link></li>
+              <li><Link href={home} className="transition-colors hover:text-gold">{dict.procedureUi.home}</Link></li>
               <li aria-hidden>·</li>
               <li><Link href={`${base}/magazine`} className="transition-colors hover:text-gold">{dict.magazine.title}</Link></li>
             </ol>

@@ -3,9 +3,9 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
   isLocale,
-  locales,
-  localeHtmlLang,
-  defaultLocale,
+  intlLocales,
+  localeBase,
+  buildAlternates,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { posts } from "@/lib/magazine";
@@ -22,7 +22,7 @@ const BCP47: Record<string, string> = {
 type PostKey = keyof Awaited<ReturnType<typeof getDictionary>>["magazine"]["posts"];
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return intlLocales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({
@@ -33,14 +33,12 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = await getDictionary(locale);
-  const languages: Record<string, string> = { "x-default": `/${defaultLocale}/magazine/` };
-  for (const l of locales) languages[localeHtmlLang[l]] = `/${l}/magazine/`;
 
   return {
     metadataBase: new URL(SITE_URL),
     title: `${dict.magazine.title} | ${dict.brand.nameFull}`,
     description: dict.magazine.lead,
-    alternates: { canonical: `/${locale}/magazine/`, languages },
+    alternates: buildAlternates(locale, "magazine"),
   };
 }
 
@@ -52,7 +50,8 @@ export default async function MagazineIndex({
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  const home = base || "/";
   const fmt = (iso: string) =>
     new Date(iso).toLocaleDateString(BCP47[locale], {
       year: "numeric",
@@ -67,7 +66,7 @@ export default async function MagazineIndex({
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.14em] uppercase text-ivory/55">
             <ol className="flex items-center gap-2">
-              <li><Link href={base} className="hover:text-gold">{dict.procedureUi.home}</Link></li>
+              <li><Link href={home} className="hover:text-gold">{dict.procedureUi.home}</Link></li>
               <li aria-hidden>/</li>
               <li className="text-gold">{dict.magazine.title}</li>
             </ol>

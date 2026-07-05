@@ -1,5 +1,5 @@
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import type { Locale } from "@/lib/i18n/config";
+import { localeRoot, type Locale } from "@/lib/i18n/config";
 import { SITE_URL, clinic, medicalReviewer } from "@/lib/clinic";
 
 const TREATMENT_KEYS = [
@@ -24,7 +24,7 @@ export function StructuredData({
   dict: Dictionary;
   locale: Locale;
 }) {
-  const pageUrl = `${SITE_URL}/${locale}/`;
+  const pageUrl = `${SITE_URL}${localeRoot(locale)}`;
   const ogImage = `${SITE_URL}/images/og-cover.png`;
   const clinicId = `${SITE_URL}/#clinic`;
 

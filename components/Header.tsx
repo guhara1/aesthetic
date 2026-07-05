@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import type { Locale } from "@/lib/i18n/config";
+import { localeBase, type Locale } from "@/lib/i18n/config";
 import { treatments } from "@/lib/treatments";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -32,7 +32,10 @@ const NON_SURGICAL = ["bodySculpt", "hifu", "picoLaser", "hairRemoval", "cellLig
 export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [treatOpen, setTreatOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  // Home href: "" concatenates cleanly for sub-paths but is invalid on its own,
+  // so the bare home link falls back to "/".
+  const home = base || "/";
 
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
@@ -85,7 +88,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
       {/* Main bar */}
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
-        <Link href={base} className="flex items-center">
+        <Link href={home} className="flex items-center">
           <img
             src="/images/brand/logo.png"
             alt={dict.brand.nameFull}
@@ -101,7 +104,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             solid ? "text-ink-soft" : "text-ivory/90"
           }`}
         >
-          <Link href={base} className="transition-colors hover:text-gold">
+          <Link href={home} className="transition-colors hover:text-gold">
             {dict.nav.home}
           </Link>
 
@@ -209,7 +212,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
       {mobileOpen && (
         <div className="lg:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-6 pb-8 pt-2">
-            <MobileLink href={base} onClick={() => setMobileOpen(false)}>
+            <MobileLink href={home} onClick={() => setMobileOpen(false)}>
               {dict.nav.home}
             </MobileLink>
             <p className="px-2 pb-1 pt-4 text-[10px] tracking-[0.22em] uppercase text-gold">

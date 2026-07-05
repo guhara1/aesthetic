@@ -3,16 +3,16 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
   isLocale,
-  locales,
-  localeHtmlLang,
-  defaultLocale,
+  intlLocales,
+  localeBase,
+  buildAlternates,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { SITE_URL, clinic, WHATSAPP_NUMBER } from "@/lib/clinic";
 import { ConsultationForm } from "@/components/ConsultationForm";
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return intlLocales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({
@@ -23,14 +23,12 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = await getDictionary(locale);
-  const languages: Record<string, string> = { "x-default": `/${defaultLocale}/contact/` };
-  for (const l of locales) languages[localeHtmlLang[l]] = `/${l}/contact/`;
 
   return {
     metadataBase: new URL(SITE_URL),
     title: `${dict.contactPage.title} | ${dict.brand.nameFull}`,
     description: dict.contactPage.lead,
-    alternates: { canonical: `/${locale}/contact/`, languages },
+    alternates: buildAlternates(locale, "contact"),
   };
 }
 
@@ -44,7 +42,7 @@ export default async function ContactPage({
   const dict = await getDictionary(locale);
   const c = dict.contactPage;
   const ui = dict.procedureUi;
-  const base = `/${locale}`;
+  const home = localeBase(locale) || "/";
   const tel = clinic.telephone.replace(/\s/g, "");
   const tel2 = clinic.telephone2.replace(/\s/g, "");
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${clinic.geo.lat},${clinic.geo.lng}`;
@@ -57,7 +55,7 @@ export default async function ContactPage({
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.14em] uppercase text-ivory/55">
             <ol className="flex items-center gap-2">
-              <li><Link href={base} className="hover:text-gold">{ui.home}</Link></li>
+              <li><Link href={home} className="hover:text-gold">{ui.home}</Link></li>
               <li aria-hidden>/</li>
               <li className="text-gold">{c.title}</li>
             </ol>

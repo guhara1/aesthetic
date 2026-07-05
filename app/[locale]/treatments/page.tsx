@@ -3,16 +3,16 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
   isLocale,
-  locales,
-  localeHtmlLang,
-  defaultLocale,
+  intlLocales,
+  localeBase,
+  buildAlternates,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { treatments, thumbnailForTreatment } from "@/lib/treatments";
 import { SITE_URL } from "@/lib/clinic";
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return intlLocales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({
@@ -24,16 +24,11 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const dict = await getDictionary(locale);
 
-  const languages: Record<string, string> = {
-    "x-default": `/${defaultLocale}/treatments/`,
-  };
-  for (const l of locales) languages[localeHtmlLang[l]] = `/${l}/treatments/`;
-
   return {
     metadataBase: new URL(SITE_URL),
     title: `${dict.procedureUi.treatments} | ${dict.brand.nameFull}`,
     description: dict.treatmentsSection.subtitle,
-    alternates: { canonical: `/${locale}/treatments/`, languages },
+    alternates: buildAlternates(locale, "treatments"),
   };
 }
 
@@ -46,7 +41,8 @@ export default async function TreatmentsIndex({
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
   const ui = dict.procedureUi;
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  const home = base || "/";
 
   const groups = [
     { label: ui.surgical, items: treatments.filter((t) => t.category === "surgical") },
@@ -60,7 +56,7 @@ export default async function TreatmentsIndex({
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.14em] uppercase text-ivory/55">
             <ol className="flex items-center gap-2">
-              <li><Link href={base} className="hover:text-gold">{ui.home}</Link></li>
+              <li><Link href={home} className="hover:text-gold">{ui.home}</Link></li>
               <li aria-hidden>/</li>
               <li className="text-gold">{ui.treatments}</li>
             </ol>
