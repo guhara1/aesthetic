@@ -24,6 +24,11 @@ export const posts: Post[] = [
     key: "bridalSkincare",
     cover: "/images/magazine/bridal-skincare.webp",
   },
+  {
+    slug: "best-mont-kiara-facelift-clinics-near-1mk",
+    key: "montKiaraFacelift",
+    cover: "/images/magazine/mont-kiara-facelift.webp",
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
