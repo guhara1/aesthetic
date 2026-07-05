@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import type { Locale } from "@/lib/i18n/config";
+import { localeBase, type Locale } from "@/lib/i18n/config";
 import { clinic } from "@/lib/clinic";
 import { treatments } from "@/lib/treatments";
 
@@ -12,7 +12,8 @@ const mapQuery = encodeURIComponent(
 const mapEmbedSrc = `https://www.google.com/maps?q=${mapQuery}&z=16&output=embed`;
 
 export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  const home = base || "/";
   const year = new Date().getFullYear();
 
   return (
@@ -94,7 +95,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             </h4>
             <ul className="mt-5 space-y-3 text-sm">
               {[
-                { href: base, label: dict.nav.home },
+                { href: home, label: dict.nav.home },
                 { href: `${base}/about`, label: dict.nav.about },
                 { href: `${base}#gallery`, label: dict.nav.gallery },
                 { href: `${base}#reviews`, label: dict.nav.reviews },

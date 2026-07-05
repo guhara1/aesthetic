@@ -34,8 +34,16 @@ const contentPaths = [
   ...areaSlugs,
 ];
 
+// The default locale (English) is served prefix-free at the site root; every
+// other locale keeps its sub-path prefix. Keep this in sync with
+// lib/i18n/config.ts → contentUrlPath().
+function localePrefix(locale) {
+  return locale === DEFAULT_LOCALE ? "" : `/${locale}`;
+}
+
 function urlFor(locale, p) {
-  return p ? `${SITE_URL}/${locale}/${p}/` : `${SITE_URL}/${locale}/`;
+  const base = localePrefix(locale);
+  return p ? `${SITE_URL}${base}/${p}/` : `${SITE_URL}${base}/`;
 }
 
 function xmlEscape(s) {
@@ -103,7 +111,7 @@ const items = posts
   .map((p) => {
     const post = dict.magazine.posts[p.key];
     if (!post) return null;
-    const link = `${SITE_URL}/${DEFAULT_LOCALE}/magazine/${p.slug}/`;
+    const link = `${SITE_URL}/magazine/${p.slug}/`;
     return {
       title: post.title,
       link,
@@ -116,7 +124,7 @@ const items = posts
   .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
 const channelTitle = `${dict.brand.nameFull} — ${dict.magazine.title}`;
-const channelLink = `${SITE_URL}/${DEFAULT_LOCALE}/magazine/`;
+const channelLink = `${SITE_URL}/magazine/`;
 const buildDate = new Date().toUTCString();
 
 const rss = `<?xml version="1.0" encoding="UTF-8"?>

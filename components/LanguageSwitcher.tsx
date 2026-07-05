@@ -1,11 +1,13 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { locales, localeNames, type Locale } from "@/lib/i18n/config";
+import { locales, localeNames, localeBase, type Locale } from "@/lib/i18n/config";
 
 // Built as a native <details> + <a> links so it works even if client-side JS
-// fails to hydrate on the static export. Hrefs are resolved at build time from
-// the current path (path-preserving), so changing language keeps your page.
+// fails to hydrate on the static export. Hrefs are resolved from the current
+// path (path-preserving), so changing language keeps your page. The default
+// locale (English) is served prefix-free at the root, so switching to/from it
+// adds or drops the locale prefix accordingly.
 export function LanguageSwitcher({
   locale,
   variant = "light",
@@ -13,12 +15,19 @@ export function LanguageSwitcher({
   locale: Locale;
   variant?: "light" | "dark";
 }) {
-  const pathname = usePathname() || `/${locale}/`;
+  const pathname = usePathname() || localeBase(locale) || "/";
+
+  // Strip the current locale's prefix to recover the locale-neutral path
+  // (e.g. "/about/"). English has no prefix, so the path is used as-is.
+  const currentBase = localeBase(locale);
+  let rest = pathname;
+  if (currentBase && (rest === currentBase || rest.startsWith(`${currentBase}/`))) {
+    rest = rest.slice(currentBase.length);
+  }
 
   function hrefFor(next: Locale) {
-    const segments = pathname.split("/");
-    segments[1] = next;
-    let target = segments.join("/") || `/${next}/`;
+    let target = `${localeBase(next)}${rest}`;
+    if (!target.startsWith("/")) target = `/${target}`;
     if (!target.endsWith("/")) target += "/";
     return target;
   }

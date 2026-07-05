@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import type { Locale } from "@/lib/i18n/config";
+import { localeBase, type Locale } from "@/lib/i18n/config";
 
 // Language-neutral slide metadata; copy comes from dict.heroSlides per locale.
 const SLIDE_META = [
@@ -26,7 +26,7 @@ const SLIDE_META = [
 
 export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [index, setIndex] = useState(0);
-  const base = `/${locale}`;
+  const base = localeBase(locale);
   const count = SLIDE_META.length;
 
   const go = (dir: number) => setIndex((i) => (i + dir + count) % count);

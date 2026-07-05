@@ -3,15 +3,15 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
   isLocale,
-  locales,
-  localeHtmlLang,
-  defaultLocale,
+  intlLocales,
+  localeBase,
+  buildAlternates,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { SITE_URL, clinic, contentLastReviewed } from "@/lib/clinic";
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return intlLocales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({
@@ -23,14 +23,11 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const dict = await getDictionary(locale);
 
-  const languages: Record<string, string> = { "x-default": `/${defaultLocale}/about/` };
-  for (const l of locales) languages[localeHtmlLang[l]] = `/${l}/about/`;
-
   return {
     metadataBase: new URL(SITE_URL),
     title: `${dict.aboutPage.title} | ${dict.brand.nameFull}`,
     description: dict.aboutPage.lead,
-    alternates: { canonical: `/${locale}/about/`, languages },
+    alternates: buildAlternates(locale, "about"),
   };
 }
 
@@ -44,7 +41,8 @@ export default async function AboutPage({
   const dict = await getDictionary(locale);
   const a = dict.aboutPage;
   const ui = dict.procedureUi;
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  const home = base || "/";
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${clinic.geo.lat},${clinic.geo.lng}`;
 
   return (
@@ -55,7 +53,7 @@ export default async function AboutPage({
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.14em] uppercase text-ivory/55">
             <ol className="flex items-center gap-2">
-              <li><Link href={base} className="hover:text-gold">{ui.home}</Link></li>
+              <li><Link href={home} className="hover:text-gold">{ui.home}</Link></li>
               <li aria-hidden>/</li>
               <li className="text-gold">{a.title}</li>
             </ol>

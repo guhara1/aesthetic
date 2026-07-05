@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import type { Locale } from "@/lib/i18n/config";
+import { localeBase, localeRoot, type Locale } from "@/lib/i18n/config";
 import { SITE_URL, clinic } from "@/lib/clinic";
 import type { LocalArea } from "@/lib/localAreas";
 
@@ -14,9 +14,10 @@ export function LocalLandingPage({
   dict: Dictionary;
   locale: Locale;
 }) {
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  const home = base || "/";
   const content = dict.localAreas[area.key];
-  const pageUrl = `${SITE_URL}/${locale}/${area.slug}/`;
+  const pageUrl = `${SITE_URL}${base}/${area.slug}/`;
   const ui = dict.procedureUi;
 
   const graph = {
@@ -49,7 +50,7 @@ export function LocalLandingPage({
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: ui.home, item: `${SITE_URL}/${locale}/` },
+          { "@type": "ListItem", position: 1, name: ui.home, item: `${SITE_URL}${localeRoot(locale)}` },
           { "@type": "ListItem", position: 2, name: content.areaName, item: pageUrl },
         ],
       },
@@ -78,7 +79,7 @@ export function LocalLandingPage({
           <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.16em] uppercase text-ivory/55">
             <ol className="flex flex-wrap items-center gap-2">
               <li>
-                <Link href={base} className="hover:text-gold">
+                <Link href={home} className="hover:text-gold">
                   {ui.home}
                 </Link>
               </li>

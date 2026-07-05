@@ -3,10 +3,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
   isLocale,
-  locales,
-  localeHtmlLang,
-  defaultLocale,
-  type Locale,
+  intlLocales,
+  localeBase,
+  localeRoot,
+  buildAlternates,
+  contentUrlPath,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import {
@@ -19,7 +20,7 @@ import { SITE_URL, clinic } from "@/lib/clinic";
 type ProcKey = keyof Awaited<ReturnType<typeof getDictionary>>["procedures"];
 
 export function generateStaticParams() {
-  return locales.flatMap((locale) =>
+  return intlLocales.flatMap((locale) =>
     treatments.map((t) => ({ locale, slug: t.slug })),
   );
 }
@@ -36,23 +37,18 @@ export async function generateMetadata({
   const item = dict.treatmentsMenu.items[treatment.key as keyof typeof dict.treatmentsMenu.items];
   const proc = dict.procedures[treatment.key as ProcKey];
 
-  const languages: Record<string, string> = {
-    "x-default": `/${defaultLocale}/treatments/${slug}/`,
-  };
-  for (const l of locales) languages[localeHtmlLang[l]] = `/${l}/treatments/${slug}/`;
-
   const title = `${item.name} in Kuala Lumpur | ${dict.brand.nameFull}`;
 
   return {
     metadataBase: new URL(SITE_URL),
     title,
     description: proc.overview,
-    alternates: { canonical: `/${locale}/treatments/${slug}/`, languages },
+    alternates: buildAlternates(locale, `treatments/${slug}`),
     openGraph: {
       type: "article",
       title,
       description: proc.overview,
-      url: `/${locale}/treatments/${slug}/`,
+      url: contentUrlPath(locale, `treatments/${slug}`),
       images: [{ url: "/images/og-cover.png", width: 1200, height: 630 }],
     },
   };
@@ -72,14 +68,15 @@ export default async function TreatmentPage({
   const item = dict.treatmentsMenu.items[treatment.key as keyof typeof dict.treatmentsMenu.items];
   const proc = dict.procedures[treatment.key as ProcKey];
   const images = imagesForTreatment(treatment);
-  const base = `/${locale}`;
+  const base = localeBase(locale);
+  const home = base || "/";
   const categoryLabel = treatment.category === "surgical" ? ui.surgical : ui.nonSurgical;
 
   const related = treatments
     .filter((t) => t.category === treatment.category && t.slug !== treatment.slug)
     .slice(0, 3);
 
-  const pageUrl = `${SITE_URL}/${locale}/treatments/${slug}/`;
+  const pageUrl = `${SITE_URL}${contentUrlPath(locale, `treatments/${slug}`)}`;
   const graph = {
     "@context": "https://schema.org",
     "@graph": [
@@ -98,8 +95,8 @@ export default async function TreatmentPage({
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: ui.home, item: `${SITE_URL}/${locale}/` },
-          { "@type": "ListItem", position: 2, name: ui.treatments, item: `${SITE_URL}/${locale}/treatments/` },
+          { "@type": "ListItem", position: 1, name: ui.home, item: `${SITE_URL}${localeRoot(locale)}` },
+          { "@type": "ListItem", position: 2, name: ui.treatments, item: `${SITE_URL}${contentUrlPath(locale, "treatments")}` },
           { "@type": "ListItem", position: 3, name: item.name, item: pageUrl },
         ],
       },
@@ -131,7 +128,7 @@ export default async function TreatmentPage({
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="text-[11px] tracking-[0.14em] uppercase text-ivory/55">
             <ol className="flex flex-wrap items-center gap-2">
-              <li><Link href={base} className="hover:text-gold">{ui.home}</Link></li>
+              <li><Link href={home} className="hover:text-gold">{ui.home}</Link></li>
               <li aria-hidden>/</li>
               <li><Link href={`${base}/treatments`} className="hover:text-gold">{ui.treatments}</Link></li>
               <li aria-hidden>/</li>

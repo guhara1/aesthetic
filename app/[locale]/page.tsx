@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { isLocale, type Locale } from "@/lib/i18n/config";
+import { isLocale, localeBase, localeRoot, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { notFound } from "next/navigation";
 import { Results } from "@/components/Results";
@@ -21,9 +21,9 @@ export default async function HomePage({
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale as Locale);
-  const base = `/${locale}`;
+  const base = localeBase(locale as Locale);
 
-  const pageUrl = `${SITE_URL}/${locale}/`;
+  const pageUrl = `${SITE_URL}${localeRoot(locale as Locale)}`;
   const homeGraph = {
     "@context": "https://schema.org",
     "@graph": [

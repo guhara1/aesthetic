@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
   isLocale,
-  locales,
-  localeHtmlLang,
-  defaultLocale,
+  intlLocales,
+  buildAlternates,
+  contentUrlPath,
   type Locale,
 } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
@@ -15,7 +15,7 @@ import { LocalLandingPage } from "@/components/LocalLandingPage";
 const SLUG = "mont-kiara-aesthetic-clinic";
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return intlLocales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({
@@ -28,20 +28,15 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
   const c = dict.localAreas.montKiara;
 
-  const languages: Record<string, string> = {
-    "x-default": `/${defaultLocale}/${SLUG}/`,
-  };
-  for (const l of locales) languages[localeHtmlLang[l]] = `/${l}/${SLUG}/`;
-
   return {
     title: c.metaTitle,
     description: c.metaDescription,
-    alternates: { canonical: `/${locale}/${SLUG}/`, languages },
+    alternates: buildAlternates(locale, SLUG),
     openGraph: {
       type: "website",
       title: c.metaTitle,
       description: c.metaDescription,
-      url: `/${locale}/${SLUG}/`,
+      url: contentUrlPath(locale, SLUG),
       images: [{ url: `${SITE_URL}/images/og-cover.png`, width: 1200, height: 630 }],
     },
     robots: { index: true, follow: true },
