@@ -166,9 +166,6 @@ export default async function HomePage({
                   <h3 className="mt-4 pr-20 font-display text-2xl leading-tight text-ink transition-colors group-hover:text-gold-deep">
                     {item.name}
                   </h3>
-                  <p className="mt-1.5 pr-20 text-[11px] tracking-[0.08em] uppercase text-gold-deep/80">
-                    Mont Kiara · Sri Hartamas, KL
-                  </p>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-taupe">
                     {item.desc}
                   </p>

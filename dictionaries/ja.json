@@ -32,51 +32,51 @@
     "items": {
       "liposuction": {
         "name": "脂肪吸引",
-        "desc": "精緻なボディ造形と脂肪彫刻"
+        "desc": "精緻なボディ造形と脂肪彫刻（Mont Kiara）"
       },
       "rhinoplasty": {
         "name": "鼻形成",
-        "desc": "自然で洗練された鼻のかたち"
+        "desc": "自然で洗練された鼻のかたち（Sri Hartamas）"
       },
       "eye": {
         "name": "目元施術",
-        "desc": "明るく若々しい目もとへ"
+        "desc": "明るく若々しい目もとへ（Kuala Lumpur）"
       },
       "facelift": {
         "name": "フェイスリフト",
-        "desc": "リフトして若々しい輪郭を"
+        "desc": "リフトして若々しい輪郭を（Mont Kiara）"
       },
       "breast": {
         "name": "豊胸（インプラント）",
-        "desc": "自然なボリュームとバランス"
+        "desc": "自然なボリュームとバランス（Sri Hartamas）"
       },
       "chin": {
         "name": "あご（インプラント）",
-        "desc": "調和のとれた横顔へ"
+        "desc": "調和のとれた横顔へ（KL）"
       },
       "bodySculpt": {
         "name": "ボディシェイプ",
-        "desc": "非侵襲の脂肪減少・引き締め"
+        "desc": "非侵襲の脂肪減少・引き締め（Mont Kiara）"
       },
       "hifu": {
         "name": "HIFU リフト",
-        "desc": "超音波による肌の引き締め・リフト"
+        "desc": "超音波による肌の引き締め・リフト（Sri Hartamas）"
       },
       "picoLaser": {
         "name": "ピコレーザー",
-        "desc": "シミ・色調・キメの改善"
+        "desc": "シミ・色調・キメの改善（KL）"
       },
       "hairRemoval": {
         "name": "医療脱毛",
-        "desc": "なめらかで持続する医療脱毛"
+        "desc": "なめらかで持続する医療脱毛（Mont Kiara）"
       },
       "cellLight": {
         "name": "セルライト セラピー",
-        "desc": "LED光による肌の再生"
+        "desc": "LED光による肌の再生（Sri Hartamas）"
       },
       "whiteningDrip": {
         "name": "美白点滴",
-        "desc": "透明感を高める点滴ケア"
+        "desc": "透明感を高める点滴ケア（Kuala Lumpur）"
       }
     },
     "areaTag": "モントキアラ・スリハルタマス、クアラルンプール"

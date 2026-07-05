@@ -32,51 +32,51 @@
     "items": {
       "liposuction": {
         "name": "Sedutan Lemak (Liposuction)",
-        "desc": "Bentuk tubuh yang tepat & pengecutan lemak"
+        "desc": "Bentuk tubuh yang tepat & pengecutan lemak di Mont Kiara"
       },
       "rhinoplasty": {
         "name": "Pembedahan Hidung (Rhinoplasty)",
-        "desc": "Bentuk hidung semula yang halus dan semula jadi"
+        "desc": "Bentuk hidung semula yang halus dan semula jadi di Sri Hartamas"
       },
       "eye": {
         "name": "Rawatan Mata",
-        "desc": "Mata yang lebih cerah dan segar"
+        "desc": "Mata yang lebih cerah dan segar di Kuala Lumpur"
       },
       "facelift": {
         "name": "Pembedahan Muka (Facelift)",
-        "desc": "Mengangkat & mengembalikan kontur muda"
+        "desc": "Mengangkat & mengembalikan kontur muda di Mont Kiara"
       },
       "breast": {
         "name": "Implan Payudara",
-        "desc": "Pembesaran semula jadi & keseimbangan"
+        "desc": "Pembesaran semula jadi & keseimbangan di Sri Hartamas"
       },
       "chin": {
         "name": "Implan Dagu",
-        "desc": "Profil muka yang harmoni"
+        "desc": "Profil muka yang harmoni di KL"
       },
       "bodySculpt": {
         "name": "Pembentukan Tubuh",
-        "desc": "Pengurangan lemak & pembentukan tanpa pembedahan"
+        "desc": "Pengurangan lemak & pembentukan tanpa pembedahan di Mont Kiara"
       },
       "hifu": {
         "name": "Pengangkatan HIFU",
-        "desc": "Pengetatan & pengangkatan kulit secara ultrasound"
+        "desc": "Pengetatan & pengangkatan kulit secara ultrasound di Sri Hartamas"
       },
       "picoLaser": {
         "name": "Laser Pico",
-        "desc": "Pigmentasi, tona & pembaharuan tekstur"
+        "desc": "Pigmentasi, tona & pembaharuan tekstur di KL"
       },
       "hairRemoval": {
         "name": "Penyingkiran Bulu",
-        "desc": "Penyingkiran bulu laser yang lancar dan tahan lama"
+        "desc": "Penyingkiran bulu laser yang lancar dan tahan lama di Mont Kiara"
       },
       "cellLight": {
         "name": "Terapi Cell Light",
-        "desc": "Peremajaan kulit dengan cahaya LED"
+        "desc": "Peremajaan kulit dengan cahaya LED di Sri Hartamas"
       },
       "whiteningDrip": {
         "name": "Infusi Pencerah",
-        "desc": "Infusi IV untuk kesegaran & kecerahan"
+        "desc": "Infusi IV untuk kesegaran & kecerahan di Kuala Lumpur"
       }
     },
     "areaTag": "Mont Kiara · Sri Hartamas, Kuala Lumpur"

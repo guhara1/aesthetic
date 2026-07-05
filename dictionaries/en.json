@@ -32,51 +32,51 @@
     "items": {
       "liposuction": {
         "name": "Liposuction",
-        "desc": "Precise body contouring & fat sculpting"
+        "desc": "Precise body contouring and fat sculpting in Mont Kiara"
       },
       "rhinoplasty": {
         "name": "Rhinoplasty",
-        "desc": "Refined, natural nose reshaping"
+        "desc": "Refined, natural nose reshaping in Sri Hartamas"
       },
       "eye": {
         "name": "Eye Treatment",
-        "desc": "Brighter, rejuvenated eyes"
+        "desc": "Brighter, rejuvenated eyes for Kuala Lumpur"
       },
       "facelift": {
         "name": "Facelift",
-        "desc": "Lift & restore youthful contours"
+        "desc": "Lift and restore youthful contours near Mont Kiara"
       },
       "breast": {
         "name": "Breast Implant",
-        "desc": "Natural augmentation & balance"
+        "desc": "Natural augmentation and balance, Sri Hartamas"
       },
       "chin": {
         "name": "Chin Implant",
-        "desc": "Harmonised facial profile"
+        "desc": "Harmonised facial profile in central KL"
       },
       "bodySculpt": {
         "name": "Body Sculpting",
-        "desc": "Non-invasive fat reduction & contouring"
+        "desc": "Non-invasive fat reduction and contouring at our Mont Kiara clinic"
       },
       "hifu": {
         "name": "HIFU Lifting",
-        "desc": "Ultrasound skin tightening & lift"
+        "desc": "Ultrasound skin tightening and lift in Sri Hartamas"
       },
       "picoLaser": {
         "name": "Pico Laser",
-        "desc": "Pigmentation, tone & texture renewal"
+        "desc": "Pigmentation, tone and texture renewal in KL"
       },
       "hairRemoval": {
         "name": "Hair Removal",
-        "desc": "Smooth, lasting laser hair removal"
+        "desc": "Smooth, lasting laser hair removal for Mont Kiara clients"
       },
       "cellLight": {
         "name": "Cell Light Therapy",
-        "desc": "LED light skin rejuvenation"
+        "desc": "LED light skin rejuvenation near Sri Hartamas"
       },
       "whiteningDrip": {
         "name": "Whitening Drip",
-        "desc": "Brightening IV wellness infusion"
+        "desc": "Brightening IV wellness infusion in Kuala Lumpur"
       }
     },
     "areaTag": "Mont Kiara · Sri Hartamas, Kuala Lumpur"
