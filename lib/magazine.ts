@@ -38,7 +38,7 @@ export const posts: Post[] = [
   {
     slug: "cosmetic-surgery-downtime-recovery-planning-kl",
     key: "downtimePlanning",
-    cover: "/images/hero/hero-3.webp",
+    cover: "/images/magazine/downtime-planning.webp",
   },
   {
     slug: "cosmetic-surgery-cost-factors-kuala-lumpur",
