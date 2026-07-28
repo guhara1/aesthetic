@@ -32,8 +32,7 @@ export const posts: Post[] = [
   {
     slug: "cosmetic-consultation-checklist-kuala-lumpur",
     key: "consultationChecklist",
-    // Placeholder cover — swap for a dedicated image (thumbnail) later.
-    cover: "/images/hero/hero-2.webp",
+    cover: "/images/magazine/consultation-checklist.webp",
   },
   {
     slug: "cosmetic-surgery-downtime-recovery-planning-kl",
