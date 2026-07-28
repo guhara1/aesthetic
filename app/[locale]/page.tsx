@@ -12,6 +12,7 @@ import { Hero } from "@/components/Hero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SITE_URL, clinic, medicalReviewer, contentLastReviewed } from "@/lib/clinic";
 import { treatments, thumbnailForTreatment } from "@/lib/treatments";
+import { posts } from "@/lib/magazine";
 
 export default async function HomePage({
   params,
@@ -22,6 +23,13 @@ export default async function HomePage({
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale as Locale);
   const base = localeBase(locale as Locale);
+
+  // Recent magazine posts surfaced on the home page — internal links into the
+  // journal, with each localized title acting as a long-tail anchor.
+  const journalKeys = ["costFactors", "downtimePlanning", "consultationChecklist"];
+  const journalPosts = journalKeys
+    .map((k) => posts.find((p) => p.key === k))
+    .filter((p): p is (typeof posts)[number] => Boolean(p));
 
   const pageUrl = `${SITE_URL}${localeRoot(locale as Locale)}`;
   const homeGraph = {
@@ -273,6 +281,49 @@ export default async function HomePage({
       <div className="reveal">
         <Faq dict={dict} />
       </div>
+
+      {/* ───────────────── From the magazine ───────────────── */}
+      <section className="reveal bg-cream py-24 lg:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+          <SectionHeading
+            eyebrow={dict.nav.magazine}
+            title={dict.magazine.title}
+            subtitle={dict.magazine.lead}
+          />
+
+          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {journalPosts.map((p) => {
+              const post = dict.magazine.posts[p.key as keyof typeof dict.magazine.posts];
+              return (
+                <Link
+                  key={p.slug}
+                  href={`${base}/magazine/${p.slug}`}
+                  className="group flex flex-col rounded-sm border border-sand bg-ivory p-7 transition-all duration-300 hover:-translate-y-1 hover:border-gold/50 hover:shadow-[0_24px_50px_-30px_rgba(42,36,32,0.5)]"
+                >
+                  <h3 className="font-display text-xl leading-tight text-ink transition-colors group-hover:text-gold-deep">
+                    {post.title}
+                  </h3>
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-taupe">
+                    {post.excerpt}
+                  </p>
+                  <span className="mt-6 text-[11px] tracking-[0.14em] uppercase text-gold-deep/80">
+                    {post.readMinutes} {dict.magazine.readTime}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link
+              href={`${base}/magazine`}
+              className="inline-flex items-center gap-2 border-b border-gold pb-1 text-xs tracking-[0.14em] uppercase text-gold-deep transition-colors hover:text-gold"
+            >
+              {dict.nav.magazine} →
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* ───────────────── CTA banner ───────────────── */}
       <section className="reveal relative overflow-hidden bg-ink py-28 lg:py-36">
