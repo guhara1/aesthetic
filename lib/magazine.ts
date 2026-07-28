@@ -29,6 +29,22 @@ export const posts: Post[] = [
     key: "montKiaraFacelift",
     cover: "/images/magazine/mont-kiara-facelift.webp",
   },
+  {
+    slug: "cosmetic-consultation-checklist-kuala-lumpur",
+    key: "consultationChecklist",
+    // Placeholder cover — swap for a dedicated image (thumbnail) later.
+    cover: "/images/hero/hero-2.webp",
+  },
+  {
+    slug: "cosmetic-surgery-downtime-recovery-planning-kl",
+    key: "downtimePlanning",
+    cover: "/images/hero/hero-3.webp",
+  },
+  {
+    slug: "cosmetic-surgery-cost-factors-kuala-lumpur",
+    key: "costFactors",
+    cover: "/images/hero/hero-1.webp",
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

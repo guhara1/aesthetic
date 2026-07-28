@@ -3,6 +3,11 @@ import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { localeBase, localeRoot, type Locale } from "@/lib/i18n/config";
 import { SITE_URL, clinic } from "@/lib/clinic";
 import type { LocalArea } from "@/lib/localAreas";
+import { posts } from "@/lib/magazine";
+
+// Blog posts surfaced as "related reading" on the local landing pages. Their
+// localized titles double as long-tail internal-link anchors into the magazine.
+const RELATED_POST_KEYS = ["consultationChecklist", "downtimePlanning", "costFactors"];
 
 // Reused by both /mont-kiara-aesthetic-clinic and /sri-hartamas-cosmetic-surgery.
 export function LocalLandingPage({
@@ -140,6 +145,31 @@ export function LocalLandingPage({
               </div>
             ))}
           </dl>
+        </section>
+
+        {/* Related reading — internal links into the magazine (localized titles
+            act as long-tail anchors, strengthening the topical cluster). */}
+        <section className="mt-16 border-t border-sand pt-10">
+          <h2 className="text-[11px] tracking-[0.28em] uppercase text-gold">
+            {dict.nav.magazine}
+          </h2>
+          <ul className="mt-6 space-y-3">
+            {posts
+              .filter((p) => RELATED_POST_KEYS.includes(p.key))
+              .map((p) => (
+                <li key={p.slug}>
+                  <Link
+                    href={`${base}/magazine/${p.slug}`}
+                    className="group inline-flex items-start gap-2 text-[1.02rem] leading-snug text-ink-soft transition-colors hover:text-gold-deep"
+                  >
+                    <span className="mt-1 text-gold transition-transform group-hover:translate-x-0.5">
+                      →
+                    </span>
+                    {dict.magazine.posts[p.key as keyof typeof dict.magazine.posts].title}
+                  </Link>
+                </li>
+              ))}
+          </ul>
         </section>
 
         {/* CTA */}
