@@ -43,7 +43,7 @@ export const posts: Post[] = [
   {
     slug: "cosmetic-surgery-cost-factors-kuala-lumpur",
     key: "costFactors",
-    cover: "/images/hero/hero-1.webp",
+    cover: "/images/magazine/cost-factors.webp",
   },
 ];
 
