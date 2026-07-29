@@ -44,6 +44,11 @@ export const posts: Post[] = [
     key: "costFactors",
     cover: "/images/magazine/cost-factors.webp",
   },
+  {
+    slug: "how-to-read-before-and-after-photos-cosmetic-clinic",
+    key: "beforeAfterPhotos",
+    cover: "/images/magazine/before-after-photos.webp",
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
