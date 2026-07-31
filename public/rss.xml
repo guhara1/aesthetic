@@ -5,7 +5,7 @@
     <link>https://thevalley-beauty.com/magazine/</link>
     <description>Honest, practical articles on cosmetic surgery and aesthetic care — written by our team in Mont Kiara · Sri Hartamas, Kuala Lumpur. We share what we see in our own practice: what works, what doesn&apos;t, what to expect and what to ask before any treatment.</description>
     <language>en-GB</language>
-    <lastBuildDate>Thu, 30 Jul 2026 07:16:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 00:49:31 GMT</lastBuildDate>
     <atom:link href="https://thevalley-beauty.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to actually verify a cosmetic doctor&apos;s credentials in Malaysia — before you book</title>
@@ -69,7 +69,7 @@
       <guid isPermaLink="true">https://thevalley-beauty.com/magazine/choosing-a-cosmetic-clinic-in-kuala-lumpur/</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description>A practical, honest guide to finding a clinic you can trust — from checking qualifications to reading between the lines of a consultation.</description>
-      <enclosure url="https://thevalley-beauty.com/images/hero/hero-1.webp" type="image/webp" />
+      <enclosure url="https://thevalley-beauty.com/images/magazine/choosing.webp" type="image/webp" />
     </item>
     <item>
       <title>Surgical or non-surgical? Choosing the right approach</title>
@@ -77,7 +77,7 @@
       <guid isPermaLink="true">https://thevalley-beauty.com/magazine/surgical-or-non-surgical-treatments/</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
       <description>Not every concern needs surgery — and not every concern can be solved without it. Here is how to think about the difference.</description>
-      <enclosure url="https://thevalley-beauty.com/images/hero/hero-2.webp" type="image/webp" />
+      <enclosure url="https://thevalley-beauty.com/images/magazine/surgical-vs-nonsurgical.webp" type="image/webp" />
     </item>
     <item>
       <title>Recovery after cosmetic surgery: a realistic guide</title>
@@ -85,7 +85,7 @@
       <guid isPermaLink="true">https://thevalley-beauty.com/magazine/recovery-after-cosmetic-surgery/</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description>Good recovery is part of a good result. An honest look at what to expect, and how to give your body the best chance to heal.</description>
-      <enclosure url="https://thevalley-beauty.com/images/hero/hero-3.webp" type="image/webp" />
+      <enclosure url="https://thevalley-beauty.com/images/magazine/recovery.webp" type="image/webp" />
     </item>
   </channel>
 </rss>

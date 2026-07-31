@@ -7,17 +7,17 @@ export const posts: Post[] = [
   {
     slug: "choosing-a-cosmetic-clinic-in-kuala-lumpur",
     key: "choosing",
-    cover: "/images/hero/hero-1.webp",
+    cover: "/images/magazine/choosing.webp",
   },
   {
     slug: "surgical-or-non-surgical-treatments",
     key: "surgicalVsNonsurgical",
-    cover: "/images/hero/hero-2.webp",
+    cover: "/images/magazine/surgical-vs-nonsurgical.webp",
   },
   {
     slug: "recovery-after-cosmetic-surgery",
     key: "recovery",
-    cover: "/images/hero/hero-3.webp",
+    cover: "/images/magazine/recovery.webp",
   },
   {
     slug: "bridal-skincare-pre-wedding-guide",
