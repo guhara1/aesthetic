@@ -26,6 +26,8 @@ export const treatments: Treatment[] = [
   { slug: "hair-removal", key: "hairRemoval", category: "non-surgical" },
   { slug: "cell-light-therapy", key: "cellLight", category: "non-surgical" },
   { slug: "whitening-drip", key: "whiteningDrip", category: "non-surgical" },
+  { slug: "onda-pro-microwave-lifting", key: "ondaLift", category: "non-surgical" },
+  { slug: "onda-body-contouring", key: "ondaBody", category: "non-surgical" },
 ];
 
 export function getTreatmentBySlug(slug: string): Treatment | undefined {

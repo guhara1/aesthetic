@@ -24,10 +24,12 @@ const TREATMENT_KEYS = [
   "hairRemoval",
   "cellLight",
   "whiteningDrip",
+  "ondaLift",
+  "ondaBody",
 ] as const;
 
 const SURGICAL = ["liposuction", "rhinoplasty", "eye", "facelift", "breast", "chin"] as const;
-const NON_SURGICAL = ["bodySculpt", "hifu", "picoLaser", "hairRemoval", "cellLight", "whiteningDrip"] as const;
+const NON_SURGICAL = ["bodySculpt", "hifu", "picoLaser", "hairRemoval", "cellLight", "whiteningDrip", "ondaLift", "ondaBody"] as const;
 
 export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [treatOpen, setTreatOpen] = useState(false);
