@@ -16,6 +16,7 @@ const TREATMENT_KEYS = [
   "cellLight",
   "whiteningDrip",
   "onda",
+  "titanium",
 ] as const;
 
 export function StructuredData({

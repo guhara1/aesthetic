@@ -81,6 +81,10 @@
       "onda": {
         "name": "Onda Pro (Coolwaves™)",
         "desc": "Pengangkatan gelombang mikro dan pembentukan badan untuk muka dan tubuh di Mont Kiara"
+      },
+      "titanium": {
+        "name": "Pengangkatan Ultrabunyi Titanium",
+        "desc": "Definisi garis V dengan ultrabunyi berfokus, kesan kelihatan hari yang sama — Sri Hartamas–Mont Kiara"
       }
     },
     "areaTag": "Mont Kiara · Sri Hartamas, Kuala Lumpur"
@@ -152,7 +156,8 @@
       "hairRemoval": "Penyingkiran Bulu",
       "cellLight": "Terapi Cell Light",
       "whiteningDrip": "Infusi Pencerah",
-      "onda": "Onda Pro (Coolwaves™)"
+      "onda": "Onda Pro (Coolwaves™)",
+      "titanium": "Pengangkatan Ultrabunyi Titanium"
     },
     "beforeLabel": "Sebelum",
     "afterLabel": "Selepas",
@@ -655,6 +660,33 @@
         {
           "q": "Berapa banyak sesi diperlukan, dan adakah ia sakit?",
           "a": "Kebanyakan pelan melibatkan kursus pendek berjarak beberapa minggu, dirangka dengan jujur semasa konsultasi. Kebanyakan klien menggambarkannya sebagai kehangatan dalam, bukan kesakitan — Coolwaves membazir kurang tenaga di permukaan, jadi ia lazimnya lebih selesa daripada rawatan haba tradisional."
+        }
+      ]
+    },
+    "titanium": {
+      "overview": "Ultrabunyi Titanium ialah rawatan pengangkatan ultrabunyi berfokus generasi baharu kami. Tenaga ultrabunyi yang dikalibrasi disalurkan ke lapisan sokongan kulit yang lebih dalam — lapisan yang sama dirawat dalam pengangkatan pembedahan — menghasilkan kesan pengetatan yang sering kelihatan pada hari yang sama, diikuti pembaharuan kolagen secara beransur pada minggu-minggu berikutnya. Ia pilihan datang-dan-pulang untuk mempertajam garis rahang dan garis V, menegangkan muka bawah dan melicinkan leher, tanpa jarum, tanpa hirisan, tanpa waktu pemulihan.",
+      "whoFor": "Sesuai untuk kekenduran awal hingga sederhana: garis rahang yang mula hilang ketajaman, isi yang mengaburkan sudut dagu-ke-leher, dan kulit yang kelihatan 'lembut' dan kurang jelas dalam gambar. Oleh sebab ia sekeluarga dengan [pengangkatan HIFU](treatments/hifu-lifting) dan berbeza cara kerja daripada [Onda Pro](treatments/onda-pro) yang berasaskan gelombang mikro, pilihan — atau urutan — yang tepat bergantung pada ketebalan kulit, tahap kekenduran dan matlamat anda, dan itulah yang kami nilai secara bersemuka sebelum mencadangkan apa-apa.",
+      "how": "Selepas pemetaan wajah, laluan ultrabunyi berfokus dilakukan pada kedalaman terkalibrasi di sepanjang garis rahang, muka bawah dan leher. Satu sesi biasanya mengambil masa empat puluh lima hingga enam puluh minit, keselesaan dipantau sepanjang masa, dan anda pulang tanpa apa-apa yang perlu ditutup atau dibalut. Gambar di halaman ini ialah klien kami pada hari rawatan — pengetatan serta-merta di sepanjang garis rahang dan leher sering kelihatan, dan tindak balas kolagen yang lebih dalam terus membina di atasnya.",
+      "benefits": [
+        "Kesan angkat yang sering kelihatan pada hari rawatan",
+        "Pengetatan beransur ketika kolagen diperbaharui dalam 8–12 minggu",
+        "Mempertajam garis rahang, garis V dan sudut dagu-ke-leher",
+        "Tiada jarum, tiada hirisan, tiada waktu pemulihan"
+      ],
+      "recovery": "Tiada apa yang perlu disembunyikan selepas rawatan — kemerahan ringan atau rasa lembut pada laluan rawatan boleh bertahan beberapa jam hingga sehari dua, dan aktiviti biasa disambung serta-merta. Hasil utama berkembang dalam dua hingga tiga bulan ketika kolagen dibina semula. Gambar klien kami diambil pada hari yang sama, dalam posisi dan pencahayaan yang sama — jika anda membandingkan klinik, panduan kami tentang [cara membaca gambar sebelum-selepas](magazine/how-to-read-before-and-after-photos-cosmetic-clinic) menunjukkan bagaimana rupa hasil yang jujur.",
+      "considerations": "Tahap angkat berbeza mengikut titik permulaan kulit anda, dan hasilnya bersifat memperhalusi, bukan dramatik: ultrabunyi berfokus mengetatkan, tetapi tidak dapat menghasilkan apa yang dicapai pembedahan pada kekenduran lanjut — jika [pembedahan muka (facelift)](treatments/facelift) sebenarnya lebih baik untuk anda, kami akan menyatakannya. Sesetengah kawasan terasa hangat atau seakan cucukan halus semasa laluan, dan kami melaraskannya sepanjang masa. Satu sesi atau kursus pendek mungkin dicadangkan bergantung pada penilaian anda.",
+      "faq": [
+        {
+          "q": "Apa beza Ultrabunyi Titanium dengan HIFU?",
+          "a": "Kedua-duanya menggunakan ultrabunyi berfokus untuk sampai ke lapisan sokongan kulit. Protokol Titanium yang kami guna menekankan keselesaan dan liputan sekata dengan pengetatan yang sering kelihatan pada hari yang sama; yang mana sesuai untuk anda ditentukan semasa penilaian."
+        },
+        {
+          "q": "Bila saya akan nampak hasil?",
+          "a": "Ramai klien perasan garis rahang dan leher lebih tegang pada hari rawatan, seperti dalam gambar rawatan kami. Kesan angkat utama membina secara beransur dalam dua hingga tiga bulan ketika kolagen diperbaharui."
+        },
+        {
+          "q": "Adakah ia sakit, dan ada waktu pemulihan?",
+          "a": "Jangkakan kehangatan dan cucukan halus sekejap pada sesetengah laluan, bukan kesakitan — tetapan dilaraskan mengikut anda sepanjang masa. Tiada waktu pemulihan; solekan dan rutin biasa boleh disambung pada hari yang sama."
         }
       ]
     }

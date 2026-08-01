@@ -41,6 +41,8 @@ export const nonSurgicalGallery: GalleryItem[] = [
   { file: "whitening-drip.webp", labelKey: "whiteningDrip" },
   { file: "onda-pro.webp", labelKey: "onda" },
   { file: "onda-coolwaves.webp", labelKey: "onda" },
+  { file: "titanium-ultrasound-1.webp", labelKey: "titanium" },
+  { file: "titanium-ultrasound-2.webp", labelKey: "titanium" },
 ];
 
 export const reviewImages: string[] = [

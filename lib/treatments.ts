@@ -27,6 +27,7 @@ export const treatments: Treatment[] = [
   { slug: "cell-light-therapy", key: "cellLight", category: "non-surgical" },
   { slug: "whitening-drip", key: "whiteningDrip", category: "non-surgical" },
   { slug: "onda-pro", key: "onda", category: "non-surgical" },
+  { slug: "titanium-ultrasound", key: "titanium", category: "non-surgical" },
 ];
 
 export function getTreatmentBySlug(slug: string): Treatment | undefined {

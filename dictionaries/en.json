@@ -81,6 +81,10 @@
       "onda": {
         "name": "Onda Pro Coolwaves™",
         "desc": "Microwave lifting and stubborn-fat contouring for face and body in Mont Kiara, KL"
+      },
+      "titanium": {
+        "name": "Titanium Ultrasound Lifting",
+        "desc": "Focused ultrasound V-line definition with same-day visible lift, Sri Hartamas–Mont Kiara"
       }
     },
     "areaTag": "Mont Kiara · Sri Hartamas, Kuala Lumpur"
@@ -152,7 +156,8 @@
       "hairRemoval": "Hair Removal",
       "cellLight": "Cell Light Therapy",
       "whiteningDrip": "Whitening Drip",
-      "onda": "Onda Pro Coolwaves™"
+      "onda": "Onda Pro Coolwaves™",
+      "titanium": "Titanium Ultrasound Lifting"
     },
     "beforeLabel": "Before",
     "afterLabel": "After",
@@ -655,6 +660,33 @@
         {
           "q": "How many sessions will I need, and does it hurt?",
           "a": "Most plans involve a short course spaced a few weeks apart, mapped honestly at consultation. Most clients describe deep warmth rather than pain — Coolwaves spend less energy at the surface, so it is generally more comfortable than traditional thermal treatments."
+        }
+      ]
+    },
+    "titanium": {
+      "overview": "Titanium Ultrasound is our newer-generation focused ultrasound lifting treatment. Calibrated ultrasound energy is delivered to the deeper supportive layers of the skin — the same layers addressed in surgical lifting — producing a tightening effect you can often see the same day, followed by gradual collagen renewal over the weeks after. It is a walk-in, walk-out option for defining the jawline and V-line, firming the lower face and smoothing the neck, with no needles, incisions or downtime.",
+      "whoFor": "It suits early to moderate laxity: a jawline losing its edge, fullness blurring the chin-to-neck angle, and skin that photographs 'soft' rather than defined. Because it sits in the same family as [HIFU lifting](treatments/hifu-lifting) and works differently from microwave-based [Onda Pro](treatments/onda-pro), the right choice — or sequence — depends on your skin's thickness, laxity and goals, which is exactly what we assess in person before recommending anything.",
+      "how": "After mapping your face, focused ultrasound passes are delivered at calibrated depths along the jawline, lower face and neck. A session typically takes forty-five to sixty minutes, comfort is monitored throughout, and you leave with nothing to cover or bandage. The photos on this page are our own clients on the treatment day — an immediate tightening along the jaw and neck line is often visible, and the deeper collagen response then builds on that start.",
+      "benefits": [
+        "Lift you can often see on the day of treatment",
+        "Progressive firming as collagen renews over 8–12 weeks",
+        "Defines the jawline, V-line and chin-to-neck angle",
+        "No needles, no incisions, no downtime"
+      ],
+      "recovery": "There is nothing to hide afterwards — a mild flush or tenderness along the treated lines can last from hours to a day or two, and normal activities resume immediately. The main result develops over two to three months as collagen rebuilds. Our patient photos are taken the same day, in the same position and lighting — if you are comparing clinics, our guide on [how to read before-and-after photos](magazine/how-to-read-before-and-after-photos-cosmetic-clinic) shows what honest results should look like.",
+      "considerations": "The degree of lift varies with your skin's starting point, and results are refining rather than dramatic: focused ultrasound tightens, but it cannot reproduce what surgery achieves on advanced laxity — where a [facelift](treatments/facelift) would genuinely serve you better, we will say so. Some areas feel warm or prickly during passes, and we adjust as we go. A single session or a short course may be advised depending on your assessment.",
+      "faq": [
+        {
+          "q": "How is Titanium Ultrasound different from HIFU?",
+          "a": "Both use focused ultrasound to reach the skin's support layers. The Titanium protocol we use emphasises comfort and even coverage with an often same-day visible tightening; which one fits you depends on your skin and is decided at assessment."
+        },
+        {
+          "q": "When will I see results?",
+          "a": "Many clients notice a firmer jaw and neck line on the day, as our treatment photos show. The main lift builds gradually over two to three months as collagen renews."
+        },
+        {
+          "q": "Does it hurt, and is there downtime?",
+          "a": "Expect warmth and brief prickling on some passes rather than pain — settings are adjusted to you throughout. There is no downtime; makeup and normal routines can resume the same day."
         }
       ]
     }
