@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "flying-home-after-cosmetic-surgery-kuala-lumpur",
+    key: "flyingHome",
+    cover: "/images/magazine/flying-home.webp",
+  },
+  {
     slug: "cosmetic-surgery-recovery-tropical-climate-kuala-lumpur",
     key: "tropicalRecovery",
     cover: "/images/magazine/tropical-recovery.webp",
