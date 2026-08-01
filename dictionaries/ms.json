@@ -78,19 +78,9 @@
         "name": "Infusi Pencerah",
         "desc": "Infusi IV untuk kesegaran & kecerahan di Kuala Lumpur"
       },
-<<<<<<< HEAD
       "onda": {
         "name": "Onda Pro (Coolwaves™)",
         "desc": "Pengangkatan gelombang mikro dan pembentukan badan untuk muka dan tubuh di Mont Kiara"
-=======
-      "ondaLift": {
-        "name": "Pengangkatan Gelombang Mikro Onda Pro",
-        "desc": "Pengetatan Coolwaves™ untuk garis rahang dan leher di Mont Kiara"
-      },
-      "ondaBody": {
-        "name": "Pembentukan Badan Onda",
-        "desc": "Pengurangan lemak gelombang mikro dengan pengetatan kulit berdekatan Sri Hartamas"
->>>>>>> origin/claude/elegant-tesla-tujcl
       }
     },
     "areaTag": "Mont Kiara · Sri Hartamas, Kuala Lumpur"
@@ -162,12 +152,7 @@
       "hairRemoval": "Penyingkiran Bulu",
       "cellLight": "Terapi Cell Light",
       "whiteningDrip": "Infusi Pencerah",
-<<<<<<< HEAD
       "onda": "Onda Pro (Coolwaves™)"
-=======
-      "ondaLift": "Onda Pro (Gelombang Mikro)",
-      "ondaBody": "Pembentukan Badan Onda"
->>>>>>> origin/claude/elegant-tesla-tujcl
     },
     "beforeLabel": "Sebelum",
     "afterLabel": "Selepas",
@@ -646,7 +631,6 @@
         }
       ]
     },
-<<<<<<< HEAD
     "onda": {
       "overview": "Onda Pro menggunakan Coolwaves™ — tenaga gelombang mikro yang dipatenkan, menembusi permukaan kulit secara selektif untuk sampai ke dermis dan lapisan lemak di bawahnya, tempat kekenduran dan poket lemak degil sebenarnya terbentuk. Satu platform untuk dua tugasan: mengetatkan garis rahang, muka bawah dan leher, serta membentuk lemak setempat pada badan. Kurang tenaga terbuang di permukaan berbanding rawatan haba tradisional — sesi terasa lebih lembut sementara haba terkumpul tepat di tempat yang diperlukan, tanpa pembedahan dan tanpa waktu pemulihan.",
       "whoFor": "Untuk muka, Onda sesuai bagi kekenduran awal hingga sederhana: garis rahang yang mula kabur, garis senyuman yang mendalam, kedutan halus di leher, dan penyelenggaraan selepas prosedur kawasan mata — sesetengah klien menyelanginya dengan [pengangkatan HIFU](treatments/hifu-lifting), dan kami hanya mencadangkan satu, yang lain, atau gabungan apabila ia benar-benar bernilai. Untuk badan, ia sesuai bagi mereka yang hampir stabil beratnya dengan kawasan masalah yang jelas — perut bawah, lemak pinggang, peha dalam atau lengan atas. Ia bukan kaedah menurunkan berat badan: jika isi padu lebih besar, [sedutan lemak](treatments/liposuction) kekal jawapan yang lebih muktamad, dan kami akan memberitahu anda dengan jujur di pihak mana anda berada.",
@@ -671,59 +655,6 @@
         {
           "q": "Berapa banyak sesi diperlukan, dan adakah ia sakit?",
           "a": "Kebanyakan pelan melibatkan kursus pendek berjarak beberapa minggu, dirangka dengan jujur semasa konsultasi. Kebanyakan klien menggambarkannya sebagai kehangatan dalam, bukan kesakitan — Coolwaves membazir kurang tenaga di permukaan, jadi ia lazimnya lebih selesa daripada rawatan haba tradisional."
-=======
-    "ondaLift": {
-      "overview": "Onda Pro menggunakan Coolwaves™ — tenaga gelombang mikro yang dipatenkan, menembusi permukaan kulit secara selektif untuk sampai ke dermis dan lapisan lemak cetek, tempat kekenduran sebenarnya bermula. Berbanding radiofrekuensi tradisional atau pengangkatan berasaskan haba, kurang tenaga terbuang di permukaan, jadi rawatan terasa lebih lembut sementara haba terkumpul tepat di lapisan yang memerlukan pembentukan semula kolagen. Hasilnya: garis rahang, muka bawah dan leher yang semakin tegang secara beransur — tanpa pembedahan, tanpa waktu pemulihan.",
-      "whoFor": "Onda sesuai untuk kekenduran awal hingga sederhana: garis rahang yang mula kabur, garis senyuman yang mendalam, kedutan halus di sekitar mata atau leher, serta fasa penyelenggaraan selepas prosedur kawasan mata, apabila pengetatan membantu mengekalkan hasil. Oleh sebab gelombang mikro dan ultrabunyi bekerja secara berbeza, sesetengah klien menyelanginya dengan [pengangkatan HIFU](treatments/hifu-lifting) — kami menilai kulit anda secara bersemuka dan hanya mencadangkan satu, yang lain, atau gabungan apabila ia benar-benar bernilai.",
-      "how": "Protokol muka dan leher menggunakan pemegang tangan yang dipatenkan: hujung 3mm Pocket direka untuk zon halus seperti sekitar mata dan mulut, manakala hujung 7mm Shallow merawat pipi, garis rahang dan dagu berganda pada lapisan lemak cetek. Kebanyakan sesi mengambil masa kira-kira tiga puluh hingga empat puluh lima minit, tenaga dilaraskan mengikut keselesaan anda sepanjang masa, tanpa hirisan dan tanpa bius.",
-      "benefits": [
-        "Tenaga Coolwaves™ selektif sampai ke lapisan tempat kekenduran terbentuk",
-        "Sensasi permukaan lebih lembut daripada pengangkatan haba tradisional",
-        "Merawat garis rahang, muka bawah, kawasan mata dan leher",
-        "Tiada hirisan, tiada bius, tiada waktu pemulihan"
-      ],
-      "recovery": "Anda boleh kembali ke aktiviti biasa serta-merta; kehangatan ringan atau kemerahan biasanya surut dalam beberapa jam. Pembentukan semula kolagen berlaku beransur-ansur, dan kebanyakan orang merasai pengetatan dalam lapan hingga dua belas minggu. Dalam iklim kita, lindungi kulit yang dirawat daripada matahari tengah hari — panduan kami tentang [pemulihan dalam iklim tropika KL](magazine/cosmetic-surgery-recovery-tropical-climate-kuala-lumpur) menerangkan mengapa ini lebih penting di sini.",
-      "considerations": "Hasil berkembang secara beransur, berbeza antara individu, dan kursus pendek beberapa sesi biasanya disyorkan berbanding satu lawatan. Onda memperhalusi dan mengetatkan tetapi tidak dapat menggantikan pembedahan bagi kekenduran lanjut — jika [pembedahan muka (facelift)](treatments/facelift) sebenarnya lebih baik untuk anda, kami akan menyatakannya semasa konsultasi.",
-      "faq": [
-        {
-          "q": "Berapa banyak sesi diperlukan?",
-          "a": "Kebanyakan pelan pengetatan melibatkan kursus pendek berjarak beberapa minggu, disesuaikan dengan kulit dan matlamat anda semasa konsultasi."
-        },
-        {
-          "q": "Adakah ia sakit?",
-          "a": "Kebanyakan klien menggambarkannya sebagai kehangatan dalam, bukan kesakitan. Oleh sebab Coolwaves membazir kurang tenaga di permukaan kulit, ia lazimnya lebih selesa daripada pengangkatan haba tradisional."
-        },
-        {
-          "q": "Apa beza Onda dengan HIFU?",
-          "a": "HIFU menghantar ultrabunyi berfokus ke kedalaman tepat; Onda menggunakan gelombang mikro selektif yang memanaskan dermis dan lemak cetek dengan lebih luas dan selesa. Kedua-duanya boleh saling melengkapi — penilaian menentukan yang sesuai untuk anda."
-        }
-      ]
-    },
-    "ondaBody": {
-      "overview": "Pembentukan badan Onda menggunakan Coolwaves™ — gelombang mikro selektif yang menyalurkan tenaga melepasi permukaan kulit ke lapisan lemak subkutan, mengganggu sel lemak degil sambil serentak mengetatkan kulit di atasnya. Ia pilihan bukan pembedahan untuk poket lemak setempat yang degil terhadap diet dan senaman, merawat kawasan seperti perut bawah, pinggang, peha dalam dan lengan atas dalam sesi yang selesa — datang dan terus pulang.",
-      "whoFor": "Sesuai untuk mereka yang hampir stabil beratnya dengan kawasan masalah yang jelas — perut bawah yang membonjol, lemak pinggang, peha dalam atau lengan atas — terutamanya apabila lemak disertai kekenduran kulit ringan. Ia bukan kaedah menurunkan berat badan: jika isi padu yang perlu dibuang lebih besar, [sedutan lemak](treatments/liposuction) kekal jawapan yang lebih muktamad, dan kami akan memberitahu anda dengan jujur di pihak mana anda berada.",
-      "how": "Pemegang 12mm Deep menyalurkan Coolwaves ke deposit degil yang lebih dalam di perut, pinggul, punggung dan peha, manakala pemegang 7mm Shallow merawat lapisan lebih cetek seperti dagu berganda dan lengan atas. Oleh sebab tenaga melepasi permukaan secara selektif, haba terkumpul di lapisan lemak dengan kurang ketidakselesaan permukaan — dan kehangatan yang sama turut merangsang pengetatan, itulah yang membezakannya daripada rawatan lemak berasaskan sejuk dan melengkapi pilihan [pembentukan tubuh bukan invasif](treatments/body-sculpting) kami.",
-      "benefits": [
-        "Menyasarkan poket lemak degil yang tahan senaman",
-        "Mengetatkan kulit di atasnya dalam sesi yang sama",
-        "Rawatan selesa tanpa hirisan atau jarum",
-        "Tiada waktu pemulihan — terus sambung hari anda"
-      ],
-      "recovery": "Tiada tempoh pemulihan dalam erti kata pembedahan: jangkakan kehangatan ringan, kemerahan atau bengkak sedikit selama sehari dua. Lemak disingkirkan secara beransur oleh badan anda sendiri, jadi perubahan muncul dalam beberapa minggu dan stabil dalam dua hingga tiga bulan, dibantu oleh penghidratan dan aktiviti yang konsisten. Jika anda merancang bajet untuk satu kursus, panduan kami tentang [faktor sebenar kos rawatan di KL](magazine/cosmetic-surgery-cost-factors-kuala-lumpur) menerangkan cara klinik menetapkan harga pelan sebegini.",
-      "considerations": "Hasil berbeza mengikut metabolisme individu dan kawasan yang dirawat, dan kursus beberapa sesi adalah lazim. Onda mengurangkan poket setempat tetapi tidak menggantikan pembedahan bagi isi padu besar atau lebihan kulit ketara, dan ia tidak sesuai semasa hamil atau di atas implan tertentu — penilaian perubatan sentiasa didahulukan.",
-      "faq": [
-        {
-          "q": "Apa bezanya dengan sedutan lemak?",
-          "a": "Sedutan lemak membuang lemak secara fizikal dalam satu langkah pembedahan; Onda mengurangkannya beransur-ansur melalui kursus sesi bukan invasif tanpa waktu pemulihan. Pilihan yang tepat bergantung pada isi padu, kualiti kulit dan matlamat anda."
-        },
-        {
-          "q": "Berapa banyak sesi diperlukan?",
-          "a": "Kebanyakan pelan melibatkan beberapa sesi berjarak beberapa minggu. Kami merangka kursus dengan jujur semasa konsultasi berdasarkan kawasan dan matlamat anda."
-        },
-        {
-          "q": "Adakah ia selamat untuk permukaan kulit?",
-          "a": "Coolwaves direka untuk melepasi permukaan secara selektif dan menyimpan haba di lapisan lemak, jadi kerengsaan permukaan adalah rendah, dan tetapan dilaraskan mengikut keselesaan anda sepanjang rawatan."
->>>>>>> origin/claude/elegant-tesla-tujcl
         }
       ]
     }

@@ -24,20 +24,11 @@ const TREATMENT_KEYS = [
   "hairRemoval",
   "cellLight",
   "whiteningDrip",
-<<<<<<< HEAD
   "onda",
 ] as const;
 
 const SURGICAL = ["liposuction", "rhinoplasty", "eye", "facelift", "breast", "chin"] as const;
 const NON_SURGICAL = ["bodySculpt", "hifu", "picoLaser", "hairRemoval", "cellLight", "whiteningDrip", "onda"] as const;
-=======
-  "ondaLift",
-  "ondaBody",
-] as const;
-
-const SURGICAL = ["liposuction", "rhinoplasty", "eye", "facelift", "breast", "chin"] as const;
-const NON_SURGICAL = ["bodySculpt", "hifu", "picoLaser", "hairRemoval", "cellLight", "whiteningDrip", "ondaLift", "ondaBody"] as const;
->>>>>>> origin/claude/elegant-tesla-tujcl
 
 export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [treatOpen, setTreatOpen] = useState(false);

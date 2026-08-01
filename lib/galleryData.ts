@@ -39,13 +39,8 @@ export const nonSurgicalGallery: GalleryItem[] = [
   { file: "hair-removal.jpg", labelKey: "hairRemoval" },
   { beforeFile: "cell-light-before.jpg", afterFile: "cell-light-after.jpg", labelKey: "cellLight", wide: true },
   { file: "whitening-drip.webp", labelKey: "whiteningDrip" },
-<<<<<<< HEAD
   { file: "onda-pro.webp", labelKey: "onda" },
   { file: "onda-coolwaves.webp", labelKey: "onda" },
-=======
-  { file: "onda-pro.webp", labelKey: "ondaLift" },
-  { file: "onda-coolwaves.webp", labelKey: "ondaBody" },
->>>>>>> origin/claude/elegant-tesla-tujcl
 ];
 
 export const reviewImages: string[] = [
