@@ -78,13 +78,9 @@
         "name": "Whitening Drip",
         "desc": "Brightening IV wellness infusion in Kuala Lumpur"
       },
-      "ondaLift": {
-        "name": "Onda Pro Microwave Lifting",
-        "desc": "Selective Coolwaves™ tightening for the jawline and neck in Mont Kiara, KL"
-      },
-      "ondaBody": {
-        "name": "Onda Body Contouring",
-        "desc": "Microwave fat reduction with skin firming, moments from Sri Hartamas"
+      "onda": {
+        "name": "Onda Pro Coolwaves™",
+        "desc": "Microwave lifting and stubborn-fat contouring for face and body in Mont Kiara, KL"
       }
     },
     "areaTag": "Mont Kiara · Sri Hartamas, Kuala Lumpur"
@@ -156,8 +152,7 @@
       "hairRemoval": "Hair Removal",
       "cellLight": "Cell Light Therapy",
       "whiteningDrip": "Whitening Drip",
-      "ondaLift": "Onda Pro Microwave Lifting",
-      "ondaBody": "Onda Body Contouring"
+      "onda": "Onda Pro Coolwaves™"
     },
     "beforeLabel": "Before",
     "afterLabel": "After",
@@ -636,57 +631,30 @@
         }
       ]
     },
-    "ondaLift": {
-      "overview": "Onda Pro uses Coolwaves™ — patented microwave energy that passes selectively through the skin's surface to reach the dermis and superficial fat layer, where laxity actually develops. Compared with traditional radiofrequency or thermal lifting, less energy is spent at the surface, so treatment feels gentler while heat builds precisely where collagen remodelling is needed. The result is gradual tightening of the jawline, lower face and neck without surgery or downtime.",
-      "whoFor": "Onda suits early to moderate laxity: a softening jawline, deepening smile lines, fine crepey skin around the eyes or on the neck, and the maintenance phase after eye-area procedures, when tightening helps preserve the result. Because microwaves and ultrasound work differently, some clients alternate it with [HIFU lifting](treatments/hifu-lifting) — we assess your skin in person and recommend one, the other, or a combination only where it genuinely adds value.",
-      "how": "The face and neck protocol uses Onda Pro's patented handpieces: the 3mm Pocket tip is designed for precise zones such as around the eyes and mouth, while the 7mm Shallow tip treats the cheeks, jawline and double-chin area at the shallow fat layer. Most sessions take around thirty to forty-five minutes, energy is adjusted to your comfort throughout, and there are no incisions and no anaesthesia.",
+    "onda": {
+      "overview": "Onda Pro uses Coolwaves™ — patented microwave energy that passes selectively through the skin's surface to reach the dermis and the fat layer beneath, where laxity and stubborn pockets actually develop. One platform covers two jobs: tightening the jawline, lower face and neck, and contouring localised fat on the body, with less energy spent at the surface than traditional thermal treatments — so sessions feel gentler while heat builds precisely where it is needed, without surgery or downtime.",
+      "whoFor": "On the face, Onda suits early to moderate laxity: a softening jawline, deepening smile lines, fine crepey skin on the neck, and maintenance after eye-area procedures — some clients alternate it with [HIFU lifting](treatments/hifu-lifting), and we recommend one, the other, or a combination only where it genuinely adds value. On the body, it suits people near a stable weight with defined pockets — a lower-belly pouch, love handles, inner thighs or 'bat-wing' arms. It is not a weight-loss method: where the volume is larger, [liposuction](treatments/liposuction) remains the more decisive answer, and we will tell you honestly which side of that line you are on.",
+      "how": "Onda Pro's three patented handpieces span face and body. The 3mm Pocket tip treats precise zones such as around the eyes and mouth; the 7mm Shallow tip works the cheeks, jawline, double chin and upper arms at the shallow fat layer; and the 12mm Deep tip reaches deeper, stubborn deposits on the abdomen, hips and thighs. Because the energy passes the surface selectively, heat concentrates where it matters with less surface discomfort — the same warmth that disrupts fat also stimulates tightening, which is what distinguishes Onda from cold-based treatments and complements our [non-invasive body sculpting](treatments/body-sculpting) options. Most sessions take thirty to forty-five minutes, with no incisions and no anaesthesia.",
       "benefits": [
-        "Selective Coolwaves™ energy reaches the layers where laxity forms",
-        "Gentler surface sensation than traditional thermal lifting",
-        "Treats the jawline, lower face, eye area and neck",
+        "One platform for facial tightening and body contouring",
+        "Selective Coolwaves™ reach the layers where laxity and fat sit",
+        "Gentler surface sensation than traditional thermal treatments",
         "No incisions, no anaesthesia, no downtime"
       ],
-      "recovery": "You can return to normal activities immediately; mild warmth or a light flush usually settles within hours. Collagen remodelling builds gradually, and most people notice firming over eight to twelve weeks. In our climate, protect treated skin from strong midday sun — our guide to [recovering in KL's tropical climate](magazine/cosmetic-surgery-recovery-tropical-climate-kuala-lumpur) explains why this matters more here than in cooler countries.",
-      "considerations": "Results develop gradually, vary between individuals, and a short course of sessions is usually recommended rather than a single visit. Onda refines and tightens but cannot replicate surgery on advanced sagging — where a [facelift](treatments/facelift) would honestly serve you better, we will say so at consultation.",
+      "recovery": "You can return to your day immediately; mild warmth, pinkness or slight swelling usually settles within hours to a day. Firming from collagen remodelling builds over eight to twelve weeks, while treated fat is cleared gradually by your body across two to three months, supported by hydration and steady activity. In our climate, protect treated skin from strong midday sun — our guide to [recovering in KL's tropical climate](magazine/cosmetic-surgery-recovery-tropical-climate-kuala-lumpur) explains why this matters more here.",
+      "considerations": "Results develop gradually, vary between individuals, and a course of several sessions is typical rather than a single visit. Onda refines, tightens and reduces localised pockets, but it cannot replicate surgery on advanced sagging or larger volumes — where a [facelift](treatments/facelift) or liposuction would honestly serve you better, we will say so at consultation. It is not suitable during pregnancy or over certain implants; a medical assessment comes first, every time. If you are budgeting for a course, our guide to [what really drives treatment costs in KL](magazine/cosmetic-surgery-cost-factors-kuala-lumpur) explains how clinics price these plans.",
       "faq": [
-        {
-          "q": "How many sessions will I need?",
-          "a": "Most tightening plans involve a short course spaced a few weeks apart, tailored to your skin and goals at consultation."
-        },
-        {
-          "q": "Does it hurt?",
-          "a": "Most clients describe deep warmth rather than pain. Because Coolwaves spend less energy at the skin's surface, it is generally more comfortable than traditional thermal lifting."
-        },
         {
           "q": "How is Onda different from HIFU?",
-          "a": "HIFU delivers focused ultrasound to precise depths, while Onda uses selective microwaves that warm the dermis and shallow fat more broadly and comfortably. They can complement each other — assessment decides which fits your skin."
-        }
-      ]
-    },
-    "ondaBody": {
-      "overview": "Onda body contouring uses Coolwaves™ — selective microwaves that pass energy through the skin's surface into the subcutaneous fat layer, disrupting stubborn fat cells while simultaneously firming the overlying skin. It is a non-surgical option for localised pockets that resist diet and exercise, treating areas such as the lower abdomen, waist, inner thighs and upper arms in comfortable walk-in, walk-out sessions.",
-      "whoFor": "It suits people close to a stable weight with defined problem areas — a lower-belly pouch, love handles, inner-thigh fullness or 'bat-wing' upper arms — especially where mild skin laxity accompanies the fat. It is not a weight-loss method: where the volume to remove is larger, [liposuction](treatments/liposuction) remains the more decisive answer, and we will tell you honestly which side of that line you are on.",
-      "how": "The 12mm Deep handpiece delivers Coolwaves to deeper, stubborn deposits on the abdomen, hips, buttocks and thighs, while the 7mm Shallow handpiece treats shallower layers such as the double chin and upper arms. Because the energy passes the surface selectively, heat builds in the fat layer with less surface discomfort — and the same warmth stimulates tightening, which is what distinguishes Onda from cold-based fat treatments and complements our [non-invasive body sculpting](treatments/body-sculpting) options.",
-      "benefits": [
-        "Targets stubborn, exercise-resistant fat pockets",
-        "Firms the overlying skin in the same session",
-        "Comfortable treatment with no incisions or needles",
-        "No downtime — return to your day immediately"
-      ],
-      "recovery": "There is no recovery period in the surgical sense: expect mild warmth, pinkness or slight swelling for a day or so. Fat is cleared gradually by your own body, so changes appear over weeks and settle across two to three months, supported by hydration and steady activity. If you are budgeting for a course, our guide to [what really drives treatment costs in KL](magazine/cosmetic-surgery-cost-factors-kuala-lumpur) explains how clinics price these plans.",
-      "considerations": "Results vary with individual metabolism and the area treated, and a course of several sessions is typical. Onda reduces localised pockets but does not replace surgery for larger volumes or significant skin excess, and it is not suitable during pregnancy or over certain implants — a medical assessment comes first, every time.",
-      "faq": [
-        {
-          "q": "How is this different from liposuction?",
-          "a": "Liposuction physically removes fat in one surgical step; Onda reduces it gradually over a course of non-invasive sessions with no downtime. The right choice depends on volume, skin quality and your goals."
+          "a": "HIFU delivers focused ultrasound to precise depths, while Onda uses selective microwaves that warm the dermis and fat layer more broadly and comfortably. They can complement each other — assessment decides which fits your skin."
         },
         {
-          "q": "How many sessions will I need?",
-          "a": "Most plans involve several sessions spaced weeks apart. We map the course honestly at consultation based on the area and your goal."
+          "q": "How is the body treatment different from liposuction?",
+          "a": "Liposuction physically removes fat in one surgical step; Onda reduces localised pockets gradually over a course of non-invasive sessions with no downtime. The right choice depends on volume, skin quality and your goals."
         },
         {
-          "q": "Is it safe for the skin's surface?",
-          "a": "Coolwaves are designed to pass the surface selectively and deposit heat in the fat layer, so surface irritation is low, and settings are adjusted to your comfort throughout."
+          "q": "How many sessions will I need, and does it hurt?",
+          "a": "Most plans involve a short course spaced a few weeks apart, mapped honestly at consultation. Most clients describe deep warmth rather than pain — Coolwaves spend less energy at the surface, so it is generally more comfortable than traditional thermal treatments."
         }
       ]
     }
