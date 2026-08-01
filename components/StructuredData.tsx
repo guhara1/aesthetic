@@ -15,8 +15,7 @@ const TREATMENT_KEYS = [
   "hairRemoval",
   "cellLight",
   "whiteningDrip",
-  "ondaLift",
-  "ondaBody",
+  "onda",
 ] as const;
 
 export function StructuredData({

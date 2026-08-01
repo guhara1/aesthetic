@@ -3,3 +3,15 @@
 # indexes carry over. Other locales (zh, ko, ja, ms) keep their prefix.
 /en                /              301
 /en/*              /:splat        301
+
+# The two short-lived Onda pages were merged into a single treatment page.
+/treatments/onda-pro-microwave-lifting/     /treatments/onda-pro/     301
+/treatments/onda-body-contouring/           /treatments/onda-pro/     301
+/zh/treatments/onda-pro-microwave-lifting/  /zh/treatments/onda-pro/  301
+/zh/treatments/onda-body-contouring/        /zh/treatments/onda-pro/  301
+/ko/treatments/onda-pro-microwave-lifting/  /ko/treatments/onda-pro/  301
+/ko/treatments/onda-body-contouring/        /ko/treatments/onda-pro/  301
+/ja/treatments/onda-pro-microwave-lifting/  /ja/treatments/onda-pro/  301
+/ja/treatments/onda-body-contouring/        /ja/treatments/onda-pro/  301
+/ms/treatments/onda-pro-microwave-lifting/  /ms/treatments/onda-pro/  301
+/ms/treatments/onda-body-contouring/        /ms/treatments/onda-pro/  301
