@@ -9,14 +9,12 @@ name: Deploy to Cloudflare Pages
 # Required repository variable (same screen, "Variables" tab):
 #   CLOUDFLARE_PROJECT_NAME – the exact Pages project name (e.g. "aesthetic")
 #
-# In Cloudflare Pages → the project → Settings → Builds & deployments, set the
-# Production branch to "claude/elegant-tesla-tujcl" so these uploads publish to
-# the live domain rather than a preview URL.
+# NOTE: Cloudflare Pages' own dashboard Git integration already builds and
+# publishes this repo on every push to the production branch, so this workflow
+# is manual-only (a backup path). Trigger it from the Actions tab if the
+# dashboard integration is ever disconnected — after adding the secrets above.
 
 on:
-  push:
-    branches:
-      - claude/elegant-tesla-tujcl
   workflow_dispatch:
 
 permissions:
