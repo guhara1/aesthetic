@@ -15,7 +15,12 @@ const TREATMENT_KEYS = [
   "hairRemoval",
   "cellLight",
   "whiteningDrip",
+<<<<<<< HEAD
   "onda",
+=======
+  "ondaLift",
+  "ondaBody",
+>>>>>>> origin/claude/elegant-tesla-tujcl
 ] as const;
 
 export function StructuredData({
