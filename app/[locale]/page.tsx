@@ -24,12 +24,17 @@ export default async function HomePage({
   const dict = await getDictionary(locale as Locale);
   const base = localeBase(locale as Locale);
 
-  // Recent magazine posts surfaced on the home page — internal links into the
-  // journal, with each localized title acting as a long-tail anchor.
-  const journalKeys = ["costFactors", "downtimePlanning", "consultationChecklist"];
-  const journalPosts = journalKeys
-    .map((k) => posts.find((p) => p.key === k))
-    .filter((p): p is (typeof posts)[number] => Boolean(p));
+  // The three newest magazine posts surfaced on the home page — internal
+  // links into the journal, with each localized title acting as a long-tail
+  // anchor. Sorted by date so new posts appear here automatically.
+  type MagPostKey = keyof typeof dict.magazine.posts;
+  const journalPosts = [...posts]
+    .sort((a, b) =>
+      dict.magazine.posts[b.key as MagPostKey].date.localeCompare(
+        dict.magazine.posts[a.key as MagPostKey].date,
+      ),
+    )
+    .slice(0, 3);
 
   const pageUrl = `${SITE_URL}${localeRoot(locale as Locale)}`;
   const homeGraph = {
