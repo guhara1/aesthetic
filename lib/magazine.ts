@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "how-to-prepare-your-body-before-cosmetic-surgery",
+    key: "prepareBody",
+    cover: "/images/magazine/prepare-body.webp",
+  },
+  {
     slug: "flying-home-after-cosmetic-surgery-kuala-lumpur",
     key: "flyingHome",
     cover: "/images/magazine/flying-home.webp",
