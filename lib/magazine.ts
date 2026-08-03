@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "hifu-vs-onda-vs-titanium-ultrasound-which-lift",
+    key: "liftComparison",
+    cover: "/images/magazine/lift-comparison.webp",
+  },
+  {
     slug: "how-to-prepare-your-body-before-cosmetic-surgery",
     key: "prepareBody",
     cover: "/images/magazine/prepare-body.webp",
