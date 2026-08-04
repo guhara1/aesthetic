@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "what-pico-laser-does-for-pigmentation-melasma",
+    key: "picoPigmentation",
+    cover: "/images/magazine/pico-pigmentation.webp",
+  },
+  {
     slug: "hifu-vs-onda-vs-titanium-ultrasound-which-lift",
     key: "liftComparison",
     cover: "/images/magazine/lift-comparison.webp",
