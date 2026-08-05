@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "what-liposuction-can-and-cannot-do",
+    key: "lipoTruth",
+    cover: "/images/magazine/lipo-truth.webp",
+  },
+  {
     slug: "what-pico-laser-does-for-pigmentation-melasma",
     key: "picoPigmentation",
     cover: "/images/magazine/pico-pigmentation.webp",
