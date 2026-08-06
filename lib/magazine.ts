@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "laser-hair-removal-sessions-what-permanent-means",
+    key: "hairRemovalTruth",
+    cover: "/images/magazine/hair-removal-truth.webp",
+  },
+  {
     slug: "what-liposuction-can-and-cannot-do",
     key: "lipoTruth",
     cover: "/images/magazine/lipo-truth.webp",
