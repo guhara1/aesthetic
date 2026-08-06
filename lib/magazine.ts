@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "what-led-light-therapy-does-for-skin",
+    key: "ledLightTruth",
+    cover: "/images/magazine/led-light-truth.webp",
+  },
+  {
     slug: "laser-hair-removal-sessions-what-permanent-means",
     key: "hairRemovalTruth",
     cover: "/images/magazine/hair-removal-truth.webp",
