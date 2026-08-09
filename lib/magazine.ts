@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "what-rhinoplasty-can-realistically-change",
+    key: "rhinoTruth",
+    cover: "/images/magazine/rhinoplasty-truth.webp",
+  },
+  {
     slug: "what-led-light-therapy-does-for-skin",
     key: "ledLightTruth",
     cover: "/images/magazine/led-light-truth.webp",
