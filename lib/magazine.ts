@@ -55,6 +55,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/verify-credentials.webp",
   },
   {
+    slug: "double-eyelid-surgery-vs-eyelid-lift-ptosis",
+    key: "eyelidTruth",
+    cover: "/images/magazine/eyelid-truth.webp",
+  },
+  {
     slug: "what-rhinoplasty-can-realistically-change",
     key: "rhinoTruth",
     cover: "/images/magazine/rhinoplasty-truth.webp",
