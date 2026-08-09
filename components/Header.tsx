@@ -210,9 +210,11 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile menu — the header is fixed, so the panel needs its own
+          scroll area: cap it to the viewport minus the header bar and let
+          it scroll, otherwise long menus are cut off and unreachable. */}
       {mobileOpen && (
-        <div className="lg:hidden">
+        <div className="max-h-[calc(100dvh-5.5rem)] overflow-y-auto overscroll-contain lg:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-6 pb-8 pt-2">
             <MobileLink href={home} onClick={() => setMobileOpen(false)}>
               {dict.nav.home}
