@@ -60,6 +60,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/eyelid-truth.webp",
   },
   {
+    slug: "what-a-facelift-does-and-does-not-fix",
+    key: "faceliftTruth",
+    cover: "/images/magazine/facelift-truth.webp",
+  },
+  {
     slug: "what-rhinoplasty-can-realistically-change",
     key: "rhinoTruth",
     cover: "/images/magazine/rhinoplasty-truth.webp",
