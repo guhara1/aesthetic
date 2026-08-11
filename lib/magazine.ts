@@ -60,6 +60,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/eyelid-truth.webp",
   },
   {
+    slug: "breast-implants-what-to-know-before-you-book",
+    key: "breastImplantTruth",
+    cover: "/images/magazine/breast-implant-truth.webp",
+  },
+  {
     slug: "what-a-facelift-does-and-does-not-fix",
     key: "faceliftTruth",
     cover: "/images/magazine/facelift-truth.webp",
