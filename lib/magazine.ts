@@ -60,6 +60,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/eyelid-truth.webp",
   },
   {
+    slug: "what-iv-drips-can-and-cannot-do-for-skin",
+    key: "dripTruth",
+    cover: "/images/magazine/iv-drip-truth.webp",
+  },
+  {
     slug: "breast-implants-what-to-know-before-you-book",
     key: "breastImplantTruth",
     cover: "/images/magazine/breast-implant-truth.webp",
