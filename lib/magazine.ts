@@ -60,6 +60,11 @@ export const posts: Post[] = [
     cover: "/images/magazine/eyelid-truth.webp",
   },
   {
+    slug: "chin-profile-balance-before-you-change-your-nose",
+    key: "chinProfile",
+    cover: "/images/magazine/chin-profile.webp",
+  },
+  {
     slug: "what-iv-drips-can-and-cannot-do-for-skin",
     key: "dripTruth",
     cover: "/images/magazine/iv-drip-truth.webp",
